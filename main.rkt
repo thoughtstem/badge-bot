@@ -1,7 +1,8 @@
-#lang racket
+#lang at-exp racket
 
 (require discord-bot
 	 discourse-bot
+	 mc-discord-config
 	 "badges.rkt")
 
 (define (badges-command . args)
@@ -52,9 +53,18 @@
 (define (list-badge-names-command)
   (map show-badge-text (badges)))
 
+
 (define (award-badges-command badge-id user)
+  (ensure-messaging-user-has-role-on-server!
+    mc-admin-role-id
+    mc-server-id
+    #:failure-message
+    "Sorry, you don't have the right role for that command.")
+
   (award-badge! (string->symbol badge-id) user)
+
   (~a "You've awarded " badge-id " to " user "!"))
+
 
 (define b
   (bot
