@@ -7,7 +7,8 @@
 (provide badges
 	 (struct-out badge)
 	 badge-img-with-id
-	 award-badge!)
+	 award-badge!
+	 badges-for-user)
 
 (struct badge (id name url img))
 
@@ -47,3 +48,20 @@
 
   (session-store user 'earned val)
   #t)
+
+(define (id->badge i)
+  (findf
+    (lambda (b)
+      (equal? i (badge-id b)))
+    (badges)))
+
+(define/contract 
+  (badges-for-user user)
+   (-> is-mention? (listof badge?))
+ 
+   (define ids
+     (map first (session-load user 'earned '())))
+
+   (map id->badge ids)
+   )
+

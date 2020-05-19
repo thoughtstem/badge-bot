@@ -19,22 +19,38 @@
   (define sub-command
     (match sub-command-name
 	   ["images" list-badge-images-command]
-	   ["names" list-badge-names-command]))
+	   ["names" list-badge-names-command]
+	   [x #:when (is-mention? x) 
+	      (thunk
+		(list-badges-by-user-name-command x))]
+	   [else (thunk* "What?")]))
+
   (sub-command))
 
+
+(define (show-badge-img b)
+  (badge-img-with-id b))
+
+(define (show-badge-text b)
+  (list (~a (badge-id b)
+	    " "
+	    (badge-name b)
+	    ": " 
+	    (badge-url b))))
+
+(define (list-badges-by-user-name-command user)
+  (define badge-list (badges-for-user user))
+  (if (empty? badge-list)
+    (~a "Sorry, " user " doesn't have any badges yet.")
+    (map show-badge-img (badges-for-user user))
+    )
+  )
+
 (define (list-badge-images-command)
-  (define (show-badge b)
-	  (badge-img-with-id b))
-  (map show-badge (badges)))
+  (map show-badge-img (badges)))
 
 (define (list-badge-names-command)
-  (define (show-badge b)
-    (list (~a (badge-id b)
-	      " "
-	      (badge-name b)
-	      ": " 
-	      (badge-url b))))
-  (map show-badge (badges)))
+  (map show-badge-text (badges)))
 
 (define (award-badges-command badge-id user)
   (award-badge! (string->symbol badge-id) user)
@@ -46,4 +62,4 @@
     ["badges" badges-command]
     ))
 
-(launch-bot b)
+(launch-bot b #:persist #t)
