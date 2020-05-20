@@ -32,27 +32,27 @@
   hw3-c
   "Hello World 3" 
   "https://forum.metacoders.org/t/badge-hello-world-1/108" 
-  (circle 40 'solid 'cyan))
+  (circle 40 'solid 'purple))
 (define-badge 
   hw3-d
   "Hello World 3" 
   "https://forum.metacoders.org/t/badge-hello-world-1/108" 
-  (circle 40 'solid 'cyan))
+  (circle 40 'solid 'orange))
 (define-badge 
   hw3-e
   "Hello World 3" 
   "https://forum.metacoders.org/t/badge-hello-world-1/108" 
-  (circle 40 'solid 'cyan))
+  (circle 40 'solid 'magenta))
 (define-badge 
   hw3-f
   "Hello World 3" 
   "https://forum.metacoders.org/t/badge-hello-world-1/108" 
-  (circle 40 'solid 'cyan))
+  (circle 40 'solid 'pink))
 (define-badge 
   hw3-g
   "Hello World 3" 
   "https://forum.metacoders.org/t/badge-hello-world-1/108" 
-  (circle 40 'solid 'cyan))
+  (circle 40 'solid 'forestgreen))
 
 (define (hello-world-badges)
   (list 
