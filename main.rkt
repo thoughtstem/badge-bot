@@ -3,7 +3,55 @@
 (require discord-bot
 	 discourse-bot
 	 mc-discord-config
-	 "badges.rkt")
+	 "pathways.rkt")
+
+(define (describe-badge b)
+  (define left
+    (incoming-badges-img b))
+
+  (define right
+    (outgoing-badges-img b))
+
+  (define h (max 
+	      (image-height left)
+	      (image-height right)))
+    
+  (list
+    (show-badge-text b)
+    (badge-img-with-id b)
+    (beside/align 'top
+		  left
+		  (rectangle 5 h 'solid 'transparent)
+		  (rectangle 2 h 'solid 'white)
+		  (rectangle 5 h 'solid 'transparent)
+		  right)))
+
+(define (describe-badge-command badge-id)
+  (define b
+    (id->badge badge-id))
+   
+  (if (not b)
+      (~a "I couldn't find a badge with id " badge-id ".  Please check your spelling and capitalization.  Details matter in coding.  Bots (like me) are not always smart!")
+      (describe-badge b)))
+
+(define (badge-command badge-id verb)
+  (define sub-command
+    (match verb 
+	   ["desc" (thunk* 
+		     (describe-badge-command badge-id))]
+	   ))
+
+  (sub-command))
+
+(define (graph-badges-command)
+  ;If we want it to rerender every time, but it probably shouldn't...
+  ;  Except maybe for development
+
+  ;(system "racket full-graph/main.rkt")
+
+  (list
+    "I've rendered the badge network to this html file.  Please download it and open in your browser."
+    "FILE:../../full-graph/out/index.html"))
 
 (define (badges-command . args)
   (define sub-command-name (first args))
@@ -11,10 +59,10 @@
   (define sub-command
     (match sub-command-name 
 	   ["list" list-badges-command]
+	   ["graph" graph-badges-command]
 	   ["award" award-badges-command]))
 
-  (apply sub-command (rest args))
-  )
+  (apply sub-command (rest args)))
 
 (define (list-badges-command sub-command-name)
   (define sub-command
@@ -43,15 +91,13 @@
   (define badge-list (badges-for-user user))
   (if (empty? badge-list)
     (~a "Sorry, " user " doesn't have any badges yet.")
-    (map show-badge-img (badges-for-user user))
-    )
-  )
+    (map show-badge-img (badges-for-user user))))
 
 (define (list-badge-images-command)
-  (map show-badge-img (badges)))
+  (map show-badge-img (all-badges)))
 
 (define (list-badge-names-command)
-  (map show-badge-text (badges)))
+  (map show-badge-text (all-badges)))
 
 
 (define (award-badges-command badge-id user)
@@ -70,6 +116,7 @@
   (bot
     ["hello" (thunk* "world")]
     ["badges" badges-command]
+    ["badge" badge-command]
     ))
 
 (launch-bot b #:persist #t)

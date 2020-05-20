@@ -1,67 +1,63 @@
 #lang racket
 
-(require 2htdp/image
-	 discord-bot
-	 gregor)
+(provide hello-world-badges
+	 (all-from-out "badges-lang.rkt"))
 
-(provide badges
-	 (struct-out badge)
-	 badge-img-with-id
-	 award-badge!
-	 badges-for-user)
+(require "badges-lang.rkt")
 
-(struct badge (id name url img))
+(define-badge 
+  hw1
+  "Hello World 1" 
+  "https://forum.metacoders.org/t/badge-hello-world-1/108" 
+  (circle 40 'solid 'red))
 
-(define (badges)
+(define-badge 
+  hw2
+  "Hello World 2" 
+  "https://forum.metacoders.org/t/badge-hello-world-1/108" 
+  (circle 40 'solid 'green))
+
+(define-badge 
+  hw3
+  "Hello World 3" 
+  "https://forum.metacoders.org/t/badge-hello-world-1/108" 
+  (circle 40 'solid 'blue))
+
+(define-badge 
+  hw3-b
+  "Hello World 3" 
+  "https://forum.metacoders.org/t/badge-hello-world-1/108" 
+  (circle 40 'solid 'cyan))
+(define-badge 
+  hw3-c
+  "Hello World 3" 
+  "https://forum.metacoders.org/t/badge-hello-world-1/108" 
+  (circle 40 'solid 'cyan))
+(define-badge 
+  hw3-d
+  "Hello World 3" 
+  "https://forum.metacoders.org/t/badge-hello-world-1/108" 
+  (circle 40 'solid 'cyan))
+(define-badge 
+  hw3-e
+  "Hello World 3" 
+  "https://forum.metacoders.org/t/badge-hello-world-1/108" 
+  (circle 40 'solid 'cyan))
+(define-badge 
+  hw3-f
+  "Hello World 3" 
+  "https://forum.metacoders.org/t/badge-hello-world-1/108" 
+  (circle 40 'solid 'cyan))
+(define-badge 
+  hw3-g
+  "Hello World 3" 
+  "https://forum.metacoders.org/t/badge-hello-world-1/108" 
+  (circle 40 'solid 'cyan))
+
+(define (hello-world-badges)
   (list 
-    (badge 'hw1 "Hello World 1" "https://forum.metacoders.org/t/badge-hello-world-1/108" (circle 40 'solid 'red))
-    (badge 'hw2 "Hello World 2" "https://forum.metacoders.org/t/badge-hello-world-1/108" (circle 40 'solid 'blue))
-    (badge 'hw3 "Hello World 3" "https://forum.metacoders.org/t/badge-hello-world-1/108" (circle 40 'solid 'green))
-	))
+    hw1
+    hw2
+    hw3))
 
-(define (badge-img-with-id b)
-  (overlay (text (~a (badge-id b)) 24 'black)
-	   (badge-img b)))
-
-(define (badge-id? id)
-  (member id (map badge-id (badges))))
-
-(define/contract (award-badge! badge-id user)
-  (-> badge-id? is-mention? boolean?)
-  
-  (define (badge-earning badge-id)
-    (list
-      badge-id
-      (moment->iso8601/tzid (now/moment #:tz "America/Los_Angeles"))
-      (messaging-user-name)
-      ))
-  (define val
-    (session-load user 'earned `()))
-
-  (when (member badge-id (map first val))
-    (error (~a user " already has that badge!")))
-
-  (set! val   
-    (cons
-      (badge-earning badge-id)
-      val))
-
-  (session-store user 'earned val)
-  #t)
-
-(define (id->badge i)
-  (findf
-    (lambda (b)
-      (equal? i (badge-id b)))
-    (badges)))
-
-(define/contract 
-  (badges-for-user user)
-   (-> is-mention? (listof badge?))
- 
-   (define ids
-     (map first (session-load user 'earned '())))
-
-   (map id->badge ids)
-   )
 
