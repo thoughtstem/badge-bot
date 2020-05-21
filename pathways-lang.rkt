@@ -32,10 +32,10 @@
   (define in  (length (incoming-badges b2)))
   (define out (length (outgoing-badges b1)))
 
-  (when (< 5 in)
+  (when (<= 5 in)
     (error (~a "The badge " (badge-id b2) " cannot have more than 5 incoming badges.")))
 
-  (when (< 5 out)
+  (when (<= 5 out)
     (error (~a "The badge " (badge-id b1) " cannot have more than 5 outgoing badges.")))
 
   (add-directed-edge! 

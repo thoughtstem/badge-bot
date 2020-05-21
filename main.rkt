@@ -46,8 +46,7 @@
 (define (graph-badges-command)
   ;If we want it to rerender every time, but it probably shouldn't...
   ;  Except maybe for development
-
-  ;(system "racket full-graph/main.rkt")
+  (system "racket full-graph/main.rkt")
 
   (list
     "I've rendered the badge network to this html file.  Please download it and open in your browser."
@@ -64,11 +63,13 @@
 
   (apply sub-command (rest args)))
 
-(define (list-badges-command sub-command-name)
+(define (list-badges-command sub-command-name [page 0])
   (define sub-command
     (match sub-command-name
-	   ["images" list-badge-images-command]
-	   ["names" list-badge-names-command]
+	   ["images" (thunk
+		       (list-badge-images-command (string->number page)))]
+	   ["names"  (thunk
+		       (list-badge-names-command (string->number page)))]
 	   [x #:when (is-mention? x) 
 	      (thunk
 		(list-badges-by-user-name-command x))]
@@ -93,11 +94,26 @@
     (~a "Sorry, " user " doesn't have any badges yet.")
     (map show-badge-img (badges-for-user user))))
 
-(define (list-badge-images-command)
-  (map show-badge-img (all-badges)))
+(define (get-page p bs)
+  (define (safe-take l n)
+    (with-handlers ([exn:fail? (thunk* l)])
+      (take l n) ))
 
-(define (list-badge-names-command)
-  (map show-badge-text (all-badges)))
+  (define (safe-drop l n)
+    (with-handlers ([exn:fail? (thunk* '())])
+      (drop l n)))
+
+  (safe-take
+    (safe-drop bs
+	       (* 10 p)) 10))
+
+(define (list-badge-images-command page)
+  (map show-badge-img 
+       (get-page page (all-badges))))
+
+(define (list-badge-names-command page)
+  (map show-badge-text 
+       (get-page page (all-badges))))
 
 
 (define (award-badges-command badge-id user)
@@ -117,6 +133,7 @@
     ["hello" (thunk* "world")]
     ["badges" badges-command]
     ["badge" badge-command]
+    [else void]
     ))
 
 (launch-bot b #:persist #t)
