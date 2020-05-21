@@ -52,6 +52,9 @@
     "I've rendered the badge network to this html file.  Please download it and open in your browser."
     "FILE:../../full-graph/out/index.html"))
 
+(define (submit-command . args)
+  (~a "Thanks for your submission! I've alerted <@&" mc-badge-checker-role-id "> to take a look at your badge submission!"))
+
 (define (badges-command . args)
   (define sub-command-name (first args))
 
@@ -118,10 +121,10 @@
 
 (define (award-badges-command badge-id user)
   (ensure-messaging-user-has-role-on-server!
-    mc-admin-role-id
+    mc-badge-checker-role-id
     mc-server-id
     #:failure-message
-    "Sorry, you don't have the right role for that command.")
+    (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
 
   (award-badge! (string->symbol badge-id) user)
 
@@ -133,6 +136,7 @@
     ["hello" (thunk* "world")]
     ["badges" badges-command]
     ["badge" badge-command]
+    ["submit" submit-command]
     [else void]
     ))
 

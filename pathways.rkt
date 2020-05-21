@@ -9,6 +9,18 @@
 (init-network (all-badges))
 
 ;;DIGITAL LITERACY BADGES START
+(--> dl-dl-aa dl-sr-aa)
+(--> dl-dl-aa dl-mt-aa)
+
+;;SCRATCH DIGITAL LITERACY BADGES START
+(--> dl-sr-aa dl-sr-ti)
+(--> dl-sr-aa dl-sr-ab)
+;;SCRATCH DIGITAL LITERACY BADGES END
+
+;;META DIGITAL LITERACY BADGES START
+(--> dl-mt-aa dl-ts-ql)
+(--> dl-mt-aa dl-ds-vc)
+(--> dl-mt-aa dl-ds-tc)
 (--> dl-ts-vb dl-ts-gh)
 (--> dl-ts-er dl-ts-vb)
 (--> dl-ts-ql dl-ts-er)
@@ -27,5 +39,6 @@
 (--> dl-vo-os dl-vo-fi)
 (--> dl-ds-tc dl-os-tf)
 (--> dl-ds-tc dl-ds-rm)
+;;META DIGITAL LITERACY BADGES END
 
 ;;DIGITAL LITERACY BADGES END
