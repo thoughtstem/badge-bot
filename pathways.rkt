@@ -8,11 +8,37 @@
 
 (init-network (all-badges))
 
-(--> hw1 hw2)
-(--> hw2 hw3)
-(--> hw2 hw3-b)
-(--> hw2 hw3-c)
-(--> hw3-b hw3-d)
-(--> hw3-b hw3-e)
-(--> hw3-c hw3-f)
-(--> hw3-c hw3-g)
+;;DIGITAL LITERACY BADGES START
+(--> dl-dl-aa dl-sr-aa)
+(--> dl-dl-aa dl-mt-aa)
+
+;;SCRATCH DIGITAL LITERACY BADGES START
+(--> dl-sr-aa dl-sr-ti)
+(--> dl-sr-aa dl-sr-ab)
+;;SCRATCH DIGITAL LITERACY BADGES END
+
+;;META DIGITAL LITERACY BADGES START
+(--> dl-mt-aa dl-ts-ql)
+(--> dl-mt-aa dl-ds-vc)
+(--> dl-mt-aa dl-ds-tc)
+(--> dl-ts-vb dl-ts-gh)
+(--> dl-ts-er dl-ts-vb)
+(--> dl-ts-ql dl-ts-er)
+(--> dl-os-tf dl-vo-hw)
+(--> dl-os-tf dl-vo-br)
+(--> dl-os-tf dl-vo-hw)
+(--> dl-ds-vc dl-os-wm)
+(--> dl-vo-br dl-os-wm)
+(--> dl-vo-os dl-vo-fo)
+(--> dl-vo-fo dl-os-ff)
+(--> dl-os-tf dl-vo-ss)
+(--> dl-vo-hw dl-vo-os)
+(--> dl-vo-fi dl-vo-ss)
+(--> dl-vo-ss dl-sc-wj)
+(--> dl-sc-wj dl-sc-sr)
+(--> dl-vo-os dl-vo-fi)
+(--> dl-ds-tc dl-os-tf)
+(--> dl-ds-tc dl-ds-rm)
+;;META DIGITAL LITERACY BADGES END
+
+;;DIGITAL LITERACY BADGES END

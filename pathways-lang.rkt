@@ -1,7 +1,5 @@
 #lang racket
 
-;TODO: Restrict to 5
-
 (provide -->
 	 (rename-out
 	   [current-graph current-network])
@@ -9,9 +7,12 @@
 	 init-network
 	 
 	 incoming-badges-img
-	 outgoing-badges-img)
+	 outgoing-badges-img
+	 horizon-for-user
+	 horizon-for-users )
 
 (require graph 2htdp/image
+	 discord-bot
 	 "badges-lang.rkt")
 
 (define current-graph
@@ -32,10 +33,10 @@
   (define in  (length (incoming-badges b2)))
   (define out (length (outgoing-badges b1)))
 
-  (when (< 5 in)
+  (when (<= 5 in)
     (error (~a "The badge " (badge-id b2) " cannot have more than 5 incoming badges.")))
 
-  (when (< 5 out)
+  (when (<= 5 out)
     (error (~a "The badge " (badge-id b1) " cannot have more than 5 outgoing badges.")))
 
   (add-directed-edge! 
@@ -74,5 +75,22 @@
     [else 
       (apply above 
 	     (map badge-img-with-id badges))]))
+
+(define/contract 
+  (horizon-for-user user)
+   (-> is-mention? (listof badge?))
+ 
+   (define ids
+     (map first (session-load user 'earned '())))
+
+   (flatten
+     (map outgoing-badges (map id->badge ids))))
+
+(define (horizon-for-users users)
+  (apply set-intersect
+	 (map (lambda (u)
+		(flatten
+		  (horizon-for-user u)))
+	      users)))
 
 

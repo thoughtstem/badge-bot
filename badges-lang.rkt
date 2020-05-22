@@ -13,7 +13,8 @@
 	 award-badge!
 	 badges-for-user
 	 id->badge
-	 (all-from-out 2htdp/image))
+	 (all-from-out 2htdp/image)
+	 random-badge-art)
 
 (struct badge (id name url img))
 
@@ -49,8 +50,7 @@
     (list
       badge-id
       (moment->iso8601/tzid (now/moment #:tz "America/Los_Angeles"))
-      (messaging-user-name)
-      ))
+      (messaging-user-name)))
   (define val
     (session-load user 'earned `()))
 
@@ -81,5 +81,40 @@
    (define ids
      (map first (session-load user 'earned '())))
 
-   (map id->badge ids)
-   )
+   (map id->badge ids))
+
+
+
+(define (random-badge-art b)
+  ;Ideally would seed a rnd num gen
+  ;  But need to know the badge's index
+  ;  or something about the space of ids
+
+  (define (rand-color)
+    (define colors 
+      '(red green blue orange yellow purple magenta cyan))
+    (list-ref  
+      colors
+      (random 0 (length colors))))
+
+  (define (rand-cell)
+    (square 20 'solid (rand-color)))
+
+  (above
+    (beside 
+      (rand-cell) 
+      (rand-cell) 
+      (rand-cell))
+    (beside 
+      (rand-cell) 
+      (rand-cell) 
+      (rand-cell))
+    (beside 
+      (rand-cell) 
+      (rand-cell) 
+      (rand-cell))))
+
+
+(module+ main
+	 (random-badge-art #f) 
+	 )

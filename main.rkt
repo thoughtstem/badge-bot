@@ -46,12 +46,14 @@
 (define (graph-badges-command)
   ;If we want it to rerender every time, but it probably shouldn't...
   ;  Except maybe for development
-
-  ;(system "racket full-graph/main.rkt")
+  (system "racket full-graph/main.rkt")
 
   (list
     "I've rendered the badge network to this html file.  Please download it and open in your browser."
     "FILE:../../full-graph/out/index.html"))
+
+(define (submit-command . args)
+  (~a "Thanks for your submission! I've alerted <@&" mc-badge-checker-role-id "> to take a look at your badge submission!"))
 
 (define (badges-command . args)
   (define sub-command-name (first args))
@@ -60,15 +62,19 @@
     (match sub-command-name 
 	   ["list" list-badges-command]
 	   ["graph" graph-badges-command]
-	   ["award" award-badges-command]))
+	   #; ;Lifted to a top-level command
+	   ["award" award-badges-command]
+	   ))
 
   (apply sub-command (rest args)))
 
-(define (list-badges-command sub-command-name)
+(define (list-badges-command sub-command-name [page 0])
   (define sub-command
     (match sub-command-name
-	   ["images" list-badge-images-command]
-	   ["names" list-badge-names-command]
+	   ["images" (thunk
+		       (list-badge-images-command (string->number page)))]
+	   ["names"  (thunk
+		       (list-badge-names-command (string->number page)))]
 	   [x #:when (is-mention? x) 
 	      (thunk
 		(list-badges-by-user-name-command x))]
@@ -93,30 +99,58 @@
     (~a "Sorry, " user " doesn't have any badges yet.")
     (map show-badge-img (badges-for-user user))))
 
-(define (list-badge-images-command)
-  (map show-badge-img (all-badges)))
+(define (get-page p bs)
+  (define (safe-take l n)
+    (with-handlers ([exn:fail? (thunk* l)])
+      (take l n) ))
 
-(define (list-badge-names-command)
-  (map show-badge-text (all-badges)))
+  (define (safe-drop l n)
+    (with-handlers ([exn:fail? (thunk* '())])
+      (drop l n)))
+
+  (safe-take
+    (safe-drop bs
+	       (* 10 p)) 10))
+
+(define (list-badge-images-command page)
+  (map show-badge-img 
+       (get-page page (all-badges))))
+
+(define (list-badge-names-command page)
+  (map show-badge-text 
+       (get-page page (all-badges))))
 
 
 (define (award-badges-command badge-id user)
   (ensure-messaging-user-has-role-on-server!
-    mc-admin-role-id
+    mc-badge-checker-role-id
     mc-server-id
     #:failure-message
-    "Sorry, you don't have the right role for that command.")
+    (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
 
   (award-badge! (string->symbol badge-id) user)
 
-  (~a "You've awarded " badge-id " to " user "!"))
+  (~a "You've awarded " badge-id " to " user "!")
+  )
 
+(define (horizon-command . users)
+  ;TODO: Need to return HTML or text file to work around Discord message length limit
+  (define h
+    (map show-badge-text
+	 (horizon-for-users users)) )
+
+  (if (empty? h)
+      (~a "Empty horizon")
+      h))
 
 (define b
   (bot
-    ["hello" (thunk* "world")]
+    ["help" (help-link "https://forum.metacoders.org/t/documentation-badge-bot/137")]
     ["badges" badges-command]
     ["badge" badge-command]
-    ))
+    ["submit" submit-command]
+    ["award" award-badges-command]
+    ["horizon" horizon-command]
+    [else void]))
 
 (launch-bot b #:persist #t)

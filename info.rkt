@@ -2,6 +2,7 @@
 (define collection "video-bot")
 (define deps 
   '("base"
+    "graph"
     "https://github.com/thoughtstem/discord-bot.git"
     "https://github.com/thoughtstem/discourse-bot.git"
     "https://github.com/thoughtstem/mc-discord-config.git"
