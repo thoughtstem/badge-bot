@@ -14,9 +14,11 @@
 	 badges-for-user
 	 id->badge
 	 (all-from-out 2htdp/image)
-	 random-badge-art)
+	 random-badge-art
+	 add-badge-data)
 
-(struct badge (id name url img))
+(struct badge (id name url img data)
+	#:transparent)
 
 (define (get-all-badges) 
   all-badges)
@@ -32,9 +34,8 @@
   (begin
     (provide id)
     (define id
-      (badge 'id name url image))
-    (register-badge! id)
-    ))
+      (badge 'id name url image (hash)))
+    (register-badge! id)))
 
 (define (badge-img-with-id b)
   (overlay (text (~a (badge-id b)) 24 'black)
@@ -114,7 +115,17 @@
       (rand-cell) 
       (rand-cell))))
 
+(define (add-badge-data b . args)
+  (local-require racket/hash)
+
+  (define new-data (apply hash args))
+  
+  (struct-copy badge
+	       b
+	       [data (hash-union
+		       new-data
+		       (badge-data b))]))
 
 (module+ main
-	 (random-badge-art #f) 
-	 )
+	 (random-badge-art #f))
+

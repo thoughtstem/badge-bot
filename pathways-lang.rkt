@@ -9,7 +9,9 @@
 	 incoming-badges-img
 	 outgoing-badges-img
 	 horizon-for-user
-	 horizon-for-users )
+	 horizon-for-users 
+	 
+	 filter-graph-by-user)
 
 (require graph 2htdp/image
 	 discord-bot
@@ -92,5 +94,34 @@
 		(flatten
 		  (horizon-for-user u)))
 	      users)))
+
+(define (filter-graph-by-user g u)
+  (define g2 (graph-copy g))
+  (define earned-ids (map badge-id (badges-for-user u)))
+  (define horizon-ids (map badge-id (horizon-for-user u)))
+
+  (for ([v (get-vertices g2)])
+       (when 
+	 (and (not (member (badge-id v) earned-ids))
+	      (not (member (badge-id v) horizon-ids)))
+         (remove-vertex! g2 v))
+       
+       (when 
+	 (member (badge-id v) horizon-ids)
+	 #;
+	 (pretty-print 
+		    (add-badge-data v
+			   'horizon #t))
+         (rename-vertex! g2 
+			 v
+			 (add-badge-data v
+			   'horizon #t))))
+
+  g2)
+
+
+
+
+
 
 

@@ -43,10 +43,18 @@
 
   (sub-command))
 
-(define (graph-badges-command)
-  ;If we want it to rerender every time, but it probably shouldn't...
-  ;  Except maybe for development
-  (system "racket full-graph/main.rkt")
+(define (graph-badges-command . args)
+  (local-require "full-graph/main.rkt")
+
+  (if (empty? args)
+      (generate-graph) ;Full badge network
+      (match (first args)
+	     [x #:when (is-mention? x)
+		(generate-graph
+		  (filter-graph-by-user 
+		    (current-network) 
+		    x))]
+	     [else (~a "I don't understand that `! badges graph ` subcommand")]))
 
   (list
     "I've rendered the badge network to this html file.  Please download it and open in your browser."
