@@ -8,3 +8,4 @@ compiled/
 /archived-bot-*/
 .discord-key
 .discourse-key
+full-graph/out/index.html
