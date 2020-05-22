@@ -133,7 +133,7 @@
 
 (define b
   (bot
-    ["hello" (thunk* "world")]
+    ["help" (help-link "https://forum.metacoders.org/t/documentation-badge-bot/137")]
     ["badges" badges-command]
     ["badge" badge-command]
     ["submit" submit-command]
