@@ -15,6 +15,10 @@
 ;;SCRATCH DIGITAL LITERACY BADGES START
 (--> dl-sr-aa dl-sr-ti)
 (--> dl-sr-aa dl-sr-ab)
+(--> dl-sr-aa dl-sr-ch)
+(--> dl-sr-aa dl-sr-mv)
+(--> dl-sr-aa dl-sr-mo)
+;;(--> dl-sr-aa dl-sr-dr)
 ;;SCRATCH DIGITAL LITERACY BADGES END
 
 ;;META DIGITAL LITERACY BADGES START
@@ -40,5 +44,20 @@
 (--> dl-ds-tc dl-os-tf)
 (--> dl-ds-tc dl-ds-rm)
 ;;META DIGITAL LITERACY BADGES END
+
+;;TOUR OF LANGS DIGITAL LITERACY BADGES START
+
+(--> dl-dl-aa dl-ll-aa)
+(--> dl-ll-aa dl-ll-py)
+(--> dl-ll-aa dl-ll-js)
+(--> dl-ll-aa dl-ll-ja)
+(--> dl-ll-aa dl-ll-ru)
+(--> dl-ll-py dl-ll-mh)
+(--> dl-ll-js dl-ll-mh)
+(--> dl-ll-ja dl-ll-mh)
+(--> dl-ll-ru dl-ll-mh)
+(--> dl-ll-mh dl-ll-tj)
+
+;;TOUR OF LANGS DIGITAL LITERACY BADGES END
 
 ;;DIGITAL LITERACY BADGES END

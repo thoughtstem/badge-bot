@@ -18,6 +18,55 @@
   "https://forum.metacoders.org/t/digital-literacy-interest-badge/134" 
   )
 
+;;TOUR OF LANGUAGES BADGES START
+
+(define-random-art-badge 
+  dl-ll-aa 
+  "Digital Literacy: Tour of Languages Interest Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-tour-of-languages-interest-badge/156" 
+  )
+
+(define-random-art-badge 
+  dl-ll-tj 
+  "Digital Literacy: Tour of Languages: Three.js Intro" 
+  "https://forum.metacoders.org/t/digital-literacy-tour-of-languages-three-js-intro/150" 
+  )
+
+
+(define-random-art-badge 
+  dl-ll-py
+  "Digital Literacy: Tour of Languages: Python Hello World" 
+  "https://forum.metacoders.org/t/digital-literacy-tour-of-languages-python-hello-world/151" 
+  )
+
+
+(define-random-art-badge 
+  dl-ll-js
+  "Digital Literacy: Tour of Languages: Javascript Hello World" 
+  "https://forum.metacoders.org/t/digital-literacy-tour-of-languages-javascript-hello-world/152" 
+  )
+
+(define-random-art-badge 
+  dl-ll-ja
+  "Digital Literacy: Tour of Languages: Java Hello World" 
+  "https://forum.metacoders.org/t/digital-literacy-tour-of-languages-java-hello-world/153" 
+  )
+
+(define-random-art-badge 
+  dl-ll-ru
+  "Digital Literacy: Tour of Languages: Ruby Hello World" 
+  "https://forum.metacoders.org/t/digital-literacy-tour-of-languages-ruby-hello-world/154" 
+  )
+
+(define-random-art-badge 
+  dl-ll-mh
+  "Digital Literacy: Tour of Languages: Multiple Hello Worlds" 
+  "https://forum.metacoders.org/t/digital-literacy-tour-of-languages-multiple-hello-worlds/155" 
+  )
+
+;;TOUR OF LANGAUGES BADGES END
+
+
 ;;SCRATCH DIGITAL LITERACY BADGES START
 
 (define-random-art-badge 
@@ -39,6 +88,29 @@
   "https://forum.metacoders.org/t/digital-literacy-scratch-spin-cat-spin/130" 
   )
 
+(define-random-art-badge 
+  dl-sr-ch
+  "Digital Literacy: Scratch: Changing Colors" 
+  "https://forum.metacoders.org/t/digital-literacy-scratch-changing-colors/149" 
+  )
+
+(define-random-art-badge 
+  dl-sr-mv
+  "Digital Literacy: Scratch: Make Scratchy Move Forward" 
+  "https://forum.metacoders.org/t/digital-literacy-scratch-make-scratchy-move-forward/148" 
+  )
+
+(define-random-art-badge 
+  dl-sr-mo
+  "Digital Literacy: Scratch: Draw a Monkey with Wings" 
+  "https://forum.metacoders.org/t/digital-literacy-scratch-draw-a-monkey-with-wings/147" 
+  )
+
+(define-random-art-badge 
+  dl-sr-dr
+  "Digital Literacy: Scratch: Draw a Dragon with Different Colored Fire" 
+  "https://forum.metacoders.org/t/digital-literacy-scratch-draw-a-dragon-with-different-colored-fire/146" 
+  )
 ;;SCRATCH DIGITAL LITERACY BADGES END
 
 

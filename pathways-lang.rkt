@@ -47,6 +47,17 @@
     b1 b2 1))
 
 (define (incoming-badges b)
+  (define (incoming-edge? e)
+    (equal? b (second e)))
+
+   (define incoming-edges
+     (filter
+       incoming-edge?
+       (get-edges (current-graph))))
+
+   (map first incoming-edges)
+
+  #;
   (get-neighbors
     ;Prolly slow to transpose, but let's see how far we can get... 
     (transpose (current-graph))
