@@ -161,7 +161,7 @@
     (hash-keys h))
 
   (define sorted
-    (sort ks >
+    (sort ks <
 	  #:key
 	  (lambda (k)
 	    (length 
@@ -169,18 +169,28 @@
 
   (define seen '())
 
-  (define (not-seen? u)
-    (not (member u seen string=?)))
+  (define (will-see? i u)
+    (define later-badges
+      (drop
+	sorted
+	(add1 i)))
+
+    (define later-users
+      (apply append
+	     (map (curry hash-ref h) later-badges)))
+
+    (member u later-users string=?))
 
   (for 
-    ([k ks])
+    ([k ks] [i (in-naturals)])
 
     (define current-users
       (hash-ref h k))
 
     (hash-set! h k
-	       (filter not-seen? current-users))
+	       (filter-not (curry will-see? i) current-users))
 
+    #;
     (set! seen 
       (remove-duplicates 
 	(append seen current-users))))
@@ -190,6 +200,15 @@
 (module+ test
 	 (require rackunit)
 
+
+	 ;The rosterization algorithm
+	 ;  ensures that badges are mapped to lists of users,
+	 ;  and no user appears in more than one list.
+	 ;Because the lists are processed in sorted order (shortest first),
+	 ;  users end up in whatever was the longest list that originally contained them
+
+	 ;In other words, the system prioritizes badges that more people have in common.
+
 	 (check-equal?
 	   (rosterize
 	     (make-hash
@@ -198,6 +217,22 @@
 		 (cons 'b2 '("sally" "alice")))))
 	   (make-hash
 	     (list
-	       (cons 'b1 '("bob"))
-	       (cons 'b2 '("sally" "alice"))))))
+	       (cons 'b1 '("bob" "sally" "alice"))
+	       (cons 'b2 '()))))
+
+	 
+	 (check-equal?
+	   (rosterize
+	     (make-hash
+	       (list
+		 (cons 'b1 '("bob" "alice" "jimmy"))
+		 (cons 'b2 '("alice" "bob" "steve"))
+		 (cons 'b3 '("bob")))))
+	   (make-hash
+	     (list
+	       (cons 'b1 '("bob" "alice" "jimmy"))
+	       (cons 'b2 '("steve"))
+	       (cons 'b3 '()))))
+
+	 )
 
