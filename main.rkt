@@ -151,6 +151,24 @@
       (~a "Empty horizon")
       h))
 
+
+(define (roster-command . users)
+  (define h
+    (roster-for-users users)) 
+
+  (define (display-roster h)
+    (map 
+      (lambda (k)
+	(~a
+	  (badge-id k) ": " 
+	  (string-join (hash-ref h k) ", ")))
+      (hash-keys h)))
+
+  (if (empty? h)
+      (~a "Empty rosters...")
+      (display-roster h)))
+
+
 (define b
   (bot
     ["help" (help-link "https://forum.metacoders.org/t/documentation-badge-bot/137")]
@@ -159,6 +177,7 @@
     ["submit" submit-command]
     ["award" award-badges-command]
     ["horizon" horizon-command]
+    ["roster" roster-command]
     [else void]))
 
 (launch-bot b #:persist #t)

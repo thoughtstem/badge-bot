@@ -10,6 +10,7 @@
 	 outgoing-badges-img
 	 horizon-for-user
 	 horizon-for-users 
+	 roster-for-users 
 	 
 	 filter-graph-by-user)
 
@@ -108,10 +109,6 @@
        
        (when 
 	 (member (badge-id v) horizon-ids)
-	 #;
-	 (pretty-print 
-		    (add-badge-data v
-			   'horizon #t))
          (rename-vertex! g2 
 			 v
 			 (add-badge-data v
@@ -122,6 +119,85 @@
 
 
 
+;Doesn't really make sense to call by itself.
+;  Rosters are for multiple users.
+;  This just serves as a base case for roster-for-users
+(define/contract 
+  (histogram-for-user user)
+
+  (-> is-mention? (hash/c badge? 
+			  (listof is-mention?)))
+
+  (define ids
+    (map first 
+	 (session-load user 'earned '())))
+
+  (make-hash
+    (map
+      (lambda (b)
+	(cons b 
+	      (list user)))
+      (flatten
+	(map outgoing-badges (map id->badge ids))))))
+
+(define (histogram-for-users users)
+  (local-require racket/hash)
+
+  (if (empty? users) 
+      (hash)
+      (let ([h (histogram-for-user (first users))])
+	(hash-union! h 
+		     (histogram-for-users (rest users))
+		     #:combine append)
+	h)))
 
 
+(define (roster-for-users users)
+  (rosterize 
+    (histogram-for-users users)))
+
+(define (rosterize h)
+  (define ks
+    (hash-keys h))
+
+  (define sorted
+    (sort ks >
+	  #:key
+	  (lambda (k)
+	    (length 
+	      (hash-ref h k)))))
+
+  (define seen '())
+
+  (define (not-seen? u)
+    (not (member u seen string=?)))
+
+  (for 
+    ([k ks])
+
+    (define current-users
+      (hash-ref h k))
+
+    (hash-set! h k
+	       (filter not-seen? current-users))
+
+    (set! seen 
+      (remove-duplicates 
+	(append seen current-users))))
+
+  h)
+
+(module+ test
+	 (require rackunit)
+
+	 (check-equal?
+	   (rosterize
+	     (make-hash
+	       (list
+		 (cons 'b1 '("bob" "sally" "alice"))
+		 (cons 'b2 '("sally" "alice")))))
+	   (make-hash
+	     (list
+	       (cons 'b1 '("bob"))
+	       (cons 'b2 '("sally" "alice"))))))
 
