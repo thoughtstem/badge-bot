@@ -138,8 +138,7 @@
 
   (award-badge! (string->symbol badge-id) user)
 
-  (~a "You've awarded " badge-id " to " user "!")
-  )
+  (~a "You've awarded " badge-id " to " user "!"))
 
 (define (horizon-command . users)
   ;TODO: Need to return HTML or text file to work around Discord message length limit
@@ -153,6 +152,7 @@
 
 
 (define (roster-command . users)
+
   (define h
     (roster-for-users users)) 
 
@@ -164,8 +164,8 @@
 	  (string-join (hash-ref h k) ", ")))
       (hash-keys h)))
 
-  (if (empty? h)
-      (~a "Empty rosters...")
+  (if (empty? (hash-keys h))
+      (~a "Empty roster...  Did you forget to assign interest badges?  Or have these users earned all possible badges?")
       (display-roster h)))
 
 

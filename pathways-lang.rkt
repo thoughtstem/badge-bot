@@ -199,13 +199,15 @@
       (hash-ref h k))
 
     (hash-set! h k
-	       (filter-not (curry will-see? i) current-users))
+	       (filter-not (curry will-see? i) current-users)))
 
-    #;
-    (set! seen 
-      (remove-duplicates 
-	(append seen current-users))))
+  (clean-empty-keys h))
 
+(define (clean-empty-keys h)
+  (for ([k (hash-keys h)])
+       (when (empty? (hash-ref h k))
+	 (hash-remove!  h k)))
+  
   h)
 
 (module+ test
