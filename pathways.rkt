@@ -8,6 +8,7 @@
 
 (init-network (all-badges))
 
+
 ;;DIGITAL LITERACY BADGES START
 (--> dl-dl-aa dl-sr-aa)
 (--> dl-dl-aa dl-mt-aa)
@@ -61,3 +62,4 @@
 ;;TOUR OF LANGS DIGITAL LITERACY BADGES END
 
 ;;DIGITAL LITERACY BADGES END
+

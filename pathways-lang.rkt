@@ -33,6 +33,10 @@
 	 b)))
 
 (define (--> b1 b2)
+
+  ;A simple graph is a nice property to have.
+  ;  But this makes badge bot much slower..
+  #|
   (define in  (length (incoming-badges b2)))
   (define out (length (outgoing-badges b1)))
 
@@ -41,6 +45,7 @@
 
   (when (<= 5 out)
     (error (~a "The badge " (badge-id b1) " cannot have more than 5 outgoing badges.")))
+  |#
 
   (add-directed-edge! 
     (current-graph) 
