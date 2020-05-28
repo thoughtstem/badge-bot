@@ -151,23 +151,45 @@
       h))
 
 
-(define (roster-command . users)
+(define (display-roster h)
+  (map 
+    (lambda (k)
+      (~a
+	(badge-id k) ": " 
+	(string-join (hash-ref h k) ", ")))
+    (hash-keys h)))
 
+(define (roster-command . users)
   (define h
     (roster-for-users users)) 
-
-  (define (display-roster h)
-    (map 
-      (lambda (k)
-	(~a
-	  (badge-id k) ": " 
-	  (string-join (hash-ref h k) ", ")))
-      (hash-keys h)))
 
   (if (empty? (hash-keys h))
       (~a "Empty roster...  Did you forget to assign interest badges?  Or have these users earned all possible badges?")
       (display-roster h)))
 
+(define (rosterize-station-command voice-channel-id)
+  (apply roster-command
+    (map id->mention (get-users-from-channel voice-channel-id))))
+
+(define (get-users-from-channel voice-channel-id)
+  (string-split
+    (with-output-to-string
+      (thunk*
+	@run-js{
+	client.channels
+	.fetch('@voice-channel-id')
+	.then(channel => {
+		      var a = channel.members.keyArray()
+		      for(var i = 0; i < a.length; 
+			      i++)
+		      {
+		        console.log(a[i])
+		      }
+		      client.destroy()
+		      })
+
+	} 
+		      "\n"))))
 
 (define b
   (bot
@@ -178,6 +200,7 @@
     ["award" award-badges-command]
     ["horizon" horizon-command]
     ["roster" roster-command]
+    ["rosterize-station" rosterize-station-command]
     [else void]))
 
 (launch-bot b #:persist #t)

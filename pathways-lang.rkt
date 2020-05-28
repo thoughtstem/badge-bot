@@ -159,13 +159,18 @@
 (define (histogram-for-users users)
   (local-require racket/hash)
 
-  (if (empty? users) 
+  (define hists
+    (map histogram-for-user users))
+
+  (define combined
+    (foldl 
+      (lambda (next accum)
+	(hash-union accum next
+		    #:combine append))
       (hash)
-      (let ([h (histogram-for-user (first users))])
-	(hash-union! h 
-		     (histogram-for-users (rest users))
-		     #:combine append)
-	h)))
+      hists))
+
+  combined)
 
 
 (define (roster-for-users users)
@@ -203,15 +208,17 @@
     (define current-users
       (hash-ref h k))
 
-    (hash-set! h k
-	       (filter-not (curry will-see? i) current-users)))
+    (set! h
+      (hash-set h k
+	        (filter-not (curry will-see? i) current-users))))
 
   (clean-empty-keys h))
 
 (define (clean-empty-keys h)
   (for ([k (hash-keys h)])
        (when (empty? (hash-ref h k))
-	 (hash-remove!  h k)))
+	 (set! h
+	   (hash-remove h k))))
   
   h)
 
