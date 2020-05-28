@@ -159,17 +159,23 @@
 	(string-join (hash-ref h k) ", ")))
     (hash-keys h)))
 
-(define (roster-command . users)
+(define (roster-command #:not (not-these-users '())
+			. users
+			)
   (define h
-    (roster-for-users users)) 
+    (roster-for-users 
+      (filter-not 
+	(curryr member not-these-users)
+	users)))
 
   (if (empty? (hash-keys h))
       (~a "Empty roster...  Did you forget to assign interest badges?  Or have these users earned all possible badges?")
       (display-roster h)))
 
-(define (rosterize-station-command voice-channel-id)
-  (apply roster-command
-    (map id->mention (get-users-from-channel voice-channel-id))))
+(define (rosterize-station-command voice-channel-id . not-these-users)
+  (apply (curry roster-command #:not not-these-users)
+    (map id->mention 
+	 (get-users-from-channel voice-channel-id))))
 
 (define (get-users-from-channel voice-channel-id)
   (string-split
@@ -189,7 +195,7 @@
 		      })
 
 	} 
-		      "\n"))))
+	"\n"))))
 
 (define b
   (bot
