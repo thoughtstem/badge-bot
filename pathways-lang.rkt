@@ -1,5 +1,11 @@
 #lang racket
 
+;This provides some graph-theoretical utilities
+;  But with names that better match how
+;  we talk about badge networks.
+;A student's "horizon" is the badges that are one edge away from their collection of earned badges.  That is, they can earn horizon badges next.
+;A pathway is a sequence of badges connected by edges.
+
 (provide -->
 	 (rename-out
 	   [current-graph current-network])
@@ -8,9 +14,10 @@
 	 
 	 incoming-badges-img
 	 outgoing-badges-img
+	 incoming-badges
+	 outgoing-badges
 	 horizon-for-user
 	 horizon-for-users 
-	 roster-for-users 
 	 
 	 filter-graph-by-user)
 
@@ -132,132 +139,4 @@
 
   g2)
 
-
-
-
-;Doesn't really make sense to call by itself.
-;  Rosters are for multiple users.
-;  This just serves as a base case for roster-for-users
-(define/contract 
-  (histogram-for-user user)
-
-  (-> is-mention? (hash/c badge? 
-			  (listof is-mention?)))
-
-  (define ids
-    (map first 
-	 (session-load user 'earned '())))
-
-  (make-hash
-    (map
-      (lambda (b)
-	(cons b 
-	      (list user)))
-      (flatten
-	(map outgoing-badges (map id->badge ids))))))
-
-(define (histogram-for-users users)
-  (local-require racket/hash)
-
-  (define hists
-    (map histogram-for-user users))
-
-  (define combined
-    (foldl 
-      (lambda (next accum)
-	(hash-union accum next
-		    #:combine append))
-      (hash)
-      hists))
-
-  combined)
-
-
-(define (roster-for-users users)
-  (rosterize 
-    (histogram-for-users users)))
-
-(define (rosterize h)
-  (define ks
-    (hash-keys h))
-
-  (define sorted
-    (sort ks <
-	  #:key
-	  (lambda (k)
-	    (length 
-	      (hash-ref h k)))))
-
-  (define seen '())
-
-  (define (will-see? i u)
-    (define later-badges
-      (drop
-	sorted
-	(add1 i)))
-
-    (define later-users
-      (apply append
-	     (map (curry hash-ref h) later-badges)))
-
-    (member u later-users string=?))
-
-  (for 
-    ([k ks] [i (in-naturals)])
-
-    (define current-users
-      (hash-ref h k))
-
-    (set! h
-      (hash-set h k
-	        (filter-not (curry will-see? i) current-users))))
-
-  (clean-empty-keys h))
-
-(define (clean-empty-keys h)
-  (for ([k (hash-keys h)])
-       (when (empty? (hash-ref h k))
-	 (set! h
-	   (hash-remove h k))))
-  
-  h)
-
-(module+ test
-	 (require rackunit)
-
-
-	 ;The rosterization algorithm
-	 ;  ensures that badges are mapped to lists of users,
-	 ;  and no user appears in more than one list.
-	 ;Because the lists are processed in sorted order (shortest first),
-	 ;  users end up in whatever was the longest list that originally contained them
-
-	 ;In other words, the system prioritizes badges that more people have in common.
-
-	 (check-equal?
-	   (rosterize
-	     (make-hash
-	       (list
-		 (cons 'b1 '("bob" "sally" "alice"))
-		 (cons 'b2 '("sally" "alice")))))
-	   (make-hash
-	     (list
-	       (cons 'b1 '("bob" "sally" "alice"))
-	       (cons 'b2 '()))))
-
-	 
-	 (check-equal?
-	   (rosterize
-	     (make-hash
-	       (list
-		 (cons 'b1 '("bob" "alice" "jimmy"))
-		 (cons 'b2 '("alice" "bob" "steve"))
-		 (cons 'b3 '("bob")))))
-	   (make-hash
-	     (list
-	       (cons 'b1 '("bob" "alice" "jimmy"))
-	       (cons 'b2 '("steve"))
-	       (cons 'b3 '()))))
-
-	 )
 

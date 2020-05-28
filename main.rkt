@@ -3,7 +3,7 @@
 (require discord-bot
 	 discourse-bot
 	 mc-discord-config
-	 "pathways.rkt")
+	 "rosters.rkt")
 
 (define (describe-badge b)
   (define left
@@ -197,6 +197,22 @@
 	} 
 	"\n"))))
 
+(define (crew-manifest-station-command voice-channel-id . not-these-users)
+  (define roster
+    (roster-for-users 
+      (filter-not 
+	(curryr member not-these-users)
+	(map id->mention 
+	     (get-users-from-channel voice-channel-id)))))
+
+  (map 
+    (lambda (m)
+      (list
+        (badge-url (first m))
+	(second m)))
+    (crew-manifests roster #:ship-capacity 2))
+  )
+
 (define b
   (bot
     ["help" (help-link "https://forum.metacoders.org/t/documentation-badge-bot/137")]
@@ -207,6 +223,7 @@
     ["horizon" horizon-command]
     ["roster" roster-command]
     ["rosterize-station" rosterize-station-command]
+    ["crew-manifest-station" crew-manifest-station-command]
     [else void]))
 
 (launch-bot b #:persist #t)
