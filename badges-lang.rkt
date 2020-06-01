@@ -1,5 +1,4 @@
-#lang racket
-
+#lang racket 
 (require 2htdp/image
 	 discord-bot
 	 gregor)
@@ -12,10 +11,12 @@
 	 badge-img-with-id
 	 award-badge!
 	 badges-for-user
+	 users->earned-badges-hash 
 	 id->badge
 	 (all-from-out 2htdp/image)
 	 random-badge-art
-	 add-badge-data)
+	 add-badge-data
+	 is-interest-badge?)
 
 (struct badge (id name url img data)
 	#:transparent)
@@ -43,6 +44,11 @@
 
 (define (badge-id? id)
   (member id (map badge-id (get-all-badges))))
+
+(define (is-interest-badge? b)
+  (string-contains?
+    (badge-name b) 
+    "Interest"))
 
 (define/contract (award-badge! badge-id user)
   (-> badge-id? is-mention? boolean?)
@@ -78,13 +84,19 @@
 (define/contract 
   (badges-for-user user)
    (-> is-mention? (listof badge?))
+
  
    (define ids
      (map first (session-load user 'earned '())))
 
-   (map id->badge ids))
+   (filter identity (map id->badge ids)))
 
-
+(define (users->earned-badges-hash users)
+  (make-immutable-hash
+    (map 
+      (lambda (u)
+	(cons u (badges-for-user u))) 
+      users)))
 
 (define (random-badge-art b)
   ;Ideally would seed a rnd num gen
@@ -126,6 +138,4 @@
 		       new-data
 		       (badge-data b))]))
 
-(module+ main
-	 (random-badge-art #f))
 

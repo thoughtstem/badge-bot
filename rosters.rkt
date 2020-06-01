@@ -123,6 +123,7 @@
 ;  For each B, it's U will be a subset of the list of users
 ;    that B maps to in the roster.
 (define (crew-manifests #:ship-capacity ship-cap
+			#:coaches coaches
 			roster)
   (define badges (hash-keys roster)) 
 
@@ -158,7 +159,36 @@
 	 (loop))))
 
   ;Reverse to ensure that the badges with the most users will end up at the top of the crew manifests
-  (reverse ret))
+  (assign-coaches (reverse ret)
+		  coaches))
+
+;Takes a list of manifests that do not yet contain a coach, and a hash of coaches to badges.
+(define (assign-coaches manifests coaches->badges)
+
+  (define (coach-who-can-teach b)
+    (define c
+      (findf  
+	(lambda (c)
+	  (member b (hash-ref coaches->badges c))) 
+	(hash-keys coaches->badges)))
+
+    (when c
+      (set! coaches->badges
+	(hash-remove coaches->badges c)))
+    
+    c)
+
+  (filter identity
+	  (map
+	    (lambda (m)
+	      (define b (first m))
+	      (define non-coaches (second m))
+	      (define c (coach-who-can-teach b))
+
+	      (if (not c)
+		#f
+		(list b (cons c non-coaches))))
+	    manifests)))
 
 (module+ test
 	 (require rackunit)
@@ -176,6 +206,12 @@
 	 (define hist1
 	   (hash
 	     'b1 '("bob" "sally" "alice")))
+
+	 (define coaches
+	   (hash
+	     "coach-enn" '(b1 b2 b3)
+	     "coach-emm" '(b2)
+	     "coach-oh"  '(b3)))
 
 	 (define hist2
 	   (hash
@@ -195,16 +231,39 @@
 	     'b2 '("alice" "bob" "steve")))
 
 
-	 (check-equal?
+	 (define (all-manifests-have-coaches ms)
+	   (define supposedly-coaches
+	     (map first (map second ms))) 
+
+	   (define definitely-coaches
+	     (hash-keys coaches))
+	   
+	   (define confirmed-coaches
+	     (filter 
+	       (curryr member definitely-coaches string=?)
+	       supposedly-coaches))
+	   
+	   (= (length supposedly-coaches)
+	      (length confirmed-coaches)))
+
+	 (define (all-coaches-different ms)
+	   (define supposedly-coaches
+	     (map first (map second ms))) 
+
+	   (define unique-coaches
+	     (remove-duplicates supposedly-coaches
+				string=?))
+	   
+	   (= (length supposedly-coaches)
+	      (length unique-coaches)))
+
+	 (check-pred
+	   (and/c all-manifests-have-coaches
+		  all-coaches-different)
 	   (crew-manifests
 	     #:ship-capacity 2
-	     (rosterize hist2))
-	   (list
-	     '(b2 ("alice" "bob"))
-	     '(b2 ("steve"))
-	     '(b1 ("jimmy"))))
-	 
-	 )
+	     #:coaches coaches
+	     (rosterize hist2))) )
 
 
 

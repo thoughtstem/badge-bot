@@ -3,6 +3,7 @@
 (require discord-bot
 	 discourse-bot
 	 mc-discord-config
+	 "badges-lang.rkt"
 	 "rosters.rkt")
 
 (define (describe-badge b)
@@ -140,6 +141,35 @@
 
   (~a "You've awarded " badge-id " to " user "!"))
 
+
+(define (multi-award badges user)
+  (ensure-messaging-user-has-role-on-server!
+    mc-badge-checker-role-id
+    mc-server-id
+    #:failure-message
+    (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
+
+  (define awarded
+    (filter identity
+	    (map 
+	      (lambda (b)
+		(with-handlers ([exn:fail?
+				  (lambda (e)
+				    #f)])
+			       (award-badge!
+				 (badge-id b)
+				 user)))
+	      badges)))
+
+  (~a "You've awarded " (length awarded) " badges to " user "!"))
+
+(define (award-all-badges-command user)
+  (multi-award (all-badges) user))
+
+(define (award-all-interest-badges-command user)
+  (multi-award (filter is-interest-badge? (all-badges)) user))
+
+
 (define (horizon-command . users)
   ;TODO: Need to return HTML or text file to work around Discord message length limit
   (define h
@@ -177,41 +207,29 @@
     (map id->mention 
 	 (get-users-from-channel voice-channel-id))))
 
-(define (get-users-from-channel voice-channel-id)
-  (string-split
-    (with-output-to-string
-      (thunk*
-	@run-js{
-	client.channels
-	.fetch('@voice-channel-id')
-	.then(channel => {
-		      var a = channel.members.keyArray()
-		      for(var i = 0; i < a.length; 
-			      i++)
-		      {
-		        console.log(a[i])
-		      }
-		      client.destroy()
-		      })
+(define (get-available-coaches [coach-voice-channel-id mc-coach-space-station-voice-channel-id])
+  (get-users-from-channel coach-voice-channel-id ))
 
-	} 
-	"\n"))))
-
-(define (crew-manifest-station-command voice-channel-id . not-these-users)
+(define (crew-manifest-station-command student-voice-channel-id 
+				       coach-voice-channel-id
+				       . not-these-users)
   (define roster
     (roster-for-users 
       (filter-not 
 	(curryr member not-these-users)
-	(map id->mention 
-	     (get-users-from-channel voice-channel-id)))))
+	(get-users-from-channel student-voice-channel-id))))
 
   (map 
     (lambda (m)
       (list
         (badge-url (first m))
 	(second m)))
-    (crew-manifests roster #:ship-capacity 2))
-  )
+    (crew-manifests roster 
+		    #:ship-capacity 2
+		    #:coaches 
+		    (users->earned-badges-hash
+		      (get-available-coaches coach-voice-channel-id))
+		    )))
 
 (define b
   (bot
@@ -220,10 +238,15 @@
     ["badge" badge-command]
     ["submit" submit-command]
     ["award" award-badges-command]
+    ["award-all" award-all-badges-command]
+    ["award-all-interest" award-all-interest-badges-command]
     ["horizon" horizon-command]
     ["roster" roster-command]
     ["rosterize-station" rosterize-station-command]
     ["crew-manifest-station" crew-manifest-station-command]
     [else void]))
 
+
 (launch-bot b #:persist #t)
+
+

@@ -231,3 +231,10 @@
 
 ;;DIGITAL LITERACY BADGES END
 
+(module+ test 
+	 (require discord-bot)
+
+	 (users->earned-badges-hash
+	   (list
+	     (id->mention "412679210310828033")))
+	 )
