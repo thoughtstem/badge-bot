@@ -17,6 +17,35 @@
   "Digital Literacy Interest Badge" 
   "https://forum.metacoders.org/t/digital-literacy-interest-badge/134" 
   )
+;;PAPER BADGES START
+
+
+(define-random-art-badge 
+  dl-pc-aa 
+  "Digital Literacy: Paper Coding Interest Badge " 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-interest-badge/167" 
+  )
+
+(define-random-art-badge 
+  dl-pc-db
+  "Digital Literacy: Paper Coding: Directions B" 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-directions-b/173" 
+  )
+
+(define-random-art-badge 
+  dl-pc-da 
+  "Digital Literacy: Paper Coding: Directions A " 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-directions-a/170" 
+  )
+
+(define-random-art-badge 
+  dl-pc-dc
+  "Digital Literacy: Paper Badge Directions C " 
+  "https://forum.metacoders.org/t/digital-literacy-paper-badge-directions-c/174" 
+  )
+
+
+;;PAPER BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START
 
@@ -228,6 +257,7 @@
   "Digital Literacy: Screen Capturing: Screenshot Badge" 
   "https://forum.metacoders.org/t/digital-literacy-screen-capturing-screenshot-badge/110" 
   )
+
 
 ;;DIGITAL LITERACY BADGES END
 

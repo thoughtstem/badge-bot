@@ -67,18 +67,15 @@
        incoming-edge?
        (get-edges (current-graph))))
 
-   (map first incoming-edges)
-
-  #;
-  (get-neighbors
-    ;Prolly slow to transpose, but let's see how far we can get... 
-    (transpose (current-graph))
-    b))
+   (filter available-badge?
+	   (map first incoming-edges))
+  )
 
 (define (outgoing-badges b)
-  (get-neighbors
-    (current-graph)
-    b))
+  (filter available-badge?
+	  (get-neighbors
+	    (current-graph)
+	    b)))
 
 ;TODO: Assume single graph?  Parameterize??
 (define (incoming-badges-img b)
@@ -109,8 +106,15 @@
    (define ids
      (map first (session-load user 'earned '())))
 
-   (flatten
-     (map outgoing-badges (map id->badge ids))))
+
+   (filter-not
+     (lambda (b)
+       (member 
+	 (badge-id b)
+	 ids))
+     (flatten
+       (map outgoing-badges (map id->badge ids))))
+   )
 
 (define (horizon-for-users users)
   (apply set-intersect

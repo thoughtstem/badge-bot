@@ -1,5 +1,11 @@
 #lang at-exp racket
 
+(provide 
+  crew-manifest-station-command 
+  rosterize-station-command 
+  roster-command
+  )
+
 (require discord-bot
 	 discourse-bot
 	 mc-discord-config
@@ -141,6 +147,16 @@
 
   (~a "You've awarded " badge-id " to " user "!"))
 
+(define (remove-badges-command badge-id user)
+  (ensure-messaging-user-has-role-on-server!
+    mc-badge-checker-role-id
+    mc-server-id
+    #:failure-message
+    (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
+
+  (remove-badge! (string->symbol badge-id) user)
+
+  (~a "You've removed " badge-id " from " user "!"))
 
 (define (multi-award badges user)
   (ensure-messaging-user-has-role-on-server!
@@ -190,8 +206,7 @@
     (hash-keys h)))
 
 (define (roster-command #:not (not-these-users '())
-			. users
-			)
+			. users)
   (define h
     (roster-for-users 
       (filter-not 
@@ -213,23 +228,35 @@
 (define (crew-manifest-station-command student-voice-channel-id 
 				       coach-voice-channel-id
 				       . not-these-users)
-  (define roster
-    (roster-for-users 
-      (filter-not 
-	(curryr member not-these-users)
-	(get-users-from-channel student-voice-channel-id))))
 
-  (map 
-    (lambda (m)
-      (list
-        (badge-url (first m))
-	(second m)))
-    (crew-manifests roster 
-		    #:ship-capacity 2
-		    #:coaches 
-		    (users->earned-badges-hash
-		      (get-available-coaches coach-voice-channel-id))
-		    )))
+  (define coaches-hash
+    (users->earned-badges-hash
+      (get-available-coaches coach-voice-channel-id)))
+
+  (define roster
+    (parameterize ([available-badges
+		     (flatten (hash-values coaches-hash))]) 
+      (roster-for-users 
+	(filter-not 
+	  (curryr member not-these-users)
+	  (get-users-from-channel student-voice-channel-id)))))
+
+  (define manifests
+    (map 
+      (lambda (m)
+	(list
+	  (badge-url (first m))
+	  (second m)))
+      (crew-manifests roster 
+		      #:ship-capacity 5
+		      #:coaches 
+		      coaches-hash
+		      )))
+
+  (if (empty? manifests)
+    "I couldn't construct a manifest for those users"
+    manifests)
+  )
 
 (define b
   (bot
@@ -237,6 +264,7 @@
     ["badges" badges-command]
     ["badge" badge-command]
     ["submit" submit-command]
+    ["remove" remove-badges-command]
     ["award" award-badges-command]
     ["award-all" award-all-badges-command]
     ["award-all-interest" award-all-interest-badges-command]

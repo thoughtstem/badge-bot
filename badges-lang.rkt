@@ -6,10 +6,13 @@
 (provide (struct-out badge)
 	 (rename-out
 	   [get-all-badges all-badges])
+	 available-badges
+	 available-badge?
 	 register-badge!
 	 define-badge
 	 badge-img-with-id
 	 award-badge!
+	 remove-badge!
 	 badges-for-user
 	 users->earned-badges-hash 
 	 id->badge
@@ -22,9 +25,16 @@
 	#:transparent)
 
 (define (get-all-badges) 
-  all-badges)
+  (filter available-badge? all-badges)) 
 
 (define all-badges '())
+(define available-badges (make-parameter #f))
+
+(define (available-badge? b)
+  (if (not (available-badges))
+    #t
+    (member (badge-id b) 
+	    (map badge-id (available-badges)))))
 
 (define (register-badge! id)
   (set! 
@@ -67,6 +77,24 @@
   (set! val   
     (cons
       (badge-earning badge-id)
+      val))
+
+  (session-store user 'earned val)
+  #t)
+
+(define/contract (remove-badge! badge-id user)
+  (-> badge-id? is-mention? boolean?)
+  
+  (define val
+    (session-load user 'earned `()))
+
+  (when (not (member badge-id (map first val)))
+    (error (~a user " doesn't have that badge!")))
+
+  (set! val   
+    (filter-not
+      (lambda (be)
+	(eq? badge-id (first be)))
       val))
 
   (session-store user 'earned val)

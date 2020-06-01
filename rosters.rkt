@@ -1,5 +1,11 @@
 #lang at-exp racket
 
+(provide roster-for-users 
+	 crew-manifests
+	 histogram-for-users
+	 histogram-for-user 
+	 (all-from-out "pathways.rkt"))
+
 ;This helps us assign learners to groups.
 
 ;A Badge roster is produced from a collection of users.
@@ -21,9 +27,6 @@
 
 
 
-(provide roster-for-users 
-	 crew-manifests
-	 (all-from-out "pathways.rkt"))
 
 (require discord-bot
 	 discourse-bot
@@ -50,8 +53,14 @@
       (lambda (b)
 	(cons b 
 	      (list user)))
-      (flatten
-	(map outgoing-badges (map id->badge ids))))))
+   (filter-not
+     (lambda (b)
+       (member 
+	 (badge-id b)
+	 ids))
+     (flatten
+       (map outgoing-badges (map id->badge ids))))
+      )))
 
 (define (histogram-for-users users)
   (local-require racket/hash)

@@ -13,6 +13,15 @@
 (--> dl-dl-aa dl-sr-aa)
 (--> dl-dl-aa dl-mt-aa)
 
+;;PAPER DIGITAL LITERACY BADGES START
+(--> dl-dl-aa dl-pc-aa)
+(--> dl-pc-aa dl-pc-da)
+(--> dl-pc-da dl-pc-db)
+(--> dl-pc-db dl-pc-dc)
+
+;;PAPER DIGITAL LITERACY BADGES END
+
+
 ;;SCRATCH DIGITAL LITERACY BADGES START
 (--> dl-sr-aa dl-sr-ti)
 (--> dl-sr-aa dl-sr-ab)
