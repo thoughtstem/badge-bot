@@ -39,28 +39,28 @@
 ;  Rosters are for multiple users.
 ;  This just serves as a base case for roster-for-users
 (define/contract 
-  (histogram-for-user user)
+   (histogram-for-user user)
 
-  (-> is-mention? (hash/c badge? 
-			  (listof is-mention?)))
+   (-> is-mention? (hash/c badge? 
+                    (listof is-mention?)))
 
-  (define ids
+   (define ids
     (map first 
-	 (session-load user 'earned '())))
+     (session-load user 'earned '())))
 
-  (make-hash
+   (make-hash
     (map
-      (lambda (b)
-	(cons b 
-	      (list user)))
-   (filter-not
      (lambda (b)
+      (cons b 
+       (list user)))
+     (filter-not
+      (lambda (b)
        (member 
-	 (badge-id b)
-	 ids))
-     (flatten
+        (badge-id b)
+        ids))
+      (flatten
        (map outgoing-badges (map id->badge ids))))
-      )))
+    )))
 
 (define (histogram-for-users users)
   (local-require racket/hash)

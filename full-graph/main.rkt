@@ -1,19 +1,21 @@
 #lang racket
 
-(provide generate-graph)
+(provide generate-graph
+         current-network-graph-component
+         render-node-label
+         render-node-image)
 
 (require website-js
-	 webapp/js/components/graph)
+         webapp/js/components/graph)
 
 (require (only-in "../pathways.rkt"
-		  current-network)
-	 
-	 (only-in "../badges-lang.rkt" badge-id badge-name badge-img all-badges badge-data)
-	 (only-in pict bitmap)
-	 net/base64
-	 file/convertible
-	 (only-in 2htdp/image circle)
-	 )
+                  current-network)
+
+         (only-in "../badges-lang.rkt" badge-id badge-name badge-img all-badges badge-data)
+         (only-in pict bitmap)
+         net/base64
+         file/convertible
+         (only-in 2htdp/image circle))
 
 (define (shorten s)
   ;Move this somewhere like badges-lang,
@@ -22,10 +24,16 @@
   ;  appended on by badge-name
   (define (remove-family-name s)
     (if (string-contains? s ":")
-	(last (string-split s ": "))
-	s))
+      (last (string-split s ": "))
+      s))
 
   (remove-family-name s))
+
+(define render-node-label
+  (make-parameter (compose shorten badge-name)))
+
+(define render-node-image
+  (make-parameter badge-img))
 
 (define (pict->data-uri pict)
   (regexp-replaces
@@ -43,40 +51,41 @@
   (define (darken i)
     (define (dark-film i)
       (rectangle 
-	(image-width i)
-	(image-height i)
-	'solid (make-color 0 0 0 150)))
+        (image-width i)
+        (image-height i)
+        'solid (make-color 0 0 0 150)))
     (overlay
       (dark-film i) 
       i))
 
-  (define bd (badge-data b))
-
   (hash
     'selector (~a "#" (badge-id b))
     'css (hash
-	   'background-fit "cover"
-	   'background-image
-	   (image->data-uri 
-	     (if (hash-ref bd 'horizon #f)
-		 (darken (badge-img b))
-		 (badge-img b))))))
+           'background-fit "cover"
+           'background-image
+           (image->data-uri 
+             ((render-node-image) b)))))
 
 
 (define (main g)
+  (page index.html
+	(content
+	  (current-network-graph-component g))))
+
+(define (current-network-graph-component [g (current-network)])
   (local-require (only-in graph get-vertices))
 
-  (node->id badge-id)
-  (node->label (compose shorten badge-name))
+  (node->id    badge-id)
+  (node->label (render-node-label))
   (edge->label (thunk* ""))
 
   (layout (dagre-layout #:node-distance 200))
   (styles 
     (map badge-style (get-vertices g)))
 
-  (page index.html
-	(content
-	  (graph-component g))))
+  (graph-component g))
+
+
 
 (define (generate-graph [g (current-network)])
   (render (list (main g))
