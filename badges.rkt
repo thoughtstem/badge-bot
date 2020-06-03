@@ -33,8 +33,50 @@
 
 (define-random-art-badge 
   dl-pc-dc
-  "Digital Literacy: Paper Badge Directions C " 
+  "Digital Literacy: Paper Coding: Directions C " 
   "https://forum.metacoders.org/t/digital-literacy-paper-badge-directions-c/174" 
+  )
+
+(define-random-art-badge 
+  dl-pc-la
+  "Digital Literacy: Paper Coding: Loops A" 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-loops-badge-a/188" 
+  )
+
+(define-random-art-badge 
+  dl-pc-lb
+  "Digital Literacy: Paper Coding: Loops B" 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-loops-b/189" 
+  )
+
+(define-random-art-badge 
+  dl-pc-pa
+  "Digital Literacy: Paper Coding: Patterns A" 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-patterns-a/175" 
+  )
+
+(define-random-art-badge 
+  dl-pc-pb
+  "Digital Literacy: Paper Coding: Patterns B" 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-patterns-b/184" 
+  )
+
+(define-random-art-badge 
+  dl-pc-pc
+  "Digital Literacy: Paper Coding: Patterns C" 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-patterns-c/186" 
+  )
+
+(define-random-art-badge 
+  dl-pc-io
+  "Digital Literacy: Paper Coding: In-n-Out" 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-in-n-out-badge/185" 
+  )
+
+(define-random-art-badge 
+  dl-pc-it
+  "Digital Literacy: Paper Coding: Follow Me" 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-follow-me-badge/187" 
   )
 
 
