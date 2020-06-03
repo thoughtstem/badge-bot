@@ -1,4 +1,4 @@
-#lang at-exp racket
+#lang racket
 
 (require discord-bot
          simple-http)
@@ -15,6 +15,10 @@
             "/cmd" #:params 
             (list 
               (cons 'cmd 
-                    (messaging-user-full-message))))))]))
+                    (messaging-user-full-message))
+              (cons 'user-id 
+                    (messaging-user-id))
+
+              ))))]))
 
 (launch-bot b #:persist #t)
