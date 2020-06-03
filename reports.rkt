@@ -27,10 +27,11 @@
         (define ret
           (make-hash
             (map
-              (lambda (u)
-                (cons u
-                      (map (compose id->badge first) 
-                           (session-load u 'earned))))
+	      (lambda (u)
+		(cons u
+		      (filter identity
+			      (map (compose id->badge first) 
+				   (session-load u 'earned)))))
               (all-users))))
 
         (set! cached-all-badge-earnings ret)
@@ -43,23 +44,23 @@
 
   (filter
     (lambda (u)
-      (member b
-              (hash-ref be u)))
-    (hash-keys be)))
+      (member (badge-id b)
+              (map badge-id (hash-ref be u))))
+    (hash-keys be))
+  )
 
 (define (graph-overview [u #f])
   (local-require
     (only-in 2htdp/image square))
-  (parameterize ([render-node-label
+  (parameterize (
+		 [render-node-label
                    (lambda (b)
                      ;Append the full name too?
                      (if (not u)
                        (length
                          (users-with-badge b))
-                       (if (member u
-                                   (users-with-badge b) string=?)
-                         "Got it!"
-                         "")))]
+		       (badge-name b)
+		       ))]
                  [render-node-image
                    (lambda (b)
                      (if (not u)
@@ -88,36 +89,30 @@
     (li (a href: (badge-url b) 
         (badge-url b))))
 
-  (response/html/content
+  (define ret
     (div class: "m-5"
-      (h1 "Badge Report")
+	 (h1 "Badge Report")
 
-      (graph-overview)
+	 (graph-overview)
 
-      (h2 "By User")
+	 (h2 "By User")
 
-      (map
-        (lambda (kv)
-          (div
-             (p (a href: (~a "/badge-reports?user=" (car kv))
-                   (car kv))
-                (ol (map show-badge (cdr kv))))))
-        (hash->list (all-badge-earnings))))))
+	 (map
+	   (lambda (kv)
+	     (div
+	       (p (a href: (~a "/badge-reports?user=" (car kv))
+		     (car kv))
+		  (ol (map show-badge (cdr kv))))))
+	   (hash->list (all-badge-earnings)))))
+
+  (response/html/content
+    ret))
 
 (module+ main
-  (define x
-    (list
-      (graph-overview)
-      (graph-overview)
-      (graph-overview)
-      (graph-overview)
-      (graph-overview)
-      (graph-overview)
-      (graph-overview)
-      (graph-overview)
-      (graph-overview)
-      )
-    )
+
+	 (displayln "Sand")
+	 (graph-overview)
+	 (displayln "wich")
 
   )
 

@@ -19,7 +19,6 @@
     [("badge-reports")
      (lambda (r) 
        (define u (param 'user r))
-       (displayln u)
        (if u 
          (render-badge-report-for u)
          (render-badge-report)))]

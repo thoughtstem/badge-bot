@@ -37,7 +37,7 @@
 (--> dl-mt-aa dl-ds-tc)
 (--> dl-ts-vb dl-ts-gh)
 (--> dl-ts-er dl-ts-vb)
-(--> dl-ts-ql dl-ts-er)
+;(--> dl-ts-ql dl-ts-er) ;Typing speed lvl 1 -> lvl 2.  Temporarily severing link until we have snoozing.
 (--> dl-os-tf dl-vo-hw)
 (--> dl-os-tf dl-vo-br)
 (--> dl-os-tf dl-vo-hw)
