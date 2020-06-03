@@ -45,8 +45,9 @@
 (--> dl-ts-ql dl-ll-aa)
 
 ;typing interest, 
-(--> dl-ts-ql dl-ts-aa)
-(--> dl-ts-aa dl-ts-er)
+;(--> dl-ts-ql dl-ts-aa)
+;(--> dl-ts-aa dl-ts-er)
+(--> dl-ts-ql dl-ts-er)
 (--> dl-ts-er dl-ts-vb)
 (--> dl-ts-vb dl-ts-gh)
 
