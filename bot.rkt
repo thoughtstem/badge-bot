@@ -67,14 +67,22 @@
 (define (submit-command . args)
   (~a "Thanks for your submission! I've alerted <@&" mc-badge-checker-role-id "> to take a look at your badge submission!"))
 
-(define (snooze-command badge-id quanity-s)
+(define (snooze-command badge-id quanity-s (user #f))
+  (when user
+    (ensure-messaging-user-has-role-on-server!
+      mc-badge-checker-role-id
+      mc-server-id
+      #:failure-message
+      (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id ">) for that command.")))
+
    (define quantity (string->number quanity-s))
 
    (cond 
      [(zero? quantity)
       (begin
         (unsnooze-badge! (string->symbol badge-id) 
-                         (id->mention (messaging-user-id)))
+                         (or user
+                             (id->mention (messaging-user-id))))
         (~a "Okay, I unsnoozed that badge."))]
      [(> quantity 52)
       (~a "You can't snooze a badge for more than a year.")]
@@ -82,8 +90,11 @@
        (begin
          (snooze-badge! (string->symbol badge-id)
                         quantity
-                        (id->mention (messaging-user-id)))
+                        (or user
+                            (id->mention (messaging-user-id))))
          (~a "Okay, I snoozed that badge so you won't get it for " quantity " weeks.  If you change your mind, run `! snooze " badge-id " 0`"))]))
+
+
 
 (define (badges-command . args)
   (define sub-command-name (first args))
@@ -285,8 +296,12 @@
     ["help" (help-link "https://forum.metacoders.org/t/documentation-badge-bot/137")]
     ["badges" badges-command]
     ["badge" badge-command]
+
+    ;Students do these
     ["submit" submit-command]
-    ["snooze" snooze-command]
+    ["snooze" snooze-command] ;Coaches can do this, if htey pass in a user as the third param
+
+    ;Coaches / Badge Checkers do these
     ["remove" remove-badges-command]
     ["award" award-badges-command]
     ["award-all" award-all-badges-command]
