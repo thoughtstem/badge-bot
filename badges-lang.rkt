@@ -6,6 +6,9 @@
 (provide (struct-out badge)
 	 (rename-out
 	   [get-all-badges all-badges])
+   snoozed-badges 
+   snooze-badge!
+   unsnooze-badge!
 	 available-badges
 	 available-badge?
 	 register-badge!
@@ -99,6 +102,67 @@
 
   (session-store user 'earned val)
   #t)
+
+(define/contract (unsnooze-badge! badge-id user)
+  (-> badge-id? is-mention? boolean?)
+  
+  (define val
+    (session-load user 'snoozed `()))
+
+  (when (not (member badge-id (map first val)))
+    (error (~a user " doesn't have that badge snoozed!")))
+
+  (set! val   
+    (filter-not
+      (lambda (be)
+        (eq? badge-id (first be)))
+      val))
+
+  (session-store user 'snoozed val)
+  #t)
+
+(define/contract (snooze-badge! badge-id num-weeks user)
+  (-> badge-id? number? is-mention? boolean?)
+  
+  (define (badge-earning badge-id)
+    (list
+      badge-id
+      (moment->iso8601/tzid (now/moment #:tz "America/Los_Angeles"))
+      (messaging-user-name)
+      num-weeks))
+
+  (define val
+    (session-load user 'snoozed `()))
+
+  (set! val   
+    (cons
+      (badge-earning badge-id)
+      (filter-not
+        (lambda (be)
+          (eq? badge-id (first be)))
+        val)))
+
+  (session-store user 'snoozed val)
+  #t)
+
+(define (snoozed-badges user)
+  (local-require gregor/period)
+
+  (define val
+    (session-load user 'snoozed `()))
+
+  (filter
+    (lambda (s)
+      (define snoozed-at (iso8601/tzid->moment (second s)))
+      (define snoozed-for  (fourth s)) 
+
+      (define snoozed-until
+        (+period snoozed-at
+                 (weeks snoozed-for)))
+
+      (moment<? (now/moment #:tz "America/Los_Angeles") snoozed-until))
+    val))
+
 
 (define (id->badge i)
   (findf

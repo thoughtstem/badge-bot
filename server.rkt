@@ -34,12 +34,8 @@
                    (request-bindings r))))
 
 (define (handle-cmd r)
-  (define cmd 
-    (with-handlers ([exn:fail? 
-                      (thunk* #f)])
-                   (extract-binding/single
-                     'cmd
-                     (request-bindings r))))
+  (define cmd (param 'cmd r))
+  (define user-id (param 'user-id r))
 
   (if cmd
     (response/full
@@ -48,7 +44,9 @@
       (list )
       (list 
         (string->bytes/utf-8 
-            (->discord-reply (badge-bot cmd)))))
+          (parameterize ([messaging-user-id-override user-id])
+            (->discord-reply 
+              (badge-bot cmd))))))
     (response/full
       200 #"OK"
       (current-seconds) TEXT/HTML-MIME-TYPE

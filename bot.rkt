@@ -1,4 +1,4 @@
-#lang at-exp racket
+#lang racket
 
 (provide 
   (rename-out
@@ -66,6 +66,24 @@
 
 (define (submit-command . args)
   (~a "Thanks for your submission! I've alerted <@&" mc-badge-checker-role-id "> to take a look at your badge submission!"))
+
+(define (snooze-command badge-id quanity-s)
+   (define quantity (string->number quanity-s))
+
+   (cond 
+     [(zero? quantity)
+      (begin
+        (unsnooze-badge! (string->symbol badge-id) 
+                         (id->mention (messaging-user-id)))
+        (~a "Okay, I unsnoozed that badge."))]
+     [(> quantity 52)
+      (~a "You can't snooze a badge for more than a year.")]
+     [else
+       (begin
+         (snooze-badge! (string->symbol badge-id)
+                        quantity
+                        (id->mention (messaging-user-id)))
+         (~a "Okay, I snoozed that badge so you won't get it for " quantity " weeks.  If you change your mind, run `! snooze " badge-id " 0`"))]))
 
 (define (badges-command . args)
   (define sub-command-name (first args))
@@ -268,6 +286,7 @@
     ["badges" badges-command]
     ["badge" badge-command]
     ["submit" submit-command]
+    ["snooze" snooze-command]
     ["remove" remove-badges-command]
     ["award" award-badges-command]
     ["award-all" award-all-badges-command]

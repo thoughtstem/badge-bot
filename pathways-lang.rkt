@@ -106,15 +106,21 @@
    (define ids
      (map first (session-load user 'earned '())))
 
+   (define snoozed-ids
+     (map first (snoozed-badges user)))
 
    (filter-not
      (lambda (b)
-       (member 
-	 (badge-id b)
-	 ids))
+       ;Horizon badges should neither be already earned nor snoozed
+       (or
+         (member 
+           (badge-id b)
+           snoozed-ids)
+         (member 
+           (badge-id b)
+           ids)))
      (flatten
-       (map outgoing-badges (map id->badge ids))))
-   )
+       (map outgoing-badges (map id->badge ids)))))
 
 (define (horizon-for-users users)
   (apply set-intersect
@@ -143,4 +149,42 @@
 
   g2)
 
+
+(module+ test
+  (require rackunit)
+
+  (define u "<@!test-user>")
+  (delete-directory/files "bot/data/<@!test-user>"
+                          #:must-exist? #f)
+
+  ;Horizons should not contained snoozed badges
+
+  (define-badge a "" "" #f)
+  (define-badge b "" "" #f)
+  (define-badge c "" "" #f)
+ 
+  (--> a b)
+  (--> a c)
+
+  (award-badge! 'a u)
+
+  (check-not-false
+    (member
+      b
+      (horizon-for-user u))
+    "Badge b should be in the user's horizon")
+
+  (snooze-badge! 'b 1 u)
+
+  (check-false
+    (member
+      b
+      (horizon-for-user u))
+    "Badge b should NOT be in the user's horizon.  It should be snoozed.")
+
+  (check-not-false
+    (member
+      c
+      (horizon-for-user u))
+    "Badge c should still be in the user's horizon"))
 
