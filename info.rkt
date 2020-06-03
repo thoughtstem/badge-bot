@@ -3,6 +3,7 @@
 (define deps 
   '("base"
     "graph"
+    "simple-http"
     "https://github.com/thoughtstem/discord-bot.git"
     "https://github.com/thoughtstem/discourse-bot.git"
     "https://github.com/thoughtstem/mc-discord-config.git"
