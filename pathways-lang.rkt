@@ -68,8 +68,7 @@
        (get-edges (current-graph))))
 
    (filter available-badge?
-	   (map first incoming-edges))
-  )
+	   (map first incoming-edges)))
 
 (define (outgoing-badges b)
   (filter available-badge?
@@ -101,26 +100,27 @@
 
 (define/contract 
   (horizon-for-user user)
-   (-> is-mention? (listof badge?))
- 
-   (define ids
-     (map first (session-load user 'earned '())))
+  (-> is-mention? (listof badge?))
 
-   (define snoozed-ids
-     (map first (snoozed-badges user)))
 
-   (filter-not
-     (lambda (b)
-       ;Horizon badges should neither be already earned nor snoozed
-       (or
-         (member 
-           (badge-id b)
-           snoozed-ids)
-         (member 
-           (badge-id b)
-           ids)))
-     (flatten
-       (map outgoing-badges (map id->badge ids)))))
+  (define ids
+    (map first (session-load user 'earned '())))
+
+  (define snoozed-ids
+    (map first (snoozed-badges user)))
+
+  (filter-not
+    (lambda (b)
+      ;Horizon badges should neither be already earned nor snoozed
+      (or
+        (member 
+          (badge-id b)
+          snoozed-ids)
+        (member 
+          (badge-id b)
+          ids)))
+    (flatten
+      (map outgoing-badges (map id->badge ids)))))
 
 (define (horizon-for-users users)
   (apply set-intersect
