@@ -15,9 +15,22 @@
 
 ;;PAPER DIGITAL LITERACY BADGES START
 ;(--> dl-dl-aa dl-pc-aa)
+
 (--> dl-pc-aa dl-pc-da)
 (--> dl-pc-da dl-pc-db)
 (--> dl-pc-db dl-pc-dc)
+
+(--> dl-pc-aa dl-pc-la)
+(--> dl-pc-la dl-pc-lb)
+
+(--> dl-pc-aa dl-pc-pa)
+(--> dl-pc-pa dl-pc-pb)
+(--> dl-pc-pb dl-pc-pc)
+
+(--> dl-pc-aa dl-pc-io)
+(--> dl-pc-io dl-pc-it)
+(--> dl-pc-dc dl-pc-it)
+(--> dl-pc-pc dl-pc-it)
 
 ;;PAPER DIGITAL LITERACY BADGES END
 
@@ -45,9 +58,8 @@
 (--> dl-ts-ql dl-ll-aa)
 
 ;typing interest, 
-;(--> dl-ts-ql dl-ts-aa)
-;(--> dl-ts-aa dl-ts-er)
-(--> dl-ts-ql dl-ts-er)
+(--> dl-ts-ql dl-ts-aa)
+(--> dl-ts-aa dl-ts-er)
 (--> dl-ts-er dl-ts-vb)
 (--> dl-ts-vb dl-ts-gh)
 
