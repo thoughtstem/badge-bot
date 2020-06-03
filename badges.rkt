@@ -150,6 +150,13 @@
   "https://forum.metacoders.org/t/digital-literacy-meta-interest-badge/133" 
   )
 
+;; TYPING INTEREST BADGES START
+(define-random-art-badge 
+  dl-ts-aa
+  "Digital Literacy: Typing Interest Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-typing-interest-badge/205" 
+  )
+
 (define-random-art-badge 
   dl-ts-gh
   "Digital Literacy: Typing Speed: Level 4" 
@@ -174,6 +181,23 @@
   "https://forum.metacoders.org/t/digital-literacy-typing-speed-level-1/125" 
   )
 
+;; TYPING INTEREST BADGES END
+
+
+;; COMPUTER BASICS INTEREST START
+
+(define-random-art-badge 
+  dl-cb-aa
+  "Digital Literacy: Computer Basics Interest Badge" 
+  "https://forum.metacoders.org/t/digital-literary-computer-basics-interest-badge/206" 
+  )
+
+(define-random-art-badge 
+  dl-vo-fi
+  "Digital Literacy: Vocabulary: File" 
+  "https://forum.metacoders.org/t/digital-literacy-vocabulary-file/114" 
+  )
+
 (define-random-art-badge 
   dl-vo-os 
   "Digital Literacy: Vocabulary: Operating System" 
@@ -190,6 +214,12 @@
   dl-vo-hw
   "Digital Literacy: Vocabulary: Computer" 
   "https://forum.metacoders.org/t/digital-literacy-vocabulary-computer/124" 
+  )
+
+(define-random-art-badge 
+  dl-vo-vi
+  "Digital Literacy: Vocabulary: Video" 
+  "https://forum.metacoders.org/t/digital-literacy-vocabulary-video/208" 
   )
 
 (define-random-art-badge 
@@ -210,11 +240,20 @@
   "https://forum.metacoders.org/t/digital-literacy-operating-system-windows-management-basics/121" 
   )
 
+;; DISCORD ADVANCED INTEREST BADGES START
+(define-random-art-badge 
+  dl-da-aa
+  "Digital Literacy: Discord Advanced Interest Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-discord-advanced-interest-badge/207" 
+  )
+
 (define-random-art-badge 
   dl-ds-rm
   "Digital Literacy: Discord: Recent Mentions Feature" 
   "https://forum.metacoders.org/t/digital-literacy-discord-recent-mentions-feature/120" 
   )
+
+;; DISCORD ADVANCED INTEREST BADGES END
 
 (define-random-art-badge 
   dl-ds-vc  
@@ -240,16 +279,12 @@
   "https://forum.metacoders.org/t/digital-literacy-operating-system-folder-basics/112" 
   )
 
+;; COMPUTER BASICS INTEREST END
+
 (define-random-art-badge 
   dl-ds-tc 
   "Digital Literacy: Discord: Text Channel Hello World" 
   "https://forum.metacoders.org/t/digital-literacy-discord-text-channel-hello-world/129" 
-  )
-
-(define-random-art-badge 
-  dl-vo-fi
-  "Digital Literacy: Vocabulary: File" 
-  "https://forum.metacoders.org/t/digital-literacy-vocabulary-file/114" 
   )
 
 (define-random-art-badge 
