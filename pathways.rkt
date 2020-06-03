@@ -28,9 +28,11 @@
 (--> dl-pc-pb dl-pc-pc)
 
 (--> dl-pc-aa dl-pc-io)
+
 (--> dl-pc-io dl-pc-it)
 (--> dl-pc-dc dl-pc-it)
 (--> dl-pc-pc dl-pc-it)
+(--> dl-pc-lb dl-pc-it)
 
 ;;PAPER DIGITAL LITERACY BADGES END
 
