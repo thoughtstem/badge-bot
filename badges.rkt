@@ -448,6 +448,35 @@
   "https://forum.metacoders.org/t/digital-art-wescheme-generative-art/203"
   )
 
+(define-random-art-badge 
+  da-wa-cr
+  "Digital Art: WeScheme: Crop"
+  "https://forum.metacoders.org/t/digital-art-wescheme-crop/232"
+  )
+
+(define-random-art-badge 
+  da-wa-cv
+  "Digital Art: WeScheme: Converters"
+  "https://forum.metacoders.org/t/digital-art-wescheme-converters/234"
+  )
+
+(define-random-art-badge 
+  da-wa-me
+  "Digital Art: WeScheme: Manipulation Expert"
+  "https://forum.metacoders.org/t/digital-art-wescheme-manipulation-expert/239"
+  )
+
+(define-random-art-badge 
+  da-wa-su
+  "Digital Art: WeScheme: Fading Sun Art"
+  "https://forum.metacoders.org/t/digital-art-wescheme-fading-sun-art/240"
+  )
+
+(define-random-art-badge 
+  da-wa-pe
+  "Digital Literacy: WeScheme: Peach Drawing"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-peach-drawing/183"
+  )
 
 ;; DA WESCHEME ART INTEREST BADGES END
 

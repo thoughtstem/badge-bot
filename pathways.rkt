@@ -104,6 +104,18 @@
 (--> da-wa-aa da-wa-ra)
 (--> da-wa-aa da-wa-sl)
 (--> da-wa-aa da-wa-rt)
+(--> da-wa-aa da-wa-cr)
+
+(--> da-wa-cr da-wa-cv)
+(--> da-wa-rt da-wa-cv)
+(--> da-wa-sl da-wa-cv)
+
+(--> da-wa-cv da-wa-me)
+(--> da-wa-ra da-wa-me)
+(--> da-wa-ct da-wa-me)
+
+(--> da-wa-me da-wa-su)
+(--> da-wa-me da-wa-pe)
 
 (--> da-wa-aa da-wa-rd)
 (--> da-wa-rd da-wa-lr)
