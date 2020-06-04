@@ -219,7 +219,7 @@
 ;; TYPING INTEREST BADGES END
 
 
-;; WESCHEME INTEREST BADGES START
+;; DL WESCHEME INTEREST BADGES START
 (define-random-art-badge 
   dl-ws-aa 
   "Digital Literacy: WeScheme Interest Badge" 
@@ -281,91 +281,175 @@
   )
 
 (define-random-art-badge 
-  dl-ws-ra
-  "Digital Literacy: WeScheme: RGBA"
-  "https://forum.metacoders.org/t/digital-literacy-wescheme-rgba/204"
+  dl-ws-pr
+  "Digital Literacy: WeScheme: Project"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-project/233"
+  )
+
+;; DL WESCHEME INTEREST BADGES END
+
+;; GAME DESIGN INTEREST START
+
+(define-random-art-badge 
+  2d-gd-aa
+  "2D Game Design Access Badge"
+  "https://forum.metacoders.org/t/2d-game-design-access-badge/237"
   )
 
 (define-random-art-badge 
-  dl-ws-fl
-  "Digital Literacy: WeScheme: Flip"
-  "https://forum.metacoders.org/t/digital-literacy-wescheme-flip/200"
+  3d-gd-aa
+  "3D Game Design Access Badge"
+  "https://forum.metacoders.org/t/3d-game-design-access-badge/238"
   )
 
 (define-random-art-badge 
-  dl-ws-al
-  "Digital Literacy: WeScheme: Align"
-  "https://forum.metacoders.org/t/digital-literacy-wescheme-align/198"
+  gd-dr-aa
+  "Game Design: DrRacket Installation"
+  "https://forum.metacoders.org/t/game-design-drracket-installation/236"
+  )
+
+;; GAME DESIGN INTEREST END
+
+
+;; BATTLEARENA AVENGERS INTEREST START
+(define-random-art-badge 
+  2d-ba-aa
+  "2D Game Design: Battlearena Avengers Install Package"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-install-package/228"
+  )
+;; BATTLE ARENA AVENGERS INTEREST END
+
+
+;; SURVIVAL POKEMON INTEREST START
+(define-random-art-badge 
+  2d-sp-aa
+  "2D Game Design: Survival Pokemon Install Package"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-install-package/230"
+  )
+;; SURVIVAL POKEMON INTEREST END
+
+;; ADVENTURE MARIO INTEREST START
+(define-random-art-badge 
+  2d-am-aa
+  "2D Game Design: Adventure Mario Install Package"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-install-package/231"
+  )
+;; ADVENTURE MARIO INTEREST END
+
+;; 3D EXPLORATION INTEREST START
+(define-random-art-badge 
+  3d-ex-aa
+  "3D Game Design: 3D Exploration Install Package"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-install-package/229"
+  )
+
+(define-random-art-badge
+  3d-ex-00
+  "3D Game Design: 3D Exploration: Hello World"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-hello-world/225"
+  )
+;; 3D EXPLORATION INTEREST END
+
+;; DA WESCHEME ART INTEREST BADGES START
+(define-random-art-badge 
+  da-aa-aa
+  "Digital Art: Access Badge"
+  "https://forum.metacoders.org/t/digital-art-access-badge/226"
   )
 
 (define-random-art-badge 
-  dl-ws-xy
-  "Digital Literacy: WeScheme: Overlay/XY"
-  "https://forum.metacoders.org/t/digital-literacy-wescheme-overlay-xy/180"
+  da-wa-aa
+  "Digital Art: WeScheme Art Access Badge"
+  "https://forum.metacoders.org/t/digital-art-wescheme-art-interest-badge/227"
   )
 
 (define-random-art-badge 
-  dl-ws-s1
-  "Digital Literacy: WeScheme: Stop Sign #1"
-  "https://forum.metacoders.org/t/digital-literacy-wescheme-stop-sign-1/162"
+  da-wa-s1
+  "Digital Art: WeScheme: Stop Sign #1"
+  "https://forum.metacoders.org/t/digital-art-wescheme-stop-sign-1/162"
   )
 
 (define-random-art-badge 
-  dl-ws-s2
-  "Digital Literacy: WeScheme: Stop Sign #2"
-  "https://forum.metacoders.org/t/digital-literacy-wescheme-stop-sign-2/165"
+  da-wa-s2
+  "Digital Art: WeScheme: Stop Sign #2"
+  "https://forum.metacoders.org/t/digital-art-wescheme-stop-sign-2/165"
   )
 
 (define-random-art-badge 
-  dl-ws-s3
-  "Digital Literacy: WeScheme: Stop Sign #3"
-  "https://forum.metacoders.org/t/digital-literacy-wescheme-stop-sign-3/166"
+  da-wa-s3
+  "Digital Art: WeScheme: Stop Sign #3"
+  "https://forum.metacoders.org/t/digital-art-wescheme-stop-sign-3/166"
   )
 
 (define-random-art-badge 
-  dl-ws-cr
-  "Digital Literacy: WeScheme: Controllers"
-  "https://forum.metacoders.org/t/digital-literacy-wescheme-controllers/202"
+  da-wa-al
+  "Digital Art: WeScheme: Align"
+  "https://forum.metacoders.org/t/digital-art-wescheme-align/198"
   )
 
 (define-random-art-badge 
-  dl-ws-rt
-  "Digital Literacy: WeScheme: Rotate"
-  "https://forum.metacoders.org/t/digital-literacy-wescheme-rotate/178"
+  da-wa-xy
+  "Digital Art: WeScheme: Overlay/XY"
+  "https://forum.metacoders.org/t/digital-art-wescheme-overlay-xy/180"
   )
 
 (define-random-art-badge 
-  dl-ws-sl
-  "Digital Literacy: WeScheme: Scale"
-  "https://forum.metacoders.org/t/digital-literacy-wescheme-scale/179"
+  da-wa-ct
+  "Digital Art: WeScheme: Controllers"
+  "https://forum.metacoders.org/t/digital-art-wescheme-controllers/202"
   )
 
 (define-random-art-badge 
-  dl-ws-rd
-  "Digital Literacy: WeScheme: Random"
-  "https://forum.metacoders.org/t/digital-literacy-wescheme-random/199"
+  da-wa-fl
+  "Digital Art: WeScheme: Flip"
+  "https://forum.metacoders.org/t/digital-art-wescheme-flip/200"
   )
 
 (define-random-art-badge 
-  dl-ws-df
-  "Digital Literacy: WeScheme: Functions"
-  "https://forum.metacoders.org/t/digital-literacy-wescheme-functions/195"
+  da-wa-rt
+  "Digital Art: WeScheme: Rotate"
+  "https://forum.metacoders.org/t/digital-art-wescheme-rotate/178"
   )
 
 (define-random-art-badge 
-  dl-ws-ge
-  "Digital Literacy: WeScheme: Generative Art"
-  "https://forum.metacoders.org/t/digital-literacy-wescheme-generative-art/203"
+  da-wa-sl
+  "Digital Art: WeScheme: Scale"
+  "https://forum.metacoders.org/t/digital-art-wescheme-scale/179"
+  )
+
+(define-random-art-badge
+  da-wa-ra
+  "Digital Art: WeScheme: RGBA"
+  "https://forum.metacoders.org/t/digital-art-wescheme-rgba/204"
+  )
+
+
+(define-random-art-badge 
+  da-wa-rd
+  "Digital Art: WeScheme: Random"
+  "https://forum.metacoders.org/t/digital-art-wescheme-random/199"
   )
 
 (define-random-art-badge 
-  dl-ws-lr
-  "Digital Literacy: WeScheme: Lists"
-  "https://forum.metacoders.org/t/digital-literacy-wescheme-lists/201"
+  da-wa-lr
+  "Digital Art: WeScheme: Lists"
+  "https://forum.metacoders.org/t/digital-art-wescheme-lists/201"
+  )
+
+(define-random-art-badge 
+  da-wa-df
+  "Digital Art: WeScheme: Functions"
+  "https://forum.metacoders.org/t/digital-art-wescheme-functions/195"
+  )
+
+(define-random-art-badge 
+  da-wa-ge
+  "Digital Art: WeScheme: Generative Art"
+  "https://forum.metacoders.org/t/digital-art-wescheme-generative-art/203"
   )
 
 
-;; WESCHEME INTEREST BADGES END
+;; DA WESCHEME ART INTEREST BADGES END
 
 
 ;; COMPUTER BASICS INTEREST START
