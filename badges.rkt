@@ -257,6 +257,120 @@
   "https://forum.metacoders.org/t/digital-literacy-wescheme-more-shapes/182" 
   )
 
+(define-random-art-badge 
+  dl-ws-ab
+  "Digital Literacy: WeScheme: Above" 
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-above/176" 
+  )
+
+(define-random-art-badge 
+  dl-ws-bd
+  "Digital Literacy: WeScheme: Beside" 
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-beside/177" 
+  )
+
+(define-random-art-badge 
+  dl-ws-st
+  "Digital Literacy: WeScheme: Overlay" 
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-overlay/171" 
+  )
+
+(define-random-art-badge 
+  dl-ws-cb
+  "Digital Literacy: WeScheme: Combiners" 
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-combiners/181" 
+  )
+
+(define-random-art-badge 
+  dl-ws-de
+  "Digital Literacy: WeScheme: Definitions"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-definitions/172"
+  )
+
+(define-random-art-badge 
+  dl-ws-ra
+  "Digital Literacy: WeScheme: RGBA"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-rgba/204"
+  )
+
+(define-random-art-badge 
+  dl-ws-fl
+  "Digital Literacy: WeScheme: Flip"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-flip/200"
+  )
+
+(define-random-art-badge 
+  dl-ws-al
+  "Digital Literacy: WeScheme: Align"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-align/198"
+  )
+
+(define-random-art-badge 
+  dl-ws-xy
+  "Digital Literacy: WeScheme: Overlay/XY"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-overlay-xy/180"
+  )
+
+(define-random-art-badge 
+  dl-ws-s1
+  "Digital Literacy: WeScheme: Stop Sign #1"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-stop-sign-1/162"
+  )
+
+(define-random-art-badge 
+  dl-ws-s2
+  "Digital Literacy: WeScheme: Stop Sign #2"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-stop-sign-2/165"
+  )
+
+(define-random-art-badge 
+  dl-ws-s3
+  "Digital Literacy: WeScheme: Stop Sign #3"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-stop-sign-3/166"
+  )
+
+(define-random-art-badge 
+  dl-ws-cr
+  "Digital Literacy: WeScheme: Controllers"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-controllers/202"
+  )
+
+(define-random-art-badge 
+  dl-ws-rt
+  "Digital Literacy: WeScheme: Rotate"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-rotate/178"
+  )
+
+(define-random-art-badge 
+  dl-ws-sl
+  "Digital Literacy: WeScheme: Scale"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-scale/179"
+  )
+
+(define-random-art-badge 
+  dl-ws-rd
+  "Digital Literacy: WeScheme: Random"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-random/199"
+  )
+
+(define-random-art-badge 
+  dl-ws-df
+  "Digital Literacy: WeScheme: Functions"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-functions/195"
+  )
+
+(define-random-art-badge 
+  dl-ws-ge
+  "Digital Literacy: WeScheme: Generative Art"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-generative-art/203"
+  )
+
+(define-random-art-badge 
+  dl-ws-lr
+  "Digital Literacy: WeScheme: Lists"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-lists/201"
+  )
+
 
 ;; WESCHEME INTEREST BADGES END
 
