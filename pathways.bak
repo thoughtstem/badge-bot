@@ -65,13 +65,6 @@
 (--> dl-ts-er dl-ts-vb)
 (--> dl-ts-vb dl-ts-gh)
 
-;wescheme interest
-(--> dl-ts-ql dl-ws-aa)
-(--> dl-ws-aa dl-ws-sa)
-(--> dl-ws-sa dl-ws-si)
-(--> dl-ws-si dl-ws-sc)
-(--> dl-ws-sc dl-ws-sd)
-
 ;discord advanced interest
 (--> dl-os-wm dl-da-aa)
 (--> dl-da-aa dl-ds-rm)
