@@ -109,3 +109,23 @@
 
 ;;DIGITAL LITERACY BADGES END
 
+;;2D GAME DESIGN BADGES START
+
+;;2D GAME DESIGN ENDLESS RUNNER BADGES START
+(--> gd-gd-aa gd-er-aa)
+(--> gd-er-aa gd-er-ea)
+(--> gd-er-ea gd-er-vp)
+
+(--> gd-er-vp gd-er-pl)
+(--> gd-er-vp gd-er-bi)
+(--> gd-er-vp gd-er-gi)
+(--> gd-er-vp gd-er-bg)
+
+(--> gd-er-pl gd-er-p1)
+(--> gd-er-bi gd-er-p1)
+(--> gd-er-gi gd-er-p1)
+(--> gd-er-bg gd-er-p1)
+
+;;2D GAME DESIGN ENDLESS RUNNER BADGES END
+
+;;2D GAME DESIGN BADGES END
