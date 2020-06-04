@@ -353,7 +353,7 @@
 ;; DA WESCHEME ART INTEREST BADGES START
 (define-random-art-badge 
   da-aa-aa
-  "Digital Art: Access Badge"
+  "Digital Art Access Badge"
   "https://forum.metacoders.org/t/digital-art-access-badge/226"
   )
 
