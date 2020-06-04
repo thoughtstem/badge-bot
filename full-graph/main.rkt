@@ -91,7 +91,7 @@
   (render (list (main g))
 	  #:to "full-graph/out"))
 
-#;
+
 (module+ main
 	 (generate-graph))
 

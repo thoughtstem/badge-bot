@@ -226,6 +226,41 @@
 ;; TYPING INTEREST BADGES END
 
 
+;; WESCHEME INTEREST BADGES START
+(define-random-art-badge 
+  dl-ws-aa 
+  "Digital Literacy: WeScheme Interest Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-interest-badge/163" 
+  )
+
+(define-random-art-badge 
+  dl-ws-sa
+  "Digital Literacy: WeScheme: Basic Shapes" 
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-basic-shapes/164" 
+  )
+
+(define-random-art-badge 
+  dl-ws-si
+  "Digital Literacy: WeScheme: Size Change " 
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-size-change/168" 
+  )
+
+(define-random-art-badge 
+  dl-ws-sc
+  "Digital Literacy: WeScheme: Size + Color Change" 
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-size-color-change/169" 
+  )
+
+(define-random-art-badge 
+  dl-ws-sd
+  "Digital Literacy: WeScheme: More Shapes" 
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-more-shapes/182" 
+  )
+
+
+;; WESCHEME INTEREST BADGES END
+
+
 ;; COMPUTER BASICS INTEREST START
 
 (define-random-art-badge 
