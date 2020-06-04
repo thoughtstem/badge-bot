@@ -564,65 +564,57 @@
 
 ;;DIGITAL LITERACY BADGES END
 
-;;2D GAME DESIGN BADGES START
-
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES START
-(define-random-art-badge 
-  gd-gd-aa
-  "2D Game Design Access Badge" 
-  "https://forum.metacoders.org/t/2d-game-design-access-badge/213" 
-  )
 
 (define-random-art-badge 
-  gd-er-aa
+  2d-er-aa
   "2D Game Design: Endless Runner Access Badge" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-access-badge/216" 
   )
 
 (define-random-art-badge 
-  gd-er-ea
+  2d-er-ea
   "2D Game Design: Endless Runner: Exploring Assets" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-exploring-assets/161" 
   )
 
 (define-random-art-badge 
-  gd-er-vp
+  2d-er-vp
   "2D Game Design: Endless Runner: MVP" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-mvp/190" 
   )
 
 (define-random-art-badge 
-  gd-er-pl
+  2d-er-pl
   "2D Game Design: Endless Runner: Customize Your Player" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-customize-your-player/192" 
   )
 
 (define-random-art-badge 
-  gd-er-bi
+  2d-er-bi
   "2D Game Design: Endless Runner: Customize Bad Items" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-customize-bad-items/193" 
   )
 
 (define-random-art-badge 
-  gd-er-gi
+  2d-er-gi
   "2D Game Design: Endless Runner: Customize Good Item" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-customize-good-item/194" 
   )
 
 (define-random-art-badge 
-  gd-er-bg
+  2d-er-bg
   "2D Game Design: Endless Runner: Customize Background" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-customize-background/196" 
   )
 
 (define-random-art-badge 
-  gd-er-p1
+  2d-er-p1
   "2D Game Design: Endless Runner: Project 1" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-project-1/197" 
   )
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
 
-;;2D GAME DESIGN BADGES END
 
 (module+ test 
 	 (require discord-bot)

@@ -170,19 +170,19 @@
 ;;2D GAME DESIGN BADGES START
 
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES START
-(--> gd-gd-aa gd-er-aa)
-(--> gd-er-aa gd-er-ea)
-(--> gd-er-ea gd-er-vp)
+(--> 2d-gd-aa 2d-er-aa)
+(--> 2d-er-aa 2d-er-ea)
+(--> 2d-er-ea 2d-er-vp)
 
-(--> gd-er-vp gd-er-pl)
-(--> gd-er-vp gd-er-bi)
-(--> gd-er-vp gd-er-gi)
-(--> gd-er-vp gd-er-bg)
+(--> 2d-er-vp 2d-er-pl)
+(--> 2d-er-vp 2d-er-bi)
+(--> 2d-er-vp 2d-er-gi)
+(--> 2d-er-vp 2d-er-bg)
 
-(--> gd-er-pl gd-er-p1)
-(--> gd-er-bi gd-er-p1)
-(--> gd-er-gi gd-er-p1)
-(--> gd-er-bg gd-er-p1)
+(--> 2d-er-pl 2d-er-p1)
+(--> 2d-er-bi 2d-er-p1)
+(--> 2d-er-gi 2d-er-p1)
+(--> 2d-er-bg 2d-er-p1)
 
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
 
