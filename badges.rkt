@@ -288,6 +288,68 @@
 
 ;; DL WESCHEME INTEREST BADGES END
 
+;; GAME DESIGN INTEREST START
+
+(define-random-art-badge 
+  2d-gd-aa
+  "2D Game Design Access Badge"
+  "https://forum.metacoders.org/t/2d-game-design-access-badge/237"
+  )
+
+(define-random-art-badge 
+  3d-gd-aa
+  "3D Game Design Access Badge"
+  "https://forum.metacoders.org/t/3d-game-design-access-badge/238"
+  )
+
+(define-random-art-badge 
+  gd-dr-aa
+  "Game Design: DrRacket Installation"
+  "https://forum.metacoders.org/t/game-design-drracket-installation/236"
+  )
+
+;; GAME DESIGN INTEREST END
+
+
+;; BATTLEARENA AVENGERS INTEREST START
+(define-random-art-badge 
+  2d-ba-aa
+  "2D Game Design: Battlearena Avengers Install Package"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-install-package/228"
+  )
+;; BATTLE ARENA AVENGERS INTEREST END
+
+
+;; SURVIVAL POKEMON INTEREST START
+(define-random-art-badge 
+  2d-sp-aa
+  "2D Game Design: Survival Pokemon Install Package"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-install-package/230"
+  )
+;; SURVIVAL POKEMON INTEREST END
+
+;; ADVENTURE MARIO INTEREST START
+(define-random-art-badge 
+  2d-am-aa
+  "2D Game Design: Adventure Mario Install Package"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-install-package/231"
+  )
+;; ADVENTURE MARIO INTEREST END
+
+;; 3D EXPLORATION INTEREST START
+(define-random-art-badge 
+  3d-ex-aa
+  "3D Game Design: 3D Exploration Install Package"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-install-package/229"
+  )
+
+(define-random-art-badge
+  3d-ex-00
+  "3D Game Design: 3D Exploration: Hello World"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-hello-world/225"
+  )
+;; 3D EXPLORATION INTEREST END
+
 ;; DA WESCHEME ART INTEREST BADGES START
 (define-random-art-badge 
   da-aa-aa
