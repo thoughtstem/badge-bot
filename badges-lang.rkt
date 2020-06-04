@@ -1,4 +1,5 @@
 #lang racket 
+
 (require 2htdp/image
 	 discord-bot
 	 gregor)
@@ -21,6 +22,7 @@
 	 id->badge
 	 (all-from-out 2htdp/image)
 	 random-badge-art
+	 define-random-art-badge
 	 add-badge-data
 	 is-interest-badge?)
 
@@ -230,4 +232,10 @@
 		       new-data
 		       (badge-data b))]))
 
+(define-syntax-rule (define-random-art-badge id name url)
+  (define-badge
+    id
+    name
+    url
+    (random-badge-art 'id)))
 

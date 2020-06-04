@@ -310,6 +310,7 @@
     ["roster" roster-command]
     ["rosterize-station" rosterize-station-command]
     ["crew-manifest-station" crew-manifest-station-command]
+    ["cms" crew-manifest-station-command]
     [else void]))
 
 

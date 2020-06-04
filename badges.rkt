@@ -4,13 +4,6 @@
 
 (require "badges-lang.rkt")
 
-(define-syntax-rule (define-random-art-badge id name url)
-  (define-badge
-    id
-    name
-    url
-    (random-badge-art 'id)))
-
 
 (define-random-art-badge 
   dl-dl-aa
