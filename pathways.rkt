@@ -72,9 +72,79 @@
 (--> dl-ws-si dl-ws-sc)
 (--> dl-ws-sc dl-ws-sd)
 
+(--> dl-ws-sd dl-ws-ab)
+(--> dl-ws-sd dl-ws-bd)
+(--> dl-ws-sd dl-ws-st)
+
+
+(--> dl-ws-ab dl-ws-cb)
+(--> dl-ws-bd dl-ws-cb)
+(--> dl-ws-st dl-ws-cb)
+
+(--> dl-ws-cb dl-ws-de)
+
+(--> dl-ws-de dl-ws-pr)
+(--> dl-ws-pr da-aa-aa)
+
+;wescheme art interest
+(--> da-aa-aa da-wa-aa)
+
+
+(--> da-wa-aa da-wa-s1)
+(--> da-wa-s1 da-wa-s2)
+(--> da-wa-s2 da-wa-s3)
+
+(--> da-wa-aa da-wa-xy)
+(--> da-wa-xy da-wa-ct)
+(--> da-wa-aa da-wa-fl)
+(--> da-wa-fl da-wa-ct)
+(--> da-wa-aa da-wa-al)
+(--> da-wa-al da-wa-ct)
+
+(--> da-wa-aa da-wa-ra)
+(--> da-wa-aa da-wa-sl)
+(--> da-wa-aa da-wa-rt)
+(--> da-wa-aa da-wa-cr)
+
+(--> da-wa-cr da-wa-cv)
+(--> da-wa-rt da-wa-cv)
+(--> da-wa-sl da-wa-cv)
+
+(--> da-wa-cv da-wa-me)
+(--> da-wa-ra da-wa-me)
+(--> da-wa-ct da-wa-me)
+
+(--> da-wa-me da-wa-su)
+(--> da-wa-me da-wa-pe)
+
+(--> da-wa-aa da-wa-rd)
+(--> da-wa-rd da-wa-lr)
+(--> da-wa-lr da-wa-df)
+(--> da-wa-df da-wa-ge)
+
 ;discord advanced interest
 (--> dl-os-wm dl-da-aa)
 (--> dl-da-aa dl-ds-rm)
+
+
+;game design interest
+(--> dl-ws-pr 2d-gd-aa)
+(--> dl-ws-pr 3d-gd-aa)
+(--> 2d-gd-aa gd-dr-aa)
+(--> 3d-gd-aa gd-dr-aa)
+
+;battlearena avengers interest
+(--> gd-dr-aa 2d-ba-aa)
+
+;survival pokemon interest
+(--> gd-dr-aa 2d-sp-aa)
+
+;adventure mario interest
+(--> gd-dr-aa 2d-am-aa)
+
+;3d-exploration interest
+(--> gd-dr-aa 3d-ex-aa)
+(--> 3d-ex-aa 3d-ex-00)
 
 ;;COMPUTER BASICS INTEREST BADGES START
 (--> dl-os-wm dl-cb-aa)
@@ -109,3 +179,23 @@
 
 ;;DIGITAL LITERACY BADGES END
 
+;;2D GAME DESIGN BADGES START
+
+;;2D GAME DESIGN ENDLESS RUNNER BADGES START
+(--> 2d-gd-aa 2d-er-aa)
+(--> 2d-er-aa 2d-er-ea)
+(--> 2d-er-ea 2d-er-vp)
+
+(--> 2d-er-vp 2d-er-pl)
+(--> 2d-er-vp 2d-er-bi)
+(--> 2d-er-vp 2d-er-gi)
+(--> 2d-er-vp 2d-er-bg)
+
+(--> 2d-er-pl 2d-er-p1)
+(--> 2d-er-bi 2d-er-p1)
+(--> 2d-er-gi 2d-er-p1)
+(--> 2d-er-bg 2d-er-p1)
+
+;;2D GAME DESIGN ENDLESS RUNNER BADGES END
+
+;;2D GAME DESIGN BADGES END

@@ -8,7 +8,8 @@
 	 discourse-bot
 	 mc-discord-config
 	 "badges-lang.rkt"
-	 "rosters.rkt")
+	 "rosters.rkt"
+	 "questions/lang.rkt")
 
 (define (describe-badge b)
   (define left
@@ -256,6 +257,9 @@
 (define (get-available-coaches [coach-voice-channel-id mc-coach-space-station-voice-channel-id])
   (get-users-from-channel coach-voice-channel-id ))
 
+(define (beam-up-gif)
+  (~a "https://tenor.com/view/beam-me-up-scotty-gif-11313969"))
+
 (define (crew-manifest-station-command student-voice-channel-id 
 				       coach-voice-channel-id
 				       . not-these-users)
@@ -277,19 +281,19 @@
   (define manifests
     (map 
       (lambda (m)
-	(list
-	  (badge-url (first m))
-	  (second m)))
+        (list
+          (~a "The following mission will be launching shortly:")
+          (badge-url (first m))
+          (second m)
+          (beam-up-gif)))
       (crew-manifests roster 
-		      #:ship-capacity 5
-		      #:coaches 
-		      coaches-hash
-		      )))
+                      #:ship-capacity 5
+                      #:coaches 
+                      coaches-hash)))
 
   (if (empty? manifests)
     "I couldn't construct a manifest for those users"
-    manifests)
-  )
+    manifests))
 
 (define b
   (bot
@@ -311,6 +315,10 @@
     ["rosterize-station" rosterize-station-command]
     ["crew-manifest-station" crew-manifest-station-command]
     ["cms" crew-manifest-station-command]
+
+    ;Question bot
+    ["q" ask-me-a-question]
+    ["a" here-is-my-answer]
     [else void]))
 
 
