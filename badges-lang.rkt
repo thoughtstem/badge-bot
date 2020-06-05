@@ -189,7 +189,7 @@
   (make-immutable-hash
     (map 
       (lambda (u)
-	(cons u (badges-for-user u))) 
+        (cons u (badges-for-user u))) 
       users)))
 
 (define (random-badge-art b)
