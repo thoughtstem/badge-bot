@@ -73,6 +73,7 @@
       badge-id
       (moment->iso8601/tzid (now/moment #:tz "America/Los_Angeles"))
       (messaging-user-name)))
+
   (define val
     (session-load user 'earned `()))
 

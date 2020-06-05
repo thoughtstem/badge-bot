@@ -1,16 +1,10 @@
 #lang racket
 
-(require "main.rkt" 
-	 "pathways.rkt"
-	 "rosters.rkt"
-	 discord-bot)
+(require "pathways.rkt")
 
-(module+ 
-  main
+(module+ main
+	 (define u "<@!488418734860402688>")
 
-  (crew-manifest-station-command
-    "715315520941064245"
-    "716036392836399149")
-
-  )
-
+	 (pretty-print (map badge-name (horizon-for-user u)))
+	 (pretty-print (map badge-name (badges-for-user u)))
+	 )
