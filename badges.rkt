@@ -317,6 +317,12 @@
   "2D Game Design: Battlearena Avengers Install Package"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-install-package/228"
   )
+
+(define-random-art-badge 
+  2d-ba-00
+  "2D Game Design: Battlearena Avengers: Hello World"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-hello-world/241"
+  )
 ;; BATTLE ARENA AVENGERS INTEREST END
 
 
@@ -326,6 +332,12 @@
   "2D Game Design: Survival Pokemon Install Package"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-install-package/230"
   )
+
+(define-random-art-badge 
+  2d-sp-00
+  "2D Game Design: Survival Pokemon: Hello World"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-hello-world/242"
+  )
 ;; SURVIVAL POKEMON INTEREST END
 
 ;; ADVENTURE MARIO INTEREST START
@@ -333,6 +345,12 @@
   2d-am-aa
   "2D Game Design: Adventure Mario Install Package"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-install-package/231"
+  )
+
+(define-random-art-badge 
+  2d-am-00
+  "2D Game Design: Adventure Mario: Hello World"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-hello-world/243"
   )
 ;; ADVENTURE MARIO INTEREST END
 
@@ -347,6 +365,12 @@
   3d-ex-00
   "3D Game Design: 3D Exploration: Hello World"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-hello-world/225"
+  )
+
+(define-random-art-badge
+  3d-ex-01
+  "3D Game Design: 3D Exploration: Environment 1"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-environment-1/248"
   )
 ;; 3D EXPLORATION INTEREST END
 
