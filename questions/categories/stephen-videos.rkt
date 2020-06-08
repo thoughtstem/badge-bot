@@ -6,7 +6,7 @@
 
 (define-random-art-badge 
   q-sv-aa
-  "Questions: Stephen's Video Picks: Hello World" 
+  "Questions: Concept Videos: Hello World" 
   "")
 
 ;https://www.youtube.com/watch?v=tTtjETjGDFY

@@ -10,7 +10,7 @@
          web-server/dispatch
 
          discord-bot
-         (except-in webapp/js header))
+         (except-in webapp/js header log))
 
 (current-directory ".")
 
@@ -36,6 +36,8 @@
 (define (handle-cmd r)
   (define cmd (param 'cmd r))
   (define user-id (param 'user-id r))
+
+  (log "Server handling: " cmd)
 
   (if cmd
     (response/full
