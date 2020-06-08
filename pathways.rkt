@@ -135,16 +135,20 @@
 
 ;battlearena avengers interest
 (--> gd-dr-aa 2d-ba-aa)
+(--> 2d-ba-aa 2d-ba-00)
 
 ;survival pokemon interest
 (--> gd-dr-aa 2d-sp-aa)
+(--> 2d-sp-aa 2d-sp-00)
 
 ;adventure mario interest
 (--> gd-dr-aa 2d-am-aa)
+(--> 2d-am-aa 2d-am-00)
 
 ;3d-exploration interest
 (--> gd-dr-aa 3d-ex-aa)
 (--> 3d-ex-aa 3d-ex-00)
+(--> 3d-ex-00 3d-ex-01)
 
 ;;COMPUTER BASICS INTEREST BADGES START
 (--> dl-os-wm dl-cb-aa)
