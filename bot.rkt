@@ -172,12 +172,15 @@
     #:failure-message
     (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
 
-  (map
-   (lambda (user)
-    (award-badge! (string->symbol badge-id) user))
-   users)
+  (define awarded
+    (filter identity
+	    (map
+	      (lambda (user)
+		(with-handlers ([exn:fail? (thunk* #f)])
+		  (award-badge! (string->symbol badge-id) user)))
+	      users)))
 
-  (~a "You've awarded " badge-id " to " (length users) " users!"))
+  (~a "You've awarded " badge-id " to " (length awarded) " users!"))
 
 (define (remove-badges-command badge-id user)
   (ensure-messaging-user-has-role-on-server!

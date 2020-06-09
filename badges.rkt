@@ -666,6 +666,7 @@
   "2D Game Design: Endless Runner: Project 1" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-project-1/197" 
   )
+
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
 
 
@@ -674,5 +675,4 @@
 
 	 (users->earned-badges-hash
 	   (list
-	     (id->mention "412679210310828033")))
-	 )
+	     (id->mention "412679210310828033"))))
