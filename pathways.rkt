@@ -136,6 +136,35 @@
 ;battlearena avengers interest
 (--> gd-dr-aa 2d-ba-aa)
 (--> 2d-ba-aa 2d-ba-00)
+(--> 2d-ba-00 2d-ba-01)
+(--> 2d-ba-01 2d-ba-02)
+(--> 2d-ba-02 2d-ba-03)
+(--> 2d-ba-03 2d-ba-04)
+
+(--> 2d-ba-03 2d-ba-05)
+(--> 2d-ba-05 2d-ba-06)
+(--> 2d-ba-06 2d-ba-07)
+(--> 2d-ba-07 2d-ba-08)
+(--> 2d-ba-08 2d-ba-09)
+
+(--> 2d-ba-03 2d-ba-10)
+(--> 2d-ba-10 2d-ba-11)
+(--> 2d-ba-11 2d-ba-12)
+(--> 2d-ba-12 2d-ba-13)
+(--> 2d-ba-13 2d-ba-14)
+
+(--> 2d-ba-12 2d-ba-15)
+(--> 2d-ba-12 2d-ba-20)
+
+(--> 2d-ba-15 2d-ba-16)
+(--> 2d-ba-16 2d-ba-17)
+(--> 2d-ba-17 2d-ba-18)
+(--> 2d-ba-18 2d-ba-19)
+
+(--> 2d-ba-20 2d-ba-21)
+(--> 2d-ba-21 2d-ba-22)
+(--> 2d-ba-22 2d-ba-23)
+(--> 2d-ba-23 2d-ba-24)
 
 ;survival pokemon interest
 (--> gd-dr-aa 2d-sp-aa)
@@ -149,6 +178,39 @@
 (--> gd-dr-aa 3d-ex-aa)
 (--> 3d-ex-aa 3d-ex-00)
 (--> 3d-ex-00 3d-ex-01)
+
+(--> 3d-ex-01 3d-ex-02)
+(--> 3d-ex-02 3d-ex-03)
+(--> 3d-ex-03 3d-ex-04)
+
+
+(--> 3d-ex-01 3d-ex-05)
+(--> 3d-ex-05 3d-ex-06)
+(--> 3d-ex-06 3d-ex-07)
+(--> 3d-ex-07 3d-ex-08)
+(--> 3d-ex-08 3d-ex-09)
+
+(--> 3d-ex-01 3d-ex-10)
+(--> 3d-ex-10 3d-ex-11)
+(--> 3d-ex-11 3d-ex-12)
+(--> 3d-ex-12 3d-ex-13)
+(--> 3d-ex-13 3d-ex-14)
+
+(--> 3d-ex-07 3d-ex-15)
+(--> 3d-ex-07 3d-ex-20)
+(--> 3d-ex-12 3d-ex-15)
+(--> 3d-ex-12 3d-ex-20)
+
+(--> 3d-ex-15 3d-ex-16)
+(--> 3d-ex-16 3d-ex-17)
+(--> 3d-ex-17 3d-ex-18)
+(--> 3d-ex-18 3d-ex-19)
+
+(--> 3d-ex-20 3d-ex-21)
+(--> 3d-ex-21 3d-ex-22)
+(--> 3d-ex-22 3d-ex-23)
+(--> 3d-ex-23 3d-ex-24)
+
 
 ;;COMPUTER BASICS INTEREST BADGES START
 (--> dl-os-wm dl-cb-aa)
