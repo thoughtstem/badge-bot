@@ -135,6 +135,10 @@
 
 (define (list-badges-by-user-name-command user)
   (define badge-list (badges-for-user user))
+
+  (~a "http://18.213.15.93:6969/badge-reports?user=" user)
+
+  #;
   (if (empty? badge-list)
     (~a "Sorry, " user " doesn't have any badges yet.")
     (map show-badge-img (badges-for-user user))))
@@ -272,11 +276,11 @@
 
   (define roster
     (parameterize ([available-badges
-		     (flatten (hash-values coaches-hash))]) 
+                     (flatten (hash-values coaches-hash))]) 
       (roster-for-users 
-	(filter-not 
-	  (curryr member not-these-users)
-	  (get-users-from-channel student-voice-channel-id)))))
+        (filter-not 
+          (curryr member not-these-users)
+          (get-users-from-channel student-voice-channel-id)))))
 
   (define manifests
     (map 
@@ -293,7 +297,17 @@
 
   (if (empty? manifests)
     "I couldn't construct a manifest for those users"
-    manifests))
+    (serve+link manifests)))
+
+(define (serve+link discord-repliable)
+  (define file-name
+    (~a "served-reply-" (random 1000) "-" (current-milliseconds)))
+  (with-output-to-file 
+    (build-path "public" file-name)
+    (thunk*
+      (displayln (->discord-reply discord-repliable))))
+
+  (~a "http://18.213.15.93:6969/" file-name))
 
 (define b
   (bot
