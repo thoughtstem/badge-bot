@@ -36,11 +36,11 @@
       (~a "I'm out of questions for you.  Check back later!")]))
 
 
-(define (here-is-my-answer a)
+(define (here-is-my-answer . a)
   (try-answer 
     (id->mention
       (messaging-user-id))
-    a))
+    (string-join a " ")))
 
 
 (define (is-question-badge? b)
@@ -72,8 +72,8 @@
     i))
 
 (define (correct-answer? a q)
-  (member a 
-          (rest q) 
+  (member (string-downcase (string-trim a))
+          (map string-downcase (rest q))
           string=?))
 
 (define (try-answer u a)
