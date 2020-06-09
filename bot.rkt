@@ -7,6 +7,7 @@
 (require discord-bot
 	 discourse-bot
 	 mc-discord-config
+	 net/uri-codec
 	 "badges-lang.rkt"
 	 "rosters.rkt"
 	 "questions/lang.rkt")
@@ -136,12 +137,8 @@
 (define (list-badges-by-user-name-command user)
   (define badge-list (badges-for-user user))
 
-  (~a "http://18.213.15.93:6969/badge-reports?user=" user)
-
-  #;
-  (if (empty? badge-list)
-    (~a "Sorry, " user " doesn't have any badges yet.")
-    (map show-badge-img (badges-for-user user))))
+  (~a "http://18.213.15.93:6969/badge-reports?user=" 
+      (uri-encode user)))
 
 (define (get-page p bs)
   (define (safe-string->number n)

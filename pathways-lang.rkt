@@ -23,13 +23,15 @@
 
 (require graph 2htdp/image
 	 discord-bot
-	 "badges-lang.rkt")
+	 "badges-lang.rkt"
+	 "util.rkt"
+	 )
 
 (define current-graph
   (make-parameter 
     (weighted-graph/directed '())))
 
-(define (init-network badges)
+(define/log (init-network badges)
   (for ([b badges])
 
        (when (member b (get-vertices (current-graph)))
@@ -39,7 +41,7 @@
 	 (current-graph) 
 	 b)))
 
-(define (--> b1 b2)
+(define/log (--> b1 b2)
 
   ;A simple graph is a nice property to have.
   ;  But this makes badge bot much slower..
@@ -58,8 +60,8 @@
     (current-graph) 
     b1 b2 1))
 
-(define (incoming-badges b)
-  (define (incoming-edge? e)
+(define/log (incoming-badges b)
+  (define/log (incoming-edge? e)
     (equal? b (second e)))
 
    (define incoming-edges
@@ -70,27 +72,30 @@
    (filter available-badge?
 	   (map first incoming-edges)))
 
-(define (outgoing-badges b)
-  (filter available-badge?
-	  (get-neighbors
-	    (current-graph)
-	    b)))
+(define/log (outgoing-badges b)
+	    (log "from: " b)
+
+	    (if (not b) '()
+	      (filter available-badge?
+		      (get-neighbors
+			(current-graph)
+			b))))
 
 ;TODO: Assume single graph?  Parameterize??
-(define (incoming-badges-img b)
+(define/log (incoming-badges-img b)
   (above/align 'left
     (text "Requires" 24 'white)
     (badge-cloud
       (incoming-badges b))))
 
-(define (outgoing-badges-img b)
+(define/log (outgoing-badges-img b)
   (above/align 'left
     (text "Unlocks" 24 'white)
 
     (badge-cloud
       (outgoing-badges b))))
 
-(define (badge-cloud badges)
+(define/log (badge-cloud badges)
   (match (length badges) 
     [0 (text "None" 24 'white)]
     [1 (badge-img-with-id (first badges))]
@@ -122,14 +127,14 @@
     (flatten
       (map outgoing-badges (map id->badge ids)))))
 
-(define (horizon-for-users users)
+(define/log (horizon-for-users users)
   (apply set-intersect
 	 (map (lambda (u)
 		(flatten
 		  (horizon-for-user u)))
 	      users)))
 
-(define (filter-graph-by-user g u)
+(define/log (filter-graph-by-user g u)
   (define g2 (graph-copy g))
   (define earned-ids (map badge-id (badges-for-user u)))
   (define horizon-ids (map badge-id (horizon-for-user u)))
