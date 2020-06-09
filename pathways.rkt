@@ -104,6 +104,18 @@
 (--> da-wa-aa da-wa-ra)
 (--> da-wa-aa da-wa-sl)
 (--> da-wa-aa da-wa-rt)
+(--> da-wa-aa da-wa-cr)
+
+(--> da-wa-cr da-wa-cv)
+(--> da-wa-rt da-wa-cv)
+(--> da-wa-sl da-wa-cv)
+
+(--> da-wa-cv da-wa-me)
+(--> da-wa-ra da-wa-me)
+(--> da-wa-ct da-wa-me)
+
+(--> da-wa-me da-wa-su)
+(--> da-wa-me da-wa-pe)
 
 (--> da-wa-aa da-wa-rd)
 (--> da-wa-rd da-wa-lr)
@@ -123,16 +135,82 @@
 
 ;battlearena avengers interest
 (--> gd-dr-aa 2d-ba-aa)
+(--> 2d-ba-aa 2d-ba-00)
+(--> 2d-ba-00 2d-ba-01)
+(--> 2d-ba-01 2d-ba-02)
+(--> 2d-ba-02 2d-ba-03)
+(--> 2d-ba-03 2d-ba-04)
+
+(--> 2d-ba-03 2d-ba-05)
+(--> 2d-ba-05 2d-ba-06)
+(--> 2d-ba-06 2d-ba-07)
+(--> 2d-ba-07 2d-ba-08)
+(--> 2d-ba-08 2d-ba-09)
+
+(--> 2d-ba-03 2d-ba-10)
+(--> 2d-ba-10 2d-ba-11)
+(--> 2d-ba-11 2d-ba-12)
+(--> 2d-ba-12 2d-ba-13)
+(--> 2d-ba-13 2d-ba-14)
+
+(--> 2d-ba-12 2d-ba-15)
+(--> 2d-ba-12 2d-ba-20)
+
+(--> 2d-ba-15 2d-ba-16)
+(--> 2d-ba-16 2d-ba-17)
+(--> 2d-ba-17 2d-ba-18)
+(--> 2d-ba-18 2d-ba-19)
+
+(--> 2d-ba-20 2d-ba-21)
+(--> 2d-ba-21 2d-ba-22)
+(--> 2d-ba-22 2d-ba-23)
+(--> 2d-ba-23 2d-ba-24)
 
 ;survival pokemon interest
 (--> gd-dr-aa 2d-sp-aa)
+(--> 2d-sp-aa 2d-sp-00)
 
 ;adventure mario interest
 (--> gd-dr-aa 2d-am-aa)
+(--> 2d-am-aa 2d-am-00)
 
 ;3d-exploration interest
 (--> gd-dr-aa 3d-ex-aa)
 (--> 3d-ex-aa 3d-ex-00)
+(--> 3d-ex-00 3d-ex-01)
+
+(--> 3d-ex-01 3d-ex-02)
+(--> 3d-ex-02 3d-ex-03)
+(--> 3d-ex-03 3d-ex-04)
+
+
+(--> 3d-ex-01 3d-ex-05)
+(--> 3d-ex-05 3d-ex-06)
+(--> 3d-ex-06 3d-ex-07)
+(--> 3d-ex-07 3d-ex-08)
+(--> 3d-ex-08 3d-ex-09)
+
+(--> 3d-ex-01 3d-ex-10)
+(--> 3d-ex-10 3d-ex-11)
+(--> 3d-ex-11 3d-ex-12)
+(--> 3d-ex-12 3d-ex-13)
+(--> 3d-ex-13 3d-ex-14)
+
+(--> 3d-ex-07 3d-ex-15)
+(--> 3d-ex-07 3d-ex-20)
+(--> 3d-ex-12 3d-ex-15)
+(--> 3d-ex-12 3d-ex-20)
+
+(--> 3d-ex-15 3d-ex-16)
+(--> 3d-ex-16 3d-ex-17)
+(--> 3d-ex-17 3d-ex-18)
+(--> 3d-ex-18 3d-ex-19)
+
+(--> 3d-ex-20 3d-ex-21)
+(--> 3d-ex-21 3d-ex-22)
+(--> 3d-ex-22 3d-ex-23)
+(--> 3d-ex-23 3d-ex-24)
+
 
 ;;COMPUTER BASICS INTEREST BADGES START
 (--> dl-os-wm dl-cb-aa)
@@ -170,19 +248,19 @@
 ;;2D GAME DESIGN BADGES START
 
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES START
-(--> gd-gd-aa gd-er-aa)
-(--> gd-er-aa gd-er-ea)
-(--> gd-er-ea gd-er-vp)
+(--> 2d-gd-aa 2d-er-aa)
+(--> 2d-er-aa 2d-er-ea)
+(--> 2d-er-ea 2d-er-vp)
 
-(--> gd-er-vp gd-er-pl)
-(--> gd-er-vp gd-er-bi)
-(--> gd-er-vp gd-er-gi)
-(--> gd-er-vp gd-er-bg)
+(--> 2d-er-vp 2d-er-pl)
+(--> 2d-er-vp 2d-er-bi)
+(--> 2d-er-vp 2d-er-gi)
+(--> 2d-er-vp 2d-er-bg)
 
-(--> gd-er-pl gd-er-p1)
-(--> gd-er-bi gd-er-p1)
-(--> gd-er-gi gd-er-p1)
-(--> gd-er-bg gd-er-p1)
+(--> 2d-er-pl 2d-er-p1)
+(--> 2d-er-bi 2d-er-p1)
+(--> 2d-er-gi 2d-er-p1)
+(--> 2d-er-bg 2d-er-p1)
 
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
 

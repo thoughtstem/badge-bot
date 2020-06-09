@@ -317,6 +317,157 @@
   "2D Game Design: Battlearena Avengers Install Package"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-install-package/228"
   )
+
+(define-random-art-badge 
+  2d-ba-00
+  "2D Game Design: Battlearena Avengers: Hello World"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-hello-world/241"
+  )
+
+(define-random-art-badge 
+  2d-ba-01
+  "2D Game Design: Battlearena Avengers: Hero 1"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-hero-1/255"
+  )
+
+(define-random-art-badge 
+  2d-ba-02
+  "2D Game Design: Battlearena Avengers: Hero 2"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-hero-2/256"
+  )
+
+(define-random-art-badge 
+  2d-ba-03
+  "2D Game Design: Battlearena Avengers: Hero 3"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-hero-3/257"
+  )
+
+(define-random-art-badge 
+  2d-ba-04
+  "2D Game Design: Battlearena Avengers: Hero 4"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-hero-4/258"
+  )
+
+(define-random-art-badge 
+  2d-ba-05
+  "2D Game Design: Battlearena Avengers: Planet 1"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-planet-1/259"
+  )
+
+(define-random-art-badge 
+  2d-ba-06
+  "2D Game Design: Battlearena Avengers: Planet 2"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-planet-2/260"
+  )
+
+(define-random-art-badge 
+  2d-ba-07
+  "2D Game Design: Battlearena Avengers: Planet 3"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-planet-3/261"
+  )
+
+(define-random-art-badge 
+  2d-ba-08
+  "2D Game Design: Battlearena Avengers: Planet 4"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-planet-4/262"
+  )
+
+(define-random-art-badge 
+  2d-ba-09
+  "2D Game Design: Battlearena Avengers: Planet 5"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-planet-5/263"
+  )
+
+(define-random-art-badge 
+  2d-ba-10
+  "2D Game Design: Battlearena Avengers: Villain 1"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-villain-1/264"
+  )
+
+(define-random-art-badge 
+  2d-ba-11
+  "2D Game Design: Battlearena Avengers: Villain 2"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-villain-2/265"
+  )
+
+(define-random-art-badge 
+  2d-ba-12
+  "2D Game Design: Battlearena Avengers: Villain 3"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-villain-3/266"
+  )
+
+(define-random-art-badge 
+  2d-ba-13
+  "2D Game Design: Battlearena Avengers: Villain 4"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-villain-4/267"
+  )
+
+(define-random-art-badge 
+  2d-ba-14
+  "2D Game Design: Battlearena Avengers: Villain 5"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-villain-5/268"
+  )
+
+(define-random-art-badge 
+  2d-ba-15
+  "2D Game Design: Battlearena Avengers: Power 1"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-1/269"
+  )
+
+(define-random-art-badge 
+  2d-ba-16
+  "2D Game Design: Battlearena Avengers: Power 2"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-2/270"
+  )
+
+(define-random-art-badge 
+  2d-ba-17
+  "2D Game Design: Battlearena Avengers: Power 3"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-3/271"
+  )
+
+(define-random-art-badge 
+  2d-ba-18
+  "2D Game Design: Battlearena Avengers: Power 4"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-4/272"
+  )
+
+(define-random-art-badge 
+  2d-ba-19
+  "2D Game Design: Battlearena Avengers: Power 5"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-5/273"
+  )
+
+(define-random-art-badge 
+  2d-ba-20
+  "2D Game Design: Battlearena Avengers: Power-Up 1"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-up-1/274"
+  )
+
+(define-random-art-badge 
+  2d-ba-21
+  "2D Game Design: Battlearena Avengers: Power-Up 2"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-up-2/275"
+  )
+
+(define-random-art-badge 
+  2d-ba-22
+  "2D Game Design: Battlearena Avengers: Power-Up 3"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-up-3/276"
+  )
+
+(define-random-art-badge 
+  2d-ba-23
+  "2D Game Design: Battlearena Avengers: Power-Up 4"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-up-4/277"
+  )
+
+(define-random-art-badge 
+  2d-ba-24
+  "2D Game Design: Battlearena Avengers: Power-Up 5"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-up-5/278"
+  )
+
 ;; BATTLE ARENA AVENGERS INTEREST END
 
 
@@ -326,6 +477,12 @@
   "2D Game Design: Survival Pokemon Install Package"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-install-package/230"
   )
+
+(define-random-art-badge 
+  2d-sp-00
+  "2D Game Design: Survival Pokemon: Hello World"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-hello-world/242"
+  )
 ;; SURVIVAL POKEMON INTEREST END
 
 ;; ADVENTURE MARIO INTEREST START
@@ -333,6 +490,12 @@
   2d-am-aa
   "2D Game Design: Adventure Mario Install Package"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-install-package/231"
+  )
+
+(define-random-art-badge 
+  2d-am-00
+  "2D Game Design: Adventure Mario: Hello World"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-hello-world/243"
   )
 ;; ADVENTURE MARIO INTEREST END
 
@@ -348,12 +511,157 @@
   "3D Game Design: 3D Exploration: Hello World"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-hello-world/225"
   )
+
+(define-random-art-badge
+  3d-ex-01
+  "3D Game Design: 3D Exploration: Environment 1"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-environment-1/248"
+  )
+
+(define-random-art-badge
+  3d-ex-02
+  "3D Game Design: 3D Exploration: Environment 2"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-environment-2/279"
+  )
+
+(define-random-art-badge
+  3d-ex-03
+  "3D Game Design: 3D Exploration: Environment 3"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-environment-3/280"
+  )
+
+(define-random-art-badge
+  3d-ex-04
+  "3D Game Design: 3D Exploration: Environment 4"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-environment-4/281"
+  )
+
+(define-random-art-badge
+  3d-ex-05
+  "3D Game Design: 3D Exploration: Ground Objects 1"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-ground-objects-1/282"
+  )
+
+(define-random-art-badge
+  3d-ex-06
+  "3D Game Design: 3D Exploration: Ground Objects 2"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-ground-objects-2/283"
+  )
+
+(define-random-art-badge
+  3d-ex-07
+  "3D Game Design: 3D Exploration: Ground Objects 3"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-ground-objects-3/284"
+  )
+
+(define-random-art-badge
+  3d-ex-08
+  "3D Game Design: 3D Exploration: Ground Objects 4"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-ground-objects-4/285"
+  )
+
+(define-random-art-badge
+  3d-ex-09
+  "3D Game Design: 3D Exploration: Ground Objects 5"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-ground-objects-5/286"
+  )
+
+(define-random-art-badge
+  3d-ex-10
+  "3D Game Design: 3D Exploration: Sky Objects 1"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-sky-objects-1/287"
+  )
+
+(define-random-art-badge
+  3d-ex-11
+  "3D Game Design: 3D Exploration: Sky Objects 2"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-sky-objects-2/288"
+  )
+
+(define-random-art-badge
+  3d-ex-12
+  "3D Game Design: 3D Exploration: Sky Objects 3"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-sky-objects-3/289"
+  )
+
+(define-random-art-badge
+  3d-ex-13
+  "3D Game Design: 3D Exploration: Sky Objects 4"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-sky-objects-4/290"
+  )
+
+(define-random-art-badge
+  3d-ex-14
+  "3D Game Design: 3D Exploration: Sky Objects 5"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-sky-objects-5/291"
+  )
+
+(define-random-art-badge
+  3d-ex-15
+  "3D Game Design: 3D Exploration: Particles 1"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-particles-1/292"
+  )
+
+(define-random-art-badge
+  3d-ex-16
+  "3D Game Design: 3D Exploration: Particles 2"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-particles-2/293"
+  )
+
+(define-random-art-badge
+  3d-ex-17
+  "3D Game Design: 3D Exploration: Particles 3"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-particles-3/294"
+  )
+
+(define-random-art-badge
+  3d-ex-18
+  "3D Game Design: 3D Exploration: Particles 4"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-particles-4/295"
+  )
+
+(define-random-art-badge
+  3d-ex-19
+  "3D Game Design: 3D Exploration: Particles 5"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-particles-5/296"
+  )
+
+(define-random-art-badge
+  3d-ex-20
+  "3D Game Design: 3D Exploration: Animations 1"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-animations-1/297"
+  )
+
+(define-random-art-badge
+  3d-ex-21
+  "3D Game Design: 3D Exploration: Animations 2"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-animations-2/298"
+  )
+
+(define-random-art-badge
+  3d-ex-22
+  "3D Game Design: 3D Exploration: Animations 3"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-animations-3/299"
+  )
+
+(define-random-art-badge
+  3d-ex-23
+  "3D Game Design: 3D Exploration: Animations 4"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-animations-4/300"
+  )
+
+(define-random-art-badge
+  3d-ex-24
+  "3D Game Design: 3D Exploration: Animations 5"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-animations-5/301"
+  )
+
 ;; 3D EXPLORATION INTEREST END
 
 ;; DA WESCHEME ART INTEREST BADGES START
 (define-random-art-badge 
   da-aa-aa
-  "Digital Art: Access Badge"
+  "Digital Art Access Badge"
   "https://forum.metacoders.org/t/digital-art-access-badge/226"
   )
 
@@ -448,6 +756,35 @@
   "https://forum.metacoders.org/t/digital-art-wescheme-generative-art/203"
   )
 
+(define-random-art-badge 
+  da-wa-cr
+  "Digital Art: WeScheme: Crop"
+  "https://forum.metacoders.org/t/digital-art-wescheme-crop/232"
+  )
+
+(define-random-art-badge 
+  da-wa-cv
+  "Digital Art: WeScheme: Converters"
+  "https://forum.metacoders.org/t/digital-art-wescheme-converters/234"
+  )
+
+(define-random-art-badge 
+  da-wa-me
+  "Digital Art: WeScheme: Manipulation Expert"
+  "https://forum.metacoders.org/t/digital-art-wescheme-manipulation-expert/239"
+  )
+
+(define-random-art-badge 
+  da-wa-su
+  "Digital Art: WeScheme: Fading Sun Art"
+  "https://forum.metacoders.org/t/digital-art-wescheme-fading-sun-art/240"
+  )
+
+(define-random-art-badge 
+  da-wa-pe
+  "Digital Literacy: WeScheme: Peach Drawing"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-peach-drawing/183"
+  )
 
 ;; DA WESCHEME ART INTEREST BADGES END
 
@@ -564,70 +901,62 @@
 
 ;;DIGITAL LITERACY BADGES END
 
-;;2D GAME DESIGN BADGES START
-
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES START
-(define-random-art-badge 
-  gd-gd-aa
-  "2D Game Design Access Badge" 
-  "https://forum.metacoders.org/t/2d-game-design-access-badge/213" 
-  )
 
 (define-random-art-badge 
-  gd-er-aa
+  2d-er-aa
   "2D Game Design: Endless Runner Access Badge" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-access-badge/216" 
   )
 
 (define-random-art-badge 
-  gd-er-ea
+  2d-er-ea
   "2D Game Design: Endless Runner: Exploring Assets" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-exploring-assets/161" 
   )
 
 (define-random-art-badge 
-  gd-er-vp
+  2d-er-vp
   "2D Game Design: Endless Runner: MVP" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-mvp/190" 
   )
 
 (define-random-art-badge 
-  gd-er-pl
+  2d-er-pl
   "2D Game Design: Endless Runner: Customize Your Player" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-customize-your-player/192" 
   )
 
 (define-random-art-badge 
-  gd-er-bi
+  2d-er-bi
   "2D Game Design: Endless Runner: Customize Bad Items" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-customize-bad-items/193" 
   )
 
 (define-random-art-badge 
-  gd-er-gi
+  2d-er-gi
   "2D Game Design: Endless Runner: Customize Good Item" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-customize-good-item/194" 
   )
 
 (define-random-art-badge 
-  gd-er-bg
+  2d-er-bg
   "2D Game Design: Endless Runner: Customize Background" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-customize-background/196" 
   )
 
 (define-random-art-badge 
-  gd-er-p1
+  2d-er-p1
   "2D Game Design: Endless Runner: Project 1" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-project-1/197" 
   )
+
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
 
-;;2D GAME DESIGN BADGES END
 
 (module+ test 
 	 (require discord-bot)
 
 	 (users->earned-badges-hash
 	   (list
-	     (id->mention "412679210310828033")))
-	 )
+	     (id->mention "412679210310828033"))))

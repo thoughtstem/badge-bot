@@ -9,4 +9,8 @@ compiled/
 .discord-key
 .discourse-key
 full-graph/out/index.html
+full-graph/full-graph/out/index.html
 data
+*.bak
+/logs/
+/public/

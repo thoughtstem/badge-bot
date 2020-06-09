@@ -10,7 +10,7 @@
          web-server/dispatch
 
          discord-bot
-         (except-in webapp/js header))
+         (except-in webapp/js header log))
 
 (current-directory ".")
 
@@ -37,22 +37,33 @@
   (define cmd (param 'cmd r))
   (define user-id (param 'user-id r))
 
+  (log "Server handling: " cmd)
+
   (if cmd
-    (response/full
-      200 #"OK"
-      (current-seconds) TEXT/HTML-MIME-TYPE
-      (list )
-      (list 
-        (string->bytes/utf-8 
-          (parameterize ([messaging-user-id-override user-id])
-            (->discord-reply 
-              (badge-bot cmd))))))
+    (catch-error
+      (response/full
+	200 #"OK"
+	(current-seconds) TEXT/HTML-MIME-TYPE
+	(list )
+	(list 
+	  (string->bytes/utf-8 
+	    (parameterize ([messaging-user-id-override user-id])
+			  (->discord-reply 
+			    (badge-bot cmd)))))))
     (response/full
       200 #"OK"
       (current-seconds) TEXT/HTML-MIME-TYPE
       (list )
       (list #"Ready"))))
 
+(define-syntax-rule 
+  (catch-error lines ...)
+  (with-handlers
+    ([exn:fail? (lambda (e)
+		  (log (exn-message e)
+		       (~a e))
+		  (response/string (exn-message e)))]) 
+    lines ...))
 
 (define (response/string s)
   (response/full

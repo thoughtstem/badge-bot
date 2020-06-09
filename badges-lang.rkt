@@ -73,6 +73,7 @@
       badge-id
       (moment->iso8601/tzid (now/moment #:tz "America/Los_Angeles"))
       (messaging-user-name)))
+
   (define val
     (session-load user 'earned `()))
 
@@ -189,7 +190,7 @@
   (make-immutable-hash
     (map 
       (lambda (u)
-	(cons u (badges-for-user u))) 
+        (cons u (badges-for-user u))) 
       users)))
 
 (define (random-badge-art b)

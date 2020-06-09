@@ -7,8 +7,10 @@
 (require discord-bot
 	 discourse-bot
 	 mc-discord-config
+	 net/uri-codec
 	 "badges-lang.rkt"
-	 "rosters.rkt")
+	 "rosters.rkt"
+	 "questions/lang.rkt")
 
 (define (describe-badge b)
   (define left
@@ -134,9 +136,9 @@
 
 (define (list-badges-by-user-name-command user)
   (define badge-list (badges-for-user user))
-  (if (empty? badge-list)
-    (~a "Sorry, " user " doesn't have any badges yet.")
-    (map show-badge-img (badges-for-user user))))
+
+  (~a "http://18.213.15.93:6969/badge-reports?user=" 
+      (uri-encode user)))
 
 (define (get-page p bs)
   (define (safe-string->number n)
@@ -171,12 +173,15 @@
     #:failure-message
     (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
 
-  (map
-   (lambda (user)
-    (award-badge! (string->symbol badge-id) user))
-   users)
+  (define awarded
+    (filter identity
+	    (map
+	      (lambda (user)
+		(with-handlers ([exn:fail? (thunk* #f)])
+		  (award-badge! (string->symbol badge-id) user)))
+	      users)))
 
-  (~a "You've awarded " badge-id " to " (length users) " users!"))
+  (~a "You've awarded " badge-id " to " (length awarded) " users!"))
 
 (define (remove-badges-command badge-id user)
   (ensure-messaging-user-has-role-on-server!
@@ -256,6 +261,9 @@
 (define (get-available-coaches [coach-voice-channel-id mc-coach-space-station-voice-channel-id])
   (get-users-from-channel coach-voice-channel-id ))
 
+(define (beam-up-gif)
+  (~a "https://tenor.com/view/beam-me-up-scotty-gif-11313969"))
+
 (define (crew-manifest-station-command student-voice-channel-id 
 				       coach-voice-channel-id
 				       . not-these-users)
@@ -268,28 +276,38 @@
 
   (define roster
     (parameterize ([available-badges
-		     (flatten (hash-values coaches-hash))]) 
+                     (flatten (hash-values coaches-hash))]) 
       (roster-for-users 
-	(filter-not 
-	  (curryr member not-these-users)
-	  (get-users-from-channel student-voice-channel-id)))))
+        (filter-not 
+          (curryr member not-these-users)
+          (get-users-from-channel student-voice-channel-id)))))
 
   (define manifests
     (map 
       (lambda (m)
-	(list
-	  (badge-url (first m))
-	  (second m)))
+        (list
+          (~a "The following mission will be launching shortly:")
+          (badge-url (first m))
+          (second m)
+          (beam-up-gif)))
       (crew-manifests roster 
-		      #:ship-capacity 5
-		      #:coaches 
-		      coaches-hash
-		      )))
+                      #:ship-capacity 5
+                      #:coaches 
+                      coaches-hash)))
 
   (if (empty? manifests)
     "I couldn't construct a manifest for those users"
-    manifests)
-  )
+    (serve+link manifests)))
+
+(define (serve+link discord-repliable)
+  (define file-name
+    (~a "served-reply-" (random 1000) "-" (current-milliseconds)))
+  (with-output-to-file 
+    (build-path "public" file-name)
+    (thunk*
+      (displayln (->discord-reply discord-repliable))))
+
+  (~a "http://18.213.15.93:6969/" file-name))
 
 (define b
   (bot
@@ -311,6 +329,10 @@
     ["rosterize-station" rosterize-station-command]
     ["crew-manifest-station" crew-manifest-station-command]
     ["cms" crew-manifest-station-command]
+
+    ;Question bot
+    ["q" ask-me-a-question]
+    ["a" here-is-my-answer]
     [else void]))
 
 
