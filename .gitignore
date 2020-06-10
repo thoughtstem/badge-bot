@@ -13,3 +13,4 @@ full-graph/full-graph/out/index.html
 data
 *.bak
 /logs/
+/public/

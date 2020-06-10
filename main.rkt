@@ -27,7 +27,11 @@
 
     (thread (thunk 
               (log "send-to-server")
-              (define resp (read (send-to-server cmd rid)))
+              (define resp 
+                (read 
+                  (send-to-server 
+                    (~a "{\"cmd\": \"" cmd "\"}")
+                    rid)))
               (log "finished: send-to-server" resp)))
 
     (send-message-on-channel

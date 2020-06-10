@@ -7,6 +7,7 @@
 (require discord-bot
 	 discourse-bot
 	 mc-discord-config
+	 net/uri-codec
 	 "badges-lang.rkt"
 	 "rosters.rkt"
 	 "questions/lang.rkt")
@@ -136,12 +137,8 @@
 (define (list-badges-by-user-name-command user)
   (define badge-list (badges-for-user user))
 
-  (~a "http://18.213.15.93:6969/badge-reports?user=" user)
-
-  #;
-  (if (empty? badge-list)
-    (~a "Sorry, " user " doesn't have any badges yet.")
-    (map show-badge-img (badges-for-user user))))
+  (~a "http://18.213.15.93:6969/badge-reports?user=" 
+      (uri-encode user)))
 
 (define (get-page p bs)
   (define (safe-string->number n)
@@ -176,12 +173,15 @@
     #:failure-message
     (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
 
-  (map
-   (lambda (user)
-    (award-badge! (string->symbol badge-id) user))
-   users)
+  (define awarded
+    (filter identity
+	    (map
+	      (lambda (user)
+		(with-handlers ([exn:fail? (thunk* #f)])
+		  (award-badge! (string->symbol badge-id) user)))
+	      users)))
 
-  (~a "You've awarded " badge-id " to " (length users) " users!"))
+  (~a "You've awarded " badge-id " to " (length awarded) " users!"))
 
 (define (remove-badges-command badge-id user)
   (ensure-messaging-user-has-role-on-server!

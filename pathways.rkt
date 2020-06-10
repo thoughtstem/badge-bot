@@ -11,7 +11,7 @@
 
 ;;DIGITAL LITERACY BADGES START
 ;(--> dl-dl-aa dl-sr-aa)
-(--> dl-dl-aa dl-mt-aa)
+;(--> dl-dl-aa dl-mt-aa)
 
 ;;PAPER DIGITAL LITERACY BADGES START
 ;(--> dl-dl-aa dl-pc-aa)
@@ -49,7 +49,7 @@
 
 ;; NEW DIGITAL LITERACY ORDER
 ;(--> dl-mt-aa dl-ts-ql)
-(--> dl-mt-aa dl-ds-vc)
+(--> dl-dl-aa dl-ds-vc)
 (--> dl-ds-vc dl-pc-aa)
 (--> dl-ds-vc dl-ds-tc)
 (--> dl-ds-tc dl-sc-wj)
@@ -136,19 +136,142 @@
 ;battlearena avengers interest
 (--> gd-dr-aa 2d-ba-aa)
 (--> 2d-ba-aa 2d-ba-00)
+(--> 2d-ba-00 2d-ba-01)
+(--> 2d-ba-01 2d-ba-02)
+(--> 2d-ba-02 2d-ba-03)
+(--> 2d-ba-03 2d-ba-04)
+
+(--> 2d-ba-03 2d-ba-05)
+(--> 2d-ba-05 2d-ba-06)
+(--> 2d-ba-06 2d-ba-07)
+(--> 2d-ba-07 2d-ba-08)
+(--> 2d-ba-08 2d-ba-09)
+
+(--> 2d-ba-03 2d-ba-10)
+(--> 2d-ba-10 2d-ba-11)
+(--> 2d-ba-11 2d-ba-12)
+(--> 2d-ba-12 2d-ba-13)
+(--> 2d-ba-13 2d-ba-14)
+
+(--> 2d-ba-12 2d-ba-15)
+(--> 2d-ba-12 2d-ba-20)
+
+(--> 2d-ba-15 2d-ba-16)
+(--> 2d-ba-16 2d-ba-17)
+(--> 2d-ba-17 2d-ba-18)
+(--> 2d-ba-18 2d-ba-19)
+
+(--> 2d-ba-20 2d-ba-21)
+(--> 2d-ba-21 2d-ba-22)
+(--> 2d-ba-22 2d-ba-23)
+(--> 2d-ba-23 2d-ba-24)
 
 ;survival pokemon interest
 (--> gd-dr-aa 2d-sp-aa)
 (--> 2d-sp-aa 2d-sp-00)
 
+(--> 2d-sp-00 2d-sp-01)
+(--> 2d-sp-01 2d-sp-02)
+(--> 2d-sp-02 2d-sp-03)
+(--> 2d-sp-03 2d-sp-04)
+
+(--> 2d-sp-02 2d-sp-05)
+(--> 2d-sp-05 2d-sp-06)
+(--> 2d-sp-06 2d-sp-07)
+(--> 2d-sp-07 2d-sp-08)
+(--> 2d-sp-07 2d-sp-09)
+
+(--> 2d-sp-02 2d-sp-10)
+(--> 2d-sp-10 2d-sp-11)
+(--> 2d-sp-11 2d-sp-12)
+(--> 2d-sp-12 2d-sp-13)
+(--> 2d-sp-13 2d-sp-14)
+
+(--> 2d-sp-12 2d-sp-15)
+(--> 2d-sp-15 2d-sp-16)
+(--> 2d-sp-16 2d-sp-17)
+
+(--> 2d-sp-12 2d-sp-18)
+(--> 2d-sp-18 2d-sp-19)
+
+(--> 2d-sp-02 2d-sp-20)
+
+(--> 2d-sp-02 2d-sp-21)
+(--> 2d-sp-21 2d-sp-22)
+
+(--> 2d-sp-02 2d-sp-23)
+(--> 2d-sp-23 2d-sp-24)
+
 ;adventure mario interest
 (--> gd-dr-aa 2d-am-aa)
 (--> 2d-am-aa 2d-am-00)
+
+(--> 2d-am-00 2d-am-01)
+(--> 2d-am-01 2d-am-02)
+(--> 2d-am-02 2d-am-03)
+(--> 2d-am-03 2d-am-04)
+
+(--> 2d-am-02 2d-am-05)
+(--> 2d-am-05 2d-am-06)
+(--> 2d-am-06 2d-am-07)
+(--> 2d-am-07 2d-am-08)
+(--> 2d-am-08 2d-am-09)
+
+(--> 2d-am-02 2d-am-10)
+(--> 2d-am-10 2d-am-11)
+(--> 2d-am-11 2d-am-12)
+(--> 2d-am-12 2d-am-13)
+(--> 2d-am-13 2d-am-14)
+
+(--> 2d-am-02 2d-am-15)
+(--> 2d-am-15 2d-am-16)
+(--> 2d-am-16 2d-am-17)
+(--> 2d-am-17 2d-am-18)
+(--> 2d-am-18 2d-am-19)
+
+(--> 2d-am-02 2d-am-20)
+(--> 2d-am-20 2d-am-21)
+(--> 2d-am-21 2d-am-22)
+(--> 2d-am-22 2d-am-23)
+(--> 2d-am-23 2d-am-24)
 
 ;3d-exploration interest
 (--> gd-dr-aa 3d-ex-aa)
 (--> 3d-ex-aa 3d-ex-00)
 (--> 3d-ex-00 3d-ex-01)
+
+(--> 3d-ex-01 3d-ex-02)
+(--> 3d-ex-02 3d-ex-03)
+(--> 3d-ex-03 3d-ex-04)
+
+
+(--> 3d-ex-01 3d-ex-05)
+(--> 3d-ex-05 3d-ex-06)
+(--> 3d-ex-06 3d-ex-07)
+(--> 3d-ex-07 3d-ex-08)
+(--> 3d-ex-08 3d-ex-09)
+
+(--> 3d-ex-01 3d-ex-10)
+(--> 3d-ex-10 3d-ex-11)
+(--> 3d-ex-11 3d-ex-12)
+(--> 3d-ex-12 3d-ex-13)
+(--> 3d-ex-13 3d-ex-14)
+
+(--> 3d-ex-07 3d-ex-15)
+(--> 3d-ex-07 3d-ex-20)
+(--> 3d-ex-12 3d-ex-15)
+(--> 3d-ex-12 3d-ex-20)
+
+(--> 3d-ex-15 3d-ex-16)
+(--> 3d-ex-16 3d-ex-17)
+(--> 3d-ex-17 3d-ex-18)
+(--> 3d-ex-18 3d-ex-19)
+
+(--> 3d-ex-20 3d-ex-21)
+(--> 3d-ex-21 3d-ex-22)
+(--> 3d-ex-22 3d-ex-23)
+(--> 3d-ex-23 3d-ex-24)
+
 
 ;;COMPUTER BASICS INTEREST BADGES START
 (--> dl-os-wm dl-cb-aa)

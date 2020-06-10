@@ -31,7 +31,8 @@
 (require discord-bot
 	 discourse-bot
 	 mc-discord-config
-	 "pathways.rkt")
+	 "pathways.rkt"
+	 "util.rkt")
 
 
 
@@ -69,7 +70,7 @@
           (map outgoing-badges (map id->badge ids))))
       )))
 
-(define (histogram-for-users users)
+(define/log (histogram-for-users users)
   (local-require racket/hash)
 
   (define hists
@@ -86,11 +87,11 @@
   combined)
 
 
-(define (roster-for-users users)
+(define/log (roster-for-users users)
   (rosterize 
     (histogram-for-users users)))
 
-(define (rosterize h)
+(define/log (rosterize h)
   (define ks (hash-keys h))
 
   (define sorted
@@ -100,7 +101,7 @@
 	    (length 
 	      (hash-ref h k)))))
 
-  (define (will-see? i u)
+  (define/log (will-see? i u)
     (define later-badges
       (drop
 	sorted
@@ -124,7 +125,7 @@
 
   (clean-empty-keys h))
 
-(define (clean-empty-keys h)
+(define/log (clean-empty-keys h)
   (for ([k (hash-keys h)])
        (when (empty? (hash-ref h k))
 	 (set! h
@@ -138,7 +139,7 @@
 ;                the second is a list of users U of length ship-cap
 ;  For each B, it's U will be a subset of the list of users
 ;    that B maps to in the roster.
-(define (crew-manifests #:ship-capacity ship-cap
+(define/log (crew-manifests #:ship-capacity ship-cap
 			#:coaches coaches
 			roster)
   (define badges (hash-keys roster)) 
@@ -179,9 +180,9 @@
 		  coaches))
 
 ;Takes a list of manifests that do not yet contain a coach, and a hash of coaches to badges.
-(define (assign-coaches manifests coaches->badges)
+(define/log (assign-coaches manifests coaches->badges)
 
-  (define (coach-who-can-teach b)
+  (define/log (coach-who-can-teach b)
     (define c
       (findf  
 	(lambda (c)
@@ -247,7 +248,7 @@
 	     'b2 '("alice" "bob" "steve")))
 
 
-	 (define (all-manifests-have-coaches ms)
+	 (define/log (all-manifests-have-coaches ms)
 	   (define supposedly-coaches
 	     (map first (map second ms))) 
 
@@ -262,7 +263,7 @@
 	   (= (length supposedly-coaches)
 	      (length confirmed-coaches)))
 
-	 (define (all-coaches-different ms)
+	 (define/log (all-coaches-different ms)
 	   (define supposedly-coaches
 	     (map first (map second ms))) 
 
