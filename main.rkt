@@ -22,13 +22,13 @@
 
     (define cmd
       (string-replace 
-	(string-replace content "submit" "award")
-	"! " "")) ;Don't remove all !,or you'll get teh <@!...> messed up)
+        (string-replace content "submit" "award")
+        "! " "")) ;Don't remove all !,or you'll get teh <@!...> messed up)
 
     (thread (thunk 
-	      (log "send-to-server")
-	      (define resp (read (send-to-server cmd rid)))
-	      (log "finished: send-to-server" resp)))
+              (log "send-to-server")
+              (define resp (read (send-to-server cmd rid)))
+              (log "finished: send-to-server" resp)))
 
     (send-message-on-channel
       cid
@@ -52,10 +52,9 @@
       [else 
         (thunk* 
           (read
-	    (send-to-server 
-	      (messaging-user-full-message)
-	      (messaging-user-id))
-	    ))])
+            (send-to-server 
+              (messaging-user-full-message)
+              (messaging-user-id))))])
     handle-reaction))
 
 (launch-bot b #:persist #t)
