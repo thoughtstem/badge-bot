@@ -7,16 +7,16 @@
 
 (define-random-art-badge 
   dl-dl-aa
-  "Digital Literacy Interest Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-interest-badge/134" 
+  "Digital Literacy Access Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-access-badge/134" 
   )
 ;;PAPER BADGES START
 
 
 (define-random-art-badge 
   dl-pc-aa 
-  "Digital Literacy: Paper Coding Interest Badge " 
-  "https://forum.metacoders.org/t/digital-literacy-paper-coding-interest-badge/167" 
+  "Digital Literacy: Paper Coding Access Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-access-badge/167" 
   )
 
 (define-random-art-badge 
@@ -86,8 +86,8 @@
 
 (define-random-art-badge 
   dl-ll-aa 
-  "Digital Literacy: Tour of Languages Interest Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-tour-of-languages-interest-badge/156" 
+  "Digital Literacy: Tour of Languages Access Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-tour-of-languages-access-badge/156" 
   )
 
 (define-random-art-badge 
@@ -135,8 +135,8 @@
 
 (define-random-art-badge 
   dl-sr-aa
-  "Digital Literacy: Scratch Interest Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-scratch-interest-badge/132" 
+  "Digital Literacy: Scratch Access Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-scratch-access-badge/132" 
   )
 
 
@@ -181,15 +181,15 @@
 ;;DIGITAL LITERACY BADGES START
 (define-random-art-badge 
   dl-mt-aa
-  "Digital Literacy: Meta Interest Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-meta-interest-badge/133" 
+  "Digital Literacy: Meta Access Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-meta-access-badge/133" 
   )
 
 ;; TYPING INTEREST BADGES START
 (define-random-art-badge 
   dl-ts-aa
-  "Digital Literacy: Typing Interest Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-typing-interest-badge/205" 
+  "Digital Literacy: Typing Access Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-typing-access-badge/205" 
   )
 
 (define-random-art-badge 
@@ -222,8 +222,8 @@
 ;; DL WESCHEME INTEREST BADGES START
 (define-random-art-badge 
   dl-ws-aa 
-  "Digital Literacy: WeScheme Interest Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-wescheme-interest-badge/163" 
+  "Digital Literacy: WeScheme Access Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-access-badge/163" 
   )
 
 (define-random-art-badge 
@@ -958,7 +958,7 @@
 (define-random-art-badge 
   da-wa-aa
   "Digital Art: WeScheme Art Access Badge"
-  "https://forum.metacoders.org/t/digital-art-wescheme-art-interest-badge/227"
+  "https://forum.metacoders.org/t/digital-art-wescheme-art-access-badge/227"
   )
 
 (define-random-art-badge 
@@ -1083,8 +1083,8 @@
 
 (define-random-art-badge 
   dl-cb-aa
-  "Digital Literacy: Computer Basics Interest Badge" 
-  "https://forum.metacoders.org/t/digital-literary-computer-basics-interest-badge/206" 
+  "Digital Literacy: Computer Basics Access Badge" 
+  "https://forum.metacoders.org/t/digital-literary-computer-basics-access-badge/206" 
   )
 
 (define-random-art-badge 
@@ -1138,8 +1138,8 @@
 ;; DISCORD ADVANCED INTEREST BADGES START
 (define-random-art-badge 
   dl-da-aa
-  "Digital Literacy: Discord Advanced Interest Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-discord-advanced-interest-badge/207" 
+  "Digital Literacy: Discord Advanced Access Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-discord-advanced-access-badge/207" 
   )
 
 (define-random-art-badge 
@@ -1240,6 +1240,7 @@
   "2D Game Design: Endless Runner: Project 1" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-project-1/197" 
   )
+
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
 
 
@@ -1248,5 +1249,4 @@
 
 	 (users->earned-badges-hash
 	   (list
-	     (id->mention "412679210310828033")))
-	 )
+	     (id->mention "412679210310828033"))))
