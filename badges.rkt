@@ -80,6 +80,25 @@
   )
 
 
+(define-random-art-badge 
+  dl-pc-cs
+  "Digital Literacy: Paper Coding: Computer System" 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-computer-system/244" 
+  )
+
+(define-random-art-badge 
+  dl-pc-kl
+  "Digital Literacy: Paper Coding: Keyboard Literacy" 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-keyboard-literacy/245" 
+  )
+
+(define-random-art-badge 
+  dl-pc-dc
+  "Digital Literacy: Paper Coding: Drawing Discord" 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-drawing-discord/250" 
+  )
+
+
 ;;PAPER BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START

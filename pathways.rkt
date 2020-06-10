@@ -34,6 +34,10 @@
 (--> dl-pc-pc dl-pc-it)
 (--> dl-pc-lb dl-pc-it)
 
+(--> dl-pc-aa dl-pc-cs)
+(--> dl-pc-cs dl-pc-kl)
+(--> dl-pc-cs dl-pc-dc)
+
 ;;PAPER DIGITAL LITERACY BADGES END
 
 
