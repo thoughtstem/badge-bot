@@ -93,7 +93,7 @@
   )
 
 (define-random-art-badge 
-  dl-pc-dc
+  dl-pc-dd
   "Digital Literacy: Paper Coding: Drawing Discord" 
   "https://forum.metacoders.org/t/digital-literacy-paper-coding-drawing-discord/250" 
   )
@@ -139,6 +139,12 @@
   dl-ll-ru
   "Digital Literacy: Tour of Languages: Ruby Hello World" 
   "https://forum.metacoders.org/t/digital-literacy-tour-of-languages-ruby-hello-world/154" 
+  )
+
+(define-random-art-badge 
+  dl-ll-sc
+  "Digital Literacy: Tour of Languages: Scheme Hello World" 
+  "https://forum.metacoders.org/t/digital-literacy-tour-of-languages-scheme-hello-world/351" 
   )
 
 (define-random-art-badge 
