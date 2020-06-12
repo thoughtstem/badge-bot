@@ -54,7 +54,9 @@
     "/cmd" #:params 
     (list 
       (cons 'cmd msg)
-      (cons 'user-id uid))))
+      (cons 'user-id uid)
+      (cons 'messaging-user-member-id (messaging-user-member-id))
+      )))
 
 (define b
   (on-reaction

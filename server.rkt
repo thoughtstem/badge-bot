@@ -36,6 +36,7 @@
 (define (handle-cmd r)
   (define cmd (param 'cmd r))
   (define user-id (param 'user-id r))
+  (define messaging-user-member-id (param 'messaging-user-member-id r))
 
   (log "Server handling: " cmd)
 
@@ -47,7 +48,8 @@
 	(list )
 	(list 
 	  (string->bytes/utf-8 
-	    (parameterize ([messaging-user-id-override user-id])
+	    (parameterize ([messaging-user-id-override user-id]
+			   [messaging-user-member-id-override messaging-user-member-id])
 			  (->discord-reply 
 			    (badge-bot cmd)))))))
     (response/full
