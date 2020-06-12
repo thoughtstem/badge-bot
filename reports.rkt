@@ -65,7 +65,11 @@
                    (lambda (b)
                      (if (not u)
                        (badge-img b)
-                       (if (member u
+                       (if 
+			 (member (badge-id b) 
+				 (map badge-id (badges-for-user u)))
+			 #;
+			 (member u
                                    (users-with-badge b) string=?)
                          (badge-img b)
                          (square 40 'solid 'black))))])
