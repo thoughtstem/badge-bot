@@ -52,8 +52,7 @@
 (define (graph-overview [u #f])
   (local-require
     (only-in 2htdp/image square))
-  (parameterize (
-		 [render-node-label
+  (parameterize ([render-node-label
                    (lambda (b)
                      ;Append the full name too?
                      (if (not u)

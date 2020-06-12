@@ -10,7 +10,8 @@
 	 net/uri-codec
 	 "badges-lang.rkt"
 	 "rosters.rkt"
-	 "questions/lang.rkt")
+	; "questions/lang.rkt"
+	 )
 
 (define (describe-badge b)
   (define left
@@ -331,8 +332,8 @@
     ["cms" crew-manifest-station-command]
 
     ;Question bot
-    ["q" ask-me-a-question]
-    ["a" here-is-my-answer]
+;    ["q" ask-me-a-question]
+;    ["a" here-is-my-answer]
     [else void]))
 
 
