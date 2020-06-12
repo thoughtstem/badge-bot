@@ -4,6 +4,12 @@
          simple-http
          mc-discord-config)
 
+(define (remove-bang s)
+  (regexp-replace 
+    #px"^\\s*!\\s*" 
+    s
+    ""))
+
 (define (handle-reaction r)
   (log "handle-reaction")
 
@@ -21,18 +27,18 @@
     (define author-roles (hash-ref author-data 'roles))
 
     (define cmd
-      (string-replace 
-	(string-replace content "submit" "award")
-	"! " "")) ;Don't remove all !,or you'll get teh <@!...> messed up)
+      (remove-bang 
+        (string-replace content "submit" "award")) ;Don't remove all !, or you'll get teh <@!...> messed up
+      )
 
     (thread (thunk 
-	      (log "send-to-server")
-	      (define resp 
-		(read 
-		  (send-to-server 
-		    (~a "{\"cmd\": \"" cmd "\"}")
-		    rid)))
-	      (log "finished: send-to-server" resp)))
+              (log "send-to-server")
+              (define resp 
+                (read 
+                  (send-to-server 
+                    (~a "{\"cmd\": \"" cmd "\"}")
+                    rid)))
+              (log "finished: send-to-server" resp)))
 
     (send-message-on-channel
       cid
@@ -56,10 +62,32 @@
       [else 
         (thunk* 
           (read
-	    (send-to-server 
-	      (messaging-user-full-message)
-	      (messaging-user-id))
-	    ))])
+            (send-to-server 
+              (messaging-user-full-message)
+              (messaging-user-id))))])
     handle-reaction))
 
 (launch-bot b #:persist #t)
+
+(module+ 
+  test
+  (require rackunit)
+  (check-equal?
+    (remove-bang 
+      "! hi")
+    "hi")
+  (check-equal?
+    (remove-bang 
+      "!hi")
+    "hi")
+
+  (check-equal?
+    (remove-bang 
+      "  !hi")
+    "hi")
+
+  (check-equal?
+    (remove-bang 
+      "  ! hi")
+    "hi"))
+

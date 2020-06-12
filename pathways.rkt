@@ -11,7 +11,7 @@
 
 ;;DIGITAL LITERACY BADGES START
 ;(--> dl-dl-aa dl-sr-aa)
-(--> dl-dl-aa dl-mt-aa)
+;(--> dl-dl-aa dl-mt-aa)
 
 ;;PAPER DIGITAL LITERACY BADGES START
 ;(--> dl-dl-aa dl-pc-aa)
@@ -34,6 +34,10 @@
 (--> dl-pc-pc dl-pc-it)
 (--> dl-pc-lb dl-pc-it)
 
+(--> dl-pc-aa dl-pc-cs)
+(--> dl-pc-cs dl-pc-kl)
+(--> dl-pc-cs dl-pc-dd)
+
 ;;PAPER DIGITAL LITERACY BADGES END
 
 
@@ -49,7 +53,7 @@
 
 ;; NEW DIGITAL LITERACY ORDER
 ;(--> dl-mt-aa dl-ts-ql)
-(--> dl-mt-aa dl-ds-vc)
+(--> dl-dl-aa dl-ds-vc)
 (--> dl-ds-vc dl-pc-aa)
 (--> dl-ds-vc dl-ds-tc)
 (--> dl-ds-tc dl-sc-wj)
@@ -170,9 +174,70 @@
 (--> gd-dr-aa 2d-sp-aa)
 (--> 2d-sp-aa 2d-sp-00)
 
+(--> 2d-sp-00 2d-sp-01)
+(--> 2d-sp-01 2d-sp-02)
+(--> 2d-sp-02 2d-sp-03)
+(--> 2d-sp-03 2d-sp-04)
+
+(--> 2d-sp-02 2d-sp-05)
+(--> 2d-sp-05 2d-sp-06)
+(--> 2d-sp-06 2d-sp-07)
+(--> 2d-sp-07 2d-sp-08)
+(--> 2d-sp-07 2d-sp-09)
+
+(--> 2d-sp-02 2d-sp-10)
+(--> 2d-sp-10 2d-sp-11)
+(--> 2d-sp-11 2d-sp-12)
+(--> 2d-sp-12 2d-sp-13)
+(--> 2d-sp-13 2d-sp-14)
+
+(--> 2d-sp-12 2d-sp-15)
+(--> 2d-sp-15 2d-sp-16)
+(--> 2d-sp-16 2d-sp-17)
+
+(--> 2d-sp-12 2d-sp-18)
+(--> 2d-sp-18 2d-sp-19)
+
+(--> 2d-sp-02 2d-sp-20)
+
+(--> 2d-sp-02 2d-sp-21)
+(--> 2d-sp-21 2d-sp-22)
+
+(--> 2d-sp-02 2d-sp-23)
+(--> 2d-sp-23 2d-sp-24)
+
 ;adventure mario interest
 (--> gd-dr-aa 2d-am-aa)
 (--> 2d-am-aa 2d-am-00)
+
+(--> 2d-am-00 2d-am-01)
+(--> 2d-am-01 2d-am-02)
+(--> 2d-am-02 2d-am-03)
+(--> 2d-am-03 2d-am-04)
+
+(--> 2d-am-02 2d-am-05)
+(--> 2d-am-05 2d-am-06)
+(--> 2d-am-06 2d-am-07)
+(--> 2d-am-07 2d-am-08)
+(--> 2d-am-08 2d-am-09)
+
+(--> 2d-am-02 2d-am-10)
+(--> 2d-am-10 2d-am-11)
+(--> 2d-am-11 2d-am-12)
+(--> 2d-am-12 2d-am-13)
+(--> 2d-am-13 2d-am-14)
+
+(--> 2d-am-02 2d-am-15)
+(--> 2d-am-15 2d-am-16)
+(--> 2d-am-16 2d-am-17)
+(--> 2d-am-17 2d-am-18)
+(--> 2d-am-18 2d-am-19)
+
+(--> 2d-am-02 2d-am-20)
+(--> 2d-am-20 2d-am-21)
+(--> 2d-am-21 2d-am-22)
+(--> 2d-am-22 2d-am-23)
+(--> 2d-am-23 2d-am-24)
 
 ;3d-exploration interest
 (--> gd-dr-aa 3d-ex-aa)
@@ -232,13 +297,18 @@
 
 ;(--> dl-dl-aa dl-ll-aa)
 (--> dl-ll-aa dl-ll-py)
-(--> dl-ll-aa dl-ll-js)
-(--> dl-ll-aa dl-ll-ja)
-(--> dl-ll-aa dl-ll-ru)
-(--> dl-ll-py dl-ll-mh)
-(--> dl-ll-js dl-ll-mh)
+(--> dl-ll-py dl-ll-ru)
+(--> dl-ll-ru dl-ll-sc)
+(--> dl-ll-sc dl-ll-js)
+(--> dl-ll-js dl-ll-ja)
+;commented out in favor of linear badge progression
+;(--> dl-ll-aa dl-ll-js)
+;(--> dl-ll-aa dl-ll-ja)
+;(--> dl-ll-aa dl-ll-ru)
+;(--> dl-ll-py dl-ll-mh)
+;(--> dl-ll-js dl-ll-mh)
 (--> dl-ll-ja dl-ll-mh)
-(--> dl-ll-ru dl-ll-mh)
+;(--> dl-ll-ru dl-ll-mh)
 (--> dl-ll-mh dl-ll-tj)
 
 ;;TOUR OF LANGS DIGITAL LITERACY BADGES END
@@ -253,13 +323,17 @@
 (--> 2d-er-ea 2d-er-vp)
 
 (--> 2d-er-vp 2d-er-pl)
-(--> 2d-er-vp 2d-er-bi)
-(--> 2d-er-vp 2d-er-gi)
-(--> 2d-er-vp 2d-er-bg)
+(--> 2d-er-pl 2d-er-gi)
+(--> 2d-er-gi 2d-er-bi)
+(--> 2d-er-bi 2d-er-bg)
+;commented out in favor of linear badge progression
+;(--> 2d-er-vp 2d-er-bi)
+;(--> 2d-er-vp 2d-er-gi)
+;(--> 2d-er-vp 2d-er-bg)
 
-(--> 2d-er-pl 2d-er-p1)
-(--> 2d-er-bi 2d-er-p1)
-(--> 2d-er-gi 2d-er-p1)
+;(--> 2d-er-pl 2d-er-p1)
+;(--> 2d-er-bi 2d-er-p1)
+;(--> 2d-er-gi 2d-er-p1)
 (--> 2d-er-bg 2d-er-p1)
 
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END

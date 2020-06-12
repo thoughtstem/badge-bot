@@ -7,16 +7,16 @@
 
 (define-random-art-badge 
   dl-dl-aa
-  "Digital Literacy Interest Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-interest-badge/134" 
+  "Digital Literacy Access Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-access-badge/134" 
   )
 ;;PAPER BADGES START
 
 
 (define-random-art-badge 
   dl-pc-aa 
-  "Digital Literacy: Paper Coding Interest Badge " 
-  "https://forum.metacoders.org/t/digital-literacy-paper-coding-interest-badge/167" 
+  "Digital Literacy: Paper Coding Access Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-access-badge/167" 
   )
 
 (define-random-art-badge 
@@ -80,14 +80,33 @@
   )
 
 
+(define-random-art-badge 
+  dl-pc-cs
+  "Digital Literacy: Paper Coding: Computer System" 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-computer-system/244" 
+  )
+
+(define-random-art-badge 
+  dl-pc-kl
+  "Digital Literacy: Paper Coding: Keyboard Literacy" 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-keyboard-literacy/245" 
+  )
+
+(define-random-art-badge 
+  dl-pc-dd
+  "Digital Literacy: Paper Coding: Drawing Discord" 
+  "https://forum.metacoders.org/t/digital-literacy-paper-coding-drawing-discord/250" 
+  )
+
+
 ;;PAPER BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START
 
 (define-random-art-badge 
   dl-ll-aa 
-  "Digital Literacy: Tour of Languages Interest Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-tour-of-languages-interest-badge/156" 
+  "Digital Literacy: Tour of Languages Access Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-tour-of-languages-access-badge/156" 
   )
 
 (define-random-art-badge 
@@ -123,6 +142,12 @@
   )
 
 (define-random-art-badge 
+  dl-ll-sc
+  "Digital Literacy: Tour of Languages: Scheme Hello World" 
+  "https://forum.metacoders.org/t/digital-literacy-tour-of-languages-scheme-hello-world/351" 
+  )
+
+(define-random-art-badge 
   dl-ll-mh
   "Digital Literacy: Tour of Languages: Multiple Hello Worlds" 
   "https://forum.metacoders.org/t/digital-literacy-tour-of-languages-multiple-hello-worlds/155" 
@@ -135,8 +160,8 @@
 
 (define-random-art-badge 
   dl-sr-aa
-  "Digital Literacy: Scratch Interest Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-scratch-interest-badge/132" 
+  "Digital Literacy: Scratch Access Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-scratch-access-badge/132" 
   )
 
 
@@ -181,15 +206,15 @@
 ;;DIGITAL LITERACY BADGES START
 (define-random-art-badge 
   dl-mt-aa
-  "Digital Literacy: Meta Interest Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-meta-interest-badge/133" 
+  "Digital Literacy: Meta Access Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-meta-access-badge/133" 
   )
 
 ;; TYPING INTEREST BADGES START
 (define-random-art-badge 
   dl-ts-aa
-  "Digital Literacy: Typing Interest Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-typing-interest-badge/205" 
+  "Digital Literacy: Typing Access Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-typing-access-badge/205" 
   )
 
 (define-random-art-badge 
@@ -222,8 +247,8 @@
 ;; DL WESCHEME INTEREST BADGES START
 (define-random-art-badge 
   dl-ws-aa 
-  "Digital Literacy: WeScheme Interest Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-wescheme-interest-badge/163" 
+  "Digital Literacy: WeScheme Access Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-access-badge/163" 
   )
 
 (define-random-art-badge 
@@ -483,6 +508,151 @@
   "2D Game Design: Survival Pokemon: Hello World"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-hello-world/242"
   )
+
+(define-random-art-badge 
+  2d-sp-01
+  "2D Game Design: Survival Pokemon: Pokemon 1"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-pokemon-1/303"
+  )
+
+(define-random-art-badge 
+  2d-sp-02
+  "2D Game Design: Survival Pokemon: Pokemon 2"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-pokemon-2/304"
+  )
+
+(define-random-art-badge 
+  2d-sp-03
+  "2D Game Design: Survival Pokemon: Pokemon 3"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-pokemon-3/305"
+  )
+
+(define-random-art-badge 
+  2d-sp-04
+  "2D Game Design: Survival Pokemon: Pokemon 4"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-pokemon-4/306"
+  )
+
+(define-random-art-badge 
+  2d-sp-05
+  "2D Game Design: Survival Pokemon: Food 1"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-food-1/307"
+  )
+
+(define-random-art-badge 
+  2d-sp-06
+  "2D Game Design: Survival Pokemon: Food 2"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-food-2/308"
+  )
+
+(define-random-art-badge 
+  2d-sp-07
+  "2D Game Design: Survival Pokemon: Food 3"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-food-3/309"
+  )
+
+(define-random-art-badge 
+  2d-sp-08
+  "2D Game Design: Survival Pokemon: Food 4"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-food-4/310"
+  )
+
+(define-random-art-badge 
+  2d-sp-09
+  "2D Game Design: Survival Pokemon: Crafter 1"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-crafter-1/311"
+  )
+
+(define-random-art-badge 
+  2d-sp-10
+  "2D Game Design: Survival Pokemon: Stone 1"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-stone-1/312"
+  )
+
+(define-random-art-badge 
+  2d-sp-11
+  "2D Game Design: Survival Pokemon: Stone 2"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-stone-2/313"
+  )
+
+(define-random-art-badge 
+  2d-sp-12
+  "2D Game Design: Survival Pokemon: Stone 3"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-stone-3/314"
+  )
+
+(define-random-art-badge 
+  2d-sp-13
+  "2D Game Design: Survival Pokemon: Stone 4"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-stone-4/315"
+  )
+
+(define-random-art-badge 
+  2d-sp-14
+  "2D Game Design: Survival Pokemon: Stone 5"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-stone-5/316"
+  )
+
+(define-random-art-badge 
+  2d-sp-15
+  "2D Game Design: Survival Pokemon: Friend 1"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-friend-1/317"
+  )
+
+(define-random-art-badge 
+  2d-sp-16
+  "2D Game Design: Survival Pokemon: Friend 2"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-friend-2/318"
+  )
+
+(define-random-art-badge 
+  2d-sp-17
+  "2D Game Design: Survival Pokemon: Friend 3"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-friend-3/319"
+  )
+
+(define-random-art-badge 
+  2d-sp-18
+  "2D Game Design: Survival Pokemon: Trainer 1"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-trainer-1/320"
+  )
+
+(define-random-art-badge 
+  2d-sp-19
+  "2D Game Design: Survival Pokemon: Trainer 2"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-trainer-2/321"
+  )
+
+(define-random-art-badge 
+  2d-sp-20
+  "2D Game Design: Survival Pokemon: Town 1"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-town-1/322"
+  )
+
+(define-random-art-badge 
+  2d-sp-21
+  "2D Game Design: Survival Pokemon: Sky 1"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-sky-1/323"
+  )
+
+(define-random-art-badge 
+  2d-sp-22
+  "2D Game Design: Survival Pokemon: Sky 2"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-sky-2/324"
+  )
+
+(define-random-art-badge 
+  2d-sp-23
+  "2D Game Design: Survival Pokemon: Level Design 1"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-level-1/325"
+  )
+
+(define-random-art-badge 
+  2d-sp-24
+  "2D Game Design: Survival Pokemon: Level Design 2"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-level-2/326"
+  )
+
 ;; SURVIVAL POKEMON INTEREST END
 
 ;; ADVENTURE MARIO INTEREST START
@@ -497,6 +667,151 @@
   "2D Game Design: Adventure Mario: Hello World"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-hello-world/243"
   )
+
+(define-random-art-badge 
+  2d-am-01
+  "2D Game Design: Adventure Mario: Character 1"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-character-1/327"
+  )
+
+(define-random-art-badge 
+  2d-am-02
+  "2D Game Design: Adventure Mario: Character 2"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-character-2/328"
+  )
+
+(define-random-art-badge 
+  2d-am-03
+  "2D Game Design: Adventure Mario: Character 3"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-character-3/329"
+  )
+
+(define-random-art-badge 
+  2d-am-04
+  "2D Game Design: Adventure Mario: Character 4"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-character-4/330"
+  )
+
+(define-random-art-badge 
+  2d-am-05
+  "2D Game Design: Adventure Mario: Coin 1"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-coin-1/331"
+  )
+
+(define-random-art-badge 
+  2d-am-06
+  "2D Game Design: Adventure Mario: Coin 2"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-coin-2/332"
+  )
+
+(define-random-art-badge 
+  2d-am-07
+  "2D Game Design: Adventure Mario: Coin 3"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-coin-3/333"
+  )
+
+(define-random-art-badge 
+  2d-am-08
+  "2D Game Design: Adventure Mario: Coin 4"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-coin-4/334"
+  )
+
+(define-random-art-badge 
+  2d-am-09
+  "2D Game Design: Adventure Mario: Coin 5"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-coin-5/335"
+  )
+
+(define-random-art-badge 
+  2d-am-10
+  "2D Game Design: Adventure Mario: Level Design 1"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-level-design-1/336"
+  )
+
+(define-random-art-badge 
+  2d-am-11
+  "2D Game Design: Adventure Mario: Level Design 2"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-level-design-2/337"
+  )
+
+(define-random-art-badge 
+  2d-am-12
+  "2D Game Design: Adventure Mario: Level Design 3"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-level-design-3/338"
+  )
+
+(define-random-art-badge 
+  2d-am-13
+  "2D Game Design: Adventure Mario: Level Design 4"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-level-design-4/339"
+  )
+
+(define-random-art-badge 
+  2d-am-14
+  "2D Game Design: Adventure Mario: Level Design 5"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-level-design-5/340"
+  )
+
+(define-random-art-badge 
+  2d-am-15
+  "2D Game Design: Adventure Mario: Fetch Quest 1"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-fetch-quest-1/341"
+  )
+
+(define-random-art-badge 
+  2d-am-16
+  "2D Game Design: Adventure Mario: Fetch Quest 2"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-fetch-quest-2/342"
+  )
+
+(define-random-art-badge 
+  2d-am-17
+  "2D Game Design: Adventure Mario: Fetch Quest 3"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-fetch-quest-3/343"
+  )
+
+(define-random-art-badge 
+  2d-am-18
+  "2D Game Design: Adventure Mario: Fetch Quest 4"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-fetch-quest-4/344"
+  )
+
+(define-random-art-badge 
+  2d-am-19
+  "2D Game Design: Adventure Mario: Fetch Quest 5"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-fetch-quest-5/345"
+  )
+
+(define-random-art-badge 
+  2d-am-20
+  "2D Game Design: Adventure Mario: Enemy 1"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-enemy-1/346"
+  )
+
+(define-random-art-badge 
+  2d-am-21
+  "2D Game Design: Adventure Mario: Enemy 2"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-enemy-2/347"
+  )
+
+(define-random-art-badge 
+  2d-am-22
+  "2D Game Design: Adventure Mario: Enemy 3"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-enemy-3/348"
+  )
+
+(define-random-art-badge 
+  2d-am-23
+  "2D Game Design: Adventure Mario: Enemy 4"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-enemy-4/349"
+  )
+
+(define-random-art-badge 
+  2d-am-24
+  "2D Game Design: Adventure Mario: Enemy 5"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-enemy-5/350"
+  )
+
 ;; ADVENTURE MARIO INTEREST END
 
 ;; 3D EXPLORATION INTEREST START
@@ -668,7 +983,7 @@
 (define-random-art-badge 
   da-wa-aa
   "Digital Art: WeScheme Art Access Badge"
-  "https://forum.metacoders.org/t/digital-art-wescheme-art-interest-badge/227"
+  "https://forum.metacoders.org/t/digital-art-wescheme-art-access-badge/227"
   )
 
 (define-random-art-badge 
@@ -793,8 +1108,8 @@
 
 (define-random-art-badge 
   dl-cb-aa
-  "Digital Literacy: Computer Basics Interest Badge" 
-  "https://forum.metacoders.org/t/digital-literary-computer-basics-interest-badge/206" 
+  "Digital Literacy: Computer Basics Access Badge" 
+  "https://forum.metacoders.org/t/digital-literary-computer-basics-access-badge/206" 
   )
 
 (define-random-art-badge 
@@ -848,8 +1163,8 @@
 ;; DISCORD ADVANCED INTEREST BADGES START
 (define-random-art-badge 
   dl-da-aa
-  "Digital Literacy: Discord Advanced Interest Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-discord-advanced-interest-badge/207" 
+  "Digital Literacy: Discord Advanced Access Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-discord-advanced-access-badge/207" 
   )
 
 (define-random-art-badge 

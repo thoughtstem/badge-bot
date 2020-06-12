@@ -50,7 +50,7 @@
   (begin
     (provide id)
     (define id
-      (badge 'id name url image (hash)))
+      (badge 'id (~a name " [" 'id "]") url image (hash)))
     (register-badge! id)))
 
 (define (badge-img-with-id b)
