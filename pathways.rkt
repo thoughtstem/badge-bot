@@ -42,12 +42,20 @@
 
 
 ;;SCRATCH DIGITAL LITERACY BADGES START
-(--> dl-sr-aa dl-sr-ti)
-(--> dl-sr-aa dl-sr-ab)
-(--> dl-sr-aa dl-sr-ch)
+
+;;Scratch Intro Branch
 (--> dl-sr-aa dl-sr-mv)
-(--> dl-sr-aa dl-sr-mo)
-(--> dl-sr-aa dl-sr-dr)
+(--> dl-sr-mv dl-sr-ab)
+(--> dl-sr-ab dl-sr-ch)
+(--> dl-sr-ch dl-sr-ti)
+(--> dl-sr-ti dl-sr-mo)
+(--> dl-sr-mo dl-sr-dr)
+
+;;Todo: Scratch Underwater Branch
+;;Todo: Scratch Mouse Maze Branch
+;;Todo: Scratch Monkey Business Branch
+;;Todo: Scratch Space Shooter Branch
+
 ;;SCRATCH DIGITAL LITERACY BADGES END
 
 
