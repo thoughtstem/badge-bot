@@ -75,61 +75,37 @@
 (--> dl-ws-sa dl-ws-si)
 (--> dl-ws-si dl-ws-sc)
 (--> dl-ws-sc dl-ws-sd)
-
-(--> dl-ws-sd dl-ws-ab)
 (--> dl-ws-sd dl-ws-bd)
-(--> dl-ws-sd dl-ws-st)
-
-
-(--> dl-ws-ab dl-ws-cb)
-(--> dl-ws-bd dl-ws-cb)
-(--> dl-ws-st dl-ws-cb)
-
-(--> dl-ws-cb dl-ws-de)
-
+(--> dl-ws-bd dl-ws-ab)
+(--> dl-ws-ab dl-ws-st)
+(--> dl-ws-st dl-ws-de)
 (--> dl-ws-de dl-ws-pr)
 (--> dl-ws-pr da-aa-aa)
 
 ;wescheme art interest
 (--> da-aa-aa da-wa-aa)
 
-
-(--> da-wa-aa da-wa-s1)
-(--> da-wa-s1 da-wa-s2)
-(--> da-wa-s2 da-wa-s3)
-
-(--> da-wa-aa da-wa-xy)
-(--> da-wa-xy da-wa-ct)
-(--> da-wa-aa da-wa-fl)
-(--> da-wa-fl da-wa-ct)
 (--> da-wa-aa da-wa-al)
-(--> da-wa-al da-wa-ct)
+(--> da-wa-al da-wa-fl)
+(--> da-wa-fl da-wa-xy)
 
 (--> da-wa-aa da-wa-ra)
-(--> da-wa-aa da-wa-sl)
+
 (--> da-wa-aa da-wa-rt)
-(--> da-wa-aa da-wa-cr)
-
-(--> da-wa-cr da-wa-cv)
-(--> da-wa-rt da-wa-cv)
-(--> da-wa-sl da-wa-cv)
-
-(--> da-wa-cv da-wa-me)
-(--> da-wa-ra da-wa-me)
-(--> da-wa-ct da-wa-me)
-
-(--> da-wa-me da-wa-su)
-(--> da-wa-me da-wa-pe)
+(--> da-wa-rt da-wa-sl)
+(--> da-wa-sl da-wa-cr)
 
 (--> da-wa-aa da-wa-rd)
 (--> da-wa-rd da-wa-lr)
 (--> da-wa-lr da-wa-df)
-(--> da-wa-df da-wa-ge)
 
-;discord advanced interest
-(--> dl-os-wm dl-da-aa)
-(--> dl-da-aa dl-ds-rm)
-
+(--> da-wa-aa da-wa-pr)
+(--> da-wa-pr da-wa-ge)
+(--> da-wa-pr da-wa-su)
+(--> da-wa-pr da-wa-pe)
+(--> da-wa-pr da-wa-s1)
+(--> da-wa-s1 da-wa-s2)
+(--> da-wa-s2 da-wa-s3)
 
 ;game design interest
 (--> dl-ws-pr 2d-gd-aa)

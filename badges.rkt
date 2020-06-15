@@ -204,11 +204,6 @@
 
 
 ;;DIGITAL LITERACY BADGES START
-(define-random-art-badge 
-  dl-mt-aa
-  "Digital Literacy: Meta Access Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-meta-access-badge/133" 
-  )
 
 ;; TYPING INTEREST BADGES START
 (define-random-art-badge 
@@ -987,24 +982,6 @@
   )
 
 (define-random-art-badge 
-  da-wa-s1
-  "Digital Art: WeScheme: Stop Sign #1"
-  "https://forum.metacoders.org/t/digital-art-wescheme-stop-sign-1/162"
-  )
-
-(define-random-art-badge 
-  da-wa-s2
-  "Digital Art: WeScheme: Stop Sign #2"
-  "https://forum.metacoders.org/t/digital-art-wescheme-stop-sign-2/165"
-  )
-
-(define-random-art-badge 
-  da-wa-s3
-  "Digital Art: WeScheme: Stop Sign #3"
-  "https://forum.metacoders.org/t/digital-art-wescheme-stop-sign-3/166"
-  )
-
-(define-random-art-badge 
   da-wa-al
   "Digital Art: WeScheme: Align"
   "https://forum.metacoders.org/t/digital-art-wescheme-align/198"
@@ -1014,12 +991,6 @@
   da-wa-xy
   "Digital Art: WeScheme: Overlay/XY"
   "https://forum.metacoders.org/t/digital-art-wescheme-overlay-xy/180"
-  )
-
-(define-random-art-badge 
-  da-wa-ct
-  "Digital Art: WeScheme: Controllers"
-  "https://forum.metacoders.org/t/digital-art-wescheme-controllers/202"
   )
 
 (define-random-art-badge 
@@ -1046,7 +1017,6 @@
   "https://forum.metacoders.org/t/digital-art-wescheme-rgba/204"
   )
 
-
 (define-random-art-badge 
   da-wa-rd
   "Digital Art: WeScheme: Random"
@@ -1066,27 +1036,33 @@
   )
 
 (define-random-art-badge 
-  da-wa-ge
-  "Digital Art: WeScheme: Generative Art"
-  "https://forum.metacoders.org/t/digital-art-wescheme-generative-art/203"
-  )
-
-(define-random-art-badge 
   da-wa-cr
   "Digital Art: WeScheme: Crop"
   "https://forum.metacoders.org/t/digital-art-wescheme-crop/232"
   )
 
-(define-random-art-badge 
-  da-wa-cv
-  "Digital Art: WeScheme: Converters"
-  "https://forum.metacoders.org/t/digital-art-wescheme-converters/234"
+(define-random-art-badge
+  da-wa-pr
+  "Digital Art: WeScheme: Projects"
+  ""
   )
 
 (define-random-art-badge 
-  da-wa-me
-  "Digital Art: WeScheme: Manipulation Expert"
-  "https://forum.metacoders.org/t/digital-art-wescheme-manipulation-expert/239"
+  da-wa-s1
+  "Digital Art: WeScheme: Stop Sign #1"
+  "https://forum.metacoders.org/t/digital-art-wescheme-stop-sign-1/162"
+  )
+
+(define-random-art-badge 
+  da-wa-s2
+  "Digital Art: WeScheme: Stop Sign #2"
+  "https://forum.metacoders.org/t/digital-art-wescheme-stop-sign-2/165"
+  )
+
+(define-random-art-badge 
+  da-wa-s3
+  "Digital Art: WeScheme: Stop Sign #3"
+  "https://forum.metacoders.org/t/digital-art-wescheme-stop-sign-3/166"
   )
 
 (define-random-art-badge 
@@ -1099,6 +1075,13 @@
   da-wa-pe
   "Digital Literacy: WeScheme: Peach Drawing"
   "https://forum.metacoders.org/t/digital-literacy-wescheme-peach-drawing/183"
+  )
+
+
+(define-random-art-badge 
+  da-wa-ge
+  "Digital Art: WeScheme: Generative Art"
+  "https://forum.metacoders.org/t/digital-art-wescheme-generative-art/203"
   )
 
 ;; DA WESCHEME ART INTEREST BADGES END
@@ -1160,25 +1143,10 @@
   "https://forum.metacoders.org/t/digital-literacy-operating-system-windows-management-basics/121" 
   )
 
-;; DISCORD ADVANCED INTEREST BADGES START
-(define-random-art-badge 
-  dl-da-aa
-  "Digital Literacy: Discord Advanced Access Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-discord-advanced-access-badge/207" 
-  )
-
-(define-random-art-badge 
-  dl-ds-rm
-  "Digital Literacy: Discord: Recent Mentions Feature" 
-  "https://forum.metacoders.org/t/digital-literacy-discord-recent-mentions-feature/120" 
-  )
-
-;; DISCORD ADVANCED INTEREST BADGES END
-
 (define-random-art-badge 
   dl-ds-vc  
-  "Digital Literacy: Discord: Video Chat Features" 
-  "https://forum.metacoders.org/t/digital-literacy-discord-video-chat-features/118" 
+  "Digital Literacy: Zoom: Video Chat Features" 
+  "https://forum.metacoders.org/t/digital-literacy-zoom-video-chat-features/118" 
   )
 
 (define-random-art-badge 
@@ -1203,7 +1171,7 @@
 
 (define-random-art-badge 
   dl-ds-tc 
-  "Digital Literacy: Discord: Text Channel Hello World" 
+  "Digital Literacy: Zoom: Chat Hello World" 
   "https://forum.metacoders.org/t/digital-literacy-discord-text-channel-hello-world/129" 
   )
 
