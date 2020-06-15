@@ -85,21 +85,17 @@
 ;wescheme art interest
 (--> da-aa-aa da-wa-aa)
 
-(--> da-wa-aa da-wa-al)
-(--> da-wa-al da-wa-fl)
-(--> da-wa-fl da-wa-xy)
-
-(--> da-wa-aa da-wa-ra)
-
 (--> da-wa-aa da-wa-rt)
 (--> da-wa-rt da-wa-sl)
 (--> da-wa-sl da-wa-cr)
-
-(--> da-wa-aa da-wa-rd)
+(--> da-wa-cr da-wa-al)
+(--> da-wa-al da-wa-fl)
+(--> da-wa-fl da-wa-xy)
+(--> da-wa-xy da-wa-ra)
+(--> da-wa-ra da-wa-rd)
 (--> da-wa-rd da-wa-lr)
 (--> da-wa-lr da-wa-df)
-
-(--> da-wa-aa da-wa-pr)
+(--> da-wa-df da-wa-pr)
 (--> da-wa-pr da-wa-ge)
 (--> da-wa-pr da-wa-su)
 (--> da-wa-pr da-wa-pe)

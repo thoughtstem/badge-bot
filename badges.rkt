@@ -289,12 +289,6 @@
   )
 
 (define-random-art-badge 
-  dl-ws-cb
-  "Digital Literacy: WeScheme: Combiners" 
-  "https://forum.metacoders.org/t/digital-literacy-wescheme-combiners/181" 
-  )
-
-(define-random-art-badge 
   dl-ws-de
   "Digital Literacy: WeScheme: Definitions"
   "https://forum.metacoders.org/t/digital-literacy-wescheme-definitions/172"
