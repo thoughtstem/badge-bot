@@ -202,8 +202,26 @@
   )
 ;;SCRATCH DIGITAL LITERACY BADGES END
 
+;;SCRATCH GAME DESIGN BADGES START
+(define-random-art-badge 
+  sr-ho-hw
+  "Scratch: Horton: Horton’s Walk" 
+  "https://forum.metacoders.org/t/scratch-horton-hortons-walk/355" 
+  )
 
-;;DIGITAL LITERACY BADGES START
+(define-random-art-badge 
+  sr-ho-hf
+  "Scratch: Horton: Horton Finds Food" 
+  "https://forum.metacoders.org/t/scratch-horton-horton-finds-food/356" 
+  )
+
+(define-random-art-badge 
+  sr-ho-hr
+  "Scratch: Horton: Horton’s Race" 
+  "https://forum.metacoders.org/t/scratch-horton-hortons-race/359" 
+  )
+
+;;SCRATCH GAME DESIGN BADGES END
 
 ;; TYPING INTEREST BADGES START
 (define-random-art-badge 
