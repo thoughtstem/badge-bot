@@ -11,7 +11,8 @@
   "https://forum.metacoders.org/t/digital-literacy-access-badge/134" 
   )
 ;;PAPER BADGES START
-
+;to be deleted, replaced by coding adventures badges
+#|
 
 (define-random-art-badge 
   dl-pc-aa 
@@ -98,8 +99,38 @@
   "https://forum.metacoders.org/t/digital-literacy-paper-coding-drawing-discord/250" 
   )
 
+|#
 
 ;;PAPER BADGES END
+
+;;CODING ADVENTURES BADGES START
+
+(define-random-art-badge
+  dl-ca-aa
+  "Digital Literacy: Coding Adventures Access Badge"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures/167")
+
+(define-random-art-badge
+  dl-ca-if
+  "Digital Literacy: Coding Adventures: If/Then Games"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-if-then-games/358")
+
+(define-random-art-badge
+  dl-ca-lg
+  "Digital Literacy: Coding Adventures: All the Languages!"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-all-the-languages/360")
+
+(define-random-art-badge
+  dl-ca-bd
+  "Digital Literacy: Coding Adventures: Beach Day"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-beach-day/361")
+
+(define-random-art-badge
+  dl-ca-ap
+  "Digital Literacy: Coding Adventures: Let's Go to the Amusement Park"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-lets-go-to-the-amusement-park/362")
+
+;; CODING ADVENTURES BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START
 

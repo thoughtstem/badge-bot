@@ -14,6 +14,10 @@
 ;(--> dl-dl-aa dl-mt-aa)
 
 ;;PAPER DIGITAL LITERACY BADGES START
+
+;TO BE REPLACED by coding adventures
+
+#|
 ;(--> dl-dl-aa dl-pc-aa)
 
 (--> dl-pc-aa dl-pc-da)
@@ -37,8 +41,20 @@
 (--> dl-pc-aa dl-pc-cs)
 (--> dl-pc-cs dl-pc-kl)
 (--> dl-pc-cs dl-pc-dd)
+|#
 
 ;;PAPER DIGITAL LITERACY BADGES END
+
+;;CODING ADVENTURES BADGES START
+
+(--> dl-dl-aa dl-ca-aa) ;delete to cut coding adventures off from main branch
+
+(--> dl-ca-aa dl-ca-if)
+(--> dl-ca-aa dl-ca-lg)
+(--> dl-ca-aa dl-ca-bd)
+(--> dl-ca-aa dl-ca-ap)
+
+;;CODING ADVENTURES BADGES END
 
 
 ;;SCRATCH DIGITAL LITERACY BADGES START
@@ -62,7 +78,7 @@
 ;; NEW DIGITAL LITERACY ORDER
 ;(--> dl-mt-aa dl-ts-ql)
 (--> dl-dl-aa dl-ds-vc)
-(--> dl-ds-vc dl-pc-aa)
+;(--> dl-ds-vc dl-pc-aa)
 (--> dl-ds-vc dl-ds-tc)
 (--> dl-ds-tc dl-sc-wj)
 
