@@ -127,7 +127,7 @@
 
 (define-random-art-badge
   dl-ca-ap
-  "Digital Literacy: Coding Adventures: Let's Go to the Amusement Park"
+  "Digital Literacy: Coding Adventures: Lets Go to the Amusement Park"
   "https://forum.metacoders.org/t/digital-literacy-coding-adventures-lets-go-to-the-amusement-park/362")
 
 ;; CODING ADVENTURES BADGES END
