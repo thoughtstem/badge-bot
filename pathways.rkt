@@ -59,7 +59,7 @@
 
 ;;SCRATCH DIGITAL LITERACY BADGES START
 
-;;Scratch Intro Branch
+;;Scratch Intro Badges
 (--> dl-sr-aa dl-sr-mv)
 (--> dl-sr-mv dl-sr-ab)
 (--> dl-sr-ab dl-sr-ch)
@@ -67,13 +67,22 @@
 (--> dl-sr-ti dl-sr-mo)
 (--> dl-sr-mo dl-sr-dr)
 
+;;SCRATCH DIGITAL LITERACY BADGES END
+
+;;SCRATCH GAME DESIGN BADGES START
+
+;;Scratch Horton Badges
+(--> dl-sr-dr sr-ho-hw)
+(--> sr-ho-hw sr-ho-hf)
+(--> sr-ho-hf sr-ho-hr)
+
 ;;Todo: Scratch Underwater Branch
 ;;Todo: Scratch Mouse Maze Branch
 ;;Todo: Scratch Monkey Business Branch
 ;;Todo: Scratch Space Shooter Branch
 
-;;SCRATCH DIGITAL LITERACY BADGES END
 
+;;SCRATCH GAME DESIGN BADGES END
 
 ;; NEW DIGITAL LITERACY ORDER
 ;(--> dl-mt-aa dl-ts-ql)
