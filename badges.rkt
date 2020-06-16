@@ -1055,7 +1055,7 @@
 
 (define-random-art-badge
   da-wa-pr
-  "Digital Art: WeScheme: Projects"
+  "Digital Art: WeScheme: Art Projects"
   ""
   )
 
