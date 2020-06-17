@@ -252,6 +252,24 @@
   "https://forum.metacoders.org/t/scratch-horton-hortons-race/359" 
   )
 
+(define-random-art-badge 
+  sr-ba-ca
+  "Scratch: Baseball: Catch" 
+  "https://forum.metacoders.org/t/scratch-baseball-catch/364" 
+  )
+
+(define-random-art-badge 
+  sr-ba-pb
+  "Scratch: Baseball: Play Ball" 
+  "https://forum.metacoders.org/t/scratch-baseball-play-ball/366" 
+  )
+
+(define-random-art-badge 
+  sr-ba-gg
+  "Scratch: Baseball: Guessing Game" 
+  "https://forum.metacoders.org/t/scratch-baseball-guessing-game/367" 
+  )
+
 ;;SCRATCH GAME DESIGN BADGES END
 
 ;; TYPING INTEREST BADGES START

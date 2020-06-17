@@ -76,6 +76,11 @@
 (--> sr-ho-hw sr-ho-hf)
 (--> sr-ho-hf sr-ho-hr)
 
+;;Scratch Baseball Badges
+(--> sr-ho-hr sr-ba-ca)
+(--> sr-ba-ca sr-ba-pb)
+(--> sr-ba-pb sr-ba-gg)
+
 ;;Todo: Scratch Underwater Branch
 ;;Todo: Scratch Mouse Maze Branch
 ;;Todo: Scratch Monkey Business Branch
