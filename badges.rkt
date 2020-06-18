@@ -130,6 +130,11 @@
   "Digital Literacy: Coding Adventures: Lets Go to the Amusement Park"
   "https://forum.metacoders.org/t/digital-literacy-coding-adventures-lets-go-to-the-amusement-park/362")
 
+(define-random-art-badge
+  dl-ca-mm
+  "Digital Literacy: Coding Adventures: Monster Mash"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-monster-mash/369")
+
 ;; CODING ADVENTURES BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START
