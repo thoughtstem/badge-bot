@@ -1,4 +1,4 @@
-#lang racket
+ #lang racket
 
 (provide
   (all-from-out "badges.rkt" "pathways-lang.rkt"))
@@ -53,6 +53,7 @@
 (--> dl-ca-aa dl-ca-lg)
 (--> dl-ca-aa dl-ca-bd)
 (--> dl-ca-aa dl-ca-ap)
+(--> dl-ca-aa dl-ca-mm)
 
 ;;CODING ADVENTURES BADGES END
 
@@ -75,6 +76,21 @@
 (--> dl-sr-dr sr-ho-hw)
 (--> sr-ho-hw sr-ho-hf)
 (--> sr-ho-hf sr-ho-hr)
+
+;;Scratch Baseball Badges
+(--> sr-ho-hr sr-ba-ca)
+(--> sr-ba-ca sr-ba-pb)
+(--> sr-ba-pb sr-ba-gg)
+
+;;Scratch Magic Forest Badges
+(--> sr-ba-gg sr-mf-cs)
+(--> sr-mf-cs sr-mf-fh)
+(--> sr-mf-fh sr-mf-ra)
+
+;;Scratch Super Cat Badges
+(--> sr-mf-ra sr-sc-lf)
+(--> sr-sc-lf sr-sc-lw)
+(--> sr-sc-lw sr-sc-oc)
 
 ;;Todo: Scratch Underwater Branch
 ;;Todo: Scratch Mouse Maze Branch

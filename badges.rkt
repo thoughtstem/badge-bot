@@ -130,6 +130,11 @@
   "Digital Literacy: Coding Adventures: Lets Go to the Amusement Park"
   "https://forum.metacoders.org/t/digital-literacy-coding-adventures-lets-go-to-the-amusement-park/362")
 
+(define-random-art-badge
+  dl-ca-mm
+  "Digital Literacy: Coding Adventures: Monster Mash"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-monster-mash/369")
+
 ;; CODING ADVENTURES BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START
@@ -243,6 +248,60 @@
   sr-ho-hr
   "Scratch: Horton: Horton’s Race" 
   "https://forum.metacoders.org/t/scratch-horton-hortons-race/359" 
+  )
+
+(define-random-art-badge 
+  sr-ba-ca
+  "Scratch: Baseball: Catch" 
+  "https://forum.metacoders.org/t/scratch-baseball-catch/364" 
+  )
+
+(define-random-art-badge 
+  sr-ba-pb
+  "Scratch: Baseball: Play Ball" 
+  "https://forum.metacoders.org/t/scratch-baseball-play-ball/366" 
+  )
+
+(define-random-art-badge 
+  sr-ba-gg
+  "Scratch: Baseball: Guessing Game" 
+  "https://forum.metacoders.org/t/scratch-baseball-guessing-game/367" 
+  )
+
+(define-random-art-badge 
+  sr-mf-cs
+  "Scratch: Magic Forest: Circles and Spirals" 
+  "https://forum.metacoders.org/t/scratch-magic-forest-circles-and-spirals/372" 
+  )
+
+(define-random-art-badge 
+  sr-mf-fh
+  "Scratch: Magic Forest: Find My Hat" 
+  "https://forum.metacoders.org/t/scratch-magic-forest-find-my-hat/370" 
+  )
+
+(define-random-art-badge 
+  sr-mf-ra
+  "Scratch: Magic Forest: Ride Away!" 
+  "https://forum.metacoders.org/t/scratch-magic-forest-ride-away/371" 
+  )
+
+(define-random-art-badge 
+  sr-sc-lf
+  "Scratch: Super Cat: Learn to Fly" 
+  "https://forum.metacoders.org/t/scratch-super-cat-learn-to-fly/373" 
+  )
+
+(define-random-art-badge 
+  sr-sc-lw
+  "Scratch: Super Cat: Lead the Way" 
+  "https://forum.metacoders.org/t/scratch-super-cat-lead-the-way/374" 
+  )
+
+(define-random-art-badge 
+  sr-sc-oc
+  "Scratch: Super Cat: Out of Control" 
+  "https://forum.metacoders.org/t/scratch-super-cat-out-of-control/375" 
   )
 
 ;;SCRATCH GAME DESIGN BADGES END
