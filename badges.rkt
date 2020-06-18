@@ -1177,13 +1177,6 @@
 
 
 ;; COMPUTER BASICS INTEREST START
-
-(define-random-art-badge 
-  dl-cb-aa
-  "Digital Literacy: Computer Basics Access Badge" 
-  "https://forum.metacoders.org/t/digital-literary-computer-basics-access-badge/206" 
-  )
-
 (define-random-art-badge 
   dl-vo-fi
   "Digital Literacy: Vocabulary: File" 

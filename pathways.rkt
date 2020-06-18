@@ -296,8 +296,7 @@
 
 
 ;;COMPUTER BASICS INTEREST BADGES START
-(--> dl-os-wm dl-cb-aa)
-(--> dl-cb-aa dl-os-tf)
+(--> dl-os-wm dl-os-tf)
 (--> dl-os-tf dl-vo-fi)
 (--> dl-vo-fi dl-vo-br)
 (--> dl-vo-fi dl-vo-hw)
