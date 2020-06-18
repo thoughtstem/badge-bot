@@ -82,6 +82,16 @@
 (--> sr-ba-ca sr-ba-pb)
 (--> sr-ba-pb sr-ba-gg)
 
+;;Scratch Magic Forest Badges
+(--> sr-ba-gg sr-mf-cs)
+(--> sr-mf-cs sr-mf-fh)
+(--> sr-mf-fh sr-mf-ra)
+
+;;Scratch Super Cat Badges
+(--> sr-mf-ra sr-sc-lf)
+(--> sr-sc-lf sr-sc-lw)
+(--> sr-sc-lw sr-sc-oc)
+
 ;;Todo: Scratch Underwater Branch
 ;;Todo: Scratch Mouse Maze Branch
 ;;Todo: Scratch Monkey Business Branch

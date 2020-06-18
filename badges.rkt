@@ -275,6 +275,42 @@
   "https://forum.metacoders.org/t/scratch-baseball-guessing-game/367" 
   )
 
+(define-random-art-badge 
+  sr-mf-cs
+  "Scratch: Magic Forest: Circles and Spirals" 
+  "https://forum.metacoders.org/t/scratch-magic-forest-circles-and-spirals/372" 
+  )
+
+(define-random-art-badge 
+  sr-mf-fh
+  "Scratch: Magic Forest: Find My Hat" 
+  "https://forum.metacoders.org/t/scratch-magic-forest-find-my-hat/370" 
+  )
+
+(define-random-art-badge 
+  sr-mf-ra
+  "Scratch: Magic Forest: Ride Away!" 
+  "https://forum.metacoders.org/t/scratch-magic-forest-ride-away/371" 
+  )
+
+(define-random-art-badge 
+  sr-sc-lf
+  "Scratch: Super Cat: Learn to Fly" 
+  "https://forum.metacoders.org/t/scratch-super-cat-learn-to-fly/373" 
+  )
+
+(define-random-art-badge 
+  sr-sc-lw
+  "Scratch: Super Cat: Lead the Way" 
+  "https://forum.metacoders.org/t/scratch-super-cat-lead-the-way/374" 
+  )
+
+(define-random-art-badge 
+  sr-sc-oc
+  "Scratch: Super Cat: Out of Control" 
+  "https://forum.metacoders.org/t/scratch-super-cat-out-of-control/375" 
+  )
+
 ;;SCRATCH GAME DESIGN BADGES END
 
 ;; TYPING INTEREST BADGES START
