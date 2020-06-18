@@ -133,13 +133,6 @@
 ;; CODING ADVENTURES BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START
-
-(define-random-art-badge 
-  dl-ll-aa 
-  "Digital Literacy: Tour of Languages Access Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-tour-of-languages-access-badge/156" 
-  )
-
 (define-random-art-badge 
   dl-ll-tj 
   "Digital Literacy: Tour of Languages: Three.js Intro" 
@@ -255,12 +248,6 @@
 ;;SCRATCH GAME DESIGN BADGES END
 
 ;; TYPING INTEREST BADGES START
-(define-random-art-badge 
-  dl-ts-aa
-  "Digital Literacy: Typing Access Badge" 
-  "https://forum.metacoders.org/t/digital-literacy-typing-access-badge/205" 
-  )
-
 (define-random-art-badge 
   dl-ts-gh
   "Digital Literacy: Typing Speed: Level 4" 

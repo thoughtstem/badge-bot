@@ -85,20 +85,17 @@
 ;;SCRATCH GAME DESIGN BADGES END
 
 ;; NEW DIGITAL LITERACY ORDER
-;(--> dl-mt-aa dl-ts-ql)
 (--> dl-dl-aa dl-ds-vc)
-;(--> dl-ds-vc dl-pc-aa)
 (--> dl-ds-vc dl-ds-tc)
 (--> dl-ds-tc dl-sc-wj)
 
 (--> dl-sc-wj dl-os-wm)
 (--> dl-os-wm dl-sr-aa)
 (--> dl-os-wm dl-ts-ql)
-(--> dl-ts-ql dl-ll-aa)
+(--> dl-ts-ql dl-ll-py)
 
 ;typing interest, 
-(--> dl-ts-ql dl-ts-aa)
-(--> dl-ts-aa dl-ts-er)
+(--> dl-ts-ql dl-ts-er)
 (--> dl-ts-er dl-ts-vb)
 (--> dl-ts-vb dl-ts-gh)
 
@@ -299,21 +296,12 @@
 ;;COMPUTER BASICS INTEREST BADGES END
 
 ;;TOUR OF LANGS DIGITAL LITERACY BADGES START
-
-;(--> dl-dl-aa dl-ll-aa)
-(--> dl-ll-aa dl-ll-py)
 (--> dl-ll-py dl-ll-ru)
 (--> dl-ll-ru dl-ll-sc)
 (--> dl-ll-sc dl-ll-js)
 (--> dl-ll-js dl-ll-ja)
-;commented out in favor of linear badge progression
-;(--> dl-ll-aa dl-ll-js)
-;(--> dl-ll-aa dl-ll-ja)
-;(--> dl-ll-aa dl-ll-ru)
-;(--> dl-ll-py dl-ll-mh)
-;(--> dl-ll-js dl-ll-mh)
+
 (--> dl-ll-ja dl-ll-mh)
-;(--> dl-ll-ru dl-ll-mh)
 (--> dl-ll-mh dl-ll-tj)
 
 ;;TOUR OF LANGS DIGITAL LITERACY BADGES END
@@ -331,14 +319,6 @@
 (--> 2d-er-pl 2d-er-gi)
 (--> 2d-er-gi 2d-er-bi)
 (--> 2d-er-bi 2d-er-bg)
-;commented out in favor of linear badge progression
-;(--> 2d-er-vp 2d-er-bi)
-;(--> 2d-er-vp 2d-er-gi)
-;(--> 2d-er-vp 2d-er-bg)
-
-;(--> 2d-er-pl 2d-er-p1)
-;(--> 2d-er-bi 2d-er-p1)
-;(--> 2d-er-gi 2d-er-p1)
 (--> 2d-er-bg 2d-er-p1)
 
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
