@@ -1263,7 +1263,24 @@
   "https://forum.metacoders.org/t/digital-literacy-screen-capturing-screenshot-badge/110" 
   )
 
+(define-random-art-badge 
+  screenshare
+  "Digital Literacy: Screen Capturing: Screenshare Badge" 
+  "https://forum.metacoders.org/t/digital-literacy-screen-capturing-screenshare-badge/390" 
+  )
 
+(define-random-art-badge 
+  browser-tabs
+  "Digital Literacy: Operating System: Browser Tabs" 
+  "https://forum.metacoders.org/t/digital-literacy-operating-system-browser-tabs/121" 
+  )
+
+
+(define-random-art-badge 
+  multiple-windows
+  "Digital Literacy: Operating System: Multiple Windows" 
+  "https://forum.metacoders.org/t/digital-literacy-operating-system-multiple-windows/392" 
+  )
 ;;DIGITAL LITERACY BADGES END
 
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES START

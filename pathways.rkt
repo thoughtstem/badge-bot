@@ -103,11 +103,12 @@
 ;; NEW DIGITAL LITERACY ORDER
 (--> dl-dl-aa dl-ds-vc)
 (--> dl-ds-vc dl-ds-tc)
-(--> dl-ds-tc dl-sc-wj)
+(--> dl-ds-tc screenshare)
 
-(--> dl-sc-wj dl-os-wm)
-(--> dl-os-wm dl-sr-aa)
-(--> dl-os-wm dl-ts-ql)
+(--> screenshare browser-tabs)
+(--> browser-tabs multiple-windows)
+(--> multiple-windows dl-sr-aa)
+(--> multiple-windows dl-ts-ql)
 (--> dl-ts-ql dl-ll-py)
 
 ;typing interest, 
@@ -296,7 +297,8 @@
 
 
 ;;COMPUTER BASICS INTEREST BADGES START
-(--> dl-os-wm dl-os-tf)
+(--> browser-tabs dl-sc-wj)
+(--> dl-sc-wj dl-os-tf)
 (--> dl-os-tf dl-vo-fi)
 (--> dl-vo-fi dl-vo-br)
 (--> dl-vo-fi dl-vo-hw)
