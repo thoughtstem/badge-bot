@@ -54,6 +54,7 @@
 (--> dl-ca-aa dl-ca-bd)
 (--> dl-ca-aa dl-ca-ap)
 (--> dl-ca-aa dl-ca-mm)
+(--> dl-ca-aa dl-ca-da)
 
 ;;CODING ADVENTURES BADGES END
 

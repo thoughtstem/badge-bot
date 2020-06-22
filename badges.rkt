@@ -135,6 +135,11 @@
   "Digital Literacy: Coding Adventures: Monster Mash"
   "https://forum.metacoders.org/t/digital-literacy-coding-adventures-monster-mash/369")
 
+(define-random-art-badge
+  dl-ca-da
+  "Digital Literacy: Coding Adventures: Dance Party"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-dance-party/376")
+
 ;; CODING ADVENTURES BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START
