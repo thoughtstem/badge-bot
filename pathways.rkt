@@ -129,7 +129,7 @@
 (--> dl-ws-ab dl-ws-st)
 (--> dl-ws-st dl-ws-de)
 (--> dl-ws-de dl-ws-pr)
-(--> dl-ws-pr da-aa-aa)
+;(--> dl-ws-pr da-aa-aa)
 
 ;wescheme art interest
 (--> da-aa-aa da-wa-aa)
@@ -153,8 +153,8 @@
 (--> da-wa-s2 da-wa-s3)
 
 ;game design interest
-(--> dl-ws-pr 2d-gd-aa)
-(--> dl-ws-pr 3d-gd-aa)
+;(--> dl-ws-pr 2d-gd-aa)
+;(--> dl-ws-pr 3d-gd-aa)
 (--> 2d-gd-aa gd-dr-aa)
 (--> 3d-gd-aa gd-dr-aa)
 
@@ -271,21 +271,20 @@
 
 
 (--> 3d-ex-01 3d-ex-05)
-(--> 3d-ex-05 3d-ex-06)
+(--> 3d-ex-05 3d-ex-10)
+
+(--> 3d-ex-10 3d-ex-06)
 (--> 3d-ex-06 3d-ex-07)
 (--> 3d-ex-07 3d-ex-08)
 (--> 3d-ex-08 3d-ex-09)
 
-(--> 3d-ex-01 3d-ex-10)
 (--> 3d-ex-10 3d-ex-11)
 (--> 3d-ex-11 3d-ex-12)
 (--> 3d-ex-12 3d-ex-13)
 (--> 3d-ex-13 3d-ex-14)
 
-(--> 3d-ex-07 3d-ex-15)
-(--> 3d-ex-07 3d-ex-20)
-(--> 3d-ex-12 3d-ex-15)
-(--> 3d-ex-12 3d-ex-20)
+(--> 3d-ex-10 3d-ex-15)
+(--> 3d-ex-10 3d-ex-20)
 
 (--> 3d-ex-15 3d-ex-16)
 (--> 3d-ex-16 3d-ex-17)
