@@ -140,6 +140,11 @@
   "Digital Literacy: Coding Adventures: Dance Party"
   "https://forum.metacoders.org/t/digital-literacy-coding-adventures-dance-party/376")
 
+(define-random-art-badge
+  dl-ca-io
+  "Digital Literacy: Coding Adventures: I/O Machines"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-i-o-machines/399")
+
 ;; CODING ADVENTURES BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START
