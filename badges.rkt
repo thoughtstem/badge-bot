@@ -403,6 +403,23 @@
 ;; DL WESCHEME INTEREST BADGES END
 
 ;; GAME DESIGN INTEREST START
+(define-random-art-badge 
+  game-design
+  "Game Design Access Badge"
+  "https://forum.metacoders.org/t/game-design-access-badge/401"
+  )
+
+(define-random-art-badge 
+  gd-dr-aa
+  "DrRacket Game Design"
+  "https://forum.metacoders.org/t/game-design-drracket-installation/236"
+  )
+
+(define-random-art-badge 
+  wescheme-gd
+  "WeScheme Game Design"
+  "https://forum.metacoders.org/t/wescheme-game-design/402"
+  )
 
 (define-random-art-badge 
   2d-gd-aa
@@ -416,11 +433,7 @@
   "https://forum.metacoders.org/t/3d-game-design-access-badge/238"
   )
 
-(define-random-art-badge 
-  gd-dr-aa
-  "Game Design: DrRacket Installation"
-  "https://forum.metacoders.org/t/game-design-drracket-installation/236"
-  )
+
 
 ;; GAME DESIGN INTEREST END
 

@@ -154,11 +154,12 @@
 ;game design interest
 ;(--> dl-ws-pr 2d-gd-aa)
 ;(--> dl-ws-pr 3d-gd-aa)
-(--> 2d-gd-aa gd-dr-aa)
-(--> 3d-gd-aa gd-dr-aa)
+(--> game-design gd-dr-aa)
+(--> gd-dr-aa 2d-gd-aa)
+(--> gd-dr-aa 3d-gd-aa)
 
 ;battlearena avengers interest
-(--> gd-dr-aa 2d-ba-aa)
+(--> 2d-gd-aa 2d-ba-aa)
 (--> 2d-ba-aa 2d-ba-00)
 (--> 2d-ba-00 2d-ba-01)
 (--> 2d-ba-01 2d-ba-02)
@@ -191,7 +192,7 @@
 (--> 2d-ba-23 2d-ba-24)
 
 ;survival pokemon interest
-(--> gd-dr-aa 2d-sp-aa)
+(--> 2d-gd-aa 2d-sp-aa)
 (--> 2d-sp-aa 2d-sp-00)
 
 (--> 2d-sp-00 2d-sp-01)
@@ -227,7 +228,7 @@
 (--> 2d-sp-23 2d-sp-24)
 
 ;adventure mario interest
-(--> gd-dr-aa 2d-am-aa)
+(--> 2d-gd-aa 2d-am-aa)
 (--> 2d-am-aa 2d-am-00)
 
 (--> 2d-am-00 2d-am-01)
@@ -260,7 +261,7 @@
 (--> 2d-am-23 2d-am-24)
 
 ;3d-exploration interest
-(--> gd-dr-aa 3d-ex-aa)
+(--> 3d-gd-aa 3d-ex-aa)
 (--> 3d-ex-aa 3d-ex-00)
 (--> 3d-ex-00 3d-ex-01)
 
@@ -328,7 +329,8 @@
 ;;2D GAME DESIGN BADGES START
 
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES START
-(--> 2d-gd-aa 2d-er-aa)
+(--> game-design wescheme-gd)
+(--> wescheme-gd 2d-er-aa)
 (--> 2d-er-aa 2d-er-ea)
 (--> 2d-er-ea 2d-er-vp)
 
