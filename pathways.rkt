@@ -338,6 +338,13 @@
 (--> 2d-er-bi 2d-er-bg)
 (--> 2d-er-bg 2d-er-p1)
 
+;;Endless Runner Harry Potter
+(--> 2d-er-aa er-hp-w1)
+(--> er-hp-w1 er-hp-w2)
+(--> er-hp-w2 er-hp-w3)
+(--> er-hp-w3 er-hp-w4)
+(--> er-hp-w4 er-hp-w5)
+
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
 
 ;;2D GAME DESIGN BADGES END

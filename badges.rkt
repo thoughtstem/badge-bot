@@ -1338,6 +1338,39 @@
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-project-1/197" 
   )
 
+;; Endless Runner Harry Potter
+(define-random-art-badge 
+  er-hp-w1
+  "2D Game Design: Endless Runner Harry Potter - Wizard 1" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-wizard-1/391" 
+  )
+
+(define-random-art-badge 
+  er-hp-w2
+  "2D Game Design: Endless Runner Harry Potter: Wizard 2" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-wizard-2/393" 
+  )
+
+(define-random-art-badge 
+  er-hp-w3
+  "2D Game Design: Endless Runner Harry Potter: Wizard 3" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-wizard-3/395" 
+  )
+
+(define-random-art-badge 
+  er-hp-w4
+  "2D Game Design: Endless Runner Harry Potter: Wizard 4" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-wizard-4/396" 
+  )
+
+(define-random-art-badge 
+  er-hp-w5
+  "2D Game Design: Endless Runner Harry Potter: Wizard 5" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-wizard-5/397" 
+  )
+
+
+
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
 
 
