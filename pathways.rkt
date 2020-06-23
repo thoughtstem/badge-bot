@@ -128,7 +128,7 @@
 (--> dl-ws-ab dl-ws-st)
 (--> dl-ws-st dl-ws-de)
 (--> dl-ws-de dl-ws-pr)
-(--> dl-ws-pr da-aa-aa)
+;(--> dl-ws-pr da-aa-aa)
 
 ;wescheme art interest
 (--> da-aa-aa da-wa-aa)
@@ -152,8 +152,8 @@
 (--> da-wa-s2 da-wa-s3)
 
 ;game design interest
-(--> dl-ws-pr 2d-gd-aa)
-(--> dl-ws-pr 3d-gd-aa)
+;(--> dl-ws-pr 2d-gd-aa)
+;(--> dl-ws-pr 3d-gd-aa)
 (--> 2d-gd-aa gd-dr-aa)
 (--> 3d-gd-aa gd-dr-aa)
 
