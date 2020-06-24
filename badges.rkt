@@ -1389,31 +1389,31 @@
 
 (define-random-art-badge 
   er-hp-gi1
-  "2D Game Design: Endless Runner Harry Potter - Good Item 1" 
+  "2D Game Design: Endless Runner Harry Potter: Good Item 1" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-good-item-1/400" 
   )
 
 (define-random-art-badge 
   er-hp-gi2
-  "2D Game Design: Endless Runner Harry Potter - Good Item 2" 
+  "2D Game Design: Endless Runner Harry Potter: Good Item 2" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-good-item-2/403" 
   )
 
 (define-random-art-badge 
   er-hp-gi3
-  "2D Game Design: Endless Runner Harry Potter - Good Item 3" 
+  "2D Game Design: Endless Runner Harry Potter: Good Item 3" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-good-item-3/405" 
   )
 
 (define-random-art-badge 
   er-hp-gi4
-  "2D Game Design: Endless Runner Harry Potter - Good Item 4" 
+  "2D Game Design: Endless Runner Harry Potter: Good Item 4" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-good-item-4/406" 
   )
 
 (define-random-art-badge 
   er-hp-gi5
-  "2D Game Design: Endless Runner Harry Potter - Good Item 5" 
+  "2D Game Design: Endless Runner Harry Potter: Good Item 5" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-good-item-5/407" 
   )
 
