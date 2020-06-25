@@ -1422,6 +1422,37 @@
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-good-item-5/407" 
   )
 
+(define-random-art-badge 
+  er-hp-bi1
+  "2D Game Design: Endless Runner Harry Potter: Bad Item 1" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-bad-item-1/412" 
+  )
+
+(define-random-art-badge 
+  er-hp-bi2
+  "2D Game Design: Endless Runner Harry Potter: Bad Item 2" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-bad-item-2/413" 
+  )
+
+(define-random-art-badge 
+  er-hp-bi3
+  "2D Game Design: Endless Runner Harry Potter: Bad Item 3" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-bad-item-3/414" 
+  )
+
+(define-random-art-badge 
+  er-hp-bi4
+  "2D Game Design: Endless Runner Harry Potter: Bad Item 4" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-bad-item-4/415" 
+  )
+
+(define-random-art-badge 
+  er-hp-bi5
+  "2D Game Design: Endless Runner Harry Potter: Bad Item 5" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-bad-item-5/416" 
+  )
+
+
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
 
 
