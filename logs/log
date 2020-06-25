@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "user-has-role-on-server?"
 "finished: user-has-role-on-server?"
 "send-message-on-channel"
@@ -659,12 +660,15 @@
 " cms 709443399983300608 709443399983300608"
 "in-vertices: vertex #f not in graph #<weighted-graph>"
 "#(struct:exn:fail in-vertices: vertex #f not in graph #<weighted-graph> #<continuation-mark-set>)"
+=======
+>>>>>>> 78381f33a4d00b1e70b1f61ecd1420de30fe310b
 init-network
 -->
 -->
 -->
 -->
 -->
+<<<<<<< HEAD
 "Server handling: "
 " cms 709443399983300608 709443399983300608"
 roster-for-users
@@ -52791,6 +52795,8 @@ init-network
 -->
 -->
 -->
+=======
+>>>>>>> 78381f33a4d00b1e70b1f61ecd1420de30fe310b
 -->
 -->
 -->
@@ -52989,6 +52995,7 @@ init-network
 -->
 -->
 -->
+<<<<<<< HEAD
 "{\"cmd\":\"badges graph\",\"author\":{\"username\":\"aBlender\"}}"
 "badges"
 ("graph")
@@ -54842,3 +54849,5 @@ init-network
 "handle-reaction"
 "handle-reaction"
 "handle-reaction"
+=======
+>>>>>>> 78381f33a4d00b1e70b1f61ecd1420de30fe310b
