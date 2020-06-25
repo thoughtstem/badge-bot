@@ -145,6 +145,11 @@
   "Digital Literacy: Coding Adventures: I/O Machines"
   "https://forum.metacoders.org/t/digital-literacy-coding-adventures-i-o-machines/399")
 
+(define-random-art-badge
+  dl-ca-pz
+  "Digital Literacy: Coding Adventures: Yum, Pizza!"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-yum-pizza/417")
+
 ;; CODING ADVENTURES BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START
