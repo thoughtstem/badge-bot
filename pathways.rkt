@@ -445,17 +445,29 @@
 (--> 2d-er-bg 2d-er-p1)
 
 ;;Endless Runner Harry Potter
+; Wizard
 (--> 2d-er-aa er-hp-w1)
 (--> er-hp-w1 er-hp-w2)
 (--> er-hp-w2 er-hp-w3)
 (--> er-hp-w3 er-hp-w4)
 (--> er-hp-w4 er-hp-w5)
 
+; Good Item
 (--> er-hp-w5  er-hp-gi1)
 (--> er-hp-gi1 er-hp-gi2)
 (--> er-hp-gi2 er-hp-gi3)
 (--> er-hp-gi3 er-hp-gi4)
 (--> er-hp-gi4 er-hp-gi5)
+
+; Bad Item
+(--> er-hp-gi5 er-hp-bi1)
+(--> er-hp-bi1 er-hp-bi2)
+(--> er-hp-bi2 er-hp-bi3)
+(--> er-hp-bi3 er-hp-bi4)
+(--> er-hp-bi4 er-hp-bi5)
+
+; TODO: Game Balance
+; TODO: Flappy Wizard
 
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
 
