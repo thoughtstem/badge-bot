@@ -16,6 +16,7 @@
 	 define-badge
 	 badge-img-with-id
 	 award-badge!
+         check-badge!
 	 remove-badge!
 	 badges-for-user
 	 users->earned-badges-hash 
@@ -87,6 +88,16 @@
 
   (session-store user 'earned val)
   #t)
+
+(define/contract (check-badge! badge-id user)
+  (-> badge-id? is-mention? boolean?)
+  
+  (define val
+    (session-load user 'earned `()))
+
+  (if (not (member badge-id (map first val)))
+    #f
+    #t))
 
 (define/contract (remove-badge! badge-id user)
   (-> badge-id? is-mention? boolean?)

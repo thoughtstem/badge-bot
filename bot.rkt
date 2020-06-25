@@ -184,6 +184,17 @@
 
   (~a "You've awarded " badge-id " to " (length awarded) " users!"))
 
+(define (check-badges-command badge-id user)
+  (ensure-messaging-user-has-role-on-server!
+    mc-badge-checker-role-id
+    mc-server-id
+    #:failure-message
+    (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
+
+  (if (check-badge! (string->symbol badge-id) user)
+      (~a user " has already earned badge " badge-id "!")
+      (~a user " has not earned badge " badge-id "!")))
+
 (define (remove-badges-command badge-id user)
   (ensure-messaging-user-has-role-on-server!
     mc-badge-checker-role-id
@@ -321,6 +332,7 @@
     ["snooze" snooze-command] ;Coaches can do this, if htey pass in a user as the third param
 
     ;Coaches / Badge Checkers do these
+    ["check" check-badges-command]
     ["remove" remove-badges-command]
     ["award" award-badges-command]
     ["award-all" award-all-badges-command]
