@@ -348,6 +348,12 @@
 (--> er-hp-w3 er-hp-w4)
 (--> er-hp-w4 er-hp-w5)
 
+(--> er-hp-w5  er-hp-gi1)
+(--> er-hp-gi1 er-hp-gi2)
+(--> er-hp-gi2 er-hp-gi3)
+(--> er-hp-gi3 er-hp-gi4)
+(--> er-hp-gi4 er-hp-gi5)
+
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
 
 ;;2D GAME DESIGN BADGES END
