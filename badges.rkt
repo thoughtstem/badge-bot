@@ -1248,6 +1248,163 @@
 
 ;; ADVENTURE MARIO INTEREST END
 
+;; HARRY POTTER INTEREST START
+(define-random-art-badge 
+  harrypotter-aa
+  "2D Game Design: Adventure Harry Potter Install Package"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-00
+  "2D Game Design: Adventure Harry Potter: Hello World"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-01
+  "2D Game Design: Adventure Harry Potter: Wizard 1"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-02
+  "2D Game Design: Adventure Harry Potter: Wizard 2"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-03
+  "2D Game Design: Adventure Harry Potter: Wizard 3"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-04
+  "2D Game Design: Adventure Harry Potter: Wizard 4"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-05
+  "2D Game Design: Adventure Harry Potter: Potion 1"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-06
+  "2D Game Design: Adventure Harry Potter: Potion 2"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-07
+  "2D Game Design: Adventure Harry Potter: Potion 3"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-08
+  "2D Game Design: Adventure Harry Potter: Potion 4"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-09
+  "2D Game Design: Adventure Harry Potter: Potion 5"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-10
+  "2D Game Design: Adventure Harry Potter: Loot Quest 1"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-11
+  "2D Game Design: Adventure Harry Potter: Loot Quest 2"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-12
+  "2D Game Design: Adventure Harry Potter: Loot Quest 3"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-13
+  "2D Game Design: Adventure Harry Potter: Loot Quest 4"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-14
+  "2D Game Design: Adventure Harry Potter: Loot Quest 5"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-15
+  "2D Game Design: Adventure Harry Potter: NPC Quest 1"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-16
+  "2D Game Design: Adventure Harry Potter: NPC Quest 2"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-17
+  "2D Game Design: Adventure Harry Potter: NPC Quest 3"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-18
+  "2D Game Design: Adventure Harry Potter: NPC Quest 4"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-19
+  "2D Game Design: Adventure Harry Potter: NPC Quest 5"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-20
+  "2D Game Design: Adventure Harry Potter: Spell 1"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-21
+  "2D Game Design: Adventure Harry Potter: Spell 2"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-22
+  "2D Game Design: Adventure Harry Potter: Spell 3"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-23
+  "2D Game Design: Adventure Harry Potter: Spell 4"
+  ""
+  )
+
+(define-random-art-badge
+  harrypotter-24
+  "2D Game Design: Adventure Harry Potter: Spell 5"
+  ""
+  )
+
 ;; 3D EXPLORATION INTEREST START
 (define-random-art-badge 
   3d-ex-aa

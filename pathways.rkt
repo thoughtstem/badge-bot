@@ -331,6 +331,39 @@
 (--> 2d-am-22 2d-am-23)
 (--> 2d-am-23 2d-am-24)
 
+;adventure harry potter
+(--> 2d-gd-aa harrypotter-aa)
+(--> harrypotter-aa harrypotter-00)
+(--> harrypotter-00 harrypotter-01)
+(--> harrypotter-01 harrypotter-02)
+(--> harrypotter-02 harrypotter-03)
+(--> harrypotter-03 harrypotter-04)
+
+(--> harrypotter-03 harrypotter-05)
+(--> harrypotter-05 harrypotter-06)
+(--> harrypotter-06 harrypotter-07)
+(--> harrypotter-07 harrypotter-08)
+(--> harrypotter-08 harrypotter-09)
+
+(--> harrypotter-03 harrypotter-10)
+(--> harrypotter-10 harrypotter-11)
+(--> harrypotter-11 harrypotter-12)
+(--> harrypotter-12 harrypotter-13)
+(--> harrypotter-13 harrypotter-14)
+
+(--> harrypotter-03 harrypotter-15)
+(--> harrypotter-15 harrypotter-16)
+(--> harrypotter-16 harrypotter-17)
+(--> harrypotter-17 harrypotter-18)
+(--> harrypotter-18 harrypotter-19)
+
+(--> harrypotter-03 harrypotter-20)
+(--> harrypotter-20 harrypotter-21)
+(--> harrypotter-21 harrypotter-22)
+(--> harrypotter-22 harrypotter-23)
+(--> harrypotter-23 harrypotter-24)
+
+
 ;3d-exploration interest
 (--> 3d-gd-aa 3d-ex-aa)
 (--> 3d-ex-aa 3d-ex-00)
