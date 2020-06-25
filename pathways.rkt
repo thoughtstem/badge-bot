@@ -193,6 +193,41 @@
 (--> 2d-ba-22 2d-ba-23)
 (--> 2d-ba-23 2d-ba-24)
 
+;battlearena starwars interest
+(--> 2d-gd-aa starwars-aa)
+(--> starwars-aa starwars-00)
+(--> starwars-00 starwars-01)
+(--> starwars-01 starwars-02)
+(--> starwars-02 starwars-03)
+(--> starwars-03 starwars-04)
+
+(--> starwars-03 starwars-05)
+(--> starwars-05 starwars-06)
+(--> starwars-06 starwars-07)
+(--> starwars-07 starwars-08)
+(--> starwars-08 starwars-09)
+
+(--> starwars-03 starwars-10)
+(--> starwars-10 starwars-11)
+(--> starwars-11 starwars-12)
+(--> starwars-12 starwars-23)
+(--> starwars-23 starwars-24)
+
+(--> starwars-03 starwars-13)
+(--> starwars-13 starwars-14)
+(--> starwars-14 starwars-25)
+
+(--> starwars-03 starwars-15)
+(--> starwars-15 starwars-16)
+(--> starwars-16 starwars-17)
+
+(--> starwars-15 starwars-18)
+(--> starwars-18 starwars-19)
+(--> starwars-19 starwars-20)
+
+(--> starwars-03 starwars-21)
+(--> starwars-21 starwars-22)
+
 ;survival pokemon interest
 (--> 2d-gd-aa 2d-sp-aa)
 (--> 2d-sp-aa 2d-sp-00)
@@ -228,6 +263,40 @@
 
 (--> 2d-sp-02 2d-sp-23)
 (--> 2d-sp-23 2d-sp-24)
+
+;survival minecraft interest
+(--> 2d-gd-aa minecraft-aa)
+(--> minecraft-aa minecraft-00)
+(--> minecraft-00 minecraft-01)
+(--> minecraft-01 minecraft-02)
+(--> minecraft-02 minecraft-03)
+(--> minecraft-03 minecraft-04)
+
+(--> minecraft-03 minecraft-05)
+(--> minecraft-05 minecraft-06)
+(--> minecraft-06 minecraft-07)
+(--> minecraft-07 minecraft-08)
+(--> minecraft-08 minecraft-09)
+
+(--> minecraft-03 minecraft-10)
+(--> minecraft-10 minecraft-11)
+(--> minecraft-11 minecraft-12)
+
+(--> minecraft-10 minecraft-18)
+(--> minecraft-18 minecraft-19)
+
+(--> minecraft-03 minecraft-13)
+(--> minecraft-13 minecraft-14)
+
+(--> minecraft-03 minecraft-15)
+(--> minecraft-15 minecraft-16)
+(--> minecraft-16 minecraft-17)
+
+(--> minecraft-03 minecraft-20)
+(--> minecraft-20 minecraft-21)
+(--> minecraft-21 minecraft-22)
+(--> minecraft-22 minecraft-23)
+(--> minecraft-23 minecraft-24)
 
 ;adventure mario interest
 (--> 2d-gd-aa 2d-am-aa)

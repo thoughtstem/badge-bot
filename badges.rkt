@@ -608,6 +608,170 @@
 ;; BATTLE ARENA AVENGERS INTEREST END
 
 
+;; BATTLEARENA STARWARS INTEREST START
+(define-random-art-badge 
+  starwars-aa
+  "2D Game Design: Battlearena Star Wars Install Package"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-00
+  "2D Game Design: Battlearena Star Wars: Hello World"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-01
+  "2D Game Design: Battlearena Star Wars: Rebel 1"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-02
+  "2D Game Design: Battlearena Star Wars: Rebel 2"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-03
+  "2D Game Design: Battlearena Star Wars: Rebel 3"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-04
+  "2D Game Design: Battlearena Star Wars: Rebel 4"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-05
+  "2D Game Design: Battlearena Star Wars: Imperial 1"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-06
+  "2D Game Design: Battlearena Star Wars: Imperial 2"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-07
+  "2D Game Design: Battlearena Star Wars: Imperial 3"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-08
+  "2D Game Design: Battlearena Star Wars: Imperial Weapon 1"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-09
+  "2D Game Design: Battlearena Star Wars: Imperial Weapon 2"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-10
+  "2D Game Design: Battlearena Star Wars: Lightsaber 1"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-11
+  "2D Game Design: Battlearena Star Wars: Lightsaber 2"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-12
+  "2D Game Design: Battlearena Star Wars: Lightsaber 3"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-13
+  "2D Game Design: Battlearena Star Wars: Blaster 1"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-14
+  "2D Game Design: Battlearena Star Wars: Blaster 2"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-15
+  "2D Game Design: Battlearena Star Wars: Health 1"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-16
+  "2D Game Design: Battlearena Star Wars: Health 2"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-17
+  "2D Game Design: Battlearena Star Wars: Health 3"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-18
+  "2D Game Design: Battlearena Star Wars: Force Field 1"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-19
+  "2D Game Design: Battlearena Star Wars: Force Field 2"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-20
+  "2D Game Design: Battlearena Star Wars: Force Field 3"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-21
+  "2D Game Design: Battlearena Star Wars: Spike Mine 1"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-22
+  "2D Game Design: Battlearena Star Wars: Spike Mine 2"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-23
+  "2D Game Design: Battlearena Star Wars: Lightsaber Droid 1"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-24
+  "2D Game Design: Battlearena Star Wars: Lightsaber Droid 2"
+  ""
+  )
+
+(define-random-art-badge 
+  starwars-25
+  "2D Game Design: Battlearena Star Wars: Blaster Droid 1"
+  ""
+  )
+;; BATTLEARENA STARWARS INTEREST END
+
 ;; SURVIVAL POKEMON INTEREST START
 (define-random-art-badge 
   2d-sp-aa
@@ -766,6 +930,164 @@
   )
 
 ;; SURVIVAL POKEMON INTEREST END
+
+;; SURVIVAL MINECRAFT INTEREST START
+(define-random-art-badge 
+  minecraft-aa
+  "2D Game Design: Survival Minecraft Install Package"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-00
+  "2D Game Design: Survival Minecraft: Hello World"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-01
+  "2D Game Design: Survival Minecraft: Custom Skin 1"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-02
+  "2D Game Design: Survival Minecraft: Custom Skin 2"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-03
+  "2D Game Design: Survival Minecraft: Custom Skin 3"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-04
+  "2D Game Design: Survival Minecraft: Custom Skin 4"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-05
+  "2D Game Design: Survival Minecraft: Food 1"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-06
+  "2D Game Design: Survival Minecraft: Food 2"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-07
+  "2D Game Design: Survival Minecraft: Food 3"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-08
+  "2D Game Design: Survival Minecraft: Food 4"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-09
+  "2D Game Design: Survival Minecraft: Crafter 1"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-10
+  "2D Game Design: Survival Minecraft: Mob 1"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-11
+  "2D Game Design: Survival Minecraft: Mob 2"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-12
+  "2D Game Design: Survival Minecraft: Mob 3"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-13
+  "2D Game Design: Survival Minecraft: Entity 1"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-14
+  "2D Game Design: Survival Minecraft: Entity 2"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-15
+  "2D Game Design: Survival Minecraft: Ore 1"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-16
+  "2D Game Design: Survival Minecraft: Ore 2"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-17
+  "2D Game Design: Survival Minecraft: Ore 3"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-18
+  "2D Game Design: Survival Minecraft: Weapon Crafter 1"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-19
+  "2D Game Design: Survival Minecraft: Weapon Crafter 2"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-20
+  "2D Game Design: Survival Minecraft: Biome 1"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-21
+  "2D Game Design: Survival Minecraft: Sky 1"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-22
+  "2D Game Design: Survival Minecraft: Sky 2"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-23
+  "2D Game Design: Survival Minecraft: Sky 3"
+  ""
+  )
+
+(define-random-art-badge 
+  minecraft-24
+  "2D Game Design: Survival Minecraft: Sky 4"
+  ""
+  )
+;; SURVIVAL MINECRAFT INTEREST END
 
 ;; ADVENTURE MARIO INTEREST START
 (define-random-art-badge 
