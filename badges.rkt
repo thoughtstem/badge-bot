@@ -772,6 +772,177 @@
   )
 ;; BATTLEARENA STARWARS INTEREST END
 
+;;BATTLEARENA FORTNITE INTEREST START
+(define-random-art-badge 
+  fortnite-aa
+  "2D Game Design: Battlearena Fortnite Install Package"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-00
+  "2D Game Design: Battlearena Fortnite: Hello World"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-01
+  "2D Game Design: Battlearena Fortnite: Avatar 1"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-02
+  "2D Game Design: Battlearena Fortnite: Avatar 2"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-03
+  "2D Game Design: Battlearena Fortnite: Avatar 3"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-04
+  "2D Game Design: Battlearena Fortnite: Avatar 4"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-05
+  "2D Game Design: Battlearena Fortnite: Enemy 1"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-06
+  "2D Game Design: Battlearena Fortnite: Enemy 2"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-07
+  "2D Game Design: Battlearena Fortnite: Enemy 3"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-08
+  "2D Game Design: Battlearena Fortnite: Enemy Weapon 1"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-09
+  "2D Game Design: Battlearena Fortnite: Enemy Weapon 2"
+  ""
+  )
+
+(define-random-art-badge
+  fortnite-weapons
+  "2D Game Design: Battlearena Fortnite: Weapons"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-10
+  "2D Game Design: Battlearena Fortnite: Spear 1"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-11
+  "2D Game Design: Battlearena Fortnite: Fire 1"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-12
+  "2D Game Design: Battlearena Fortnite: Single Shot 1"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-13
+  "2D Game Design: Battlearena Fortnite: Spread Shot 1"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-14
+  "2D Game Design: Battlearena Fortnite: Homing Repeater 1"
+  ""
+  )
+
+(define-random-art-badge
+  fortnite-items
+  "2D Game Design: Battlearena Fortnite: Items"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-15
+  "2D Game Design: Battlearena Fortnite: Health 1"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-16
+  "2D Game Design: Battlearena Fortnite: Shield 1"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-17
+  "2D Game Design: Battlearena Fortnite: Boost 1"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-18
+  "2D Game Design: Battlearena Fortnite: Boost 2"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-19
+  "2D Game Design: Battlearena Fortnite: Size 1"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-20
+  "2D Game Design: Battlearena Fortnite: Spear Tower 1"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-21
+  "2D Game Design: Battlearena Fortnite: Spear Tower 2"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-22
+  "2D Game Design: Battlearena Fortnite: Spear Tower 3"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-23
+  "2D Game Design: Battlearena Fortnite: Repeater Tower 1"
+  ""
+  )
+
+(define-random-art-badge 
+  fortnite-24
+  "2D Game Design: Battlearena Fortnite: Repeater Tower 2"
+  ""
+  )
+
+;;BATTLEARENA FORTNITE INTEREST END
+
 ;; SURVIVAL POKEMON INTEREST START
 (define-random-art-badge 
   2d-sp-aa
@@ -1563,6 +1734,163 @@
   )
 
 ;; 3D EXPLORATION INTEREST END
+
+;; 3D ORBIT INTEREST START
+(define-random-art-badge 
+  orbit-aa
+  "3D Game Design: 3D Orbit Install Package"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-00
+  "3D Game Design: 3D Orbit: Hello World"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-01
+  "3D Game Design: 3D Orbit: Orbit 1"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-02
+  "3D Game Design: 3D Orbit: Orbit 2"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-03
+  "3D Game Design: 3D Orbit: Orbit 3"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-04
+  "3D Game Design: 3D Orbit: Orbit 4"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-05
+  "3D Game Design: 3D Orbit: Star and Planet 1"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-06
+  "3D Game Design: 3D Orbit: Star and Planet 2"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-07
+  "3D Game Design: 3D Orbit: Star and Planet 3"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-08
+  "3D Game Design: 3D Orbit: Star and Planet 4"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-09
+  "3D Game Design: 3D Orbit: Star and Planet 5"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-10
+  "3D Game Design: 3D Orbit: Moon and Ring 1"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-11
+  "3D Game Design: 3D Orbit: Moon and Ring 2"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-12
+  "3D Game Design: 3D Orbit: Moon and Ring 3"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-13
+  "3D Game Design: 3D Orbit: Moon and Ring 4"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-14
+  "3D Game Design: 3D Orbit: Moon and Ring 5"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-15
+  "3D Game Design: 3D Orbit: Space Objects 1"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-16
+  "3D Game Design: 3D Orbit: Space Objects 2"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-17
+  "3D Game Design: 3D Orbit: Space Objects 3"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-18
+  "3D Game Design: 3D Orbit: Space Objects 4"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-19
+  "3D Game Design: 3D Orbit: Space Objects 5"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-20
+  "3D Game Design: 3D Orbit: Star System 1"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-21
+  "3D Game Design: 3D Orbit: Star System 2"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-22
+  "3D Game Design: 3D Orbit: Star System 3"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-23
+  "3D Game Design: 3D Orbit: Star System 4"
+  ""
+  )
+
+(define-random-art-badge
+  orbit-24
+  "3D Game Design: 3D Orbit: Star System 5"
+  ""
+  )
 
 ;; DA WESCHEME ART INTEREST BADGES START
 (define-random-art-badge 
