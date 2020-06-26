@@ -449,158 +449,158 @@
 
 
 ;; BATTLEARENA AVENGERS INTEREST START
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-aa
+(define-colored-art-badge 'orange
+  baav-pkg
   "2D Game Design: Battlearena Avengers Install Package"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-install-package/228"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-00
+(define-colored-art-badge 'orange
+  baav-hw
   "2D Game Design: Battlearena Avengers: Hello World"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-hello-world/241"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-01
+(define-colored-art-badge 'orange
+  baav-h1
   "2D Game Design: Battlearena Avengers: Hero 1"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-hero-1/255"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-02
+(define-colored-art-badge 'orange
+  baav-h2
   "2D Game Design: Battlearena Avengers: Hero 2"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-hero-2/256"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-03
+(define-colored-art-badge 'orange
+  baav-h3
   "2D Game Design: Battlearena Avengers: Hero 3"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-hero-3/257"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-04
+(define-colored-art-badge 'orange
+  baav-h4
   "2D Game Design: Battlearena Avengers: Hero 4"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-hero-4/258"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-05
+(define-colored-art-badge 'orange
+  baav-pl1
   "2D Game Design: Battlearena Avengers: Planet 1"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-planet-1/259"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-06
+(define-colored-art-badge 'orange
+  baav-pl2
   "2D Game Design: Battlearena Avengers: Planet 2"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-planet-2/260"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-07
+(define-colored-art-badge 'orange
+  baav-pl3
   "2D Game Design: Battlearena Avengers: Planet 3"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-planet-3/261"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-08
+(define-colored-art-badge 'orange
+  baav-pl4
   "2D Game Design: Battlearena Avengers: Planet 4"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-planet-4/262"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-09
+(define-colored-art-badge 'orange
+  baav-pl5
   "2D Game Design: Battlearena Avengers: Planet 5"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-planet-5/263"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-10
+(define-colored-art-badge 'orange
+  baav-v1
   "2D Game Design: Battlearena Avengers: Villain 1"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-villain-1/264"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-11
+(define-colored-art-badge 'orange
+  baav-v2
   "2D Game Design: Battlearena Avengers: Villain 2"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-villain-2/265"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-12
+(define-colored-art-badge 'orange
+  baav-v3
   "2D Game Design: Battlearena Avengers: Villain 3"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-villain-3/266"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-13
+(define-colored-art-badge 'orange
+  baav-v4
   "2D Game Design: Battlearena Avengers: Villain 4"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-villain-4/267"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-14
+(define-colored-art-badge 'orange
+  baav-v5
   "2D Game Design: Battlearena Avengers: Villain 5"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-villain-5/268"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-15
+(define-colored-art-badge 'orange
+  baav-po1
   "2D Game Design: Battlearena Avengers: Power 1"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-1/269"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-16
+(define-colored-art-badge 'orange
+  baav-po2
   "2D Game Design: Battlearena Avengers: Power 2"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-2/270"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-17
+(define-colored-art-badge 'orange
+  baav-po3
   "2D Game Design: Battlearena Avengers: Power 3"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-3/271"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-18
+(define-colored-art-badge 'orange
+  baav-po4
   "2D Game Design: Battlearena Avengers: Power 4"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-4/272"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-19
+(define-colored-art-badge 'orange
+  baav-po5
   "2D Game Design: Battlearena Avengers: Power 5"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-5/273"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-20
+(define-colored-art-badge 'orange
+  baav-pu1
   "2D Game Design: Battlearena Avengers: Power-Up 1"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-up-1/274"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-21
+(define-colored-art-badge 'orange
+  baav-pu2
   "2D Game Design: Battlearena Avengers: Power-Up 2"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-up-2/275"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-22
+(define-colored-art-badge 'orange
+  baav-pu3
   "2D Game Design: Battlearena Avengers: Power-Up 3"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-up-3/276"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-23
+(define-colored-art-badge 'orange
+  baav-pu4
   "2D Game Design: Battlearena Avengers: Power-Up 4"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-up-4/277"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-ba-24
+(define-colored-art-badge 'orange
+  baav-pu5
   "2D Game Design: Battlearena Avengers: Power-Up 5"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-up-5/278"
   )
@@ -609,334 +609,340 @@
 
 
 ;; BATTLEARENA STARWARS INTEREST START
-(define-colored-art-badge 'lightseagreen 
-  starwars-aa
+(define-colored-art-badge 'gold
+  basw-pkg
   "2D Game Design: Battlearena Star Wars Install Package"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-00
+(define-colored-art-badge 'gold
+  basw-hw
   "2D Game Design: Battlearena Star Wars: Hello World"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-01
+(define-colored-art-badge 'gold
+  basw-r1
   "2D Game Design: Battlearena Star Wars: Rebel 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-02
+(define-colored-art-badge 'gold
+  basw-r2
   "2D Game Design: Battlearena Star Wars: Rebel 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-03
+(define-colored-art-badge 'gold
+  basw-r3
   "2D Game Design: Battlearena Star Wars: Rebel 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-04
+(define-colored-art-badge 'gold
+  basw-r4
   "2D Game Design: Battlearena Star Wars: Rebel 4"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-05
+(define-colored-art-badge 'gold
+  basw-i1
   "2D Game Design: Battlearena Star Wars: Imperial 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-06
+(define-colored-art-badge 'gold
+  basw-i2
   "2D Game Design: Battlearena Star Wars: Imperial 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-07
+(define-colored-art-badge 'gold
+  basw-i3
   "2D Game Design: Battlearena Star Wars: Imperial 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-08
+(define-colored-art-badge 'gold
+  basw-i4
   "2D Game Design: Battlearena Star Wars: Imperial Weapon 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-09
+(define-colored-art-badge 'gold
+  basw-i5
   "2D Game Design: Battlearena Star Wars: Imperial Weapon 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-10
+(define-colored-art-badge 'gold
+  basw-weapons
+  "2D Game Design: Battlearena Star Wars: Weapons Path"
+  ""
+  )
+
+(define-colored-art-badge 'gold
+  basw-w1
   "2D Game Design: Battlearena Star Wars: Lightsaber 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-11
+(define-colored-art-badge 'gold
+  basw-w2
   "2D Game Design: Battlearena Star Wars: Lightsaber 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-12
+(define-colored-art-badge 'gold
+  basw-w3
   "2D Game Design: Battlearena Star Wars: Lightsaber 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-13
+(define-colored-art-badge 'gold
+  basw-w4
   "2D Game Design: Battlearena Star Wars: Blaster 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-14
+(define-colored-art-badge 'gold
+  basw-w5
   "2D Game Design: Battlearena Star Wars: Blaster 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-15
+(define-colored-art-badge 'gold
+  basw-pu1
   "2D Game Design: Battlearena Star Wars: Health 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-16
+(define-colored-art-badge 'gold
+  basw-pu2
   "2D Game Design: Battlearena Star Wars: Health 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-17
+(define-colored-art-badge 'gold
+  basw-pu3
   "2D Game Design: Battlearena Star Wars: Health 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-18
+(define-colored-art-badge 'gold
+  basw-pu4
   "2D Game Design: Battlearena Star Wars: Force Field 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-19
+(define-colored-art-badge 'gold
+  basw-pu5
   "2D Game Design: Battlearena Star Wars: Force Field 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-20
+(define-colored-art-badge 'gold
+  basw-pu6
   "2D Game Design: Battlearena Star Wars: Force Field 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-21
+(define-colored-art-badge 'gold
+  basw-tw1
   "2D Game Design: Battlearena Star Wars: Spike Mine 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-22
+(define-colored-art-badge 'gold
+  basw-tw2
   "2D Game Design: Battlearena Star Wars: Spike Mine 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-23
+(define-colored-art-badge 'gold
+  basw-tw3
   "2D Game Design: Battlearena Star Wars: Lightsaber Droid 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-24
+(define-colored-art-badge 'gold
+  basw-tw4
   "2D Game Design: Battlearena Star Wars: Lightsaber Droid 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  starwars-25
+(define-colored-art-badge 'gold
+  basw-tw5
   "2D Game Design: Battlearena Star Wars: Blaster Droid 1"
   ""
   )
-;; BATTLEARENA STARWARS INTEREST END
+;; BATTLEARENA basw INTEREST END
 
 ;;BATTLEARENA FORTNITE INTEREST START
-(define-colored-art-badge 'lightseagreen 
-  fortnite-aa
+(define-colored-art-badge 'orchid
+  bafn-pkg
   "2D Game Design: Battlearena Fortnite Install Package"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-00
+(define-colored-art-badge 'orchid
+  bafn-hw
   "2D Game Design: Battlearena Fortnite: Hello World"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-01
+(define-colored-art-badge 'orchid
+  bafn-a1
   "2D Game Design: Battlearena Fortnite: Avatar 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-02
+(define-colored-art-badge 'orchid
+  bafn-a2
   "2D Game Design: Battlearena Fortnite: Avatar 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-03
+(define-colored-art-badge 'orchid
+  bafn-a3
   "2D Game Design: Battlearena Fortnite: Avatar 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-04
+(define-colored-art-badge 'orchid
+  bafn-a4
   "2D Game Design: Battlearena Fortnite: Avatar 4"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-05
+(define-colored-art-badge 'orchid
+  bafn-e1
   "2D Game Design: Battlearena Fortnite: Enemy 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-06
+(define-colored-art-badge 'orchid
+  bafn-e2
   "2D Game Design: Battlearena Fortnite: Enemy 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-07
+(define-colored-art-badge 'orchid
+  bafn-e3
   "2D Game Design: Battlearena Fortnite: Enemy 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-08
+(define-colored-art-badge 'orchid
+  bafn-e4
   "2D Game Design: Battlearena Fortnite: Enemy Weapon 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-09
+(define-colored-art-badge 'orchid
+  bafn-e5
   "2D Game Design: Battlearena Fortnite: Enemy Weapon 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  fortnite-weapons
-  "2D Game Design: Battlearena Fortnite: Weapons"
+(define-colored-art-badge 'orchid
+  bafn-weapons
+  "2D Game Design: Battlearena Fortnite: Weapons Path"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-10
+(define-colored-art-badge 'orchid
+  bafn-w1
   "2D Game Design: Battlearena Fortnite: Spear 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-11
+(define-colored-art-badge 'orchid
+  bafn-w2
   "2D Game Design: Battlearena Fortnite: Fire 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-12
+(define-colored-art-badge 'orchid
+  bafn-w3
   "2D Game Design: Battlearena Fortnite: Single Shot 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-13
+(define-colored-art-badge 'orchid
+  bafn-w4
   "2D Game Design: Battlearena Fortnite: Spread Shot 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-14
+(define-colored-art-badge 'orchid
+  bafn-w5
   "2D Game Design: Battlearena Fortnite: Homing Repeater 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  fortnite-items
-  "2D Game Design: Battlearena Fortnite: Items"
+(define-colored-art-badge 'orchid
+  bafn-items
+  "2D Game Design: Battlearena Fortnite: Items Path"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-15
+(define-colored-art-badge 'orchid
+  bafn-i1
   "2D Game Design: Battlearena Fortnite: Health 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-16
+(define-colored-art-badge 'orchid
+  bafn-i2
   "2D Game Design: Battlearena Fortnite: Shield 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-17
+(define-colored-art-badge 'orchid
+  bafn-i3
   "2D Game Design: Battlearena Fortnite: Boost 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-18
+(define-colored-art-badge 'orchid
+  bafn-i4
   "2D Game Design: Battlearena Fortnite: Boost 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-19
+(define-colored-art-badge 'orchid
+  bafn-i5
   "2D Game Design: Battlearena Fortnite: Size 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-20
+(define-colored-art-badge 'orchid
+  bafn-t1
   "2D Game Design: Battlearena Fortnite: Spear Tower 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-21
+(define-colored-art-badge 'orchid
+  bafn-t2
   "2D Game Design: Battlearena Fortnite: Spear Tower 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-22
+(define-colored-art-badge 'orchid
+  bafn-t3
   "2D Game Design: Battlearena Fortnite: Spear Tower 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-23
+(define-colored-art-badge 'orchid
+  bafn-t4
   "2D Game Design: Battlearena Fortnite: Repeater Tower 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  fortnite-24
+(define-colored-art-badge 'orchid
+  bafn-t5
   "2D Game Design: Battlearena Fortnite: Repeater Tower 2"
   ""
   )
@@ -1103,316 +1109,316 @@
 ;; SURVIVAL POKEMON INTEREST END
 
 ;; SURVIVAL MINECRAFT INTEREST START
-(define-colored-art-badge 'lightseagreen 
-  minecraft-aa
+(define-colored-art-badge 'saddlebrown 
+  sumc-pkg
   "2D Game Design: Survival Minecraft Install Package"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-00
+(define-colored-art-badge 'saddlebrown 
+  sumc-hw
   "2D Game Design: Survival Minecraft: Hello World"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-01
+(define-colored-art-badge 'saddlebrown 
+  sumc-cs1
   "2D Game Design: Survival Minecraft: Custom Skin 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-02
+(define-colored-art-badge 'saddlebrown 
+  sumc-cs2
   "2D Game Design: Survival Minecraft: Custom Skin 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-03
+(define-colored-art-badge 'saddlebrown 
+  sumc-cs3
   "2D Game Design: Survival Minecraft: Custom Skin 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-04
+(define-colored-art-badge 'saddlebrown 
+  sumc-cs4
   "2D Game Design: Survival Minecraft: Custom Skin 4"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-05
+(define-colored-art-badge 'saddlebrown 
+  sumc-f1
   "2D Game Design: Survival Minecraft: Food 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-06
+(define-colored-art-badge 'saddlebrown 
+  sumc-f2
   "2D Game Design: Survival Minecraft: Food 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-07
+(define-colored-art-badge 'saddlebrown 
+  sumc-f3
   "2D Game Design: Survival Minecraft: Food 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-08
+(define-colored-art-badge 'saddlebrown 
+  sumc-f4
   "2D Game Design: Survival Minecraft: Food 4"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-09
+(define-colored-art-badge 'saddlebrown 
+  sumc-f5
   "2D Game Design: Survival Minecraft: Crafter 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-10
+(define-colored-art-badge 'saddlebrown 
+  sumc-me1
   "2D Game Design: Survival Minecraft: Mob 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-11
+(define-colored-art-badge 'saddlebrown 
+  sumc-me2
   "2D Game Design: Survival Minecraft: Mob 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-12
+(define-colored-art-badge 'saddlebrown 
+  sumc-me3
   "2D Game Design: Survival Minecraft: Mob 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-13
+(define-colored-art-badge 'saddlebrown 
+  sumc-me4
   "2D Game Design: Survival Minecraft: Entity 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-14
+(define-colored-art-badge 'saddlebrown 
+  sumc-me5
   "2D Game Design: Survival Minecraft: Entity 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-15
+(define-colored-art-badge 'saddlebrown 
+  sumc-ow1
   "2D Game Design: Survival Minecraft: Ore 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-16
+(define-colored-art-badge 'saddlebrown 
+  sumc-ow2
   "2D Game Design: Survival Minecraft: Ore 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-17
+(define-colored-art-badge 'saddlebrown 
+  sumc-ow3
   "2D Game Design: Survival Minecraft: Ore 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-18
+(define-colored-art-badge 'saddlebrown 
+  sumc-ow4
   "2D Game Design: Survival Minecraft: Weapon Crafter 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-19
+(define-colored-art-badge 'saddlebrown 
+  sumc-ow5
   "2D Game Design: Survival Minecraft: Weapon Crafter 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-20
+(define-colored-art-badge 'saddlebrown 
+  sumc-sb1
   "2D Game Design: Survival Minecraft: Biome 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-21
+(define-colored-art-badge 'saddlebrown 
+  sumc-sb2
   "2D Game Design: Survival Minecraft: Sky 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-22
+(define-colored-art-badge 'saddlebrown 
+  sumc-sb3
   "2D Game Design: Survival Minecraft: Sky 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-23
+(define-colored-art-badge 'saddlebrown 
+  sumc-sb4
   "2D Game Design: Survival Minecraft: Sky 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen 
-  minecraft-24
+(define-colored-art-badge 'saddlebrown 
+  sumc-sb5
   "2D Game Design: Survival Minecraft: Sky 4"
   ""
   )
 ;; SURVIVAL MINECRAFT INTEREST END
 
 ;; ADVENTURE MARIO INTEREST START
-(define-colored-art-badge 'lightseagreen 
-  2d-am-aa
+(define-colored-art-badge 'red
+  adma-pkg
   "2D Game Design: Adventure Mario Install Package"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-install-package/231"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-00
+(define-colored-art-badge 'red
+  adma-hw
   "2D Game Design: Adventure Mario: Hello World"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-hello-world/243"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-01
+(define-colored-art-badge 'red
+  adma-ch1
   "2D Game Design: Adventure Mario: Character 1"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-character-1/327"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-02
+(define-colored-art-badge 'red
+  adma-ch2
   "2D Game Design: Adventure Mario: Character 2"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-character-2/328"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-03
+(define-colored-art-badge 'red
+  adma-ch3
   "2D Game Design: Adventure Mario: Character 3"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-character-3/329"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-04
+(define-colored-art-badge 'red
+  adma-ch4
   "2D Game Design: Adventure Mario: Character 4"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-character-4/330"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-05
+(define-colored-art-badge 'red
+  adma-co1
   "2D Game Design: Adventure Mario: Coin 1"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-coin-1/331"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-06
+(define-colored-art-badge 'red
+  adma-co2
   "2D Game Design: Adventure Mario: Coin 2"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-coin-2/332"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-07
+(define-colored-art-badge 'red
+  adma-co3
   "2D Game Design: Adventure Mario: Coin 3"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-coin-3/333"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-08
+(define-colored-art-badge 'red
+  adma-co4
   "2D Game Design: Adventure Mario: Coin 4"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-coin-4/334"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-09
+(define-colored-art-badge 'red
+  adma-co5
   "2D Game Design: Adventure Mario: Coin 5"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-coin-5/335"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-10
+(define-colored-art-badge 'red
+  adma-ld1
   "2D Game Design: Adventure Mario: Level Design 1"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-level-design-1/336"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-11
+(define-colored-art-badge 'red
+  adma-ld2
   "2D Game Design: Adventure Mario: Level Design 2"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-level-design-2/337"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-12
+(define-colored-art-badge 'red
+  adma-ld3
   "2D Game Design: Adventure Mario: Level Design 3"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-level-design-3/338"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-13
+(define-colored-art-badge 'red
+  adma-ld4
   "2D Game Design: Adventure Mario: Level Design 4"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-level-design-4/339"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-14
+(define-colored-art-badge 'red
+  adma-ld5
   "2D Game Design: Adventure Mario: Level Design 5"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-level-design-5/340"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-15
+(define-colored-art-badge 'red
+  adma-fq1
   "2D Game Design: Adventure Mario: Fetch Quest 1"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-fetch-quest-1/341"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-16
+(define-colored-art-badge 'red
+  adma-fq2
   "2D Game Design: Adventure Mario: Fetch Quest 2"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-fetch-quest-2/342"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-17
+(define-colored-art-badge 'red
+  adma-fq3
   "2D Game Design: Adventure Mario: Fetch Quest 3"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-fetch-quest-3/343"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-18
+(define-colored-art-badge 'red
+  adma-fq4
   "2D Game Design: Adventure Mario: Fetch Quest 4"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-fetch-quest-4/344"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-19
+(define-colored-art-badge 'red
+  adma-fq5
   "2D Game Design: Adventure Mario: Fetch Quest 5"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-fetch-quest-5/345"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-20
+(define-colored-art-badge 'red
+  adma-e1
   "2D Game Design: Adventure Mario: Enemy 1"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-enemy-1/346"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-21
+(define-colored-art-badge 'red
+  adma-e2
   "2D Game Design: Adventure Mario: Enemy 2"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-enemy-2/347"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-22
+(define-colored-art-badge 'red
+  adma-e3
   "2D Game Design: Adventure Mario: Enemy 3"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-enemy-3/348"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-23
+(define-colored-art-badge 'red
+  adma-e4
   "2D Game Design: Adventure Mario: Enemy 4"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-enemy-4/349"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-am-24
+(define-colored-art-badge 'red
+  adma-e5
   "2D Game Design: Adventure Mario: Enemy 5"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-enemy-5/350"
   )
@@ -1420,158 +1426,158 @@
 ;; ADVENTURE MARIO INTEREST END
 
 ;; HARRY POTTER INTEREST START
-(define-colored-art-badge 'lightseagreen 
-  harrypotter-aa
+(define-colored-art-badge 'cornflowerblue 
+  adhp-pkg
   "2D Game Design: Adventure Harry Potter Install Package"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-00
+(define-colored-art-badge 'cornflowerblue
+  adhp-hw
   "2D Game Design: Adventure Harry Potter: Hello World"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-01
+(define-colored-art-badge 'cornflowerblue
+  adhp-w1
   "2D Game Design: Adventure Harry Potter: Wizard 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-02
+(define-colored-art-badge 'cornflowerblue
+  adhp-w2
   "2D Game Design: Adventure Harry Potter: Wizard 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-03
+(define-colored-art-badge 'cornflowerblue
+  adhp-w3
   "2D Game Design: Adventure Harry Potter: Wizard 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-04
+(define-colored-art-badge 'cornflowerblue
+  adhp-w4
   "2D Game Design: Adventure Harry Potter: Wizard 4"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-05
+(define-colored-art-badge 'cornflowerblue
+  adhp-p1
   "2D Game Design: Adventure Harry Potter: Potion 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-06
+(define-colored-art-badge 'cornflowerblue
+  adhp-p2
   "2D Game Design: Adventure Harry Potter: Potion 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-07
+(define-colored-art-badge 'cornflowerblue
+  adhp-p3
   "2D Game Design: Adventure Harry Potter: Potion 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-08
+(define-colored-art-badge 'cornflowerblue
+  adhp-p4
   "2D Game Design: Adventure Harry Potter: Potion 4"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-09
+(define-colored-art-badge 'cornflowerblue
+  adhp-p5
   "2D Game Design: Adventure Harry Potter: Potion 5"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-10
+(define-colored-art-badge 'cornflowerblue
+  adhp-lq1
   "2D Game Design: Adventure Harry Potter: Loot Quest 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-11
+(define-colored-art-badge 'cornflowerblue
+  adhp-lq2
   "2D Game Design: Adventure Harry Potter: Loot Quest 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-12
+(define-colored-art-badge 'cornflowerblue
+  adhp-lq3
   "2D Game Design: Adventure Harry Potter: Loot Quest 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-13
+(define-colored-art-badge 'cornflowerblue
+  adhp-lq4
   "2D Game Design: Adventure Harry Potter: Loot Quest 4"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-14
+(define-colored-art-badge 'cornflowerblue
+  adhp-lq5
   "2D Game Design: Adventure Harry Potter: Loot Quest 5"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-15
+(define-colored-art-badge 'cornflowerblue
+  adhp-nq1
   "2D Game Design: Adventure Harry Potter: NPC Quest 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-16
+(define-colored-art-badge 'cornflowerblue
+  adhp-nq2
   "2D Game Design: Adventure Harry Potter: NPC Quest 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-17
+(define-colored-art-badge 'cornflowerblue
+  adhp-nq3
   "2D Game Design: Adventure Harry Potter: NPC Quest 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-18
+(define-colored-art-badge 'cornflowerblue
+  adhp-nq4
   "2D Game Design: Adventure Harry Potter: NPC Quest 4"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-19
+(define-colored-art-badge 'cornflowerblue
+  adhp-nq5
   "2D Game Design: Adventure Harry Potter: NPC Quest 5"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-20
+(define-colored-art-badge 'cornflowerblue
+  adhp-s1
   "2D Game Design: Adventure Harry Potter: Spell 1"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-21
+(define-colored-art-badge 'cornflowerblue
+  adhp-s2
   "2D Game Design: Adventure Harry Potter: Spell 2"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-22
+(define-colored-art-badge 'cornflowerblue
+  adhp-s3
   "2D Game Design: Adventure Harry Potter: Spell 3"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-23
+(define-colored-art-badge 'cornflowerblue
+  adhp-s4
   "2D Game Design: Adventure Harry Potter: Spell 4"
   ""
   )
 
-(define-colored-art-badge 'lightseagreen
-  harrypotter-24
+(define-colored-art-badge 'cornflowerblue
+  adhp-s5
   "2D Game Design: Adventure Harry Potter: Spell 5"
   ""
   )
