@@ -24,6 +24,7 @@
 	 (all-from-out 2htdp/image)
 	 random-badge-art
 	 define-random-art-badge
+         define-colored-art-badge
 	 add-badge-data
 	 is-interest-badge?)
 
@@ -217,21 +218,30 @@
       (random 0 (length colors))))
 
   (define (rand-cell)
-    (square 20 'solid (rand-color)))
+    (square 1 128 (rand-color)))
 
-  (above
-    (beside 
+  (define (rand-square)
+    (above
+     (beside 
       (rand-cell) 
       (rand-cell) 
       (rand-cell))
-    (beside 
+     (beside 
       (rand-cell) 
       (rand-cell) 
       (rand-cell))
-    (beside 
+     (beside 
       (rand-cell) 
       (rand-cell) 
       (rand-cell))))
+  
+    ;(beside (rand-square) (rand-square) (rand-square) (rand-square) (rand-square) (rand-square))
+  (rand-cell)
+  )
+
+(define (colored-badge-art b c)
+  (square 1 'solid c)
+  )
 
 (define (add-badge-data b . args)
   (local-require racket/hash)
@@ -250,4 +260,11 @@
     name
     url
     (random-badge-art 'id)))
+
+(define-syntax-rule (define-colored-art-badge color id name url)
+  (define-badge
+    id
+    name
+    url
+    (colored-badge-art 'id color)))
 
