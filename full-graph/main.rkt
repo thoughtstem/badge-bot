@@ -79,11 +79,11 @@
   (node->label (render-node-label))
   (edge->label (thunk* ""))
 
-  (layout (dagre-layout #:node-distance 200))
+  (layout (dagre-layout #:node-distance 20))
   (styles 
     (map badge-style (get-vertices g)))
 
-  (graph-component g))
+  (graph-component g #:node-width 220))
 
 
 
