@@ -228,6 +228,40 @@
 (--> starwars-03 starwars-21)
 (--> starwars-21 starwars-22)
 
+;battlearena fortnite
+(--> 2d-gd-aa fortnite-aa)
+(--> fortnite-aa fortnite-00)
+(--> fortnite-00 fortnite-01)
+(--> fortnite-01 fortnite-02)
+(--> fortnite-02 fortnite-03)
+(--> fortnite-03 fortnite-04)
+
+(--> fortnite-03 fortnite-05)
+(--> fortnite-05 fortnite-06)
+(--> fortnite-06 fortnite-07)
+(--> fortnite-07 fortnite-08)
+(--> fortnite-08 fortnite-09)
+
+(--> fortnite-03 fortnite-weapons)
+(--> fortnite-weapons fortnite-10)
+(--> fortnite-weapons fortnite-11)
+(--> fortnite-weapons fortnite-12)
+(--> fortnite-weapons fortnite-13)
+(--> fortnite-weapons fortnite-14)
+(--> fortnite-weapons fortnite-20)
+(--> fortnite-20 fortnite-21)
+(--> fortnite-21 fortnite-22)
+
+(--> fortnite-weapons fortnite-23)
+(--> fortnite-23 fortnite-24)
+
+(--> fortnite-03 fortnite-items)
+(--> fortnite-items fortnite-15)
+(--> fortnite-items fortnite-16)
+(--> fortnite-items fortnite-17)
+(--> fortnite-17 fortnite-18)
+(--> fortnite-items fortnite-19)
+
 ;survival pokemon interest
 (--> 2d-gd-aa 2d-sp-aa)
 (--> 2d-sp-aa 2d-sp-00)
@@ -400,6 +434,37 @@
 (--> 3d-ex-22 3d-ex-23)
 (--> 3d-ex-23 3d-ex-24)
 
+;3d orbit interest
+(--> 3d-gd-aa orbit-aa)
+(--> orbit-aa orbit-00)
+(--> orbit-00 orbit-01)
+(--> orbit-01 orbit-02)
+(--> orbit-02 orbit-03)
+(--> orbit-03 orbit-04)
+
+(--> orbit-04 orbit-05)
+(--> orbit-05 orbit-06)
+(--> orbit-06 orbit-07)
+(--> orbit-07 orbit-08)
+(--> orbit-08 orbit-09)
+
+(--> orbit-04 orbit-10)
+(--> orbit-10 orbit-11)
+(--> orbit-11 orbit-12)
+(--> orbit-12 orbit-13)
+(--> orbit-13 orbit-14)
+
+(--> orbit-04 orbit-15)
+(--> orbit-15 orbit-16)
+(--> orbit-16 orbit-17)
+(--> orbit-17 orbit-18)
+(--> orbit-18 orbit-19)
+
+(--> orbit-04 orbit-20)
+(--> orbit-20 orbit-21)
+(--> orbit-21 orbit-22)
+(--> orbit-22 orbit-23)
+(--> orbit-23 orbit-24)
 
 ;;COMPUTER BASICS INTEREST BADGES START
 (--> browser-tabs dl-sc-wj)
