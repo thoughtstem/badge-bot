@@ -277,7 +277,7 @@
 (--> supo-f1 supo-f2)
 (--> supo-f2 supo-f3)
 (--> supo-f3 supo-f4)
-(--> supo-f4 supo-f5)
+(--> supo-f3 supo-f5)
 
 (--> supo-p2 supo-s1)
 (--> supo-s1 supo-s2)
