@@ -150,6 +150,16 @@
   "Digital Literacy: Coding Adventures: Yum, Pizza!"
   "https://forum.metacoders.org/t/digital-literacy-coding-adventures-yum-pizza/417")
 
+(define-colored-art-badge 'gold
+  dl-ca-npc
+  "Digital Literacy: Coding Adventures: Design an NPC"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-design-an-npc/489")
+
+(define-colored-art-badge 'gold
+  dl-ca-ce
+  "Digital Literacy: Coding Adventures: Making Cereal"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-making-cereal/428")
+
 ;; CODING ADVENTURES BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START

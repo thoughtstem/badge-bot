@@ -57,6 +57,8 @@
 (--> dl-ca-aa dl-ca-da)
 (--> dl-ca-aa dl-ca-io)
 (--> dl-ca-aa dl-ca-pz)
+(--> dl-ca-aa dl-ca-npc)
+(--> dl-ca-aa dl-ca-ce)
 
 ;;CODING ADVENTURES BADGES END
 
