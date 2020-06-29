@@ -950,158 +950,158 @@
 ;;BATTLEARENA FORTNITE INTEREST END
 
 ;; SURVIVAL POKEMON INTEREST START
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-aa
+(define-colored-art-badge 'royalblue
+  supo-pkg
   "2D Game Design: Survival Pokemon Install Package"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-install-package/230"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-00
+(define-colored-art-badge 'royalblue
+  supo-hw
   "2D Game Design: Survival Pokemon: Hello World"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-hello-world/242"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-01
+(define-colored-art-badge 'royalblue
+  supo-p1
   "2D Game Design: Survival Pokemon: Pokemon 1"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-pokemon-1/303"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-02
+(define-colored-art-badge 'royalblue
+  supo-p2
   "2D Game Design: Survival Pokemon: Pokemon 2"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-pokemon-2/304"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-03
+(define-colored-art-badge 'royalblue
+  supo-p3
   "2D Game Design: Survival Pokemon: Pokemon 3"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-pokemon-3/305"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-04
+(define-colored-art-badge 'royalblue
+  supo-p4
   "2D Game Design: Survival Pokemon: Pokemon 4"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-pokemon-4/306"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-05
+(define-colored-art-badge 'royalblue
+  supo-f1
   "2D Game Design: Survival Pokemon: Food 1"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-food-1/307"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-06
+(define-colored-art-badge 'royalblue
+  supo-f2
   "2D Game Design: Survival Pokemon: Food 2"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-food-2/308"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-07
+(define-colored-art-badge 'royalblue
+  supo-f3
   "2D Game Design: Survival Pokemon: Food 3"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-food-3/309"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-08
+(define-colored-art-badge 'royalblue
+  supo-f4
   "2D Game Design: Survival Pokemon: Food 4"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-food-4/310"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-09
+(define-colored-art-badge 'royalblue
+  supo-f5
   "2D Game Design: Survival Pokemon: Crafter 1"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-crafter-1/311"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-10
+(define-colored-art-badge 'royalblue
+  supo-s1
   "2D Game Design: Survival Pokemon: Stone 1"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-stone-1/312"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-11
+(define-colored-art-badge 'royalblue
+  supo-s2
   "2D Game Design: Survival Pokemon: Stone 2"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-stone-2/313"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-12
+(define-colored-art-badge 'royalblue
+  supo-s3
   "2D Game Design: Survival Pokemon: Stone 3"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-stone-3/314"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-13
+(define-colored-art-badge 'royalblue
+  supo-s4
   "2D Game Design: Survival Pokemon: Stone 4"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-stone-4/315"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-14
+(define-colored-art-badge 'royalblue
+  supo-s5
   "2D Game Design: Survival Pokemon: Stone 5"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-stone-5/316"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-15
+(define-colored-art-badge 'royalblue
+  supo-ft1
   "2D Game Design: Survival Pokemon: Friend 1"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-friend-1/317"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-16
+(define-colored-art-badge 'royalblue
+  supo-ft2
   "2D Game Design: Survival Pokemon: Friend 2"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-friend-2/318"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-17
+(define-colored-art-badge 'royalblue
+  supo-ft3
   "2D Game Design: Survival Pokemon: Friend 3"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-friend-3/319"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-18
+(define-colored-art-badge 'royalblue
+  supo-ft4
   "2D Game Design: Survival Pokemon: Trainer 1"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-trainer-1/320"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-19
+(define-colored-art-badge 'royalblue
+  supo-ft5
   "2D Game Design: Survival Pokemon: Trainer 2"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-trainer-2/321"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-20
+(define-colored-art-badge 'royalblue
+  supo-ts1
   "2D Game Design: Survival Pokemon: Town 1"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-town-1/322"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-21
+(define-colored-art-badge 'royalblue
+  supo-ts2
   "2D Game Design: Survival Pokemon: Sky 1"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-sky-1/323"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-22
+(define-colored-art-badge 'royalblue
+  supo-ts3
   "2D Game Design: Survival Pokemon: Sky 2"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-sky-2/324"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-23
+(define-colored-art-badge 'royalblue
+  supo-ts4
   "2D Game Design: Survival Pokemon: Level Design 1"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-level-1/325"
   )
 
-(define-colored-art-badge 'lightseagreen 
-  2d-sp-24
+(define-colored-art-badge 'royalblue
+  supo-ts5
   "2D Game Design: Survival Pokemon: Level Design 2"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-level-2/326"
   )
@@ -1583,158 +1583,158 @@
   )
 
 ;; 3D EXPLORATION INTEREST START
-(define-colored-art-badge 'salmon 
-  3d-ex-aa
+(define-colored-art-badge 'forestgreen 
+  3dex-pkg
   "3D Game Design: 3D Exploration Install Package"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-install-package/229"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-00
+(define-colored-art-badge 'forestgreen
+  3dex-hw
   "3D Game Design: 3D Exploration: Hello World"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-hello-world/225"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-01
+(define-colored-art-badge 'forestgreen
+  3dex-e1
   "3D Game Design: 3D Exploration: Environment 1"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-environment-1/248"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-02
+(define-colored-art-badge 'forestgreen
+  3dex-e2
   "3D Game Design: 3D Exploration: Environment 2"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-environment-2/279"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-03
+(define-colored-art-badge 'forestgreen
+  3dex-e3
   "3D Game Design: 3D Exploration: Environment 3"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-environment-3/280"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-04
+(define-colored-art-badge 'forestgreen
+  3dex-e4
   "3D Game Design: 3D Exploration: Environment 4"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-environment-4/281"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-05
+(define-colored-art-badge 'forestgreen
+  3dex-go1
   "3D Game Design: 3D Exploration: Ground Objects 1"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-ground-objects-1/282"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-06
+(define-colored-art-badge 'forestgreen
+  3dex-go2
   "3D Game Design: 3D Exploration: Ground Objects 2"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-ground-objects-2/283"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-07
+(define-colored-art-badge 'forestgreen
+  3dex-go3
   "3D Game Design: 3D Exploration: Ground Objects 3"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-ground-objects-3/284"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-08
+(define-colored-art-badge 'forestgreen
+  3dex-go4
   "3D Game Design: 3D Exploration: Ground Objects 4"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-ground-objects-4/285"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-09
+(define-colored-art-badge 'forestgreen
+  3dex-go5
   "3D Game Design: 3D Exploration: Ground Objects 5"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-ground-objects-5/286"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-10
+(define-colored-art-badge 'forestgreen
+  3dex-so1
   "3D Game Design: 3D Exploration: Sky Objects 1"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-sky-objects-1/287"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-11
+(define-colored-art-badge 'forestgreen
+  3dex-so2
   "3D Game Design: 3D Exploration: Sky Objects 2"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-sky-objects-2/288"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-12
+(define-colored-art-badge 'forestgreen
+  3dex-so3
   "3D Game Design: 3D Exploration: Sky Objects 3"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-sky-objects-3/289"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-13
+(define-colored-art-badge 'forestgreen
+  3dex-so4
   "3D Game Design: 3D Exploration: Sky Objects 4"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-sky-objects-4/290"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-14
+(define-colored-art-badge 'forestgreen
+  3dex-so5
   "3D Game Design: 3D Exploration: Sky Objects 5"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-sky-objects-5/291"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-15
+(define-colored-art-badge 'forestgreen
+  3dex-p1
   "3D Game Design: 3D Exploration: Particles 1"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-particles-1/292"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-16
+(define-colored-art-badge 'forestgreen
+  3dex-p2
   "3D Game Design: 3D Exploration: Particles 2"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-particles-2/293"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-17
+(define-colored-art-badge 'forestgreen
+  3dex-p3
   "3D Game Design: 3D Exploration: Particles 3"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-particles-3/294"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-18
+(define-colored-art-badge 'forestgreen
+  3dex-p4
   "3D Game Design: 3D Exploration: Particles 4"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-particles-4/295"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-19
+(define-colored-art-badge 'forestgreen
+  3dex-p5
   "3D Game Design: 3D Exploration: Particles 5"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-particles-5/296"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-20
+(define-colored-art-badge 'forestgreen
+  3dex-a1
   "3D Game Design: 3D Exploration: Animations 1"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-animations-1/297"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-21
+(define-colored-art-badge 'forestgreen
+  3dex-a2
   "3D Game Design: 3D Exploration: Animations 2"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-animations-2/298"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-22
+(define-colored-art-badge 'forestgreen
+  3dex-a3
   "3D Game Design: 3D Exploration: Animations 3"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-animations-3/299"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-23
+(define-colored-art-badge 'forestgreen
+  3dex-a4
   "3D Game Design: 3D Exploration: Animations 4"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-animations-4/300"
   )
 
-(define-colored-art-badge 'salmon
-  3d-ex-24
+(define-colored-art-badge 'forestgreen
+  3dex-a5
   "3D Game Design: 3D Exploration: Animations 5"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-animations-5/301"
   )
@@ -1742,158 +1742,158 @@
 ;; 3D EXPLORATION INTEREST END
 
 ;; 3D ORBIT INTEREST START
-(define-colored-art-badge 'salmon 
-  orbit-aa
+(define-colored-art-badge 'slategray 
+  3dor-pkg
   "3D Game Design: 3D Orbit Install Package"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-00
+(define-colored-art-badge 'slategray
+  3dor-hw
   "3D Game Design: 3D Orbit: Hello World"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-01
+(define-colored-art-badge 'slategray
+  3dor-o1
   "3D Game Design: 3D Orbit: Orbit 1"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-02
+(define-colored-art-badge 'slategray
+  3dor-o2
   "3D Game Design: 3D Orbit: Orbit 2"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-03
+(define-colored-art-badge 'slategray
+  3dor-o3
   "3D Game Design: 3D Orbit: Orbit 3"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-04
+(define-colored-art-badge 'slategray
+  3dor-o4
   "3D Game Design: 3D Orbit: Orbit 4"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-05
+(define-colored-art-badge 'slategray
+  3dor-sp1
   "3D Game Design: 3D Orbit: Star and Planet 1"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-06
+(define-colored-art-badge 'slategray
+  3dor-sp2
   "3D Game Design: 3D Orbit: Star and Planet 2"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-07
+(define-colored-art-badge 'slategray
+  3dor-sp3
   "3D Game Design: 3D Orbit: Star and Planet 3"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-08
+(define-colored-art-badge 'slategray
+  3dor-sp4
   "3D Game Design: 3D Orbit: Star and Planet 4"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-09
+(define-colored-art-badge 'slategray
+  3dor-sp5
   "3D Game Design: 3D Orbit: Star and Planet 5"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-10
+(define-colored-art-badge 'slategray
+  3dor-mr1
   "3D Game Design: 3D Orbit: Moon and Ring 1"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-11
+(define-colored-art-badge 'slategray
+  3dor-mr2
   "3D Game Design: 3D Orbit: Moon and Ring 2"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-12
+(define-colored-art-badge 'slategray
+  3dor-mr3
   "3D Game Design: 3D Orbit: Moon and Ring 3"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-13
+(define-colored-art-badge 'slategray
+  3dor-mr4
   "3D Game Design: 3D Orbit: Moon and Ring 4"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-14
+(define-colored-art-badge 'slategray
+  3dor-mr5
   "3D Game Design: 3D Orbit: Moon and Ring 5"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-15
+(define-colored-art-badge 'slategray
+  3dor-so1
   "3D Game Design: 3D Orbit: Space Objects 1"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-16
+(define-colored-art-badge 'slategray
+  3dor-so2
   "3D Game Design: 3D Orbit: Space Objects 2"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-17
+(define-colored-art-badge 'slategray
+  3dor-so3
   "3D Game Design: 3D Orbit: Space Objects 3"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-18
+(define-colored-art-badge 'slategray
+  3dor-so4
   "3D Game Design: 3D Orbit: Space Objects 4"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-19
+(define-colored-art-badge 'slategray
+  3dor-so5
   "3D Game Design: 3D Orbit: Space Objects 5"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-20
+(define-colored-art-badge 'slategray
+  3dor-ss1
   "3D Game Design: 3D Orbit: Star System 1"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-21
+(define-colored-art-badge 'slategray
+  3dor-ss2
   "3D Game Design: 3D Orbit: Star System 2"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-22
+(define-colored-art-badge 'slategray
+  3dor-ss3
   "3D Game Design: 3D Orbit: Star System 3"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-23
+(define-colored-art-badge 'slategray
+  3dor-ss4
   "3D Game Design: 3D Orbit: Star System 4"
   ""
   )
 
-(define-colored-art-badge 'salmon
-  orbit-24
+(define-colored-art-badge 'slategray
+  3dor-ss5
   "3D Game Design: 3D Orbit: Star System 5"
   ""
   )
@@ -2058,12 +2058,6 @@
   dl-os-tf
   "Digital Literacy: Operating System: Text File Basics" 
   "https://forum.metacoders.org/t/digital-literacy-operating-system-text-file-basics/116" 
-  )
-
-(define-colored-art-badge 'lightgreen 
-  dl-os-wm
-  "Digital Literacy: Operating System: Windows Management Basics" 
-  "https://forum.metacoders.org/t/digital-literacy-operating-system-windows-management-basics/121" 
   )
 
 (define-colored-art-badge 'lightgreen 
