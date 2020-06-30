@@ -59,6 +59,7 @@
 (--> dl-ca-aa dl-ca-pz)
 (--> dl-ca-aa dl-ca-npc)
 (--> dl-ca-aa dl-ca-ce)
+(--> dl-ca-aa ca-browser)
 
 ;;CODING ADVENTURES BADGES END
 

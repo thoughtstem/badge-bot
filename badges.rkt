@@ -160,6 +160,11 @@
   "Digital Literacy: Coding Adventures: Making Cereal"
   "https://forum.metacoders.org/t/digital-literacy-coding-adventures-making-cereal/428")
 
+(define-colored-art-badge 'gold
+  ca-browser
+  "Digital Literacy: Coding Adventures: Browser Power"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-browser-power/536")
+
 ;; CODING ADVENTURES BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START
