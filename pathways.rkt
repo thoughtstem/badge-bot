@@ -60,6 +60,7 @@
 (--> dl-ca-aa dl-ca-npc)
 (--> dl-ca-aa dl-ca-ce)
 (--> dl-ca-aa ca-browser)
+(--> dl-ca-aa ca-superhero)
 
 ;;CODING ADVENTURES BADGES END
 
