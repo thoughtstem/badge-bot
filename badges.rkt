@@ -2278,6 +2278,57 @@
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
 
 
+;;2D GAME DESIGN MAZE GAME BADGES START
+(define-colored-art-badge 'deepskyblue 
+  maze-game
+  "2D Game Design: Maze Game Access Badge" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-access-badge/541" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-hw
+  "2D Game Design: Maze Game Pokemon - Hello World" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-hello-world/540" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-t1
+  "2D Game Design: Maze Game Pokemon: Trainer 1" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-trainer-1/542" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-t2
+  "2D Game Design: Maze Game Pokemon: Trainer 2" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-trainer-2/543" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-t3
+  "2D Game Design: Maze Game Pokemon: Trainer 3" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-trainer-3/544" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-t4
+  "2D Game Design: Maze Game Pokemon: Trainer 4" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-trainer-4/545" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-s1
+  "2D Game Design: Maze Game Pokemon: Stage 1" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-stage-1/547" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-s2
+  "2D Game Design: Maze Game Pokemon: Stage 2" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-stage-2/548" 
+  )
+
+;;2D GAME DESIGN MAZE GAME BADGES END
+
 (module+ test 
 	 (require discord-bot)
 

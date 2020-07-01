@@ -540,4 +540,15 @@
 
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
 
+;;2D GAME DESIGN MAZE GAME BADGES START
+(--> wescheme-gd maze-game)
+(--> maze-game mgpo-hw)
+(--> mgpo-hw mgpo-t1)
+(--> mgpo-t1 mgpo-t2)
+(--> mgpo-t2 mgpo-t3)
+(--> mgpo-t3 mgpo-t4)
+(--> mgpo-t4 mgpo-s1)
+(--> mgpo-s1 mgpo-s2)
+
+;;2D GAME DESIGN MAZE GAME BADGES END
 ;;2D GAME DESIGN BADGES END
