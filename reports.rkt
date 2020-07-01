@@ -49,6 +49,18 @@
     (hash-keys be))
   )
 
+(define (shorten s)
+  ;Move this somewhere like badges-lang,
+  ;  Formalize how we name badges.
+  ; Maybe family shouldn't be in the name, but can be
+  ;  appended on by badge-name
+  (define (remove-family-name s)
+    (if (string-contains? s ":")
+      (last (string-split s ": "))
+      s))
+
+  (remove-family-name s))
+
 (define (graph-overview [u #f])
   (local-require
     (only-in 2htdp/image square))
@@ -58,7 +70,7 @@
                      (if (not u)
                        (length
                          (users-with-badge b))
-		       (badge-name b)
+		       (shorten (badge-name b))
 		       ))]
                  [render-node-image
                    (lambda (b)

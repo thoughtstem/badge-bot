@@ -2149,8 +2149,8 @@
 
 (define-colored-art-badge 'steelblue 
   2d-er-ea
-  "2D Game Design: Endless Runner: Exploring Assets" 
-  "https://forum.metacoders.org/t/2d-game-design-endless-runner-exploring-assets/161" 
+  "2D Game Design: Endless Runner: Basics" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-basics/161" 
   )
 
 (define-colored-art-badge 'steelblue 
