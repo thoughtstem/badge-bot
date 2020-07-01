@@ -165,6 +165,12 @@
   "Digital Literacy: Coding Adventures: Browser Power"
   "https://forum.metacoders.org/t/digital-literacy-coding-adventures-browser-power/536")
 
+
+(define-colored-art-badge 'gold
+  ca-superhero
+  "Digital Literacy: Coding Adventures: Superhero Functions"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-superhero-functions/546")
+
 ;; CODING ADVENTURES BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START
