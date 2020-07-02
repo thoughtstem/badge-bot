@@ -633,169 +633,169 @@
 (define-colored-art-badge 'gold
   basw-pkg
   "2D Game Design: Battlearena Star Wars Install Package"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-install-package/502"
   )
 
 (define-colored-art-badge 'gold
   basw-hw
   "2D Game Design: Battlearena Star Wars: Hello World"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-hello-world/430"
   )
 
 (define-colored-art-badge 'gold
   basw-r1
   "2D Game Design: Battlearena Star Wars: Rebel 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-rebel-1/431"
   )
 
 (define-colored-art-badge 'gold
   basw-r2
   "2D Game Design: Battlearena Star Wars: Rebel 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-rebel-2/432"
   )
 
 (define-colored-art-badge 'gold
   basw-r3
   "2D Game Design: Battlearena Star Wars: Rebel 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-rebel-3/433"
   )
 
 (define-colored-art-badge 'gold
   basw-r4
   "2D Game Design: Battlearena Star Wars: Rebel 4"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-rebel-4/437"
   )
 
 (define-colored-art-badge 'gold
   basw-i1
   "2D Game Design: Battlearena Star Wars: Imperial 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-imperial-1/442"
   )
 
 (define-colored-art-badge 'gold
   basw-i2
   "2D Game Design: Battlearena Star Wars: Imperial 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-imperial-2/445"
   )
 
 (define-colored-art-badge 'gold
   basw-i3
   "2D Game Design: Battlearena Star Wars: Imperial 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-imperial-3/450"
   )
 
 (define-colored-art-badge 'gold
   basw-i4
   "2D Game Design: Battlearena Star Wars: Imperial Weapon 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-imperial-weapon-1/491"
   )
 
 (define-colored-art-badge 'gold
   basw-i5
   "2D Game Design: Battlearena Star Wars: Imperial Weapon 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-imperial-weapon-2/494"
   )
 
 (define-colored-art-badge 'gold
   basw-weapons
   "2D Game Design: Battlearena Star Wars: Weapons Path"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-weapons-path/468"
   )
 
 (define-colored-art-badge 'gold
   basw-w1
   "2D Game Design: Battlearena Star Wars: Lightsaber 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-lightsaber-1/470"
   )
 
 (define-colored-art-badge 'gold
   basw-w2
   "2D Game Design: Battlearena Star Wars: Lightsaber 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-lightsaber-2/471"
   )
 
 (define-colored-art-badge 'gold
   basw-w3
   "2D Game Design: Battlearena Star Wars: Lightsaber 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-lightsaber-3/473"
   )
 
 (define-colored-art-badge 'gold
   basw-w4
   "2D Game Design: Battlearena Star Wars: Blaster 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-blaster-1/496"
   )
 
 (define-colored-art-badge 'gold
   basw-w5
   "2D Game Design: Battlearena Star Wars: Blaster 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-blaster-2/498"
   )
 
 (define-colored-art-badge 'gold
   basw-pu1
   "2D Game Design: Battlearena Star Wars: Health 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-health-1/440"
   )
 
 (define-colored-art-badge 'gold
   basw-pu2
   "2D Game Design: Battlearena Star Wars: Health 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-health-2/443"
   )
 
 (define-colored-art-badge 'gold
   basw-pu3
   "2D Game Design: Battlearena Star Wars: Health 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-health-3/446"
   )
 
 (define-colored-art-badge 'gold
   basw-pu4
   "2D Game Design: Battlearena Star Wars: Force Field 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-force-field-1/448"
   )
 
 (define-colored-art-badge 'gold
   basw-pu5
   "2D Game Design: Battlearena Star Wars: Force Field 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-force-field-2/451"
   )
 
 (define-colored-art-badge 'gold
   basw-pu6
   "2D Game Design: Battlearena Star Wars: Force Field 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-force-field-3/453"
   )
 
 (define-colored-art-badge 'gold
   basw-tw1
   "2D Game Design: Battlearena Star Wars: Spike Mine 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-spike-mine-1/500"
   )
 
 (define-colored-art-badge 'gold
   basw-tw2
   "2D Game Design: Battlearena Star Wars: Spike Mine 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-spike-mine-2/501"
   )
 
 (define-colored-art-badge 'gold
   basw-tw3
   "2D Game Design: Battlearena Star Wars: Lightsaber Droid 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-lightsaber-droid-1/476"
   )
 
 (define-colored-art-badge 'gold
   basw-tw4
   "2D Game Design: Battlearena Star Wars: Lightsaber Droid 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-lightsaber-droid-2/479"
   )
 
 (define-colored-art-badge 'gold
   basw-tw5
   "2D Game Design: Battlearena Star Wars: Blaster Droid 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-blaster-droid-1/499"
   )
 ;; BATTLEARENA basw INTEREST END
 
