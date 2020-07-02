@@ -83,7 +83,13 @@
 			 (member u
                                    (users-with-badge b) string=?)
                          (badge-img b)
-                         (square 40 'solid 'black))))])
+                         (overlay (rectangle (image-width (badge-img b))
+                                             (image-height (badge-img b))
+                                             160
+                                             'black)
+                                  (badge-img b))
+
+                         )))])
     (current-network-graph-component)))
 
 (define (render-badge-report-for user)

@@ -11,7 +11,7 @@
 (require (only-in "../pathways.rkt"
                   current-network)
 
-         (only-in "../badges-lang.rkt" badge-id badge-name badge-img all-badges badge-data)
+         (only-in "../badges-lang.rkt" badge-id badge-name badge-url badge-img all-badges badge-data)
          (only-in pict bitmap)
          net/base64
          file/convertible
@@ -34,6 +34,9 @@
 
 (define render-node-image
   (make-parameter badge-img))
+
+(define render-node-url
+  (make-parameter badge-url))
 
 (define (pict->data-uri pict)
   (regexp-replaces
@@ -77,6 +80,7 @@
 
   (node->id    badge-id)
   (node->label (render-node-label))
+  (node->url   (render-node-url))
   (edge->label (thunk* ""))
 
   (layout (dagre-layout #:node-distance 20))
