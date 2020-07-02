@@ -803,169 +803,169 @@
 (define-colored-art-badge 'orchid
   bafn-pkg
   "2D Game Design: Battlearena Fortnite Install Package"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-install-package/462"
   )
 
 (define-colored-art-badge 'orchid
   bafn-hw
   "2D Game Design: Battlearena Fortnite: Hello World"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-hello-world/464"
   )
 
 (define-colored-art-badge 'orchid
   bafn-a1
   "2D Game Design: Battlearena Fortnite: Avatar 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-avatar-1/467"
   )
 
 (define-colored-art-badge 'orchid
   bafn-a2
   "2D Game Design: Battlearena Fortnite: Avatar 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-avatar-2/474"
   )
 
 (define-colored-art-badge 'orchid
   bafn-a3
   "2D Game Design: Battlearena Fortnite: Avatar 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-avatar-3/481"
   )
 
 (define-colored-art-badge 'orchid
   bafn-a4
   "2D Game Design: Battlearena Fortnite: Avatar 4"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-avatar-4/483"
   )
 
 (define-colored-art-badge 'orchid
   bafn-e1
   "2D Game Design: Battlearena Fortnite: Enemy 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-enemy-1/485"
   )
 
 (define-colored-art-badge 'orchid
   bafn-e2
   "2D Game Design: Battlearena Fortnite: Enemy 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-enemy-2/512"
   )
 
 (define-colored-art-badge 'orchid
   bafn-e3
   "2D Game Design: Battlearena Fortnite: Enemy 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-enemy-3/513"
   )
 
 (define-colored-art-badge 'orchid
   bafn-e4
   "2D Game Design: Battlearena Fortnite: Enemy Weapon 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-enemy-weapon-1/514"
   )
 
 (define-colored-art-badge 'orchid
   bafn-e5
   "2D Game Design: Battlearena Fortnite: Enemy Weapon 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-enemy-weapon-2/515"
   )
 
 (define-colored-art-badge 'orchid
   bafn-weapons
   "2D Game Design: Battlearena Fortnite: Weapons Path"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-weapons-path/516"
   )
 
 (define-colored-art-badge 'orchid
   bafn-w1
   "2D Game Design: Battlearena Fortnite: Spear 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-spear-1/522"
   )
 
 (define-colored-art-badge 'orchid
   bafn-w2
   "2D Game Design: Battlearena Fortnite: Fire 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-fire-1/523"
   )
 
 (define-colored-art-badge 'orchid
   bafn-w3
   "2D Game Design: Battlearena Fortnite: Single Shot 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-single-shot-1/526"
   )
 
 (define-colored-art-badge 'orchid
   bafn-w4
   "2D Game Design: Battlearena Fortnite: Spread Shot 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-spread-shot-1/524"
   )
 
 (define-colored-art-badge 'orchid
   bafn-w5
   "2D Game Design: Battlearena Fortnite: Homing Repeater 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-homing-repeater-1/525"
   )
 
 (define-colored-art-badge 'orchid
   bafn-items
   "2D Game Design: Battlearena Fortnite: Items Path"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-items-path/527"
   )
 
 (define-colored-art-badge 'orchid
   bafn-i1
   "2D Game Design: Battlearena Fortnite: Health 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-health-1/531"
   )
 
 (define-colored-art-badge 'orchid
   bafn-i2
   "2D Game Design: Battlearena Fortnite: Shield 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-shield-1/532"
   )
 
 (define-colored-art-badge 'orchid
   bafn-i3
   "2D Game Design: Battlearena Fortnite: Boost 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-boost-1/529"
   )
 
 (define-colored-art-badge 'orchid
   bafn-i4
   "2D Game Design: Battlearena Fortnite: Boost 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-boost-2/530"
   )
 
 (define-colored-art-badge 'orchid
   bafn-i5
   "2D Game Design: Battlearena Fortnite: Size 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-size-1/528"
   )
 
 (define-colored-art-badge 'orchid
   bafn-t1
   "2D Game Design: Battlearena Fortnite: Spear Tower 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-spear-tower-1/517"
   )
 
 (define-colored-art-badge 'orchid
   bafn-t2
   "2D Game Design: Battlearena Fortnite: Spear Tower 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-spear-tower-2/518"
   )
 
 (define-colored-art-badge 'orchid
   bafn-t3
   "2D Game Design: Battlearena Fortnite: Spear Tower 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-spear-tower-3/519"
   )
 
 (define-colored-art-badge 'orchid
   bafn-t4
   "2D Game Design: Battlearena Fortnite: Repeater Tower 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-repeater-tower-1/520"
   )
 
 (define-colored-art-badge 'orchid
   bafn-t5
   "2D Game Design: Battlearena Fortnite: Repeater Tower 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-repeater-tower-2/521"
   )
 
 ;;BATTLEARENA FORTNITE INTEREST END
