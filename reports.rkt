@@ -85,8 +85,8 @@
                          (badge-img b)
                          (overlay (rectangle (image-width (badge-img b))
                                              (image-height (badge-img b))
-                                             160
-                                             'black)
+                                             'solid
+                                             'gray)
                                   (badge-img b))
 
                          )))])
