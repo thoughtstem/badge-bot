@@ -1766,157 +1766,157 @@
 (define-colored-art-badge 'slategray 
   3dor-pkg
   "3D Game Design: 3D Orbit Install Package"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-install-package/535"
   )
 
 (define-colored-art-badge 'slategray
   3dor-hw
   "3D Game Design: 3D Orbit: Hello World"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-hello-world/511"
   )
 
 (define-colored-art-badge 'slategray
   3dor-o1
   "3D Game Design: 3D Orbit: Orbit 1"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-orbit-1/507"
   )
 
 (define-colored-art-badge 'slategray
   3dor-o2
   "3D Game Design: 3D Orbit: Orbit 2"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-orbit-2/508"
   )
 
 (define-colored-art-badge 'slategray
   3dor-o3
   "3D Game Design: 3D Orbit: Orbit 3"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-orbit-3/509"
   )
 
 (define-colored-art-badge 'slategray
   3dor-o4
   "3D Game Design: 3D Orbit: Orbit 4"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-orbit-4/510"
   )
 
 (define-colored-art-badge 'slategray
   3dor-sp1
   "3D Game Design: 3D Orbit: Star and Planet 1"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-star-and-planet-1/578"
   )
 
 (define-colored-art-badge 'slategray
   3dor-sp2
   "3D Game Design: 3D Orbit: Star and Planet 2"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-star-and-planet-2/579"
   )
 
 (define-colored-art-badge 'slategray
   3dor-sp3
   "3D Game Design: 3D Orbit: Star and Planet 3"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-star-and-planet-3/580"
   )
 
 (define-colored-art-badge 'slategray
   3dor-sp4
   "3D Game Design: 3D Orbit: Star and Planet 4"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-star-and-planet-4/581"
   )
 
 (define-colored-art-badge 'slategray
   3dor-sp5
   "3D Game Design: 3D Orbit: Star and Planet 5"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-star-and-planet-5/582"
   )
 
 (define-colored-art-badge 'slategray
   3dor-mr1
   "3D Game Design: 3D Orbit: Moon and Ring 1"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-moon-and-ring-1/567"
   )
 
 (define-colored-art-badge 'slategray
   3dor-mr2
   "3D Game Design: 3D Orbit: Moon and Ring 2"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-moon-and-ring-2/568"
   )
 
 (define-colored-art-badge 'slategray
   3dor-mr3
   "3D Game Design: 3D Orbit: Moon and Ring 3"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-moon-and-ring-3/569"
   )
 
 (define-colored-art-badge 'slategray
   3dor-mr4
   "3D Game Design: 3D Orbit: Moon and Ring 4"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-moon-and-ring-4/570"
   )
 
 (define-colored-art-badge 'slategray
   3dor-mr5
   "3D Game Design: 3D Orbit: Moon and Ring 5"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-moon-and-ring-5/572"
   )
 
 (define-colored-art-badge 'slategray
   3dor-so1
   "3D Game Design: 3D Orbit: Space Objects 1"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-space-objects-1/562"
   )
 
 (define-colored-art-badge 'slategray
   3dor-so2
   "3D Game Design: 3D Orbit: Space Objects 2"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-space-objects-2/563"
   )
 
 (define-colored-art-badge 'slategray
   3dor-so3
   "3D Game Design: 3D Orbit: Space Objects 3"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-space-objects-3/564"
   )
 
 (define-colored-art-badge 'slategray
   3dor-so4
   "3D Game Design: 3D Orbit: Space Objects 4"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-space-objects-4/565"
   )
 
 (define-colored-art-badge 'slategray
   3dor-so5
   "3D Game Design: 3D Orbit: Space Objects 5"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-space-objects-5/566"
   )
 
 (define-colored-art-badge 'slategray
   3dor-ss1
   "3D Game Design: 3D Orbit: Star System 1"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-star-system-1/573"
   )
 
 (define-colored-art-badge 'slategray
   3dor-ss2
   "3D Game Design: 3D Orbit: Star System 2"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-star-system-2/574"
   )
 
 (define-colored-art-badge 'slategray
   3dor-ss3
   "3D Game Design: 3D Orbit: Star System 3"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-star-system-3/575"
   )
 
 (define-colored-art-badge 'slategray
   3dor-ss4
   "3D Game Design: 3D Orbit: Star System 4"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-star-system-4/576"
   )
 
 (define-colored-art-badge 'slategray
   3dor-ss5
   "3D Game Design: 3D Orbit: Star System 5"
-  ""
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-star-system-5/577"
   )
 
 ;; DA WESCHEME ART INTEREST BADGES START
