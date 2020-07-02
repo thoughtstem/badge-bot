@@ -2333,6 +2333,24 @@
   "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-stage-2/548" 
   )
 
+(define-colored-art-badge 'deepskyblue 
+  mgpo-s3
+  "2D Game Design: Maze Game Pokemon: Stage 3" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-stage-3/584" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-s4
+  "2D Game Design: Maze Game Pokemon: Stage 4" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-stage-4/585" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-s5
+  "2D Game Design: Maze Game Pokemon: Stage 5" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-stage-5/586" 
+  )
+
 ;;2D GAME DESIGN MAZE GAME BADGES END
 
 (module+ test 
