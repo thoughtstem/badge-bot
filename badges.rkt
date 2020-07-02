@@ -1450,157 +1450,157 @@
 (define-colored-art-badge 'cornflowerblue 
   adhp-pkg
   "2D Game Design: Adventure Harry Potter Install Package"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-install-package/466"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-hw
   "2D Game Design: Adventure Harry Potter: Hello World"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-hello-world/434"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-w1
   "2D Game Design: Adventure Harry Potter: Wizard 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-wizard-1/435"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-w2
   "2D Game Design: Adventure Harry Potter: Wizard 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-wizard-2/436"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-w3
   "2D Game Design: Adventure Harry Potter: Wizard 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-wizard-3/438"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-w4
   "2D Game Design: Adventure Harry Potter: Wizard 4"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-wizard-4/439"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-p1
   "2D Game Design: Adventure Harry Potter: Potion 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-potion-1/469"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-p2
   "2D Game Design: Adventure Harry Potter: Potion 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-potion-2/472"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-p3
   "2D Game Design: Adventure Harry Potter: Potion 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-potion-3/475"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-p4
   "2D Game Design: Adventure Harry Potter: Potion 4"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-potion-4/477"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-p5
   "2D Game Design: Adventure Harry Potter: Potion 5"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-potion-5/482"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-lq1
   "2D Game Design: Adventure Harry Potter: Loot Quest 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-loot-quest-1/455"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-lq2
   "2D Game Design: Adventure Harry Potter: Loot Quest 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-loot-quest-2/458"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-lq3
   "2D Game Design: Adventure Harry Potter: Loot Quest 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-loot-quest-3/460"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-lq4
   "2D Game Design: Adventure Harry Potter: Loot Quest 4"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-loot-quest-4/461"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-lq5
   "2D Game Design: Adventure Harry Potter: Loot Quest 5"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-loot-quest-5/463"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-nq1
   "2D Game Design: Adventure Harry Potter: NPC Quest 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-npc-quest-1/441"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-nq2
   "2D Game Design: Adventure Harry Potter: NPC Quest 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-npc-quest-2/444"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-nq3
   "2D Game Design: Adventure Harry Potter: NPC Quest 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-npc-quest-3/447"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-nq4
   "2D Game Design: Adventure Harry Potter: NPC Quest 4"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-npc-quest-4/449"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-nq5
   "2D Game Design: Adventure Harry Potter: NPC Quest 5"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-npc-quest-5/452"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-s1
   "2D Game Design: Adventure Harry Potter: Spell 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-spell-1/484"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-s2
   "2D Game Design: Adventure Harry Potter: Spell 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-spell-2/487"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-s3
   "2D Game Design: Adventure Harry Potter: Spell 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-spell-3/488"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-s4
   "2D Game Design: Adventure Harry Potter: Spell 4"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-spell-4/490"
   )
 
 (define-colored-art-badge 'cornflowerblue
   adhp-s5
   "2D Game Design: Adventure Harry Potter: Spell 5"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-spell-5/492"
   )
 
 ;; 3D EXPLORATION INTEREST START
