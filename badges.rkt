@@ -1133,67 +1133,67 @@
 (define-colored-art-badge 'saddlebrown 
   sumc-pkg
   "2D Game Design: Survival Minecraft Install Package"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-install-package/534"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-hw
   "2D Game Design: Survival Minecraft: Hello World"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-hello-world/486"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-cs1
   "2D Game Design: Survival Minecraft: Custom Skin 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-custom-skin-1/493"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-cs2
   "2D Game Design: Survival Minecraft: Custom Skin 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-custom-skin-2/495"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-cs3
   "2D Game Design: Survival Minecraft: Custom Skin 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-custom-skin-3/551"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-cs4
   "2D Game Design: Survival Minecraft: Custom Skin 4"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-custom-skin-4/552"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-f1
   "2D Game Design: Survival Minecraft: Food 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-custom-food-1/553"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-f2
   "2D Game Design: Survival Minecraft: Food 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-food-2/554"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-f3
   "2D Game Design: Survival Minecraft: Food 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-food-3/560"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-f4
   "2D Game Design: Survival Minecraft: Food 4"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-food-4/561"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-f5
   "2D Game Design: Survival Minecraft: Crafter 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-crafter-1/583"
   )
 
 (define-colored-art-badge 'saddlebrown 
@@ -1995,7 +1995,7 @@
 (define-colored-art-badge 'lightblue
   da-wa-pr
   "Digital Art: WeScheme: Art Projects"
-  ""
+  "https://forum.metacoders.org/t/digital-art-wescheme-art-projects/363"
   )
 
 (define-colored-art-badge 'lightblue 
