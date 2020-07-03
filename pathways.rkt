@@ -61,6 +61,7 @@
 (--> dl-ca-aa dl-ca-ce)
 (--> dl-ca-aa ca-browser)
 (--> dl-ca-aa ca-superhero)
+(--> dl-ca-aa ca-animate)
 
 ;;CODING ADVENTURES BADGES END
 
