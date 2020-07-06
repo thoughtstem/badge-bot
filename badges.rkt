@@ -175,6 +175,11 @@
   "Digital Literacy: Coding Adventures: Animate Me"
   "https://forum.metacoders.org/t/digital-literacy-coding-adventures-animate-me/593")
 
+(define-colored-art-badge 'gold
+  ca-zoo
+  "Digital Literacy: Coding Adventures: Zoo Trip"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-zoo-trip/613")
+
 ;; CODING ADVENTURES BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START
