@@ -538,6 +538,12 @@
 (--> er-hp-bi3 er-hp-bi4)
 (--> er-hp-bi4 er-hp-bi5)
 
+(--> er-hp-bi5 erhp-gb1)
+(--> erhp-gb1 erhp-gb2)
+(--> erhp-gb2 erhp-gb3)
+(--> erhp-gb3 erhp-gb4)
+(--> erhp-gb4 erhp-gb5)
+
 ; TODO: Game Balance
 ; TODO: Flappy Wizard
 

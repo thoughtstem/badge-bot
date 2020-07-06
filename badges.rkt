@@ -2289,6 +2289,36 @@
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-bad-item-5/416" 
   )
 
+(define-colored-art-badge 'steelblue 
+  erhp-gb1
+  "2D Game Design: Endless Runner Harry Potter: Game Balance 1" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-game-balance-1/612" 
+  )
+
+(define-colored-art-badge 'steelblue 
+  erhp-gb2
+  "2D Game Design: Endless Runner Harry Potter: Game Balance 2" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-game-balance-2/614" 
+  )
+
+(define-colored-art-badge 'steelblue 
+  erhp-gb3
+  "2D Game Design: Endless Runner Harry Potter: Game Balance 3" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-game-balance-3/615" 
+  )
+
+(define-colored-art-badge 'steelblue 
+  erhp-gb4
+  "2D Game Design: Endless Runner Harry Potter: Game Balance 4" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-game-balance-4/616" 
+  )
+
+(define-colored-art-badge 'steelblue 
+  erhp-gb5
+  "2D Game Design: Endless Runner Harry Potter: Game Balance 5" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-game-balance-5/617" 
+  )
+
 
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
 
