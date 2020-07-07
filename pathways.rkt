@@ -64,6 +64,7 @@
 (--> dl-ca-aa ca-animate)
 (--> dl-ca-aa ca-zoo)
 (--> dl-ca-aa ca-ice-cream)
+(--> dl-ca-aa ca-keyboard)
 
 ;;CODING ADVENTURES BADGES END
 

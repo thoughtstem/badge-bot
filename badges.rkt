@@ -185,6 +185,11 @@
   "Digital Literacy: Coding Adventures: Yum, Ice Cream!"
   "https://forum.metacoders.org/t/digital-literacy-coding-adventures-yum-ice-cream-sundae/619")
 
+(define-colored-art-badge 'gold
+  ca-keyboard
+  "Digital Literacy: Coding Adventures: Keyboard Mastery"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-keyboard-mastery/629")
+
 ;; CODING ADVENTURES BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START
