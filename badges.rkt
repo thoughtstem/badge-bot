@@ -180,6 +180,11 @@
   "Digital Literacy: Coding Adventures: Zoo Trip"
   "https://forum.metacoders.org/t/digital-literacy-coding-adventures-zoo-trip/613")
 
+(define-colored-art-badge 'gold
+  ca-ice-cream
+  "Digital Literacy: Coding Adventures: Yum, Ice Cream!"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-yum-ice-cream-sundae/619")
+
 ;; CODING ADVENTURES BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START

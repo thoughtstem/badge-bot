@@ -63,6 +63,7 @@
 (--> dl-ca-aa ca-superhero)
 (--> dl-ca-aa ca-animate)
 (--> dl-ca-aa ca-zoo)
+(--> dl-ca-aa ca-ice-cream)
 
 ;;CODING ADVENTURES BADGES END
 
