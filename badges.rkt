@@ -359,6 +359,30 @@
   "https://forum.metacoders.org/t/scratch-super-cat-out-of-control/375" 
   )
 
+(define-colored-art-badge 'khaki 
+  grid-1
+  "Scratch: Grid Game: Launch" 
+  "https://forum.metacoders.org/t/scratch-grid-game-launch/418" 
+  )
+  
+  (define-colored-art-badge 'khaki 
+  grid-2
+  "Scratch: Grid Game: Random Strawberry" 
+  "https://forum.metacoders.org/t/scratch-grid-game-random-strawberry/555" 
+  )
+  
+  (define-colored-art-badge 'khaki 
+  grid-3
+  "Scratch: Grid Game: Player Movement" 
+  "https://forum.metacoders.org/t/scratch-grid-game-player-movement/556" 
+  )
+  
+  (define-colored-art-badge 'khaki 
+  grid-4
+  "Scratch: Grid Game: Player Animation" 
+  "https://forum.metacoders.org/t/scratch-grid-game-player-animation/559" 
+  )
+  
 ;;SCRATCH GAME DESIGN BADGES END
 
 ;; TYPING INTEREST BADGES START
