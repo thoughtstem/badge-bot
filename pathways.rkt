@@ -103,6 +103,12 @@
 (--> sr-sc-lf sr-sc-lw)
 (--> sr-sc-lw sr-sc-oc)
 
+;;Scratch Grid Badges
+(--> sr-sc-oc grid-1)
+(--> grid-1 grid-2)
+(--> grid-2 grid-3)
+(--> grid-3 grid-4)
+
 ;;Todo: Scratch Underwater Branch
 ;;Todo: Scratch Mouse Maze Branch
 ;;Todo: Scratch Monkey Business Branch
