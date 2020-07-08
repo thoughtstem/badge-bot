@@ -104,6 +104,25 @@
 ;;PAPER BADGES END
 
 ;;CODING ADVENTURES BADGES START
+(define-colored-art-badge 'gold
+  ca-a-lessons
+  "Digital Literacy: Coding Adventures: A Lessons"
+  "")
+
+(define-colored-art-badge 'gold
+  ca-b-lessons
+  "Digital Literacy: Coding Adventures: B Lessons"
+  "")
+
+(define-colored-art-badge 'gold
+  ca-c-lessons
+  "Digital Literacy: Coding Adventures: C Lessons"
+  "")
+
+(define-colored-art-badge 'gold
+  ca-d-lessons
+  "Digital Literacy: Coding Adventures: D Lessons"
+  "")
 
 (define-colored-art-badge 'gold
   dl-ca-aa

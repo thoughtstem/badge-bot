@@ -49,22 +49,30 @@
 
 (--> dl-dl-aa dl-ca-aa) ;delete to cut coding adventures off from main branch
 
-(--> dl-ca-aa dl-ca-if)
-(--> dl-ca-aa dl-ca-lg)
-(--> dl-ca-aa dl-ca-bd)
-(--> dl-ca-aa dl-ca-ap)
-(--> dl-ca-aa dl-ca-mm)
-(--> dl-ca-aa dl-ca-da)
-(--> dl-ca-aa dl-ca-io)
-(--> dl-ca-aa dl-ca-pz)
-(--> dl-ca-aa dl-ca-npc)
-(--> dl-ca-aa dl-ca-ce)
-(--> dl-ca-aa ca-browser)
-(--> dl-ca-aa ca-superhero)
-(--> dl-ca-aa ca-animate)
-(--> dl-ca-aa ca-zoo)
-(--> dl-ca-aa ca-ice-cream)
-(--> dl-ca-aa ca-keyboard)
+(--> dl-ca-aa ca-a-lessons)
+(--> dl-ca-aa ca-b-lessons)
+(--> dl-ca-aa ca-c-lessons)
+(--> dl-ca-aa ca-d-lessons)
+
+(--> ca-a-lessons dl-ca-if)
+(--> dl-ca-if dl-ca-lg)
+(--> dl-ca-lg dl-ca-bd)
+(--> dl-ca-bd dl-ca-mm)
+
+(--> ca-b-lessons dl-ca-da)
+(--> dl-ca-da dl-ca-io)
+(--> dl-ca-io dl-ca-ap)
+(--> dl-ca-ap dl-ca-pz)
+
+(--> ca-c-lessons dl-ca-ce)
+(--> dl-ca-ce ca-browser)
+(--> ca-browser ca-superhero)
+(--> ca-superhero dl-ca-npc)
+(--> dl-ca-npc ca-animate)
+
+(--> ca-d-lessons ca-zoo)
+(--> ca-zoo ca-ice-cream)
+(--> ca-ice-cream ca-keyboard)
 
 ;;CODING ADVENTURES BADGES END
 
