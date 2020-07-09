@@ -209,6 +209,11 @@
   "Digital Literacy: Coding Adventures: Keyboard Mastery"
   "https://forum.metacoders.org/t/digital-literacy-coding-adventures-keyboard-mastery/629")
 
+(define-colored-art-badge 'gold
+  ca-penguin
+  "Digital Literacy: Coding Adventures: Help the Penguin"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-help-the-penguin/635")
+
 ;; CODING ADVENTURES BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START
