@@ -2443,6 +2443,36 @@
   "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-stage-5/586" 
   )
 
+(define-colored-art-badge 'deepskyblue 
+  mgpo-v1
+  "2D Game Design: Maze Game Pokemon: Villains 1" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-villains-1/636" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-v2
+  "2D Game Design: Maze Game Pokemon: Villains 2" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-villains-2/637" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-v3
+  "2D Game Design: Maze Game Pokemon: Villains 3" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-villains-3/638" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-v4
+  "2D Game Design: Maze Game Pokemon: Villains 4" 
+  "" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-v5
+  "2D Game Design: Maze Game Pokemon: Villains 5" 
+  "" 
+  )
+
 ;;2D GAME DESIGN MAZE GAME BADGES END
 
 (module+ test 

@@ -572,11 +572,18 @@
 (--> mgpo-t1 mgpo-t2)
 (--> mgpo-t2 mgpo-t3)
 (--> mgpo-t3 mgpo-t4)
+
 (--> mgpo-t4 mgpo-s1)
 (--> mgpo-s1 mgpo-s2)
 (--> mgpo-s2 mgpo-s3)
 (--> mgpo-s3 mgpo-s4)
 (--> mgpo-s4 mgpo-s5)
+
+(--> mgpo-s5 mgpo-v1)
+(--> mgpo-v1 mgpo-v2)
+(--> mgpo-v2 mgpo-v3)
+(--> mgpo-v3 mgpo-v4)
+(--> mgpo-v4 mgpo-v5)
 
 ;;2D GAME DESIGN MAZE GAME BADGES END
 ;;2D GAME DESIGN BADGES END
