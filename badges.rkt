@@ -1261,91 +1261,91 @@
 (define-colored-art-badge 'saddlebrown 
   sumc-me1
   "2D Game Design: Survival Minecraft: Mob 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-mob-1/600"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-me2
   "2D Game Design: Survival Minecraft: Mob 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-mob-2/601"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-me3
   "2D Game Design: Survival Minecraft: Mob 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-mob-3/602"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-me4
   "2D Game Design: Survival Minecraft: Entity 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-entity-1/604"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-me5
   "2D Game Design: Survival Minecraft: Entity 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-entity-2/605"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-ow1
   "2D Game Design: Survival Minecraft: Ore 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-ore-1/606"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-ow2
   "2D Game Design: Survival Minecraft: Ore 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-ore-2/607"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-ow3
   "2D Game Design: Survival Minecraft: Ore 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-ore-3/608"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-ow4
   "2D Game Design: Survival Minecraft: Weapon Crafter 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-weapon-crafter-1/609"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-ow5
   "2D Game Design: Survival Minecraft: Weapon Crafter 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-weapon-crafter-2/610"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-sb1
   "2D Game Design: Survival Minecraft: Biome 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-biome-1/599"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-sb2
   "2D Game Design: Survival Minecraft: Sky 1"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-sky-1/595"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-sb3
   "2D Game Design: Survival Minecraft: Sky 2"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-sky-2/596"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-sb4
   "2D Game Design: Survival Minecraft: Sky 3"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-sky-3/597"
   )
 
 (define-colored-art-badge 'saddlebrown 
   sumc-sb5
   "2D Game Design: Survival Minecraft: Sky 4"
-  ""
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-sky-4/598"
   )
 ;; SURVIVAL MINECRAFT INTEREST END
 
