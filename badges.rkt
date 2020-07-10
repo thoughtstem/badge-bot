@@ -214,6 +214,11 @@
   "Digital Literacy: Coding Adventures: Help the Penguin"
   "https://forum.metacoders.org/t/digital-literacy-coding-adventures-help-the-penguin/635")
 
+(define-colored-art-badge 'gold
+  ca-toothpaste
+  "Digital Literacy: Coding Adventures: Tricks with Toothpaste"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-tricks-with-toothpaste/651")
+
 ;; CODING ADVENTURES BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START

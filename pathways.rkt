@@ -74,6 +74,7 @@
 (--> ca-zoo ca-ice-cream)
 (--> ca-ice-cream ca-keyboard)
 (--> ca-keyboard ca-penguin)
+(--> ca-penguin ca-toothpaste)
 
 ;;CODING ADVENTURES BADGES END
 
