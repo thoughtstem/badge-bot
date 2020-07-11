@@ -166,6 +166,22 @@
   (map show-badge-text 
        (get-page page (all-badges))))
 
+(define (create-users-command . users)
+  (ensure-messaging-user-has-role-on-server!
+    mc-badge-checker-role-id
+    mc-server-id
+    #:failure-message
+    (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
+
+  (define created
+    (filter identity
+	    (map
+	      (lambda (user)
+		(with-handlers ([exn:fail? (thunk* #f)])
+		  (create-user! user)))
+	      users)))
+
+  (~a "You've created " (length created) " users!"))
 
 (define (award-badges-command badge-id . users)
   (ensure-messaging-user-has-role-on-server!
@@ -332,6 +348,7 @@
     ["snooze" snooze-command] ;Coaches can do this, if htey pass in a user as the third param
 
     ;Coaches / Badge Checkers do these
+    ["create-users" create-users-command]
     ["check" check-badges-command]
     ["remove" remove-badges-command]
     ["award" award-badges-command]
