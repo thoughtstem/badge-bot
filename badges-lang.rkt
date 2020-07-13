@@ -74,10 +74,10 @@
   (define val
     (session-load user 'earned #f))
 
-  (when (not val)
+  (when val
     (error (~a user " already exists.")))
 
-  (session-store user 'earned val)
+  (session-store user 'earned '())
   #t)
 
 (define/contract (remove-user! user)
@@ -122,8 +122,11 @@
   (-> badge-id? string? boolean?)
   
   (define val
-    (session-load user 'earned `()))
-
+    (session-load user 'earned #f))
+  
+  (when (false? val)
+    (error (~a "That user does not exist.")))
+  
   (if (not (member badge-id (map first val)))
     #f
     #t))
