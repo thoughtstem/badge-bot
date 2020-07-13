@@ -7,14 +7,16 @@
 (provide (struct-out badge)
 	 (rename-out
 	   [get-all-badges all-badges])
-   snoozed-badges 
-   snooze-badge!
-   unsnooze-badge!
+         snoozed-badges 
+         snooze-badge!
+         unsnooze-badge!
 	 available-badges
 	 available-badge?
 	 register-badge!
 	 define-badge
 	 badge-img-with-id
+         create-user!
+         remove-user!
 	 award-badge!
          check-badge!
 	 remove-badge!
@@ -67,9 +69,32 @@
     (badge-name b) 
     "Interest"))
 
+(define/contract (create-user! user)
+  (-> string? boolean?)
+  (define val
+    (session-load user 'earned `()))
+
+  (when (not (empty? val))
+    (error (~a user " already exists.")))
+
+  (session-store user 'earned val)
+  #t)
+
+(define/contract (remove-user! user)
+  (-> string? boolean?)
+  (define val
+    (session-load user 'earned `()))
+
+  (when (empty? val)
+    (error (~a user " doesn't exist.")))
+
+  (session-clear user)
+  #t)
+
 (define/contract (award-badge! badge-id user)
-  (-> badge-id? is-mention? boolean?)
-  
+  ;(-> badge-id? is-mention? boolean?)
+  (-> badge-id? string? boolean?)
+
   (define (badge-earning badge-id)
     (list
       badge-id
@@ -79,6 +104,9 @@
   (define val
     (session-load user 'earned `()))
 
+  (when (empty? val)
+    (error (~a "That user does not exist.")))
+    `
   (when (member badge-id (map first val))
     (error (~a user " already has that badge!")))
 
@@ -91,7 +119,7 @@
   #t)
 
 (define/contract (check-badge! badge-id user)
-  (-> badge-id? is-mention? boolean?)
+  (-> badge-id? string? boolean?)
   
   (define val
     (session-load user 'earned `()))
@@ -101,7 +129,7 @@
     #t))
 
 (define/contract (remove-badge! badge-id user)
-  (-> badge-id? is-mention? boolean?)
+  (-> badge-id? string? boolean?)
   
   (define val
     (session-load user 'earned `()))
@@ -190,7 +218,7 @@
 
 (define/contract 
   (badges-for-user user)
-   (-> is-mention? (listof badge?))
+   (-> string? (listof badge?))
 
  
    (define ids

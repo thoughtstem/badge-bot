@@ -56,7 +56,7 @@
   (if (empty? args)
       (generate-graph) ;Full badge network
       (match (first args)
-	     [x #:when (is-mention? x)
+	     [x #:when (string? x)
 		(generate-graph
 		  (filter-graph-by-user 
 		    (current-network) 
@@ -118,7 +118,7 @@
      (list-badge-images-command (string->number page)))]
    ["names"  (thunk
      (list-badge-names-command (string->number page)))]
-   [x #:when (is-mention? x) 
+   [x #:when (string? x) 
    (thunk
     (list-badges-by-user-name-command x))]
    [else (thunk* "What?")]))
@@ -165,6 +165,40 @@
 (define (list-badge-names-command page)
   (map show-badge-text 
        (get-page page (all-badges))))
+
+(define (create-users-command . users)
+  (ensure-messaging-user-has-role-on-server!
+    mc-badge-checker-role-id
+    mc-server-id
+    #:failure-message
+    (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
+
+  (define created
+    (filter identity
+	    (map
+	      (lambda (user)
+		(with-handlers ([exn:fail? (thunk* #f)])
+		  (create-user! user)))
+	      users)))
+
+  (~a "You've created " (length created) " users!"))
+
+(define (remove-users-command . users)
+  (ensure-messaging-user-has-role-on-server!
+    mc-badge-checker-role-id
+    mc-server-id
+    #:failure-message
+    (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
+
+  (define removed
+    (filter identity
+	    (map
+	      (lambda (user)
+		(with-handlers ([exn:fail? (thunk* #f)])
+		  (remove-user! user)))
+	      users)))
+
+  (~a "You've removed " (length removed) " users!"))
 
 
 (define (award-badges-command badge-id . users)
@@ -332,6 +366,8 @@
     ["snooze" snooze-command] ;Coaches can do this, if htey pass in a user as the third param
 
     ;Coaches / Badge Checkers do these
+    ["create-users" create-users-command]
+    ["remove-users" remove-users-command]
     ["check" check-badges-command]
     ["remove" remove-badges-command]
     ["award" award-badges-command]
