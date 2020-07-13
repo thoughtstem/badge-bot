@@ -342,7 +342,7 @@
 (define-colored-art-badge 'khaki 
   sr-projects
   "Scratch: Choose a Project!" 
-  "" 
+  "https://forum.metacoders.org/t/scratch-choose-a-project/662" 
   )
 
 (define-colored-art-badge 'khaki 
