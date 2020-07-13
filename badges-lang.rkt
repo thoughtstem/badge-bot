@@ -72,9 +72,9 @@
 (define/contract (create-user! user)
   (-> string? boolean?)
   (define val
-    (session-load user 'earned `()))
+    (session-load user 'earned #f))
 
-  (when (not (empty? val))
+  (when (not val)
     (error (~a user " already exists.")))
 
   (session-store user 'earned val)
@@ -83,9 +83,9 @@
 (define/contract (remove-user! user)
   (-> string? boolean?)
   (define val
-    (session-load user 'earned `()))
+    (session-load user 'earned #f))
 
-  (when (empty? val)
+  (when (false? val)
     (error (~a user " doesn't exist.")))
 
   (session-clear user)
@@ -102,9 +102,9 @@
       (messaging-user-name)))
 
   (define val
-    (session-load user 'earned `()))
+    (session-load user 'earned #f))
 
-  (when (empty? val)
+  (when (false? val)
     (error (~a "That user does not exist.")))
     `
   (when (member badge-id (map first val))

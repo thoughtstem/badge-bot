@@ -177,7 +177,8 @@
     (filter identity
 	    (map
 	      (lambda (user)
-		(with-handlers ([exn:fail? (thunk* #f)])
+		(with-handlers ([exn:fail?  (λ(e) (displayln e) #f)
+                                            #;(thunk* #f)])
 		  (create-user! user)))
 	      users)))
 
@@ -194,7 +195,8 @@
     (filter identity
 	    (map
 	      (lambda (user)
-		(with-handlers ([exn:fail? (thunk* #f)])
+		(with-handlers ([exn:fail? (λ(e) (displayln e) #f)
+                                            #;(thunk* #f)])
 		  (remove-user! user)))
 	      users)))
 
@@ -212,7 +214,8 @@
     (filter identity
 	    (map
 	      (lambda (user)
-		(with-handlers ([exn:fail? (thunk* #f)])
+		(with-handlers ([exn:fail? (λ(e)(displayln e) #f)
+                                           #;(thunk* #f)])
 		  (award-badge! (string->symbol badge-id) user)))
 	      users)))
 
