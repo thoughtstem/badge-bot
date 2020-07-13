@@ -106,7 +106,7 @@
 
   (when (false? val)
     (error (~a "That user does not exist.")))
-    `
+    
   (when (member badge-id (map first val))
     (error (~a user " already has that badge!")))
 
