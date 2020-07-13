@@ -77,7 +77,7 @@
   (when val
     (error (~a user " already exists.")))
 
-  (session-store user 'earned val)
+  (session-store user 'earned '())
   #t)
 
 (define/contract (remove-user! user)
