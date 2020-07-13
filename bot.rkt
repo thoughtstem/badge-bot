@@ -183,6 +183,24 @@
 
   (~a "You've created " (length created) " users!"))
 
+(define (remove-users-command . users)
+  (ensure-messaging-user-has-role-on-server!
+    mc-badge-checker-role-id
+    mc-server-id
+    #:failure-message
+    (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
+
+  (define removed
+    (filter identity
+	    (map
+	      (lambda (user)
+		(with-handlers ([exn:fail? (thunk* #f)])
+		  (remove-user! user)))
+	      users)))
+
+  (~a "You've removed " (length removed) " users!"))
+
+
 (define (award-badges-command badge-id . users)
   (ensure-messaging-user-has-role-on-server!
     mc-badge-checker-role-id
@@ -349,6 +367,7 @@
 
     ;Coaches / Badge Checkers do these
     ["create-users" create-users-command]
+    ["remove-users" remove-users-command]
     ["check" check-badges-command]
     ["remove" remove-badges-command]
     ["award" award-badges-command]

@@ -16,6 +16,7 @@
 	 define-badge
 	 badge-img-with-id
          create-user!
+         remove-user!
 	 award-badge!
          check-badge!
 	 remove-badge!
@@ -77,6 +78,17 @@
     (error (~a user " already exists.")))
 
   (session-store user 'earned val)
+  #t)
+
+(define/contract (remove-user! user)
+  (-> string? boolean?)
+  (define val
+    (session-load user 'earned `()))
+
+  (when (empty? val)
+    (error (~a user " doesn't exist.")))
+
+  (session-clear user)
   #t)
 
 (define/contract (award-badge! badge-id user)
