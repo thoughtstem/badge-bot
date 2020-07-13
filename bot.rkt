@@ -56,7 +56,7 @@
   (if (empty? args)
       (generate-graph) ;Full badge network
       (match (first args)
-	     [x #:when (is-mention? x)
+	     [x #:when (string? x)
 		(generate-graph
 		  (filter-graph-by-user 
 		    (current-network) 
@@ -118,7 +118,7 @@
      (list-badge-images-command (string->number page)))]
    ["names"  (thunk
      (list-badge-names-command (string->number page)))]
-   [x #:when (is-mention? x) 
+   [x #:when (string? x) 
    (thunk
     (list-badges-by-user-name-command x))]
    [else (thunk* "What?")]))

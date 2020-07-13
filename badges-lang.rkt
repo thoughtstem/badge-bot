@@ -107,7 +107,7 @@
   #t)
 
 (define/contract (check-badge! badge-id user)
-  (-> badge-id? is-mention? boolean?)
+  (-> badge-id? string? boolean?)
   
   (define val
     (session-load user 'earned `()))
@@ -117,7 +117,7 @@
     #t))
 
 (define/contract (remove-badge! badge-id user)
-  (-> badge-id? is-mention? boolean?)
+  (-> badge-id? string? boolean?)
   
   (define val
     (session-load user 'earned `()))
@@ -206,7 +206,7 @@
 
 (define/contract 
   (badges-for-user user)
-   (-> is-mention? (listof badge?))
+   (-> string? (listof badge?))
 
  
    (define ids
