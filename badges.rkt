@@ -219,6 +219,11 @@
   "Digital Literacy: Coding Adventures: Tricks with Toothpaste"
   "https://forum.metacoders.org/t/digital-literacy-coding-adventures-tricks-with-toothpaste/651")
 
+(define-colored-art-badge 'gold
+  ca-computer
+  "Digital Literacy: Coding Adventures: Your Computer & You"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-your-computer-you/660")
+
 ;; CODING ADVENTURES BADGES END
 
 ;;TOUR OF LANGUAGES BADGES START

@@ -54,7 +54,8 @@
 (--> dl-ca-aa ca-c-lessons)
 (--> dl-ca-aa ca-d-lessons)
 
-(--> ca-a-lessons dl-ca-if)
+(--> ca-a-lessons ca-computer)
+(--> ca-computer dl-ca-if)
 (--> dl-ca-if dl-ca-lg)
 (--> dl-ca-lg dl-ca-bd)
 (--> dl-ca-bd dl-ca-mm)
