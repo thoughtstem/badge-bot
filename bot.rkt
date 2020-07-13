@@ -173,16 +173,18 @@
     #:failure-message
     (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
 
+  (define err "")
+  
   (define created
     (filter identity
 	    (map
 	      (lambda (user)
-		(with-handlers ([exn:fail?  (λ(e) (displayln e) #f)
+		(with-handlers ([exn:fail?  (λ(e) (set! err (~a (exn-message e) " ")) #f)
                                             #;(thunk* #f)])
 		  (create-user! user)))
 	      users)))
 
-  (~a "You've created " (length created) " users!"))
+  (~a err "You've created " (length created) " users!"))
 
 (define (remove-users-command . users)
   (ensure-messaging-user-has-role-on-server!
@@ -191,16 +193,18 @@
     #:failure-message
     (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
 
+  (define err "")
+  
   (define removed
     (filter identity
 	    (map
 	      (lambda (user)
-		(with-handlers ([exn:fail? (λ(e) (displayln e) #f)
+		(with-handlers ([exn:fail? (λ(e) (set! err (~a (exn-message e) " ")) #f)
                                             #;(thunk* #f)])
 		  (remove-user! user)))
 	      users)))
 
-  (~a "You've removed " (length removed) " users!"))
+  (~a err "You've removed " (length removed) " users!"))
 
 
 (define (award-badges-command badge-id . users)
@@ -210,16 +214,18 @@
     #:failure-message
     (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
 
+  (define err "")
+  
   (define awarded
     (filter identity
 	    (map
 	      (lambda (user)
-		(with-handlers ([exn:fail? (λ(e)(displayln e) #f)
+		(with-handlers ([exn:fail? (λ(e) (set! err (~a (exn-message e) " ")) #f)
                                            #;(thunk* #f)])
 		  (award-badge! (string->symbol badge-id) user)))
 	      users)))
 
-  (~a "You've awarded " badge-id " to " (length awarded) " users!"))
+  (~a err "You've awarded " badge-id " to " (length awarded) " users!"))
 
 (define (check-badges-command badge-id user)
   (ensure-messaging-user-has-role-on-server!
@@ -228,9 +234,15 @@
     #:failure-message
     (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
 
-  (if (check-badge! (string->symbol badge-id) user)
-      (~a user " has already earned badge " badge-id "!")
-      (~a user " has not earned badge " badge-id "!")))
+  (define err #f)
+  
+  (define checked
+    (with-handlers ([exn:fail? (λ(e) (set! err (~a (exn-message e) " ")) #f)])
+      (check-badge! (string->symbol badge-id) user)))
+  
+  (cond [err err]
+        [checked (~a user " has already earned badge " badge-id "!")]
+        [else (~a user " has not earned badge " badge-id "!")]))
 
 (define (remove-badges-command badge-id user)
   (ensure-messaging-user-has-role-on-server!
