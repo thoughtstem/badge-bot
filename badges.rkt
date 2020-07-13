@@ -340,6 +340,12 @@
   )
 
 (define-colored-art-badge 'khaki 
+  sr-projects
+  "Scratch: Choose a Project!" 
+  "" 
+  )
+
+(define-colored-art-badge 'khaki 
   sr-ba-ca
   "Scratch: Baseball: Catch" 
   "https://forum.metacoders.org/t/scratch-baseball-catch/364" 

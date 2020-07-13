@@ -99,23 +99,24 @@
 (--> sr-ho-hw sr-ho-hf)
 (--> sr-ho-hf sr-ho-hr)
 
+(--> sr-ho-hr sr-projects)
 ;;Scratch Baseball Badges
-(--> sr-ho-hr sr-ba-ca)
+(--> sr-projects sr-ba-ca)
 (--> sr-ba-ca sr-ba-pb)
 (--> sr-ba-pb sr-ba-gg)
 
 ;;Scratch Magic Forest Badges
-(--> sr-ba-gg sr-mf-cs)
+(--> sr-projects sr-mf-cs)
 (--> sr-mf-cs sr-mf-fh)
 (--> sr-mf-fh sr-mf-ra)
 
 ;;Scratch Super Cat Badges
-(--> sr-mf-ra sr-sc-lf)
+(--> sr-projects sr-sc-lf)
 (--> sr-sc-lf sr-sc-lw)
 (--> sr-sc-lw sr-sc-oc)
 
 ;;Scratch Grid Badges
-(--> sr-sc-oc grid-1)
+(--> sr-projects grid-1)
 (--> grid-1 grid-2)
 (--> grid-2 grid-3)
 (--> grid-3 grid-4)
