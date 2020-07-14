@@ -260,7 +260,7 @@
    (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
 
   (define user (last badges-and-user))
-  (define badges (take badges-and-user (sub1 (length badges-and-user 1))))
+  (define badges (take badges-and-user (sub1 (length badges-and-user))))
   (define err "")
   
   (define awarded
