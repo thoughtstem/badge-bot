@@ -268,7 +268,7 @@
             (map 
              (lambda (b)
                (with-handlers ([exn:fail? (λ(e) (set! err (~a err (exn-message e) " ")) #f)])
-                 (award-badge! (string->symbol badge-id) user)))
+                 (award-badge! (string->symbol b) user)))
              badges)))
 
   (~a err "You've awarded " (length awarded) " badges to " user "!"))
