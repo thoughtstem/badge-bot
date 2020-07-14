@@ -179,8 +179,7 @@
     (filter identity
 	    (map
 	      (lambda (user)
-		(with-handlers ([exn:fail?  (λ(e) (set! err (~a (exn-message e) " ")) #f)
-                                            #;(thunk* #f)])
+		(with-handlers ([exn:fail?  (λ(e) (set! err (~a err (exn-message e) " ")) #f)])
 		  (create-user! user)))
 	      users)))
 
@@ -199,8 +198,7 @@
     (filter identity
 	    (map
 	      (lambda (user)
-		(with-handlers ([exn:fail? (λ(e) (set! err (~a (exn-message e) " ")) #f)
-                                            #;(thunk* #f)])
+		(with-handlers ([exn:fail? (λ(e) (set! err (~a err (exn-message e) " ")) #f)])
 		  (remove-user! user)))
 	      users)))
 
@@ -220,8 +218,7 @@
     (filter identity
 	    (map
 	      (lambda (user)
-		(with-handlers ([exn:fail? (λ(e) (set! err (~a (exn-message e) " ")) #f)
-                                           #;(thunk* #f)])
+		(with-handlers ([exn:fail? (λ(e) (set! err (~a err (exn-message e) " ")) #f)])
 		  (award-badge! (string->symbol badge-id) user)))
 	      users)))
 
@@ -254,6 +251,29 @@
   (remove-badge! (string->symbol badge-id) user)
 
   (~a "You've removed " badge-id " from " user "!"))
+
+(define (award-multi-badges-command . badges-and-user)
+  (ensure-messaging-user-has-role-on-server!
+   mc-badge-checker-role-id
+   mc-server-id
+   #:failure-message
+   (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
+
+  (define user (last badges-and-user))
+  (define badges (take badges-and-user (sub1 (length badges-and-user 1))))
+  (define err "")
+  
+  (define awarded
+    (filter identity
+            (map 
+             (lambda (b)
+               (with-handlers ([exn:fail? (λ(e) (set! err (~a err (exn-message e) " ")) #f)])
+                 (award-badge!
+                  (badge-id b)
+                  user)))
+             badges)))
+
+  (~a err "You've awarded " (length awarded) " badges to " user "!"))
 
 (define (multi-award badges user)
   (ensure-messaging-user-has-role-on-server!
@@ -381,11 +401,14 @@
     ["snooze" snooze-command] ;Coaches can do this, if htey pass in a user as the third param
 
     ;Coaches / Badge Checkers do these
+    ["create-user" create-users-command]
     ["create-users" create-users-command]
+    ["remove-user" remove-users-command]
     ["remove-users" remove-users-command]
     ["check" check-badges-command]
     ["remove" remove-badges-command]
     ["award" award-badges-command]
+    ["award-multi" award-multi-badges-command]
     ["award-all" award-all-badges-command]
     ["award-all-interest" award-all-interest-badges-command]
     ["horizon" horizon-command]
