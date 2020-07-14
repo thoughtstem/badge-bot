@@ -105,7 +105,7 @@
     (session-load user 'earned #f))
 
   (when (false? val)
-    (error (~a "That user does not exist.")))
+    (error (~a "User: " user ", does not exist.")))
     
   (when (member badge-id (map first val))
     (error (~a user " already has that badge!")))
@@ -125,7 +125,7 @@
     (session-load user 'earned #f))
   
   (when (false? val)
-    (error (~a "That user does not exist.")))
+    (error (~a "User: " user ", does not exist.")))
   
   (if (not (member badge-id (map first val)))
     #f
@@ -135,8 +135,11 @@
   (-> badge-id? string? boolean?)
   
   (define val
-    (session-load user 'earned `()))
+    (session-load user 'earned #f))
 
+  (when (false? val)
+    (error (~a "User: " user ", does not exist.")))
+  
   (when (not (member badge-id (map first val)))
     (error (~a user " doesn't have that badge!")))
 
