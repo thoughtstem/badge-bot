@@ -94,12 +94,18 @@
 
 ;;SCRATCH GAME DESIGN BADGES START
 
+;;Scratch Super Cat Badges
+(--> dl-sr-dr sr-sc-lf)
+(--> sr-sc-lf sr-sc-lw)
+(--> sr-sc-lw sr-sc-oc)
+
+(--> sr-sc-oc sr-projects)
+
 ;;Scratch Horton Badges
-(--> dl-sr-dr sr-ho-hw)
+(--> sr-projects sr-ho-hw)
 (--> sr-ho-hw sr-ho-hf)
 (--> sr-ho-hf sr-ho-hr)
 
-(--> sr-ho-hr sr-projects)
 ;;Scratch Baseball Badges
 (--> sr-projects sr-ba-ca)
 (--> sr-ba-ca sr-ba-pb)
@@ -109,11 +115,6 @@
 (--> sr-projects sr-mf-cs)
 (--> sr-mf-cs sr-mf-fh)
 (--> sr-mf-fh sr-mf-ra)
-
-;;Scratch Super Cat Badges
-(--> sr-projects sr-sc-lf)
-(--> sr-sc-lf sr-sc-lw)
-(--> sr-sc-lw sr-sc-oc)
 
 ;;Scratch Grid Badges
 (--> sr-projects grid-1)
