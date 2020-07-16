@@ -303,19 +303,19 @@
 
 (define-colored-art-badge 'khaki 
   dl-sr-mv
-  "Digital Literacy: Scratch: Make Scratchy Move Forward" 
+  "Digital Literacy: Scratch: Move Forward" 
   "https://forum.metacoders.org/t/digital-literacy-scratch-make-scratchy-move-forward/148" 
   )
 
 (define-colored-art-badge 'khaki 
   dl-sr-mo
-  "Digital Literacy: Scratch: Draw a Monkey with Wings" 
+  "Digital Literacy: Scratch: Monkey with Wings" 
   "https://forum.metacoders.org/t/digital-literacy-scratch-draw-a-monkey-with-wings/147" 
   )
 
 (define-colored-art-badge 'khaki 
   dl-sr-dr
-  "Digital Literacy: Scratch: Draw a Dragon with Different Colored Fire" 
+  "Digital Literacy: Scratch: Dragon Fire" 
   "https://forum.metacoders.org/t/digital-literacy-scratch-draw-a-dragon-with-different-colored-fire/146" 
   )
 ;;SCRATCH DIGITAL LITERACY BADGES END
@@ -417,12 +417,138 @@
   "https://forum.metacoders.org/t/scratch-grid-game-player-movement/556" 
   )
   
-  (define-colored-art-badge 'khaki 
+(define-colored-art-badge 'khaki 
   grid-4
   "Scratch: Grid Game: Player Animation" 
   "https://forum.metacoders.org/t/scratch-grid-game-player-animation/559" 
   )
+
+(define-colored-art-badge 'khaki 
+  sr-tl1
+  "Scratch: Traffic Light Game: Backgrounds and Sprite" 
+  "https://forum.metacoders.org/t/scratch-traffic-light-game-backgrounds-and-sprite/631" 
+  )
   
+(define-colored-art-badge 'khaki 
+  sr-tl2
+  "Scratch: Traffic Light Game: Drawing the Traffic Light" 
+  "https://forum.metacoders.org/t/scratch-traffic-light-game-drawing-the-traffic-light/639" 
+  )
+  
+(define-colored-art-badge 'khaki 
+  sr-tl3
+  "Scratch: Traffic Light Game: Traffic Light Code" 
+  "https://forum.metacoders.org/t/scratch-traffic-light-game-traffic-light-code/640" 
+  )
+  
+(define-colored-art-badge 'khaki 
+  sr-tl4
+  "Scratch: Traffic Light Game: Background Code" 
+  "https://forum.metacoders.org/t/scratch-traffic-light-game-background-code/641" 
+  )
+  
+(define-colored-art-badge 'khaki 
+  sr-tl5
+  "Scratch: Traffic Light Game: Green Light" 
+  "https://forum.metacoders.org/t/scratch-traffic-light-game-green-light/623" 
+  )
+  
+(define-colored-art-badge 'khaki 
+  sr-tl6
+  "Scratch: Traffic Light Game: Yellow Light" 
+  "https://forum.metacoders.org/t/scratch-traffic-light-game-yellow-light/624" 
+  )
+  
+(define-colored-art-badge 'khaki 
+  sr-tl7
+  "Scratch: Traffic Light Game: Red Light" 
+  "https://forum.metacoders.org/t/scratch-traffic-light-game-red-light/625" 
+  )
+  
+(define-colored-art-badge 'khaki 
+  sr-mm1
+  "Scratch: Monster Mash Game: Drawing Monster Heads" 
+  "https://forum.metacoders.org/t/scratch-monster-mash-game-drawing-monster-heads/634" 
+  )
+  
+(define-colored-art-badge 'khaki 
+  sr-mm2
+  "Scratch: Monster Mash Game: Drawing Monster Bodies" 
+  "https://forum.metacoders.org/t/scratch-monster-mash-game-drawing-monster-bodies/656" 
+  )
+  
+(define-colored-art-badge 'khaki 
+  sr-mm3
+  "Scratch: Monster Mash Game: Drawing Monster Tails" 
+  "https://forum.metacoders.org/t/scratch-monster-mash-game-drawing-monster-tails/657" 
+  )
+  
+(define-colored-art-badge 'khaki 
+  sr-mm4
+  "Scratch: Monster Mash Game: Interchangeable Monsters" 
+  "https://forum.metacoders.org/t/scratch-monster-mash-game-interchangeable-monsters/655" 
+  )
+  
+(define-colored-art-badge 'khaki 
+  sr-us1
+  "Scratch: Underwater Scene: Setting the Scene" 
+  "https://forum.metacoders.org/t/scratch-underwater-scene-setting-the-scene/659" 
+  )
+  
+(define-colored-art-badge 'khaki 
+  sr-us2
+  "Scratch: Underwater Scene: Scratchy Movement" 
+  "https://forum.metacoders.org/t/scratch-underwater-scene-scratchy-movement/663" 
+  )
+  
+(define-colored-art-badge 'khaki 
+  sr-us3
+  "Scratch: Underwater Scene: Fish Movement" 
+  "https://forum.metacoders.org/t/scratch-underwater-scene-fish-movement/664" 
+  )
+  
+(define-colored-art-badge 'khaki 
+  sr-fp1
+  "Scratch: Fun with Physics: Velocity Balls" 
+  "https://forum.metacoders.org/t/scratch-fun-with-physics-velocity-balls/592" 
+  )
+  
+(define-colored-art-badge 'khaki 
+  sr-fp2
+  "Scratch: Fun with Physics: Color Sorter" 
+  "https://forum.metacoders.org/t/scratch-fun-with-physics-color-sorter/603" 
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-fp3
+  "Scratch: Fun with Physics: Bump Sort" 
+  "https://forum.metacoders.org/t/scratch-fun-with-physics-bump-sort/611" 
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-bb1
+  "Scratch: BrickBreaker: Set the Stage" 
+  "https://forum.metacoders.org/t/scratch-brickbreaker-set-the-stage/665" 
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-bb2
+  "Scratch: BrickBreaker: Bouncing Ball" 
+  "https://forum.metacoders.org/t/scratch-brickbreaker-bouncing-ball/668" 
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-bb3
+  "Scratch: BrickBreaker: Bounce Pattern" 
+  "https://forum.metacoders.org/t/scratch-brickbreaker-bounce-pattern/669" 
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-bb4
+  "Scratch: BrickBreaker: Brick Game"
+  "https://forum.metacoders.org/t/scratch-brickbreaker-brick-game/674" 
+  )
+
 ;;SCRATCH GAME DESIGN BADGES END
 
 ;; TYPING INTEREST BADGES START
@@ -555,7 +681,7 @@
 ;; BATTLEARENA AVENGERS INTEREST START
 (define-colored-art-badge 'orange
   baav-pkg
-  "2D Game Design: Battlearena Avengers Install Package"
+  "2D Game Design: Avengers Package Installation"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-install-package/228"
   )
 
@@ -715,7 +841,7 @@
 ;; BATTLEARENA STARWARS INTEREST START
 (define-colored-art-badge 'gold
   basw-pkg
-  "2D Game Design: Battlearena Star Wars Install Package"
+  "2D Game Design: Star Wars Package Installation"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-install-package/502"
   )
 
@@ -885,7 +1011,7 @@
 ;;BATTLEARENA FORTNITE INTEREST START
 (define-colored-art-badge 'orchid
   bafn-pkg
-  "2D Game Design: Battlearena Fortnite Install Package"
+  "2D Game Design: Fortnite Package Installation"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-install-package/462"
   )
 
@@ -1056,7 +1182,7 @@
 ;; SURVIVAL POKEMON INTEREST START
 (define-colored-art-badge 'royalblue
   supo-pkg
-  "2D Game Design: Survival Pokemon Install Package"
+  "2D Game Design: Pokemon Package Installation"
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-install-package/230"
   )
 
@@ -1215,7 +1341,7 @@
 ;; SURVIVAL MINECRAFT INTEREST START
 (define-colored-art-badge 'saddlebrown 
   sumc-pkg
-  "2D Game Design: Survival Minecraft Install Package"
+  "2D Game Design: Minecraft Package Installation"
   "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-install-package/534"
   )
 
@@ -1373,7 +1499,7 @@
 ;; ADVENTURE MARIO INTEREST START
 (define-colored-art-badge 'red
   adma-pkg
-  "2D Game Design: Adventure Mario Install Package"
+  "2D Game Design: Mario Package Installation"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-install-package/231"
   )
 
@@ -1532,7 +1658,7 @@
 ;; HARRY POTTER INTEREST START
 (define-colored-art-badge 'cornflowerblue 
   adhp-pkg
-  "2D Game Design: Adventure Harry Potter Install Package"
+  "2D Game Design: Harry Potter Package Installation"
   "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-install-package/466"
   )
 
@@ -1689,7 +1815,7 @@
 ;; 3D EXPLORATION INTEREST START
 (define-colored-art-badge 'forestgreen 
   3dex-pkg
-  "3D Game Design: 3D Exploration Install Package"
+  "3D Game Design: Exploration Package Installation"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-install-package/229"
   )
 
@@ -1848,7 +1974,7 @@
 ;; 3D ORBIT INTEREST START
 (define-colored-art-badge 'slategray 
   3dor-pkg
-  "3D Game Design: 3D Orbit Install Package"
+  "3D Game Design: Orbit Package Installation"
   "https://forum.metacoders.org/t/3d-game-design-3d-orbit-install-package/535"
   )
 
@@ -2275,7 +2401,7 @@
 ;; Endless Runner Harry Potter
 (define-colored-art-badge 'steelblue 
   er-hp-w1
-  "2D Game Design: Endless Runner Harry Potter - Wizard 1" 
+  "2D Game Design: Endless Runner Harry Potter: Wizard 1" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-wizard-1/391" 
   )
 
@@ -2406,7 +2532,7 @@
 
 (define-colored-art-badge 'deepskyblue 
   mgpo-hw
-  "2D Game Design: Maze Game Pokemon - Hello World" 
+  "2D Game Design: Maze Game Pokemon: Hello World" 
   "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-hello-world/540" 
   )
 

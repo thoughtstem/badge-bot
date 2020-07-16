@@ -122,7 +122,37 @@
 (--> grid-2 grid-3)
 (--> grid-3 grid-4)
 
-;;Todo: Scratch Underwater Branch
+;;Scratch Traffic Light Badges
+(--> sr-projects sr-tl1)
+(--> sr-tl1 sr-tl2)
+(--> sr-tl2 sr-tl3)
+(--> sr-tl3 sr-tl4)
+(--> sr-tl4 sr-tl5)
+(--> sr-tl5 sr-tl6)
+(--> sr-tl6 sr-tl7)
+
+;;Scratch Monster Mash Badges
+(--> sr-projects sr-mm1)
+(--> sr-mm1 sr-mm2)
+(--> sr-mm2 sr-mm3)
+(--> sr-mm3 sr-mm4)
+
+;;Scratch Underwater Badges
+(--> sr-projects sr-us1)
+(--> sr-us1 sr-us2)
+(--> sr-us2 sr-us3)
+
+;;Scratch Fun with Physics Badges
+(--> sr-projects sr-fp1)
+(--> sr-fp1 sr-fp2)
+(--> sr-fp2 sr-fp3)
+
+;;Scratch BrickBreaker Badges
+(--> sr-projects sr-bb1)
+(--> sr-bb1 sr-bb2)
+(--> sr-bb2 sr-bb3)
+(--> sr-bb3 sr-bb4)
+
 ;;Todo: Scratch Mouse Maze Branch
 ;;Todo: Scratch Monkey Business Branch
 ;;Todo: Scratch Space Shooter Branch
