@@ -187,10 +187,10 @@
 
 (define (remove-users-command . users)
   (ensure-messaging-user-has-role-on-server!
-    mc-badge-checker-role-id
+    mc-core-staff-role-id
     mc-server-id
     #:failure-message
-    (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
+    (~a "Sorry, you don't have the right role (<@&" mc-core-staff-role-id">) for that command."))
 
   (define err "")
   
