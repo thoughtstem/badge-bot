@@ -108,7 +108,7 @@
     (error (~a "User: " user ", does not exist.")))
     
   (when (member badge-id (map first val))
-    (error (~a user " already has that badge!")))
+    (error (~a user " already has badge: " badge-id "!")))
 
   (set! val   
     (cons
