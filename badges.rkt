@@ -2611,13 +2611,43 @@
 (define-colored-art-badge 'deepskyblue 
   mgpo-v4
   "2D Game Design: Maze Game Pokemon: Villains 4" 
-  "" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-villains-4/652" 
   )
 
 (define-colored-art-badge 'deepskyblue 
   mgpo-v5
   "2D Game Design: Maze Game Pokemon: Villains 5" 
-  "" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-villains-5/653" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-as1
+  "2D Game Design: Maze Game Pokemon: Advanced Stage 1" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-advanced-stage-1/680" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-as2
+  "2D Game Design: Maze Game Pokemon: Advanced Stage 2" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-advanced-stage-2/682" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-as3
+  "2D Game Design: Maze Game Pokemon: Advanced Stage 3" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-advanced-stage-3/683" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-as4
+  "2D Game Design: Maze Game Pokemon: Advanced Stage 4" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-advanced-stage-4/684" 
+  )
+
+(define-colored-art-badge 'deepskyblue 
+  mgpo-as5
+  "2D Game Design: Maze Game Pokemon: Advanced Stage 5" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-advanced-stage-5/685" 
   )
 
 ;;2D GAME DESIGN MAZE GAME BADGES END
