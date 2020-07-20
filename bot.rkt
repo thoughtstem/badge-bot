@@ -241,6 +241,42 @@
         [checked (~a user " has already earned badge " badge-id "!")]
         [else (~a user " has not earned badge " badge-id "!")]))
 
+(define (count-badges-command user)
+  #;(ensure-messaging-user-has-role-on-server!
+    mc-badge-checker-role-id
+    mc-server-id
+    #:failure-message
+    (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
+
+  (define err #f)
+  
+  (define count
+    (with-handlers ([exn:fail? (λ(e) (set! err (~a (exn-message e) "\n")) #f)])
+      (count-badges user)))
+  
+  (cond [err err]
+        [count (~a user " has earned " count "badges.")]
+        [else (~a "Error!")]))
+
+#;(define (count-badges-for-role role)
+  (ensure-messaging-user-has-role-on-server!
+   mc-core-staff-role-id
+   mc-server-id
+   #:failure-message
+   (~a "Sorry, you don't have the right role (<@&" mc-core-staff-role-id">) for that command."))
+
+  (define err "")
+  
+  (define awarded
+    (filter identity
+            (map
+             (lambda (user)
+               (with-handlers ([exn:fail? (λ(e) (set! err (~a err (exn-message e) " ")) #f)])
+                 (award-badge! (string->symbol badge-id) user)))
+             users)))
+
+  (~a err "You've awarded " badge-id " to " (length awarded) " users!"))
+
 (define (remove-badges-command badge-id user)
   (ensure-messaging-user-has-role-on-server!
     mc-badge-checker-role-id
@@ -405,6 +441,7 @@
     ["remove-users" remove-users-command]
     ["check" check-badges-command]
     ["remove" remove-badges-command]
+    ["count-badges" count-badges-command]
     ["award" award-badges-command]
     ["award-multi" award-multi-badges-command]
     ["award-all" award-all-badges-command]
