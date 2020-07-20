@@ -133,7 +133,7 @@
     #t))
 
 (define/contract (count-badges user)
-  (-> badge-id? string? boolean?)
+  (-> string? number?)
   
   (define val
     (session-load user 'earned #f))
