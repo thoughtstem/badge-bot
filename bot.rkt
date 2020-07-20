@@ -256,7 +256,7 @@
       (count-badges user)))
   
   (cond [err err]
-        [count (~a user " has earned " count "badges.")]
+        [count (~a user " has earned " count " badges.")]
         [else (~a "Error!")]))
 
 #;(define (count-badges-for-role role)
