@@ -106,6 +106,7 @@
     (match sub-command-name 
 	   ["list" list-badges-command]
 	   ["graph" graph-badges-command]
+           ["count" count-badges-command]
 	   #; ;Lifted to a top-level command
 	   ["award" award-badges-command]))
 
@@ -441,7 +442,6 @@
     ["remove-users" remove-users-command]
     ["check" check-badges-command]
     ["remove" remove-badges-command]
-    ["count-badges" count-badges-command]
     ["award" award-badges-command]
     ["award-multi" award-multi-badges-command]
     ["award-all" award-all-badges-command]
