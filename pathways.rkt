@@ -154,6 +154,10 @@
 (--> sr-bb3 sr-bb4)
 
 ;;Todo: Scratch Mouse Maze Branch
+(--> sr-projects sr-mz1)
+(--> sr-mz1 sr-mz2)
+(--> sr-mz2 sr-mz3)
+
 ;;Todo: Scratch Monkey Business Branch
 ;;Todo: Scratch Space Shooter Branch
 

@@ -549,6 +549,24 @@
   "https://forum.metacoders.org/t/scratch-brickbreaker-brick-game/674" 
   )
 
+(define-colored-art-badge 'khaki 
+  sr-mz1
+  "Scratch: Mouse Maze: Mouse, Maze, and Cheese"
+  "https://forum.metacoders.org/t/scratch-mouse-maze-mouse-maze-and-cheese/679" 
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-mz2
+  "Scratch: Mouse Maze: Cheesy Properties"
+  "https://forum.metacoders.org/t/scratch-mouse-maze-cheesy-properties/687"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-mz3
+  "Scratch: Mouse Maze: Mouse Properties"
+  "https://forum.metacoders.org/t/scratch-mouse-maze-mouse-properties/688"
+  )
+
 ;;SCRATCH GAME DESIGN BADGES END
 
 ;; TYPING INTEREST BADGES START
