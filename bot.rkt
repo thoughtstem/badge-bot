@@ -225,39 +225,27 @@
 
   (~a err "You've awarded " badge-id " to " (length awarded) " users!"))
 
-(define (check-badges-command badge-id user)
-  (ensure-messaging-user-has-role-on-server!
-    mc-badge-checker-role-id
-    mc-server-id
-    #:failure-message
-    (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
-
-  (define err #f)
-  
-  (define checked
-    (with-handlers ([exn:fail? (λ(e) (set! err (~a (exn-message e) " ")) #f)])
-      (check-badge! (string->symbol badge-id) user)))
-  
-  (cond [err err]
-        [checked (~a user " has already earned badge " badge-id "!")]
-        [else (~a user " has not earned badge " badge-id "!")]))
-
-(define (count-badges-command user)
+(define (count-badges-command . users)
   #;(ensure-messaging-user-has-role-on-server!
     mc-badge-checker-role-id
     mc-server-id
     #:failure-message
     (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
 
-  (define err #f)
+  (define msg "")
   
-  (define count
-    (with-handlers ([exn:fail? (λ(e) (set! err (~a (exn-message e) "\n")) #f)])
-      (count-badges user)))
-  
-  (cond [err err]
-        [count (~a user " has earned " count " badges.")]
-        [else (~a "Error!")]))
+  (define counts
+    (filter identity
+            (map (lambda (user)
+                   (with-handlers ([exn:fail? (λ(e) (set! msg (~a (exn-message e) "\n")) #f)])
+                     (let ([count (count-badges user)])
+                       (begin (set! msg (~a msg user ": " count "\n"))
+                              count))))
+                 users)))
+  (if (> (length counts) 1)
+      (~a msg "\n"
+          "Group Total: " (apply + counts))
+      msg))
 
 #;(define (count-badges-for-role role)
   (ensure-messaging-user-has-role-on-server!
@@ -277,6 +265,23 @@
              users)))
 
   (~a err "You've awarded " badge-id " to " (length awarded) " users!"))
+
+(define (check-badges-command badge-id user)
+  (ensure-messaging-user-has-role-on-server!
+    mc-badge-checker-role-id
+    mc-server-id
+    #:failure-message
+    (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
+
+  (define err #f)
+  
+  (define checked
+    (with-handlers ([exn:fail? (λ(e) (set! err (~a (exn-message e) " ")) #f)])
+      (check-badge! (string->symbol badge-id) user)))
+  
+  (cond [err err]
+        [checked (~a user " has already earned badge " badge-id "!")]
+        [else (~a user " has not earned badge " badge-id "!")]))
 
 (define (remove-badges-command badge-id user)
   (ensure-messaging-user-has-role-on-server!
