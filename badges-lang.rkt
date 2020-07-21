@@ -20,6 +20,7 @@
 	 award-badge!
          check-badge!
 	 remove-badge!
+         count-badges
 	 badges-for-user
 	 users->earned-badges-hash 
 	 id->badge
@@ -130,6 +131,17 @@
   (if (not (member badge-id (map first val)))
     #f
     #t))
+
+(define/contract (count-badges user)
+  (-> string? number?)
+  
+  (define val
+    (session-load user 'earned #f))
+  
+  (when (false? val)
+    (error (~a "User: " user ", does not exist.")))
+  
+  (length val))
 
 (define/contract (remove-badge! badge-id user)
   (-> badge-id? string? boolean?)

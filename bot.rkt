@@ -106,6 +106,7 @@
     (match sub-command-name 
 	   ["list" list-badges-command]
 	   ["graph" graph-badges-command]
+           ["count" count-badges-command]
 	   #; ;Lifted to a top-level command
 	   ["award" award-badges-command]))
 
@@ -221,6 +222,47 @@
 		(with-handlers ([exn:fail? (λ(e) (set! err (~a err (exn-message e) " ")) #f)])
 		  (award-badge! (string->symbol badge-id) user)))
 	      users)))
+
+  (~a err "You've awarded " badge-id " to " (length awarded) " users!"))
+
+(define (count-badges-command . users)
+  #;(ensure-messaging-user-has-role-on-server!
+    mc-badge-checker-role-id
+    mc-server-id
+    #:failure-message
+    (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
+
+  (define msg "\n=== BADGES EARNED ===\n")
+  
+  (define counts
+    (filter identity
+            (map (lambda (user)
+                   (with-handlers ([exn:fail? (λ(e) (set! msg (~a (exn-message e) "\n")) #f)])
+                     (let ([count (count-badges user)])
+                       (begin (set! msg (~a msg user ": " count "\n"))
+                              count))))
+                 users)))
+  (if (> (length counts) 1)
+      (~a msg "\n"
+          "Group Total: " (apply + counts))
+      msg))
+
+#;(define (count-badges-for-role role)
+  (ensure-messaging-user-has-role-on-server!
+   mc-core-staff-role-id
+   mc-server-id
+   #:failure-message
+   (~a "Sorry, you don't have the right role (<@&" mc-core-staff-role-id">) for that command."))
+
+  (define err "")
+  
+  (define awarded
+    (filter identity
+            (map
+             (lambda (user)
+               (with-handlers ([exn:fail? (λ(e) (set! err (~a err (exn-message e) " ")) #f)])
+                 (award-badge! (string->symbol badge-id) user)))
+             users)))
 
   (~a err "You've awarded " badge-id " to " (length awarded) " users!"))
 
