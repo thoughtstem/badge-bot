@@ -232,7 +232,7 @@
     #:failure-message
     (~a "Sorry, you don't have the right role (<@&" mc-badge-checker-role-id">) for that command."))
 
-  (define msg "")
+  (define msg "\n=== BADGES EARNED ===\n")
   
   (define counts
     (filter identity
