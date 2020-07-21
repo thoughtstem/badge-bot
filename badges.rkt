@@ -653,6 +653,12 @@
   )
 
 (define-colored-art-badge 'lightblue 
+  dl-ws-md
+  "Digital Literacy: WeScheme: Multiple Definitions"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-multiple-definitions/701"
+  )
+
+(define-colored-art-badge 'lightblue 
   dl-ws-pr
   "Digital Literacy: WeScheme: Project"
   "https://forum.metacoders.org/t/digital-literacy-wescheme-project/233"
@@ -2264,8 +2270,15 @@
 
 ;; DA WESCHEME ART INTEREST BADGES END
 
+;; Removing Vocab Branch
 
-;; COMPUTER BASICS INTEREST START
+#|
+(define-colored-art-badge 'lightgreen 
+  dl-os-tf
+  "Digital Literacy: Operating System: Text File Basics" 
+  "https://forum.metacoders.org/t/digital-literacy-operating-system-text-file-basics/116" 
+  )
+
 (define-colored-art-badge 'lightgreen 
   dl-vo-fi
   "Digital Literacy: Vocabulary: File" 
@@ -2303,18 +2316,6 @@
   )
 
 (define-colored-art-badge 'lightgreen 
-  dl-os-tf
-  "Digital Literacy: Operating System: Text File Basics" 
-  "https://forum.metacoders.org/t/digital-literacy-operating-system-text-file-basics/116" 
-  )
-
-(define-colored-art-badge 'lightgreen 
-  dl-ds-vc  
-  "Digital Literacy: Zoom: Video Chat Features" 
-  "https://forum.metacoders.org/t/digital-literacy-zoom-video-chat-features/118" 
-  )
-
-(define-colored-art-badge 'lightgreen 
   dl-vo-fo 
   "Digital Literacy: Vocabulary: Folder" 
   "https://forum.metacoders.org/t/digital-literacy-vocabulary-folder/115" 
@@ -2331,8 +2332,16 @@
   "Digital Literacy: Operating System: Folder Basics" 
   "https://forum.metacoders.org/t/digital-literacy-operating-system-folder-basics/112" 
   )
+|#
 
 ;; COMPUTER BASICS INTEREST END
+
+
+(define-colored-art-badge 'lightgreen 
+  dl-ds-vc  
+  "Digital Literacy: Zoom: Video Chat Features" 
+  "https://forum.metacoders.org/t/digital-literacy-zoom-video-chat-features/118" 
+  )
 
 (define-colored-art-badge 'lightgreen 
   dl-ds-tc 

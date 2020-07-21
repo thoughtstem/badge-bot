@@ -190,7 +190,8 @@
 (--> dl-ws-bd dl-ws-ab)
 (--> dl-ws-ab dl-ws-st)
 (--> dl-ws-st dl-ws-de)
-(--> dl-ws-de dl-ws-pr)
+(--> dl-ws-de dl-ws-md)
+(--> dl-ws-md dl-ws-pr)
 ;(--> dl-ws-pr da-aa-aa)
 
 ;wescheme art interest
@@ -530,6 +531,9 @@
 
 ;;COMPUTER BASICS INTEREST BADGES START
 (--> browser-tabs dl-sc-wj)
+
+;;Removing Vocab Branch
+#|
 (--> dl-sc-wj dl-os-tf)
 (--> dl-os-tf dl-vo-fi)
 (--> dl-vo-fi dl-vo-br)
@@ -541,6 +545,7 @@
 
 (--> dl-vo-fo dl-os-ff)
 (--> dl-vo-vi dl-sc-sr)
+|#
 
 ;;COMPUTER BASICS INTEREST BADGES END
 
