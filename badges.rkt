@@ -567,6 +567,181 @@
   "https://forum.metacoders.org/t/scratch-mouse-maze-mouse-properties/688"
   )
 
+(define-colored-art-badge 'khaki 
+  sr-dp1
+  "Scratch: Dance Party: Loops"
+  "https://forum.metacoders.org/t/scratch-dance-party-loops/628"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-dp2
+  "Scratch: Dance Party: Character Animation"
+  "https://forum.metacoders.org/t/scratch-dance-party-character-animation/648"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-dp3
+  "Scratch: Dance Party: More Characters"
+  "https://forum.metacoders.org/t/scratch-dance-party-more-characters/658"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-fb1
+  "Scratch: Flappy Bird Game: Player Movement"
+  "https://forum.metacoders.org/t/scratch-flappy-bird-game-player-movement/692"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-fb2
+  "Scratch: Flappy Bird Game: Moving Background"
+  "https://forum.metacoders.org/t/scratch-flappy-bird-game-moving-background/673"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-fb3
+  "Scratch: Flappy Bird Game: Complete Game"
+  "https://forum.metacoders.org/t/scratch-flappy-bird-game-complete-game/693"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-asb1
+  "Scratch: Advanced Space Blaster: Stage Backdrops"
+  "https://forum.metacoders.org/t/scratch-advanced-space-blaster-stage-backdrops/675"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-asb2
+  "Scratch: Advanced Space Blaster: Coding Stages"
+  "https://forum.metacoders.org/t/scratch-advanced-space-blaster-coding-stages/676"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-asb3
+  "Scratch: Advanced Space Blaster: Spaceship"
+  "https://forum.metacoders.org/t/scratch-advanced-space-blaster-spaceship/690"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-asb4
+  "Scratch: Advanced Space Blaster: UFO Basic"
+  "https://forum.metacoders.org/t/scratch-advanced-space-blaster-ufo-basic/694"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-asb5
+  "Scratch: Advanced Space Blaster: UFO Follow and Shoot"
+  "https://forum.metacoders.org/t/scratch-advanced-space-blaster-ufo-follow-and-shoot/697"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-asb6
+  "Scratch: Advanced Space Blaster: Laser Spaceship"
+  "https://forum.metacoders.org/t/scratch-advanced-space-blaster-laser-spaceship/698"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-asb7
+  "Scratch: Advanced Space Blaster: Laser Enemies"
+  "https://forum.metacoders.org/t/scratch-advanced-space-blaster-laser-enemies/699"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-asb8
+  "Scratch: Advanced Space Blaster: UFO Boss"
+  "https://forum.metacoders.org/t/scratch-advanced-space-blaster-ufo-boss/700"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-ca1
+  "Scratch: 20 Questions: Set the Stage"
+  "https://forum.metacoders.org/t/scratch-20-questions-set-the-stage/681"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-ca2
+  "Scratch: Choose your own Adventure: Create your Characters"
+  "https://forum.metacoders.org/t/scratch-choose-your-own-adventure-create-your-characters/709"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-ca3
+  "Scratch: Choose your own Adventure: What’s your name?"
+  "https://forum.metacoders.org/t/scratch-choose-your-own-adventure-whats-your-name/689"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-ca4
+  "Scratch: Choose your own Adventure: Scenery Design"
+  "https://forum.metacoders.org/t/scratch-choose-your-own-adventure-scenery-design/691"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-ca5
+  "Scratch: Choose your own Adventure: An Enemy?!"
+  "https://forum.metacoders.org/t/scratch-choose-your-own-adventure-an-enemy/702"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-ca6
+  "Scratch: Choose your Own Adventure: Battle Ground"
+  "https://forum.metacoders.org/t/scratch-choose-your-own-adventure-battle-ground/708"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-ss1
+  "Scratch: Space Shooter: Backdrops and Sprites"
+  "https://forum.metacoders.org/t/scratch-space-shooter-backdrops-and-sprites/706"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-ss2
+  "Scratch: Space Shooter: Space Background Properties"
+  "https://forum.metacoders.org/t/scratch-space-shooter-space-background-properties/695"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-ss3
+  "Scratch: Space Shooter: Spaceship"
+  "https://forum.metacoders.org/t/scratch-space-shooter-spaceship/696"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-ss4
+  "Scratch: Space Shooter: Laser Beam"
+  "https://forum.metacoders.org/t/scratch-space-shooter-laser-beam/704"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-ss5
+  "Scratch: Space Shooter: UFOs"
+  "https://forum.metacoders.org/t/scratch-space-shooter-ufos/705"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-mb1
+  "Scratch: Monkey Business: Set the Stage"
+  "https://forum.metacoders.org/t/scratch-monkey-business-set-the-stage/712"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-mb2
+  "Scratch: Monkey Business: Monkey Sprite"
+  "https://forum.metacoders.org/t/scratch-monkey-business-monkey-sprite/713"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-mb3
+  "Scratch: Monkey Business: Bananas"
+  "https://forum.metacoders.org/t/scratch-monkey-business-bananas/714"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-mb4
+  "Scratch: Monkey Business: Rocks"
+  "https://forum.metacoders.org/t/scratch-monkey-business-rocks/715"
+  )
+
+
 ;;SCRATCH GAME DESIGN BADGES END
 
 ;; TYPING INTEREST BADGES START

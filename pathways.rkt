@@ -158,8 +158,46 @@
 (--> sr-mz1 sr-mz2)
 (--> sr-mz2 sr-mz3)
 
-;;Todo: Scratch Monkey Business Branch
-;;Todo: Scratch Space Shooter Branch
+;;Scratch Dance Party Branch
+(--> sr-projects sr-dp1)
+(--> sr-dp1 sr-dp2)
+(--> sr-dp2 sr-dp3)
+
+;;Scratch Flappy Bird Branch
+(--> sr-projects sr-fb1)
+(--> sr-fb1 sr-fb2)
+(--> sr-fb2 sr-fb3)
+
+;;Scratch Space Blaster Branch
+(--> sr-projects sr-asb1)
+(--> sr-asb1 sr-asb2)
+(--> sr-asb2 sr-asb3)
+(--> sr-asb3 sr-asb4)
+(--> sr-asb4 sr-asb5)
+(--> sr-asb5 sr-asb6)
+(--> sr-asb6 sr-asb7)
+(--> sr-asb7 sr-asb8)
+
+;;Scratch 20 Questions Branch
+(--> sr-projects sr-ca1)
+(--> sr-ca1 sr-ca2)
+(--> sr-ca2 sr-ca3)
+(--> sr-ca3 sr-ca4)
+(--> sr-ca4 sr-ca5)
+(--> sr-ca5 sr-ca6)
+
+;;Scratch Space Shooter Branch
+(--> sr-projects sr-ss1)
+(--> sr-ss1 sr-ss2)
+(--> sr-ss2 sr-ss3)
+(--> sr-ss3 sr-ss4)
+(--> sr-ss4 sr-ss5)
+
+;;Scratch Monkey Business Branch
+(--> sr-projects sr-mb1)
+(--> sr-mb1 sr-mb2)
+(--> sr-mb2 sr-mb3)
+(--> sr-mb3 sr-mb4)
 
 
 ;;SCRATCH GAME DESIGN BADGES END
