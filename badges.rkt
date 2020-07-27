@@ -741,6 +741,30 @@
   "https://forum.metacoders.org/t/scratch-monkey-business-rocks/715"
   )
 
+(define-colored-art-badge 'khaki 
+  sr-bw1
+  "Scratch: Black Widow Mission: City Backdrop"
+  "https://forum.metacoders.org/t/scratch-black-widow-mission-city-backdrop/718"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-bw2
+  "Scratch: Black Widow Mission: Black Widow"
+  "https://forum.metacoders.org/t/scratch-black-widow-mission-black-widow/720"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-bw3
+  "Scratch: Black Widow Mission: Baton"
+  "https://forum.metacoders.org/t/scratch-black-widow-mission-baton/721"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-bw4
+  "Scratch: Black Widow Mission: Eternal Glove"
+  "https://forum.metacoders.org/t/scratch-black-widow-mission-eternal-glove/722"
+  )
+
 
 ;;SCRATCH GAME DESIGN BADGES END
 
