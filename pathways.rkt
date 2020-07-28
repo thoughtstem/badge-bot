@@ -205,7 +205,10 @@
 (--> sr-bw2 sr-bw3)
 (--> sr-bw3 sr-bw4)
 
-
+;;Scratch Let's Go Branch
+(--> sr-projects sr-lg1)
+(--> sr-lg1 sr-lg2)
+(--> sr-lg2 sr-lg3)
 
 ;;SCRATCH GAME DESIGN BADGES END
 
@@ -253,12 +256,23 @@
 (--> da-wa-rd da-wa-lr)
 (--> da-wa-lr da-wa-df)
 (--> da-wa-df da-wa-pr)
+
 (--> da-wa-pr da-wa-ge)
+
 (--> da-wa-pr da-wa-su)
+
 (--> da-wa-pr da-wa-pe)
+
 (--> da-wa-pr da-wa-s1)
 (--> da-wa-s1 da-wa-s2)
 (--> da-wa-s2 da-wa-s3)
+
+(--> da-wa-pr wa-gs1)
+(--> wa-gs1 wa-gs2)
+(--> wa-gs2 wa-gs3)
+
+(--> da-wa-pr wa-mc1)
+(--> wa-mc1 wa-mc2)
 
 ;game design interest
 ;(--> dl-ws-pr 2d-gd-aa)

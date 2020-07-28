@@ -765,7 +765,23 @@
   "https://forum.metacoders.org/t/scratch-black-widow-mission-eternal-glove/722"
   )
 
+(define-colored-art-badge 'khaki 
+  sr-lg1
+  "Scratch: Let’s Go to the [PLACE]: Places"
+  "https://forum.metacoders.org/t/scratch-let-s-go-to-the-place-places/632"
+  )
 
+(define-colored-art-badge 'khaki 
+  sr-lg2
+  "Scratch: Let’s Go to the [PLACE]: Character"
+  "https://forum.metacoders.org/t/scratch-let-s-go-to-the-place-character/645"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-lg3
+  "Scratch: Let’s Go to the [PLACE]: Movement"
+  "atch-let-s-go-to-the-place-movement/654"
+  )
 ;;SCRATCH GAME DESIGN BADGES END
 
 ;; TYPING INTEREST BADGES START
@@ -2465,6 +2481,36 @@
   da-wa-ge
   "Digital Art: WeScheme: Generative Art"
   "https://forum.metacoders.org/t/digital-art-wescheme-generative-art/203"
+  )
+
+(define-colored-art-badge 'lightblue 
+  wa-gs1
+  "Digital Art: WeScheme: Green Screen: Bitmap"
+  "https://forum.metacoders.org/t/digital-art-wescheme-green-screen-bitmap/723"
+  )
+
+(define-colored-art-badge 'lightblue 
+  wa-gs2
+  "Digital Art: WeScheme: Green Screen: Queen Pizza"
+  "https://forum.metacoders.org/t/digital-art-wescheme-green-screen-queen-pizza/724"
+  )
+
+(define-colored-art-badge 'lightblue 
+  wa-gs3
+  "Digital Art: WeScheme: Green Screen: New Photo"
+  "https://forum.metacoders.org/t/digital-art-wescheme-green-screen-new-photo/725"
+  )
+
+(define-colored-art-badge 'lightblue 
+  wa-mc1
+  "Digital Art: WeScheme: Meme Collage: Tint an Image"
+  "https://forum.metacoders.org/t/digital-art-wescheme-meme-collage-tint-an-image/726"
+  )
+
+(define-colored-art-badge 'lightblue 
+  wa-mc2
+  "Digital Art: WeScheme: Meme Collage: Collage"
+  "https://forum.metacoders.org/t/digital-art-wescheme-meme-collage-collage/727"
   )
 
 ;; DA WESCHEME ART INTEREST BADGES END
