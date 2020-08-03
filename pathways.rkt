@@ -391,14 +391,6 @@
 
 (--> supo-hw supo-p1)
 (--> supo-p1 supo-p2)
-(--> supo-p2 supo-p3)
-(--> supo-p3 supo-p4)
-
-(--> supo-p2 supo-f1)
-(--> supo-f1 supo-f2)
-(--> supo-f2 supo-f3)
-(--> supo-f3 supo-f4)
-(--> supo-f3 supo-f5)
 
 (--> supo-p2 supo-s1)
 (--> supo-s1 supo-s2)
@@ -413,13 +405,47 @@
 (--> supo-s3 supo-ft4)
 (--> supo-ft4 supo-ft5)
 
+
+(--> supo-p2 supo-p3)
+(--> supo-p3 supo-p4)
+
+(--> supo-p2 supo-f1)
+(--> supo-f1 supo-f2)
+(--> supo-f2 supo-f3)
+(--> supo-f3 supo-f4)
+(--> supo-f3 supo-f5)
+
 (--> supo-p2 supo-ts1)
 
-(--> supo-p2 supo-ts2)
+(--> supo-ts1 supo-ts2)
 (--> supo-ts2 supo-ts3)
 
-(--> supo-p2 supo-ts4)
+(--> supo-ts1 supo-ts4)
 (--> supo-ts4 supo-ts5)
+
+(--> supo-p4 supo-project)
+(--> supo-ft3 supo-project)
+(--> supo-ft5 supo-project)
+(--> supo-s5 supo-project)
+(--> supo-ts5 supo-project)
+(--> supo-ts3 supo-project)
+(--> supo-f4 supo-project)
+(--> supo-f5 supo-project)
+
+
+(--> supo-project supo-def1)
+(--> supo-def1 supo-def2)
+(--> supo-def2 supo-def3)
+(--> supo-def3 supo-pro)
+
+(--> supo-project supo-cc)
+(--> supo-cc supo-pro)
+
+(--> supo-project supo-bg)
+(--> supo-bg supo-pro)
+
+(--> supo-project supo-sm)
+(--> supo-sm supo-pro)
 
 ;survival minecraft interest
 (--> 2d-gd-aa sumc-pkg)

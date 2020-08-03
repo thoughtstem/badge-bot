@@ -1575,6 +1575,61 @@
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-level-2/326"
   )
 
+(define-colored-art-badge 'royalblue
+  supo-project
+  "2D Game Design: Survival Pokemon: Pokemon Survivor"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-project/739"
+  )
+
+(define-colored-art-badge 'royalblue
+  supo-def1
+  "2D Game Design: Survival Pokemon: Basic Definer"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-project/739"
+  )
+
+(define-colored-art-badge 'royalblue
+  supo-def2
+  "2D Game Design: Survival Pokemon: Adept Definer"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-project/739"
+  )
+
+(define-colored-art-badge 'royalblue
+  supo-def3
+  "2D Game Design: Survival Pokemon: Pro Definer"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-project/739"
+  )
+
+(define-colored-art-badge 'royalblue
+  supo-cc
+  "2D Game Design: Survival Pokemon: Clean Code"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-project/739"
+  )
+
+(define-colored-art-badge 'royalblue
+  supo-bg
+  "2D Game Design: Survival Pokemon: Balanced Game"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-project/739"
+  )
+
+(define-colored-art-badge 'royalblue
+  supo-sm
+  "2D Game Design: Survival Pokemon: Story Mode"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-project/739"
+  )
+
+(define-colored-art-badge 'royalblue
+  supo-pro
+  "2D Game Design: Survival Pokemon: Overachiever"
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-project/739"
+  )
+
+(define-colored-art-badge 'royalblue
+  supo-
+  "2D Game Design: Survival Pokemon: "
+  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-project/739"
+  )
+
+
 ;; SURVIVAL POKEMON INTEREST END
 
 ;; SURVIVAL MINECRAFT INTEREST START
