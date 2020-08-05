@@ -1623,12 +1623,6 @@
   "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-project/739"
   )
 
-(define-colored-art-badge 'royalblue
-  supo-
-  "2D Game Design: Survival Pokemon: "
-  "https://forum.metacoders.org/t/2d-game-design-survival-pokemon-project/739"
-  )
-
 
 ;; SURVIVAL POKEMON INTEREST END
 
@@ -2978,6 +2972,16 @@
   )
 
 ;;2D GAME DESIGN MAZE GAME BADGES END
+
+;;VOLUNTEER BONUS BADGES START
+
+(define-colored-art-badge 'royalblue 
+  derek-bb1
+  "Derek’s Bonus Badge 1" 
+  "https://forum.metacoders.org/t/dereks-bonus-badge-1/776" 
+  )
+
+;;VOLUNTEER BONUS BADGES END
 
 (module+ test 
 	 (require discord-bot)
