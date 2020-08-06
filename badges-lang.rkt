@@ -28,6 +28,7 @@
 	 random-badge-art
 	 define-random-art-badge
          define-colored-art-badge
+         define-art-badge
 	 add-badge-data
 	 is-interest-badge?)
 
@@ -55,7 +56,7 @@
   (begin
     (provide id)
     (define id
-      (badge 'id (~a name " [" 'id "]") url image (hash)))
+      (badge 'id (~a name "\\n[" 'id "]") url image (hash)))
     (register-badge! id)))
 
 (define (badge-img-with-id b)
@@ -281,7 +282,7 @@
       (rand-cell) 
       (rand-cell))))
   
-    ;(beside (rand-square) (rand-square) (rand-square) (rand-square) (rand-square) (rand-square))
+  ;(beside (rand-square) (rand-square) (rand-square) (rand-square) (rand-square) (rand-square))
   (rand-cell)
   )
 
@@ -313,4 +314,11 @@
     name
     url
     (colored-badge-art 'id color)))
+
+(define-syntax-rule (define-art-badge art id name url)
+  (define-badge
+    id
+    name
+    url
+    art))
 

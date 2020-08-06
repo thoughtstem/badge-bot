@@ -2,7 +2,8 @@
 
 (provide (all-from-out "badges-lang.rkt"))
 
-(require "badges-lang.rkt")
+(require "badges-lang.rkt"
+         "images.rkt")
 
 
 (define-colored-art-badge 'lightgreen 
@@ -2520,16 +2521,33 @@
   )
 
 (define-colored-art-badge 'lightblue 
+  da-wa-su2
+  "Digital Art: WeScheme: Fading Function"
+  "https://forum.metacoders.org/t/digital-art-wescheme-fade-function/770"
+  )
+
+(define-colored-art-badge 'lightblue 
   da-wa-pe
-  "Digital Literacy: WeScheme: Peach Drawing"
+  "Digital Literacy: WeScheme: Peach Drawing: Fruit"
   "https://forum.metacoders.org/t/digital-literacy-wescheme-peach-drawing/183"
   )
 
+(define-colored-art-badge 'lightblue 
+  da-wa-pe2
+  "Digital Literacy: WeScheme: Peach Drawing: Leaves"
+  "https://forum.metacoders.org/t/digital-literacy-wescheme-peach-drawing-2/757"
+  )
 
 (define-colored-art-badge 'lightblue 
   da-wa-ge
-  "Digital Art: WeScheme: Generative Art"
+  "Digital Art: WeScheme: Generative Art: Basic Crystal"
   "https://forum.metacoders.org/t/digital-art-wescheme-generative-art/203"
+  )
+
+(define-colored-art-badge 'lightblue 
+  da-wa-ge2
+  "Digital Art: WeScheme: Generative Art: Add Triangles"
+  "https://forum.metacoders.org/t/digital-art-wescheme-generative-art-add-triangles/769"
   )
 
 (define-colored-art-badge 'lightblue 
@@ -2560,6 +2578,18 @@
   wa-mc2
   "Digital Art: WeScheme: Meme Collage: Collage"
   "https://forum.metacoders.org/t/digital-art-wescheme-meme-collage-collage/727"
+  )
+
+(define-colored-art-badge 'lightblue 
+  wa-by1
+  "Digital Art: WeScheme: Baby Yoda: Creating Pixels"
+  "https://forum.metacoders.org/t/digital-art-wescheme-creating-pixels/766"
+  )
+
+(define-art-badge baby-yoda-image 
+  wa-by2
+  "Digital Art: WeScheme: Baby Yoda: Combining Pixels"
+  "https://forum.metacoders.org/t/digital-art-wescheme-baby-yoda-combining-pixels/767"
   )
 
 ;; DA WESCHEME ART INTEREST BADGES END
@@ -2974,8 +3004,7 @@
 ;;2D GAME DESIGN MAZE GAME BADGES END
 
 ;;VOLUNTEER BONUS BADGES START
-
-(define-colored-art-badge 'royalblue 
+(define-colored-art-badge 'royalblue
   derek-bb1
   "Derek’s Bonus Badge 1" 
   "https://forum.metacoders.org/t/dereks-bonus-badge-1/776" 

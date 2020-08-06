@@ -258,10 +258,13 @@
 (--> da-wa-df da-wa-pr)
 
 (--> da-wa-pr da-wa-ge)
+(--> da-wa-ge da-wa-ge2)
 
 (--> da-wa-pr da-wa-su)
+(--> da-wa-su da-wa-su2)
 
 (--> da-wa-pr da-wa-pe)
+(--> da-wa-pe da-wa-pe2)
 
 (--> da-wa-pr da-wa-s1)
 (--> da-wa-s1 da-wa-s2)
@@ -273,6 +276,9 @@
 
 (--> da-wa-pr wa-mc1)
 (--> wa-mc1 wa-mc2)
+
+(--> da-wa-pr wa-by1)
+(--> wa-by1 wa-by2)
 
 ;game design interest
 ;(--> dl-ws-pr 2d-gd-aa)

@@ -87,7 +87,9 @@
   (styles 
     (map badge-style (get-vertices g)))
 
-  (graph-component g #:node-width 220))
+  (graph-component g
+                   #:node-width 200
+                   #:node-height 50))
 
 
 
