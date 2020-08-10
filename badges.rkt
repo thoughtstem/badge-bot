@@ -2870,6 +2870,130 @@
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-game-balance-5/617" 
   )
 
+;; ENDLESS RUNNER MARIO START
+
+(define-colored-art-badge 'steelblue 
+  erma-c1
+  "2D Game Design: Endless Runner Mario: Character 1"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-character-1/748"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-c2
+  "2D Game Design: Endless Runner Mario: Character 2"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-character-2/758"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-c3
+  "2D Game Design: Endless Runner Mario: Character 3"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-character-3/771"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-c4
+  "2D Game Design: Endless Runner Mario: Character 4"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-character-4/773"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-c5
+  "2D Game Design: Endless Runner Mario: Character 5"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-character-5/774"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-gi1
+  "2D Game Design: Endless Runner Mario: Good Item 1"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-good-item-1/749"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-gi2
+  "2D Game Design: Endless Runner Mario: Good Item 2"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-good-item-2/750"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-gi3
+  "2D Game Design: Endless Runner Mario: Good Item 3"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-good-item-3/760"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-gi4
+  "2D Game Design: Endless Runner Mario: Good Item 4"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-good-item-4/761"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-gi5
+  "2D Game Design: Endless Runner Mario: Good Item 5"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-good-item-5/763"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-bi1
+  "2D Game Design: Endless Runner Mario: Bad Item 1"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-bad-item-1/777"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-bi2
+  "2D Game Design: Endless Runner Mario: Bad Item 2"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-bad-item-2/781"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-bi3
+  "2D Game Design: Endless Runner Mario: Bad Item 3"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-bad-item-3/778"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-bi4
+  "2D Game Design: Endless Runner Mario: Bad Item 4"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-bad-item-4/788"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-bi5
+  "2D Game Design: Endless Runner Mario: Bad Item 5"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-bad-item-5/789"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-gb1
+  "2D Game Design: Endless Runner Mario: Game Balance 1"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-game-balance-1/779"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-gb2
+  "2D Game Design: Endless Runner Mario: Game Balance 2"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-game-balance-2/782"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-gb3
+  "2D Game Design: Endless Runner Mario: Game Balance 3"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-game-balance-3/783"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-gb4
+  "2D Game Design: Endless Runner Mario: Game Balance 4"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-game-balance-4/784"
+  )
+
+(define-colored-art-badge 'steelblue 
+  erma-gb5
+  "2D Game Design: Endless Runner Mario: Game Balance 5"
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-game-balance-5/785"
+  )
+
+;;ENDLESS RUNNER MARIO END
+
 
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
 

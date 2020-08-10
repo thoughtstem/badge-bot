@@ -695,7 +695,34 @@
 (--> erhp-gb3 erhp-gb4)
 (--> erhp-gb4 erhp-gb5)
 
-; TODO: Game Balance
+;;Endless Runner Mario
+(--> 2d-er-aa erma-c1)
+(--> erma-c1 erma-c2)
+(--> erma-c2 erma-c3)
+(--> erma-c3 erma-c4)
+(--> erma-c4 erma-c5)
+
+;Good Item
+(--> erma-c5 erma-gi1)
+(--> erma-gi1 erma-gi2)
+(--> erma-gi2 erma-gi3)
+(--> erma-gi3 erma-gi4)
+(--> erma-gi4 erma-gi5)
+
+;Bad Item
+(--> erma-gi5 erma-bi1)
+(--> erma-bi1 erma-bi2)
+(--> erma-bi2 erma-bi3)
+(--> erma-bi3 erma-bi4)
+(--> erma-bi4 erma-bi5)
+
+;Game Balance
+(--> erma-bi5 erma-gb1)
+(--> erma-gb1 erma-gb2)
+(--> erma-gb2 erma-gb3)
+(--> erma-gb3 erma-gb4)
+(--> erma-gb4 erma-gb5)
+
 ; TODO: Flappy Wizard
 
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
