@@ -783,6 +783,29 @@
   "Scratch: Let’s Go to the [PLACE]: Movement"
   "atch-let-s-go-to-the-place-movement/654"
   )
+
+(define-colored-art-badge 'khaki 
+  sr-fh1
+  "Scratch: Flying Hippo: Taking Flight"
+  "https://forum.metacoders.org/t/scratch-flying-hippo-taking-flight/729"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-fh2
+  "Scratch: Flying Hippo: Angry Bees"
+  "https://forum.metacoders.org/t/scratch-flying-hippo-angry-bees/731"
+  )
+
+
+(define-colored-art-badge 'khaki 
+  sr-fh3
+  "Scratch: Flying Hippo: Hungry Hungry Hippo"
+  "https://forum.metacoders.org/t/scratch-flying-hippo-hungry-hungry-hippo/764"
+  )
+
+
+
+
 ;;SCRATCH GAME DESIGN BADGES END
 
 ;; TYPING INTEREST BADGES START

@@ -210,6 +210,11 @@
 (--> sr-lg1 sr-lg2)
 (--> sr-lg2 sr-lg3)
 
+; Scratch Flying Hippo
+(--> sr-projects sr-fh1)
+(--> sr-fh1 sr-fh2)
+(--> sr-fh2 sr-fh3)
+
 ;;SCRATCH GAME DESIGN BADGES END
 
 ;; NEW DIGITAL LITERACY ORDER
