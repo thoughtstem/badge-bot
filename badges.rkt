@@ -1098,6 +1098,54 @@
   "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-power-up-5/278"
   )
 
+(define-colored-art-badge 'orange
+  baav-project
+  "2D Game Design: Battlearena Avengers: Battlearena Avenger"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-project/792"
+  )
+
+(define-colored-art-badge 'orange
+  baav-def1
+  "2D Game Design: Battlearena Avengers: Basic Definer"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-project/792"
+  )
+
+(define-colored-art-badge 'orange
+  baav-def2
+  "2D Game Design: Battlearena Avengers: Adept Definer"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-project/792"
+  )
+
+(define-colored-art-badge 'orange
+  baav-def3
+  "2D Game Design: Battlearena Avengers: Pro Definer"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-project/792"
+  )
+
+(define-colored-art-badge 'orange
+  baav-cc
+  "2D Game Design: Battlearena Avengers: Clean Code"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-project/792"
+  )
+
+(define-colored-art-badge 'orange
+  baav-bg
+  "2D Game Design: Battlearena Avengers: Balanced Game"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-project/792"
+  )
+
+(define-colored-art-badge 'orange
+  baav-sm
+  "2D Game Design: Battlearena Avengers: Story Mode"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-project/792"
+  )
+
+(define-colored-art-badge 'orange
+  baav-pro
+  "2D Game Design: Battlearena Avengers: Overachiever"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-avengers-project/792"
+  )
+
 ;; BATTLE ARENA AVENGERS INTEREST END
 
 
