@@ -9,42 +9,6 @@
 (init-network (all-badges))
 
 
-;;DIGITAL LITERACY BADGES START
-;(--> dl-dl-aa dl-sr-aa)
-;(--> dl-dl-aa dl-mt-aa)
-
-;;PAPER DIGITAL LITERACY BADGES START
-
-;TO BE REPLACED by coding adventures
-
-#|
-;(--> dl-dl-aa dl-pc-aa)
-
-(--> dl-pc-aa dl-pc-da)
-(--> dl-pc-da dl-pc-db)
-(--> dl-pc-db dl-pc-dc)
-
-(--> dl-pc-aa dl-pc-la)
-(--> dl-pc-la dl-pc-lb)
-
-(--> dl-pc-aa dl-pc-pa)
-(--> dl-pc-pa dl-pc-pb)
-(--> dl-pc-pb dl-pc-pc)
-
-(--> dl-pc-aa dl-pc-io)
-
-(--> dl-pc-io dl-pc-it)
-(--> dl-pc-dc dl-pc-it)
-(--> dl-pc-pc dl-pc-it)
-(--> dl-pc-lb dl-pc-it)
-
-(--> dl-pc-aa dl-pc-cs)
-(--> dl-pc-cs dl-pc-kl)
-(--> dl-pc-cs dl-pc-dd)
-|#
-
-;;PAPER DIGITAL LITERACY BADGES END
-
 ;;CODING ADVENTURES BADGES START
 
 (--> dl-dl-aa dl-ca-aa) ;delete to cut coding adventures off from main branch
