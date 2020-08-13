@@ -246,4 +246,41 @@
   "Digital Art: WeScheme: Baby Yoda: Combining Pixels"
   "https://forum.metacoders.org/t/digital-art-wescheme-baby-yoda-combining-pixels/767"
   )
+
+(define-colored-art-badge 'lightblue 
+  wa-li1
+  "Digital Art: WeScheme: Link: Creating Pixels"
+  "https://forum.metacoders.org/t/digital-art-wescheme-link-creating-pixels/797"
+  )
+
+(define-colored-art-badge 'lightblue  
+  wa-li2
+  "Digital Art: WeScheme: Link: Combining Pixels"
+  "https://forum.metacoders.org/t/digital-art-wescheme-link-combining-pixels/798"
+  )
+
+(define-colored-art-badge 'lightblue  
+  wa-li3
+  "Digital Art: WeScheme: Link: Multiple Links"
+  "https://forum.metacoders.org/t/digital-art-wescheme-link-multiple-links/808"
+  )
+
+(define-colored-art-badge 'lightblue 
+  wa-ls1
+  "Digital Art WeScheme:Lightsaber: Build the Top"
+  "https://forum.metacoders.org/t/digital-art-wescheme-build-the-top/735"
+  )
+
+(define-colored-art-badge 'lightblue 
+  wa-ls2
+  "Digital Art WeScheme:Lightsaber: Hilt"
+  "https://forum.metacoders.org/t/digital-art-wescheme-hilt/765"
+  )
+
+(define-colored-art-badge 'lightblue 
+  wa-ls3
+  "Digital Art WeScheme:Lightsaber: Put it all Together"
+  "https://forum.metacoders.org/t/digital-art-wescheme-put-it-all-together/772"
+  )
+
 ;; WESCHEME ART BADGES END

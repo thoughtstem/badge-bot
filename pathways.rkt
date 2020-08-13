@@ -249,6 +249,14 @@
 (--> da-wa-pr wa-by1)
 (--> wa-by1 wa-by2)
 
+(--> da-wa-pr wa-li1)
+(--> wa-li1 wa-li2)
+(--> wa-li2 wa-li3)
+
+(--> da-wa-pr wa-ls1)
+(--> wa-ls1 wa-ls2)
+(--> wa-ls2 wa-ls3)
+
 ;game design interest
 ;(--> dl-ws-pr 2d-gd-aa)
 ;(--> dl-ws-pr 3d-gd-aa)
