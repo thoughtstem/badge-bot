@@ -167,12 +167,3 @@
   "https://forum.metacoders.org/t/3d-game-design-access-badge/238"
   )
 ;; GAME DESIGN BADGES END
-
-
-;;VOLUNTEER BONUS BADGES START
-(define-colored-art-badge 'royalblue
-  derek-bb1
-  "Derek’s Bonus Badge 1" 
-  "https://forum.metacoders.org/t/dereks-bonus-badge-1/776" 
-  )
-;;VOLUNTEER BONUS BADGES END
