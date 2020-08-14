@@ -479,18 +479,30 @@
 
 (define-colored-art-badge 'khaki 
   sr-bw2
-  "Scratch: Black Widow Mission: Black Widow"
+  "Scratch: Black Widow Mission: Black Widow Movement"
   "https://forum.metacoders.org/t/scratch-black-widow-mission-black-widow/720"
   )
 
 (define-colored-art-badge 'khaki 
   sr-bw3
+  "Scratch: Black Widow Mission: Black Widow Starts Off"
+  "https://forum.metacoders.org/t/scratch-black-widow-mission-black-widow-starts-off/810"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-bw4
+  "Scratch: Black Widow Mission: Black Widow Wins"
+  "https://forum.metacoders.org/t/scratch-black-widow-mission-black-widow-wins/811"
+  )
+
+(define-colored-art-badge 'khaki 
+  sr-bw5
   "Scratch: Black Widow Mission: Baton"
   "https://forum.metacoders.org/t/scratch-black-widow-mission-baton/721"
   )
 
 (define-colored-art-badge 'khaki 
-  sr-bw4
+  sr-bw6
   "Scratch: Black Widow Mission: Eternal Glove"
   "https://forum.metacoders.org/t/scratch-black-widow-mission-eternal-glove/722"
   )
