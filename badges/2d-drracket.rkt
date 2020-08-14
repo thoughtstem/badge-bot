@@ -379,6 +379,55 @@
   "2D Game Design: Battlearena Star Wars: Blaster Droid 1"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-blaster-droid-1/499"
   )
+
+;; PROJECT
+(define-colored-art-badge 'gold
+  basw-project
+  "2D Game Design: Battlearena Star Wars: Rebel Battler"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-project/817"
+  )
+
+(define-colored-art-badge 'gold
+  basw-def1
+  "2D Game Design: Battlearena Star Wars: Basic Definer"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-project/817"
+  )
+
+(define-colored-art-badge 'gold
+  basw-def2
+  "2D Game Design: Battlearena Star Wars: Adept Definer"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-project/817"
+  )
+
+(define-colored-art-badge 'gold
+  basw-def3
+  "2D Game Design: Battlearena Star Wars: Pro Definer"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-project/817"
+  )
+
+(define-colored-art-badge 'gold
+  basw-cc
+  "2D Game Design: Battlearena Star Wars: Clean Code"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-project/817"
+  )
+
+(define-colored-art-badge 'gold
+  basw-bg
+  "2D Game Design: Battlearena Star Wars: Balanced Game"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-project/817"
+  )
+
+(define-colored-art-badge 'gold
+  basw-sm
+  "2D Game Design: Battlearena Star Wars: Story Mode"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-project/817"
+  )
+
+(define-colored-art-badge 'gold
+  basw-pro
+  "2D Game Design: Battlearena Star Wars: Overachiever"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-star-wars-project/817"
+  )
 ;; BATTLEARENA STARWARS BADGES END
 
 
@@ -549,6 +598,55 @@
   bafn-t5
   "2D Game Design: Battlearena Fortnite: Repeater Tower 2"
   "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-repeater-tower-2/521"
+  )
+
+;; PROJECT
+(define-colored-art-badge 'orchid
+  bafn-project
+  "2D Game Design: Battlearena Fortnite: Fortnite Battler"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-project/816"
+  )
+
+(define-colored-art-badge 'orchid
+  bafn-def1
+  "2D Game Design: Battlearena Fortnite: Basic Definer"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-project/816"
+  )
+
+(define-colored-art-badge 'orchid
+  bafn-def2
+  "2D Game Design: Battlearena Fortnite: Adept Definer"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-project/816"
+  )
+
+(define-colored-art-badge 'orchid
+  bafn-def3
+  "2D Game Design: Battlearena Fortnite: Pro Definer"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-project/816"
+  )
+
+(define-colored-art-badge 'orchid
+  bafn-cc
+  "2D Game Design: Battlearena Fortnite: Clean Code"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-project/816"
+  )
+
+(define-colored-art-badge 'orchid
+  bafn-bg
+  "2D Game Design: Battlearena Fortnite: Balanced Game"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-project/816"
+  )
+
+(define-colored-art-badge 'orchid
+  bafn-sm
+  "2D Game Design: Battlearena Fortnite: Story Mode"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-project/816"
+  )
+
+(define-colored-art-badge 'orchid
+  bafn-pro
+  "2D Game Design: Battlearena Fortnite: Overachiever"
+  "https://forum.metacoders.org/t/2d-game-design-battlearena-fortnite-project/816"
   )
 ;; BATTLEARENA FORTNITE BADGES END
 
@@ -917,6 +1015,55 @@
   "2D Game Design: Survival Minecraft: Sky 4"
   "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-sky-4/598"
   )
+
+;; PROJECT
+(define-colored-art-badge 'saddlebrown 
+  sumc-project
+  "2D Game Design: Survival Minecraft: Minecraft Survavilist"
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-project/812"
+  )
+
+(define-colored-art-badge 'saddlebrown 
+  sumc-def1
+  "2D Game Design: Survival Minecraft: Basic Definer"
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-project/812"
+  )
+
+(define-colored-art-badge 'saddlebrown 
+  sumc-def2
+  "2D Game Design: Survival Minecraft: Adept Definer"
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-project/812"
+  )
+
+(define-colored-art-badge 'saddlebrown 
+  sumc-def3
+  "2D Game Design: Survival Minecraft: Pro Definer"
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-project/812"
+  )
+
+(define-colored-art-badge 'saddlebrown 
+  sumc-cc
+  "2D Game Design: Survival Minecraft: Clean Code"
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-project/812"
+  )
+
+(define-colored-art-badge 'saddlebrown 
+  sumc-bg
+  "2D Game Design: Survival Minecraft: Balanced Game"
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-project/812"
+  )
+
+(define-colored-art-badge 'saddlebrown 
+  sumc-sm
+  "2D Game Design: Survival Minecraft: Story Mode"
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-project/812"
+  )
+
+(define-colored-art-badge 'saddlebrown 
+  sumc-pro
+  "2D Game Design: Survival Minecraft: Overachiever"
+  "https://forum.metacoders.org/t/2d-game-design-survival-minecraft-project/812"
+  )
 ;; SURVIVAL MINECRAFT BADGES END
 
 
@@ -1076,6 +1223,55 @@
   "2D Game Design: Adventure Mario: Enemy 5"
   "https://forum.metacoders.org/t/2d-game-design-adventure-mario-enemy-5/350"
   )
+
+;;PROJECT
+(define-colored-art-badge 'red
+  adma-project
+  "2D Game Design: Adventure Mario: Mario Adventurer"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-project/813"
+  )
+
+(define-colored-art-badge 'red
+  adma-def1
+  "2D Game Design: Adventure Mario: Basic Definer"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-project/813"
+  )
+
+(define-colored-art-badge 'red
+  adma-def2
+  "2D Game Design: Adventure Mario: Adept Definer"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-project/813"
+  )
+
+(define-colored-art-badge 'red
+  adma-def3
+  "2D Game Design: Adventure Mario: Pro Definer"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-project/813"
+  )
+
+(define-colored-art-badge 'red
+  adma-cc
+  "2D Game Design: Adventure Mario: Clean Code"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-project/813"
+  )
+
+(define-colored-art-badge 'red
+  adma-bg
+  "2D Game Design: Adventure Mario: Balanced Game"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-project/813"
+  )
+
+(define-colored-art-badge 'red
+  adma-sm
+  "2D Game Design: Adventure Mario: Story Mode"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-project/813"
+  )
+
+(define-colored-art-badge 'red
+  adma-pro
+  "2D Game Design: Adventure Mario: Overachiever"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-mario-project/813"
+  )
 ;; ADVENTURE MARIO BADGES END
 
 
@@ -1234,5 +1430,54 @@
   adhp-s5
   "2D Game Design: Adventure Harry Potter: Spell 5"
   "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-spell-5/492"
+  )
+
+;;PROJECT
+(define-colored-art-badge 'cornflowerblue
+  adhp-project
+  "2D Game Design: Adventure Harry Potter: Wizard Adventurer"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-project/814"
+  )
+
+(define-colored-art-badge 'cornflowerblue
+  adhp-def1
+  "2D Game Design: Adventure Harry Potter: Basic Definer"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-project/814"
+  )
+
+(define-colored-art-badge 'cornflowerblue
+  adhp-def2
+  "2D Game Design: Adventure Harry Potter: Adept Definer"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-project/814"
+  )
+
+(define-colored-art-badge 'cornflowerblue
+  adhp-def3
+  "2D Game Design: Adventure Harry Potter: Pro Definer"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-project/814"
+  )
+
+(define-colored-art-badge 'cornflowerblue
+  adhp-cc
+  "2D Game Design: Adventure Harry Potter: Clean Code"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-project/814"
+  )
+
+(define-colored-art-badge 'cornflowerblue
+  adhp-bg
+  "2D Game Design: Adventure Harry Potter: Balanced Game"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-project/814"
+  )
+
+(define-colored-art-badge 'cornflowerblue
+  adhp-sm
+  "2D Game Design: Adventure Harry Potter: Story Mode"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-project/814"
+  )
+
+(define-colored-art-badge 'cornflowerblue
+  adhp-pro
+  "2D Game Design: Adventure Harry Potter: Overachiever"
+  "https://forum.metacoders.org/t/2d-game-design-adventure-harry-potter-project/814"
   )
 ;; ADVENTURE HARRYPOTTER BADGES END

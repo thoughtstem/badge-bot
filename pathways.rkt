@@ -323,9 +323,6 @@
 (--> baav-project baav-sm)
 (--> baav-sm baav-pro)
 
-
-
-
 ;battlearena starwars interest
 (--> 2d-gd-aa basw-pkg)
 (--> basw-pkg basw-hw)
@@ -333,35 +330,57 @@
 (--> basw-r1 basw-r2)
 (--> basw-r2 basw-r3)
 (--> basw-r3 basw-r4)
+(--> basw-r4 basw-project)
 
 (--> basw-r3 basw-i1)
 (--> basw-i1 basw-i2)
 (--> basw-i2 basw-i3)
 (--> basw-i3 basw-i4)
 (--> basw-i4 basw-i5)
+(--> basw-i5 basw-project)
 
 (--> basw-r3 basw-weapons)
 
 (--> basw-weapons basw-w1)
 (--> basw-w1 basw-w2)
 (--> basw-w2 basw-w3)
+(--> basw-w3 basw-project)
+
 (--> basw-w2 basw-tw3)
 (--> basw-tw3 basw-tw4)
+(--> basw-tw4 basw-project)
 
 (--> basw-weapons basw-w4)
 (--> basw-w4 basw-w5)
 (--> basw-w5 basw-tw5)
+(--> basw-tw5 basw-project)
 
 (--> basw-r3 basw-pu1)
 (--> basw-pu1 basw-pu2)
 (--> basw-pu2 basw-pu3)
+(--> basw-pu3 basw-project)
 
 (--> basw-pu1 basw-pu4)
 (--> basw-pu4 basw-pu5)
 (--> basw-pu5 basw-pu6)
+(--> basw-pu6 basw-project)
 
 (--> basw-weapons basw-tw1)
 (--> basw-tw1 basw-tw2)
+(--> basw-tw2 basw-project)
+
+(--> basw-project basw-def1)
+(--> basw-def1 basw-def2)
+(--> basw-def2 basw-def3)
+
+(--> basw-project basw-cc)
+(--> basw-project basw-bg)
+(--> basw-project basw-sm)
+
+(--> basw-def3 basw-pro)
+(--> basw-cc basw-pro)
+(--> basw-sm basw-pro)
+(--> basw-bg basw-pro)
 
 ;battlearena fortnite
 (--> 2d-gd-aa bafn-pkg)
@@ -370,32 +389,60 @@
 (--> bafn-a1 bafn-a2)
 (--> bafn-a2 bafn-a3)
 (--> bafn-a3 bafn-a4)
+(--> bafn-a4 bafn-project)
+
 
 (--> bafn-a3 bafn-e1)
 (--> bafn-e1 bafn-e2)
 (--> bafn-e2 bafn-e3)
 (--> bafn-e3 bafn-e4)
 (--> bafn-e4 bafn-e5)
+(--> bafn-e5 bafn-project)
 
 (--> bafn-a3 bafn-weapons)
 (--> bafn-weapons bafn-w1)
+(--> bafn-w1 bafn-project)
 (--> bafn-weapons bafn-w2)
+(--> bafn-w2 bafn-project)
 (--> bafn-weapons bafn-w3)
+(--> bafn-w3 bafn-project)
 (--> bafn-weapons bafn-w4)
+(--> bafn-w4 bafn-project)
 (--> bafn-weapons bafn-w5)
+(--> bafn-w5 bafn-project)
+
 (--> bafn-weapons bafn-t1)
 (--> bafn-t1 bafn-t2)
 (--> bafn-t2 bafn-t3)
+(--> bafn-t3 bafn-project)
 
 (--> bafn-weapons bafn-t4)
 (--> bafn-t4 bafn-t5)
+(--> bafn-t5 bafn-project)
 
 (--> bafn-a3 bafn-items)
 (--> bafn-items bafn-i1)
+(--> bafn-i1 bafn-project)
 (--> bafn-items bafn-i2)
+(--> bafn-i2 bafn-project)
 (--> bafn-items bafn-i3)
 (--> bafn-i3 bafn-i4)
+(--> bafn-i4 bafn-project)
 (--> bafn-items bafn-i5)
+(--> bafn-i5 bafn-project)
+
+(--> bafn-project bafn-def1)
+(--> bafn-def1 bafn-def2)
+(--> bafn-def2 bafn-def3)
+
+(--> bafn-project bafn-cc)
+(--> bafn-project bafn-bg)
+(--> bafn-project bafn-sm)
+
+(--> bafn-def3 bafn-pro)
+(--> bafn-cc bafn-pro)
+(--> bafn-bg bafn-pro)
+(--> bafn-sm bafn-pro)
 
 ;survival pokemon interest
 (--> 2d-gd-aa supo-pkg)
@@ -466,32 +513,55 @@
 (--> sumc-cs1 sumc-cs2)
 (--> sumc-cs2 sumc-cs3)
 (--> sumc-cs3 sumc-cs4)
+(--> sumc-cs4 sumc-project)
 
 (--> sumc-cs3 sumc-f1)
 (--> sumc-f1 sumc-f2)
 (--> sumc-f2 sumc-f3)
 (--> sumc-f3 sumc-f4)
+(--> sumc-f4 sumc-project)
 (--> sumc-f2 sumc-f5)
+(--> sumc-f5 sumc-project)
 
 (--> sumc-cs3 sumc-me1)
 (--> sumc-me1 sumc-me2)
 (--> sumc-me2 sumc-me3)
+(--> sumc-me3 sumc-project)
 
 (--> sumc-cs3 sumc-me4)
 (--> sumc-me4 sumc-me5)
+(--> sumc-me5 sumc-project)
 
 (--> sumc-cs3 sumc-ow1)
 (--> sumc-ow1 sumc-ow2)
 (--> sumc-ow2 sumc-ow3)
+(--> sumc-ow3 sumc-project)
 
 (--> sumc-me1 sumc-ow4)
 (--> sumc-ow4 sumc-ow5)
+(--> sumc-ow5 sumc-project)
 
 (--> sumc-cs3 sumc-sb1)
+(--> sumc-sb1 sumc-project)
+
 (--> sumc-cs3 sumc-sb2)
 (--> sumc-sb2 sumc-sb3)
 (--> sumc-sb3 sumc-sb4)
 (--> sumc-sb4 sumc-sb5)
+(--> sumc-sb5 sumc-project)
+
+(--> sumc-project sumc-def1)
+(--> sumc-def1 sumc-def2)
+(--> sumc-def2 sumc-def3)
+
+(--> sumc-project sumc-cc)
+(--> sumc-project sumc-bg)
+(--> sumc-project sumc-sm)
+
+(--> sumc-def3 sumc-pro)
+(--> sumc-cc sumc-pro)
+(--> sumc-bg sumc-pro)
+(--> sumc-sm sumc-pro)
 
 ;adventure mario interest
 (--> 2d-gd-aa adma-pkg)
@@ -501,30 +571,52 @@
 (--> adma-ch1 adma-ch2)
 (--> adma-ch2 adma-ch3)
 (--> adma-ch3 adma-ch4)
+(--> adma-ch4 adma-project)
 
 (--> adma-ch2 adma-co1)
 (--> adma-co1 adma-co2)
 (--> adma-co2 adma-co3)
 (--> adma-co3 adma-co4)
 (--> adma-co4 adma-co5)
+(--> adma-co5 adma-project)
 
 (--> adma-ch2 adma-ld1)
 (--> adma-ld1 adma-ld2)
 (--> adma-ld2 adma-ld3)
 (--> adma-ld3 adma-ld4)
 (--> adma-ld4 adma-ld5)
+(--> adma-ld5 adma-project)
 
 (--> adma-ch2 adma-fq1)
 (--> adma-fq1 adma-fq2)
 (--> adma-fq2 adma-fq3)
 (--> adma-fq3 adma-fq4)
 (--> adma-fq4 adma-fq5)
+(--> adma-fq5 adma-project)
 
 (--> adma-ch2 adma-e1)
 (--> adma-e1 adma-e2)
 (--> adma-e2 adma-e3)
 (--> adma-e3 adma-e4)
 (--> adma-e4 adma-e5)
+(--> adma-e5 adma-project)
+
+(--> adma-project adma-def1)
+(--> adma-def1 adma-def2)
+(--> adma-def2 adma-def3)
+
+(--> adma-project adma-cc)
+(--> adma-project adma-bg)
+(--> adma-project adma-sm)
+
+(--> adma-cc adma-pro)
+(--> adma-bg adma-pro)
+(--> adma-sm adma-pro)
+
+(--> adma-def3 adma-pro)
+(--> adma-cc adma-pro)
+(--> adma-bg adma-pro)
+(--> adma-sm adma-pro)
 
 ;adventure harry potter
 (--> 2d-gd-aa adhp-pkg)
@@ -533,30 +625,48 @@
 (--> adhp-w1 adhp-w2)
 (--> adhp-w2 adhp-w3)
 (--> adhp-w3 adhp-w4)
+(--> adhp-w4 adhp-project)
 
 (--> adhp-w3 adhp-p1)
 (--> adhp-p1 adhp-p2)
 (--> adhp-p2 adhp-p3)
 (--> adhp-p3 adhp-p4)
 (--> adhp-p4 adhp-p5)
+(--> adhp-p5 adhp-project)
 
 (--> adhp-w3 adhp-lq1)
 (--> adhp-lq1 adhp-lq2)
 (--> adhp-lq2 adhp-lq3)
 (--> adhp-lq3 adhp-lq4)
 (--> adhp-lq4 adhp-lq5)
+(--> adhp-lq5 adhp-project)
 
 (--> adhp-w3 adhp-nq1)
 (--> adhp-nq1 adhp-nq2)
 (--> adhp-nq2 adhp-nq3)
 (--> adhp-nq3 adhp-nq4)
 (--> adhp-nq4 adhp-nq5)
+(--> adhp-nq5 adhp-project)
 
 (--> adhp-w3 adhp-s1)
 (--> adhp-s1 adhp-s2)
 (--> adhp-s2 adhp-s3)
 (--> adhp-s3 adhp-s4)
 (--> adhp-s4 adhp-s5)
+(--> adhp-s5 adhp-project)
+
+(--> adhp-project adhp-def1)
+(--> adhp-def1 adhp-def2)
+(--> adhp-def2 adhp-def3)
+
+(--> adhp-project adhp-cc)
+(--> adhp-project adhp-bg)
+(--> adhp-project adhp-sm)
+
+(--> adhp-def3 adhp-pro)
+(--> adhp-cc adhp-pro)
+(--> adhp-bg adhp-pro)
+(--> adhp-sm adhp-pro)
 
 
 ;3d-exploration interest
