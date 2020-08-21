@@ -124,4 +124,9 @@
   "Digital Literacy: Coding Adventures: Your Computer & You"
   "https://forum.metacoders.org/t/digital-literacy-coding-adventures-your-computer-you/660")
 
+(define-colored-art-badge 'gold
+  ca-mouse
+  "Digital Literacy: Coding Adventures: Mouse Magic"
+  "https://forum.metacoders.org/t/digital-literacy-coding-adventures-mouse-magic/833")
+
 ;; CODING ADVENTURES BADGES END
