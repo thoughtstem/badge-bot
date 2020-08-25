@@ -283,25 +283,25 @@
   "https://forum.metacoders.org/t/digital-art-wescheme-put-it-all-together/772"
   )
 
-(define-colored-art-badge 'lightblue 
+(define-art-badge pokeball-image
   wa-pb1
   "Digital Art: WeScheme: Coding Pixels"
   "https://forum.metacoders.org/t/digital-art-wescheme-coding-pixels/740"
   )
 
-(define-colored-art-badge 'lightblue 
+(define-art-badge pokeball-image
   wa-pb2
   "Digital Art: WeScheme: Combining Pixels"
   "https://forum.metacoders.org/t/digital-art-wescheme-combining-pixels/741"
   )
 
-(define-colored-art-badge 'lightblue 
+(define-art-badge pokeball-image
   wa-pb3
   "Digital Art: WeScheme: Combining Images"
   "https://forum.metacoders.org/t/digital-art-wescheme-combining-images/742"
   )
 
-(define-colored-art-badge 'lightblue 
+(define-art-badge pokeball-image
   wa-pb4
   "Digital Art: WeScheme: Randomizing Pixels"
   "https://forum.metacoders.org/t/digital-art-wescheme-randomizing-pixels/747"

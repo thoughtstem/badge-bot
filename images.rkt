@@ -2,11 +2,22 @@
 
 (require 2htdp/image)
 
-(provide baby-yoda-image)
+(provide baby-yoda-image
+         pokeball-image)
+
+(define (make-pixel-art pixel-list columns)
+  (if (empty? (drop pixel-list columns))
+      (apply beside (take pixel-list columns))
+      (above (apply beside (take pixel-list columns))
+             (make-pixel-art (drop pixel-list columns) columns))))
+
 
 ; BABY YODA
 (define (pixel c)
-  (square  20 'solid c))
+  (square 20 'solid c))
+
+(define _
+  (pixel 'transparent))
 
 (define G 
   (pixel 'darkgreen))
@@ -47,3 +58,28 @@
           baby-yoda
           baby-yoda
           baby-yoda))
+
+; POKEBALL
+(define R (pixel 'red))
+
+(define pokeball
+  (make-pixel-art (list _ _ _ _ _ X X X X _ _ _ _ _
+                        _ _ _ X X R R R R X X _ _ _
+                        _ _ X R R R R R R R R X _ _
+                        _ X R R R R R R R R R R X _
+                        _ X R R R R R R R R R R X _
+                        X R R R R R X X R R R R R X
+                        X R R R R X W W X R R R R X
+                        X X X X X X W W X X X X X X
+                        X W W W W W X X W W W W W X
+                        _ X W W W W W W W W W W X _
+                        _ X W W W W W W W W W W X _
+                        _ _ X W W W W W W W W X _ _
+                        _ _ _ X X W W W W X X _ _ _
+                        _ _ _ _ _ X X X X _ _ _ _ _ ) 14))
+
+(define pokeball-image
+  (beside pokeball
+          pokeball
+          pokeball
+          pokeball))

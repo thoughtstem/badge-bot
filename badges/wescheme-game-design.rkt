@@ -12,7 +12,7 @@
 
 (define-colored-art-badge 'steelblue 
   2d-er-ea
-  "2D Game Design: Endless Runner: Basics" 
+  "2D Game Design: Endless Runner\\nBasics" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-basics/161" 
   )
 
@@ -57,7 +57,7 @@
 ;; ENDLESS RUNNER HARRY POTTER BADGES START
 (define-colored-art-badge 'steelblue 
   er-hp-w1
-  "2D Game Design: Endless Runner Harry Potter: Wizard 1" 
+  "2D Game Design: Endless Runner Harry Potter\\nWizard 1" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-wizard-1/391" 
   )
 
@@ -180,7 +180,7 @@
 ;; ENDLESS RUNNER MARIO BADGES START
 (define-colored-art-badge 'steelblue 
   erma-c1
-  "2D Game Design: Endless Runner Mario: Character 1"
+  "2D Game Design: Endless Runner Mario\\nCharacter 1"
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-mario-character-1/748"
   )
 
@@ -309,7 +309,7 @@
 
 (define-colored-art-badge 'deepskyblue 
   mgpo-hw
-  "2D Game Design: Maze Game Pokemon: Hello World" 
+  "2D Game Design: Maze Game Pokemon\\nHello World" 
   "https://forum.metacoders.org/t/2d-game-design-maze-game-pokemon-hello-world/540" 
   )
 
