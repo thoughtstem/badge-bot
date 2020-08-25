@@ -196,9 +196,9 @@
 ;(--> dl-ts-ql dl-ll-py)
 
 ;typing interest, 
-(--> dl-ts-ql dl-ts-er)
-(--> dl-ts-er dl-ts-vb)
-(--> dl-ts-vb dl-ts-gh)
+;(--> dl-ts-ql dl-ts-er)
+;(--> dl-ts-er dl-ts-vb)
+;(--> dl-ts-vb dl-ts-gh)
 
 ;wescheme interest
 (--> dl-ts-ql dl-ws-aa)
@@ -759,13 +759,12 @@
 ;;COMPUTER BASICS INTEREST BADGES END
 
 ;;TOUR OF LANGS DIGITAL LITERACY BADGES START
-(--> dl-ll-py dl-ll-ru)
-(--> dl-ll-ru dl-ll-sc)
-(--> dl-ll-sc dl-ll-js)
-(--> dl-ll-js dl-ll-ja)
-
-(--> dl-ll-ja dl-ll-mh)
-(--> dl-ll-mh dl-ll-tj)
+;(--> dl-ll-py dl-ll-ru)
+;(--> dl-ll-ru dl-ll-sc)
+;(--> dl-ll-sc dl-ll-js)
+;(--> dl-ll-js dl-ll-ja)
+;(--> dl-ll-ja dl-ll-mh)
+;(--> dl-ll-mh dl-ll-tj)
 
 ;;TOUR OF LANGS DIGITAL LITERACY BADGES END
 

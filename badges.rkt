@@ -75,6 +75,7 @@
   "https://forum.metacoders.org/t/digital-literacy-typing-speed-level-1/125" 
   )
 
+#|
 (define-colored-art-badge 'lightgreen 
   dl-ts-er 
   "Digital Literacy: Typing Speed: Level 2" 
@@ -92,10 +93,12 @@
   "Digital Literacy: Typing Speed: Level 4" 
   "https://forum.metacoders.org/t/digital-literacy-typing-speed-level-4/128" 
   )
+|#
 ;; TYPING BADGES END
 
 
 ;;TOUR OF LANGUAGES BADGES START
+#|
 (define-colored-art-badge 'lightred 
   dl-ll-tj 
   "Digital Literacy: Tour of Languages: Three.js Intro" 
@@ -137,6 +140,7 @@
   "Digital Literacy: Tour of Languages: Multiple Hello Worlds" 
   "https://forum.metacoders.org/t/digital-literacy-tour-of-languages-multiple-hello-worlds/155" 
   )
+|#
 ;;TOUR OF LANGAUGES BADGES END
 
 
@@ -262,7 +266,4 @@
   "Python: Text Adventure 3"
   "https://forum.metacoders.org/t/python-text-adventure-3/815"
   )
-
-
-
 ;; PYTHON BADGES END
