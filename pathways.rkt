@@ -872,3 +872,24 @@
 
 ;;2D GAME DESIGN MAZE GAME BADGES END
 ;;2D GAME DESIGN BADGES END
+
+;; PYTHON BADGES START
+(--> dl-ts-ql pyth-hw)
+(--> pyth-hw pyth-as)
+(--> pyth-as pyth-md)
+(--> pyth-md pyth-v1)
+(--> pyth-v1 pyth-v2)
+(--> pyth-v2 pyth-st)
+(--> pyth-st pyth-bt)
+(--> pyth-bt pyth-si)
+(--> pyth-si pyth-c1)
+(--> pyth-c1 pyth-td1)
+(--> pyth-td1 pyth-td2)
+
+(--> pyth-td2 pyth-projects)
+
+(--> pyth-projects pyth-ta1)
+(--> pyth-ta1 pyth-ta2)
+(--> pyth-ta2 pyth-ta3)
+
+;; PYTHON BADGES END
