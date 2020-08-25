@@ -192,7 +192,7 @@
 (--> browser-tabs multiple-windows)
 (--> multiple-windows dl-sr-aa)
 (--> multiple-windows dl-ts-ql)
-(--> dl-ts-ql dl-ll-py)
+;(--> dl-ts-ql dl-ll-py)
 
 ;typing interest, 
 (--> dl-ts-ql dl-ts-er)
@@ -737,7 +737,8 @@
 (--> 3dor-ss4 3dor-ss5)
 
 ;;COMPUTER BASICS INTEREST BADGES START
-(--> browser-tabs dl-sc-wj)
+(--> dl-ds-tc dl-sc-wj)
+(--> dl-sc-wj browser-tabs)
 
 ;;Removing Vocab Branch
 #|

@@ -3,10 +3,11 @@
 (provide (all-from-out "badges-lang.rkt"                    
                        "./badges/scratch.rkt"
                        "./badges/coding-adventures.rkt"
+                       "./badges/wescheme.rkt"
+                       "./badges/wescheme-game-design.rkt"
                        "./badges/2d-drracket.rkt"
                        "./badges/3d-drracket.rkt"
-                       "./badges/wescheme.rkt"
-                       "./badges/wescheme-game-design.rkt"))
+                       "./badges/bonus.rkt"))
 
 (require "badges-lang.rkt"
          "images.rkt"
@@ -15,7 +16,8 @@
          "./badges/wescheme.rkt"
          "./badges/wescheme-game-design.rkt"
          "./badges/2d-drracket.rkt"
-         "./badges/3d-drracket.rkt"         
+         "./badges/3d-drracket.rkt"
+         "./badges/bonus.rkt"  
          )
 
 
