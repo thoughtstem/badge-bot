@@ -898,3 +898,32 @@
 (--> pyth-ta2 pyth-ta3)
 
 ;; PYTHON BADGES END
+
+;; WEB DESIGN BADGES START
+(--> dl-ts-ql wd-html1)
+(--> wd-html1 wd-html2)
+(--> wd-html2 wd-html3)
+(--> wd-html3 wd-html4)
+(--> wd-html4 wd-html5)
+(--> wd-html5 wd-html-project)
+
+(--> wd-html-project wd-html-l1)
+(--> wd-html-l1 wd-html-l2)
+(--> wd-html-l2 wd-html-l3)
+(--> wd-html-l3 wd-html-pro)
+
+(--> wd-html-project wd-html-pm)
+(--> wd-html-pm wd-html-pro)
+
+(--> wd-html-project wd-html-cc)
+(--> wd-html-cc wd-html-pro)
+
+(--> wd-html-project wd-html-st)
+(--> wd-html-st wd-html-pro)
+
+(--> wd-html-project wd-css1)
+(--> wd-css1 wd-css2)
+(--> wd-css2 wd-css3)
+
+
+;; WEB DESIGN BADGES END
