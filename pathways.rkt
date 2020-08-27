@@ -265,6 +265,11 @@
 (--> wa-pb2 wa-pb3)
 (--> wa-pb3 wa-pb4)
 
+(--> da-wa-pr wa-rs1)
+(--> wa-rs1 wa-rs2)
+(--> wa-rs2 wa-rs3)
+(--> wa-rs3 wa-rs4)
+
 ;game design interest
 ;(--> dl-ws-pr 2d-gd-aa)
 ;(--> dl-ws-pr 3d-gd-aa)
