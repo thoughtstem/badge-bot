@@ -196,13 +196,13 @@
 
 (define-colored-art-badge ws-color 
   da-wa-ge
-  "Digital Art: WeScheme: Generative Art: Basic Crystal"
+  "Digital Art: WeScheme: Generative Art: Basic Shapes"
   "https://forum.metacoders.org/t/digital-art-wescheme-generative-art/203"
   )
 
 (define-colored-art-badge ws-color 
   da-wa-ge2
-  "Digital Art: WeScheme: Generative Art: Add Triangles"
+  "Digital Art: WeScheme: Generative Art: Overlay Shapes"
   "https://forum.metacoders.org/t/digital-art-wescheme-generative-art-add-triangles/769"
   )
 
