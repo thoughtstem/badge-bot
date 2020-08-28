@@ -916,7 +916,7 @@
 (--> wd-html-project wd-html-st)
 (--> wd-html-st wd-html-pro)
 
-(--> wd-html-project wd-css1)
+(--> wd-html-pro wd-css1)
 (--> wd-css1 wd-css2)
 (--> wd-css2 wd-css3)
 
