@@ -307,4 +307,28 @@
   "Digital Art: WeScheme: Randomizing Pixels"
   "https://forum.metacoders.org/t/digital-art-wescheme-randomizing-pixels/747"
   )
+
+(define-colored-art-badge 'lightblue
+  wa-rs1
+  "Digital Art: WeScheme: Random Swords Basic Sword"
+  "https://forum.metacoders.org/t/digital-art-wescheme-random-swords-basic-sword/728"
+  )
+
+(define-colored-art-badge 'lightblue
+  wa-rs2
+  "Digital Art: WeScheme: Random Swords: Randomizing"
+  "https://forum.metacoders.org/t/digital-art-wescheme-random-swords-randomizing/743"
+  )
+
+(define-colored-art-badge 'lightblue
+  wa-rs3
+  "Digital Art: WeScheme: Random Swords: Functional Sword"
+  "https://forum.metacoders.org/t/digital-art-wescheme-random-swords-functional-sword/732"
+  )
+
+(define-colored-art-badge 'lightblue
+  wa-rs4
+  "Digital Art: WeScheme: Random Swords: Armory"
+  "https://forum.metacoders.org/t/digital-art-wescheme-random-swords-armory/746"
+  )
 ;; WESCHEME ART BADGES END

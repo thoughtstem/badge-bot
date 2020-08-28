@@ -73,7 +73,8 @@
 
 ;;Scratch Baseball Badges
 (--> sr-projects sr-ba-ca)
-(--> sr-ba-ca sr-ba-pb)
+(--> sr-ba-ca sr-ba-ca2)
+(--> sr-ba-ca2 sr-ba-pb)
 (--> sr-ba-pb sr-ba-gg)
 
 ;;Scratch Magic Forest Badges
@@ -264,6 +265,11 @@
 (--> wa-pb1 wa-pb2)
 (--> wa-pb2 wa-pb3)
 (--> wa-pb3 wa-pb4)
+
+(--> da-wa-pr wa-rs1)
+(--> wa-rs1 wa-rs2)
+(--> wa-rs2 wa-rs3)
+(--> wa-rs3 wa-rs4)
 
 ;game design interest
 ;(--> dl-ws-pr 2d-gd-aa)
@@ -677,6 +683,7 @@
 (--> 3dex-e1 3dex-e2)
 (--> 3dex-e2 3dex-e3)
 (--> 3dex-e3 3dex-e4)
+(--> 3dex-e4 3dex-project)
 
 
 (--> 3dex-e1 3dex-go1)
@@ -686,11 +693,13 @@
 (--> 3dex-go2 3dex-go3)
 (--> 3dex-go3 3dex-go4)
 (--> 3dex-go4 3dex-go5)
+(--> 3dex-go5 3dex-project)
 
 (--> 3dex-so1 3dex-so2)
 (--> 3dex-so2 3dex-so3)
 (--> 3dex-so3 3dex-so4)
 (--> 3dex-so4 3dex-so5)
+(--> 3dex-so5 3dex-project)
 
 (--> 3dex-so1 3dex-p1)
 (--> 3dex-so1 3dex-a1)
@@ -699,11 +708,27 @@
 (--> 3dex-p2 3dex-p3)
 (--> 3dex-p3 3dex-p4)
 (--> 3dex-p4 3dex-p5)
+(--> 3dex-p5 3dex-project)
 
 (--> 3dex-a1 3dex-a2)
 (--> 3dex-a2 3dex-a3)
 (--> 3dex-a3 3dex-a4)
 (--> 3dex-a4 3dex-a5)
+(--> 3dex-a5 3dex-project)
+
+(--> 3dex-project 3dex-def1)
+(--> 3dex-def1 3dex-def2)
+(--> 3dex-def2 3dex-def3)
+(--> 3dex-def3 3dex-pro)
+
+(--> 3dex-project 3dex-cc)
+(--> 3dex-cc 3dex-pro)
+
+(--> 3dex-project 3dex-bd)
+(--> 3dex-bd 3dex-pro)
+
+(--> 3dex-project 3dex-sm)
+(--> 3dex-sm 3dex-pro)
 
 ;3d orbit interest
 (--> 3d-gd-aa 3dor-pkg)
@@ -718,24 +743,42 @@
 (--> 3dor-sp2 3dor-sp3)
 (--> 3dor-sp3 3dor-sp4)
 (--> 3dor-sp4 3dor-sp5)
+(--> 3dor-sp5 3dor-project)
 
 (--> 3dor-o4 3dor-mr1)
 (--> 3dor-mr1 3dor-mr2)
 (--> 3dor-mr2 3dor-mr3)
 (--> 3dor-mr3 3dor-mr4)
 (--> 3dor-mr4 3dor-mr5)
+(--> 3dor-mr5 3dor-project)
 
 (--> 3dor-o4 3dor-so1)
 (--> 3dor-so1 3dor-so2)
 (--> 3dor-so2 3dor-so3)
 (--> 3dor-so3 3dor-so4)
 (--> 3dor-so4 3dor-so5)
+(--> 3dor-so5 3dor-project)
 
 (--> 3dor-o4 3dor-ss1)
 (--> 3dor-ss1 3dor-ss2)
 (--> 3dor-ss2 3dor-ss3)
 (--> 3dor-ss3 3dor-ss4)
 (--> 3dor-ss4 3dor-ss5)
+(--> 3dor-ss5 3dor-project)
+
+(--> 3dor-project 3dor-def1)
+(--> 3dor-def1 3dor-def2)
+(--> 3dor-def2 3dor-def3)
+(--> 3dor-def3 3dor-pro)
+
+(--> 3dor-project 3dor-cc)
+(--> 3dor-cc 3dor-pro)
+
+(--> 3dor-project 3dor-bd)
+(--> 3dor-bd 3dor-pro)
+
+(--> 3dor-project 3dor-sm)
+(--> 3dor-sm 3dor-pro)
 
 ;;COMPUTER BASICS INTEREST BADGES START
 (--> dl-ds-tc dl-sc-wj)

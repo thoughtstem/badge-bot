@@ -16,7 +16,7 @@
 
 (define-colored-art-badge sr-color 
   dl-sr-ti
-  "Digital Literacy: Scratch: Draw Scratchy the Tiger" 
+  "Digital Literacy: Scratch: Scratchy the Tiger" 
   "https://forum.metacoders.org/t/digital-literacy-scratch-draw-scratchy-the-tiger/131" 
   )
 
@@ -34,13 +34,13 @@
 
 (define-colored-art-badge sr-color 
   dl-sr-mv
-  "Digital Literacy: Scratch: Move Forward" 
+  "Digital Literacy: Scratch: On the Move" 
   "https://forum.metacoders.org/t/digital-literacy-scratch-make-scratchy-move-forward/148" 
   )
 
 (define-colored-art-badge sr-color 
   dl-sr-mo
-  "Digital Literacy: Scratch: Monkey with Wings" 
+  "Digital Literacy: Scratch: Winged Monkey" 
   "https://forum.metacoders.org/t/digital-literacy-scratch-draw-a-monkey-with-wings/147" 
   )
 
@@ -78,8 +78,14 @@
 
 (define-colored-art-badge sr-color 
   sr-ba-ca
-  "Scratch: Baseball: Catch" 
-  "https://forum.metacoders.org/t/scratch-baseball-catch/364" 
+  "Scratch: Baseball: Catch 1" 
+  "https://forum.metacoders.org/t/scratch-baseball-catch-1/364" 
+  )
+
+(define-colored-art-badge sr-color 
+  sr-ba-ca2
+  "Scratch: Baseball: Catch 2" 
+  "https://forum.metacoders.org/t/scratch-baseball-catch-2/841" 
   )
 
 (define-colored-art-badge sr-color 
