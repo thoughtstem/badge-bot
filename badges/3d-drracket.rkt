@@ -160,6 +160,55 @@
   "3D Game Design: 3D Exploration: Animations 5"
   "https://forum.metacoders.org/t/3d-game-design-3d-exploration-animations-5/301"
   )
+
+;; PROJECT
+(define-colored-art-badge 3dex-color
+  3dex-project
+  "3D Game Design: 3D Exploration: 3D Explorer"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-project/843"
+  )
+
+(define-colored-art-badge 3dex-color
+  3dex-def1
+  "3D Game Design: 3D Exploration: Basic Definer"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-project/843"
+  )
+
+(define-colored-art-badge 3dex-color
+  3dex-def2
+  "3D Game Design: 3D Exploration: Adept Definer"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-project/843"
+  )
+
+(define-colored-art-badge 3dex-color
+  3dex-def3
+  "3D Game Design: 3D Exploration: Pro Definer"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-project/843"
+  )
+
+(define-colored-art-badge 3dex-color
+  3dex-cc
+  "3D Game Design: 3D Exploration: Clean Code"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-project/843"
+  )
+
+(define-colored-art-badge 3dex-color
+  3dex-bd
+  "3D Game Design: 3D Exploration: Balanced Design"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-project/843"
+  )
+
+(define-colored-art-badge 3dex-color
+  3dex-sm
+  "3D Game Design: 3D Exploration: Story Mode"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-project/843"
+  )
+
+(define-colored-art-badge 3dex-color
+  3dex-pro
+  "3D Game Design: 3D Exploration: Overachiever"
+  "https://forum.metacoders.org/t/3d-game-design-3d-exploration-project/843"
+  )
 ;; 3D EXPLORATION BADGES END
 
 
@@ -318,5 +367,54 @@
   3dor-ss5
   "3D Game Design: 3D Orbit: Star System 5"
   "https://forum.metacoders.org/t/3d-game-design-3d-orbit-star-system-5/577"
+  )
+
+;; PROJECT
+(define-colored-art-badge 3dor-color
+  3dor-project
+  "3D Game Design: 3D Orbit: 3D Orbiter"
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-project/842"
+  )
+
+(define-colored-art-badge 3dor-color
+  3dor-def1
+  "3D Game Design: 3D Orbit: Basic Definer"
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-project/842"
+  )
+
+(define-colored-art-badge 3dor-color
+  3dor-def2
+  "3D Game Design: 3D Orbit: Adept Definer"
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-project/842"
+  )
+
+(define-colored-art-badge 3dor-color
+  3dor-def3
+  "3D Game Design: 3D Orbit: Pro Definer"
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-project/842"
+  )
+
+(define-colored-art-badge 3dor-color
+  3dor-cc
+  "3D Game Design: 3D Orbit: Clean Code"
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-project/842"
+  )
+
+(define-colored-art-badge 3dor-color
+  3dor-bd
+  "3D Game Design: 3D Orbit: Balanced Design"
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-project/842"
+  )
+
+(define-colored-art-badge 3dor-color
+  3dor-sm
+  "3D Game Design: 3D Orbit: Story Mode"
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-project/842"
+  )
+
+(define-colored-art-badge 3dor-color
+  3dor-pro
+  "3D Game Design: 3D Orbit: Overachiever"
+  "https://forum.metacoders.org/t/3d-game-design-3d-orbit-project/842"
   )
 ;; 3D ORBIT BADGES END
