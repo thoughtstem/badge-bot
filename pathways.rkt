@@ -73,7 +73,8 @@
 
 ;;Scratch Baseball Badges
 (--> sr-projects sr-ba-ca)
-(--> sr-ba-ca sr-ba-pb)
+(--> sr-ba-ca sr-ba-ca2)
+(--> sr-ba-ca2 sr-ba-pb)
 (--> sr-ba-pb sr-ba-gg)
 
 ;;Scratch Magic Forest Badges

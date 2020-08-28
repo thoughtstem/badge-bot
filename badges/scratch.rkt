@@ -78,8 +78,14 @@
 
 (define-colored-art-badge sr-color 
   sr-ba-ca
-  "Scratch: Baseball: Catch" 
-  "https://forum.metacoders.org/t/scratch-baseball-catch/364" 
+  "Scratch: Baseball: Catch 1" 
+  "https://forum.metacoders.org/t/scratch-baseball-catch-1/364" 
+  )
+
+(define-colored-art-badge sr-color 
+  sr-ba-ca2
+  "Scratch: Baseball: Catch 2" 
+  "https://forum.metacoders.org/t/scratch-baseball-catch-2/841" 
   )
 
 (define-colored-art-badge sr-color 
