@@ -32,7 +32,7 @@
 (define-colored-art-badge wd-color 
   wd-html5
   "Web Design: HTML: Images"
-  "https://forum.metacoders.org/t/web-design-html-images/7862"
+  "https://forum.metacoders.org/t/web-design-html-images/786"
   )
 
 ; === HTML PROJECT ===
