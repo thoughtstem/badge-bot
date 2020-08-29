@@ -211,19 +211,19 @@
 ;Monster Mash
 (define-colored-art-badge sr-color 
   sr-mm1
-  "Scratch: Monster Mash Game: Drawing Monster Heads" 
+  "Scratch: Monster Mash Game: Monster Heads" 
   "https://forum.metacoders.org/t/scratch-monster-mash-game-drawing-monster-heads/634" 
   )
   
 (define-colored-art-badge sr-color 
   sr-mm2
-  "Scratch: Monster Mash Game: Drawing Monster Bodies" 
+  "Scratch: Monster Mash Game: Monster Bodies" 
   "https://forum.metacoders.org/t/scratch-monster-mash-game-drawing-monster-bodies/656" 
   )
   
 (define-colored-art-badge sr-color 
   sr-mm3
-  "Scratch: Monster Mash Game: Drawing Monster Tails" 
+  "Scratch: Monster Mash Game: Monster Tails" 
   "https://forum.metacoders.org/t/scratch-monster-mash-game-drawing-monster-tails/657" 
   )
   
