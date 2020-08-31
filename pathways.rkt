@@ -965,3 +965,14 @@
 
 
 ;; WEB DESIGN BADGES END
+
+;; CPX BADGES START
+(--> multiple-windows cpx-hb)
+(--> cpx-hb   cpx-rgb1)
+(--> cpx-rgb1 cpx-rgb2)
+(--> cpx-rgb2 cpx-rgb3)
+(--> cpx-rgb3 cpx-se)
+(--> cpx-se   cpx-ma)
+(--> cpx-ma   cpx-acc)
+
+;; CPX BADGES END

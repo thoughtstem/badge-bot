@@ -17,6 +17,7 @@
          3dex-color
          3dor-color
          
+         cpx-color
          derek-color
          )
 
@@ -37,6 +38,8 @@
 (define adhp-color 'cornflowerblue)
 (define 3dex-color 'forestgreen)
 (define 3dor-color 'slategray)
+
+(define cpx-color 'maroon)
 
 (define derek-color 'royalblue)
 

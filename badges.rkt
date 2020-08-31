@@ -9,7 +9,8 @@
                        "./badges/3d-drracket.rkt"
                        "./badges/bonus.rkt"
                        "./badges/python.rkt"
-                       "./badges/web-design.rkt"))
+                       "./badges/web-design.rkt"
+                       "./badges/cpx.rkt"))
 
 (require "badges-lang.rkt"
          "images.rkt"
@@ -22,6 +23,7 @@
          "./badges/bonus.rkt"
          "./badges/python.rkt"
          "./badges/web-design.rkt"
+         "./badges/cpx.rkt"
          )
 
 ;; DIGITAL LITERACY BADGES START
