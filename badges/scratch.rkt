@@ -99,7 +99,7 @@
 ;Baseball
 (define-colored-art-badge sr-color 
   sr-ba-ca
-  "Scratch: Baseball: Catch 1" 
+  "Scratch: Baseball Catch 1" 
   "https://forum.metacoders.org/t/scratch-baseball-catch-1/364" 
   )
 
@@ -109,6 +109,7 @@
   "https://forum.metacoders.org/t/scratch-baseball-catch-2/841" 
   )
 
+;old, replaced by Basketball Project
 (define-colored-art-badge sr-color 
   sr-ba-pb
   "Scratch: Baseball: Play Ball" 
@@ -121,10 +122,35 @@
   "https://forum.metacoders.org/t/scratch-baseball-guessing-game/367" 
   )
 
+;Basketball
+(define-colored-art-badge sr-color 
+  sr-bball1
+  "Scratch: Basketball Sprites 1" 
+  "https://forum.metacoders.org/t/scratch-basketball-sprites-1/848" 
+  )
+
+(define-colored-art-badge sr-color 
+  sr-bball2
+  "Scratch: Basketball: Sprites 2" 
+  "https://forum.metacoders.org/t/scratch-basketball-2/850" 
+  )
+
+(define-colored-art-badge sr-color 
+  sr-bball3
+  "Scratch: Basketball: Throw the Ball" 
+  "https://forum.metacoders.org/t/scratch-basketball-throw-the-ball/851" 
+  )
+
+(define-colored-art-badge sr-color 
+  sr-bball4
+  "Scratch: Basketball: Play Ball!" 
+  "https://forum.metacoders.org/t/scratch-basketball-play-ball/852" 
+  )
+
 ;Magic Forest
 (define-colored-art-badge sr-color 
   sr-mf-cs
-  "Scratch: Magic Forest: Circles and Spirals" 
+  "Scratch: Magic Forest Circles and Spirals" 
   "https://forum.metacoders.org/t/scratch-magic-forest-circles-and-spirals/372" 
   )
 
@@ -143,7 +169,7 @@
 ;Grid Game
 (define-colored-art-badge sr-color 
   grid-1
-  "Scratch: Grid Game: Launch" 
+  "Scratch: Grid Game Launch" 
   "https://forum.metacoders.org/t/scratch-grid-game-launch/418" 
   )
   
@@ -168,7 +194,7 @@
 ;Traffic Light
 (define-colored-art-badge sr-color 
   sr-tl1
-  "Scratch: Traffic Light Game: Backgrounds and Sprite" 
+  "Scratch: Traffic Light Game Backgrounds and Sprite" 
   "https://forum.metacoders.org/t/scratch-traffic-light-game-backgrounds-and-sprite/631" 
   )
   
@@ -211,7 +237,7 @@
 ;Monster Mash
 (define-colored-art-badge sr-color 
   sr-mm1
-  "Scratch: Monster Mash Game: Monster Heads" 
+  "Scratch: Monster Mash Game Monster Heads" 
   "https://forum.metacoders.org/t/scratch-monster-mash-game-drawing-monster-heads/634" 
   )
   
@@ -236,7 +262,7 @@
 ;Underwater
 (define-colored-art-badge sr-color 
   sr-us1
-  "Scratch: Underwater Scene: Setting the Scene" 
+  "Scratch: Underwater Setting the Scene" 
   "https://forum.metacoders.org/t/scratch-underwater-scene-setting-the-scene/659" 
   )
   
@@ -255,7 +281,7 @@
 ;Physics
 (define-colored-art-badge sr-color 
   sr-fp1
-  "Scratch: Fun with Physics: Velocity Balls" 
+  "Scratch: Fun with Physics Velocity Balls" 
   "https://forum.metacoders.org/t/scratch-fun-with-physics-velocity-balls/592" 
   )
   
@@ -274,7 +300,7 @@
 ;Brick Breaker
 (define-colored-art-badge sr-color 
   sr-bb1
-  "Scratch: BrickBreaker: Set the Stage" 
+  "Scratch: BrickBreaker Set the Stage" 
   "https://forum.metacoders.org/t/scratch-brickbreaker-set-the-stage/665" 
   )
 
@@ -318,7 +344,7 @@
 ;Dance Party
 (define-colored-art-badge sr-color 
   sr-dp1
-  "Scratch: Dance Party: Loops"
+  "Scratch: Dance Party Loops"
   "https://forum.metacoders.org/t/scratch-dance-party-loops/628"
   )
 
@@ -337,7 +363,7 @@
 ;Flappy Bird
 (define-colored-art-badge sr-color 
   sr-fb1
-  "Scratch: Flappy Bird Game: Player Movement"
+  "Scratch: Flappy Bird Game Player Movement"
   "https://forum.metacoders.org/t/scratch-flappy-bird-game-player-movement/692"
   )
 
@@ -356,7 +382,7 @@
 ;Adv Space Blaster
 (define-colored-art-badge sr-color 
   sr-asb1
-  "Scratch: Advanced Space Blaster: Stage Backdrops"
+  "Scratch: Advanced Space Blaster Stage Backdrops"
   "https://forum.metacoders.org/t/scratch-advanced-space-blaster-stage-backdrops/675"
   )
 
@@ -405,7 +431,7 @@
 ;Choose your own Adventure
 (define-colored-art-badge sr-color 
   sr-ca1
-  "Scratch: Choose your own Adventure: Set the Stage"
+  "Scratch: Choose your own Adventure Set the Stage"
   "https://forum.metacoders.org/t/scratch-20-questions-set-the-stage/681"
   )
 
@@ -442,7 +468,7 @@
 ;Space Shooter
 (define-colored-art-badge sr-color 
   sr-ss1
-  "Scratch: Space Shooter: Backdrops and Sprites"
+  "Scratch: Space Shooter Backdrops and Sprites"
   "https://forum.metacoders.org/t/scratch-space-shooter-backdrops-and-sprites/706"
   )
 
@@ -473,7 +499,7 @@
 ;Monkey Business
 (define-colored-art-badge sr-color 
   sr-mb1
-  "Scratch: Monkey Business: Set the Stage"
+  "Scratch: Monkey Business Set the Stage"
   "https://forum.metacoders.org/t/scratch-monkey-business-set-the-stage/712"
   )
 
@@ -498,7 +524,7 @@
 ;Black Widow Mission
 (define-colored-art-badge sr-color 
   sr-bw1
-  "Scratch: Black Widow Mission: City Backdrop"
+  "Scratch: Black Widow Mission City Backdrop"
   "https://forum.metacoders.org/t/scratch-black-widow-mission-city-backdrop/718"
   )
 
@@ -535,7 +561,7 @@
 ;Vacation
 (define-colored-art-badge sr-color 
   sr-lg1
-  "Scratch: Let’s Go on Vacation: Where to Go"
+  "Scratch: Let’s Go on Vacation Where to Go"
   "https://forum.metacoders.org/t/scratch-let-s-go-to-the-place-places/632"
   )
 
@@ -554,7 +580,7 @@
 ;Flying Hippo
 (define-colored-art-badge sr-color 
   sr-fh1
-  "Scratch: Flying Hippo: Taking Flight"
+  "Scratch: Flying Hippo Taking Flight"
   "https://forum.metacoders.org/t/scratch-flying-hippo-taking-flight/729"
   )
 

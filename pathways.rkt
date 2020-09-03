@@ -77,6 +77,12 @@
 (--> sr-ba-ca2 sr-ba-pb)
 (--> sr-ba-pb sr-ba-gg)
 
+;;Scratch Basketball Badges
+(--> sr-projects sr-bball1)
+(--> sr-bball1 sr-bball2)
+(--> sr-bball2 sr-bball3)
+(--> sr-bball3 sr-bball4)
+
 ;;Scratch Magic Forest Badges
 (--> sr-projects sr-mf-cs)
 (--> sr-mf-cs sr-mf-fh)
