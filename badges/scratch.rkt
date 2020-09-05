@@ -344,13 +344,13 @@
 ;Dance Party
 (define-colored-art-badge sr-color 
   sr-dp1
-  "Scratch: Dance Party Loops"
+  "Scratch: Dance Party Get this Party Started"
   "https://forum.metacoders.org/t/scratch-dance-party-loops/628"
   )
 
 (define-colored-art-badge sr-color 
   sr-dp2
-  "Scratch: Dance Party: Character Animation"
+  "Scratch: Dance Party: Moonwalk"
   "https://forum.metacoders.org/t/scratch-dance-party-character-animation/648"
   )
 
@@ -358,6 +358,12 @@
   sr-dp3
   "Scratch: Dance Party: More Characters"
   "https://forum.metacoders.org/t/scratch-dance-party-more-characters/658"
+  )
+
+(define-colored-art-badge sr-color 
+  sr-dp4
+  "Scratch: Dance Party: Music"
+  "https://forum.metacoders.org/t/scratch-dance-party-music/854"
   )
 
 ;Flappy Bird

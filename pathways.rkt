@@ -134,6 +134,7 @@
 (--> sr-projects sr-dp1)
 (--> sr-dp1 sr-dp2)
 (--> sr-dp2 sr-dp3)
+(--> sr-dp3 sr-dp4)
 
 ;;Scratch Flappy Bird Branch
 (--> sr-projects sr-fb1)
