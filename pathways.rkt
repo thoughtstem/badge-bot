@@ -856,11 +856,19 @@
 (--> er-hp-bi3 er-hp-bi4)
 (--> er-hp-bi4 er-hp-bi5)
 
+; Game Balance
 (--> er-hp-bi5 erhp-gb1)
 (--> erhp-gb1 erhp-gb2)
 (--> erhp-gb2 erhp-gb3)
 (--> erhp-gb3 erhp-gb4)
 (--> erhp-gb4 erhp-gb5)
+
+; Flappy Harry
+(--> erhp-gb5 erhp-fh1)
+(--> erhp-fh1 erhp-fh2)
+(--> erhp-fh2 erhp-fh3)
+(--> erhp-fh3 erhp-fh4)
+(--> erhp-fh4 erhp-fh5)
 
 ;;Endless Runner Mario
 (--> 2d-er-aa erma-c1)

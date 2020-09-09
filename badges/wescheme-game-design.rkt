@@ -175,6 +175,36 @@
   "2D Game Design: Endless Runner Harry Potter: Game Balance 5" 
   "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-game-balance-5/617" 
   )
+
+(define-colored-art-badge wser-color 
+  erhp-fh1
+  "2D Game Design: Endless Runner Harry Potter: Flappy Harry 1" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-flappy-harry-1/853" 
+  )
+
+(define-colored-art-badge wser-color 
+  erhp-fh2
+  "2D Game Design: Endless Runner Harry Potter: Flappy Harry 2" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-flappy-harry-2/855" 
+  )
+
+(define-colored-art-badge wser-color 
+  erhp-fh3
+  "2D Game Design: Endless Runner Harry Potter: Flappy Harry 3" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-flappy-harry-3/856" 
+  )
+
+(define-colored-art-badge wser-color 
+  erhp-fh4
+  "2D Game Design: Endless Runner Harry Potter: Flappy Harry 4" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-flappy-harry-4/857" 
+  )
+
+(define-colored-art-badge wser-color 
+  erhp-fh5
+  "2D Game Design: Endless Runner Harry Potter: Flappy Harry 5" 
+  "https://forum.metacoders.org/t/2d-game-design-endless-runner-harry-potter-flappy-harry-5/858" 
+  )
 ;; ENDLESS RUNNER HARRY POTTER BADGES END
 
 
