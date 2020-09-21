@@ -459,3 +459,66 @@
   )
 ;; MAZE GAME POKEMON BADGES END
 
+;; MAZE GAME MINECRAFT BADGES START
+(define-colored-art-badge wsmg-color 
+  mgmc-hw
+  "2D Game Design: Maze Game Minecraft\\nHello World" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-minecraft-hello-world/864" 
+  )
+
+(define-colored-art-badge wsmg-color 
+  mgmc-p1
+  "2D Game Design: Maze Game Minecraft: Player 1" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-minecraft-player-1/865" 
+  )
+
+(define-colored-art-badge wsmg-color 
+  mgmc-p2
+  "2D Game Design: Maze Game Minecraft: Player 2" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-minecraft-player-2/866" 
+  )
+
+(define-colored-art-badge wsmg-color 
+  mgmc-p3
+  "2D Game Design: Maze Game Minecraft: Player 3" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-minecraft-player-3/867" 
+  )
+
+(define-colored-art-badge wsmg-color 
+  mgmc-p4
+  "2D Game Design: Maze Game Minecraft: Player 4" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-minecraft-player-4/868" 
+  )
+
+(define-colored-art-badge wsmg-color 
+  mgmc-b1
+  "2D Game Design: Maze Game Minecraft: Biome 1" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-minecraft-biome-1/869" 
+  )
+
+(define-colored-art-badge wsmg-color 
+  mgmc-b2
+  "2D Game Design: Maze Game Minecraft: Biome 2" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-minecraft-biome-2/870" 
+  )
+
+(define-colored-art-badge wsmg-color 
+  mgmc-b3
+  "2D Game Design: Maze Game Minecraft: Biome 3" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-minecraft-biome-3/871" 
+  )
+
+(define-colored-art-badge wsmg-color 
+  mgmc-b4
+  "2D Game Design: Maze Game Minecraft: Biome 4" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-minecraft-biome-4/872" 
+  )
+
+(define-colored-art-badge wsmg-color 
+  mgmc-b5
+  "2D Game Design: Maze Game Minecraft: Biome 5" 
+  "https://forum.metacoders.org/t/2d-game-design-maze-game-minecraft-biome-5/873" 
+  )
+
+
+;; MAZE GAME MINECRAFT BADGES END

@@ -898,12 +898,14 @@
 (--> erma-gb3 erma-gb4)
 (--> erma-gb4 erma-gb5)
 
-; TODO: Flappy Wizard
+; TODO: Flappy Mario
 
 ;;2D GAME DESIGN ENDLESS RUNNER BADGES END
 
 ;;2D GAME DESIGN MAZE GAME BADGES START
 (--> wescheme-gd maze-game)
+
+; Maze Game Pokemon
 (--> maze-game mgpo-hw)
 (--> mgpo-hw mgpo-t1)
 (--> mgpo-t1 mgpo-t2)
@@ -927,6 +929,20 @@
 (--> mgpo-as2 mgpo-as3)
 (--> mgpo-as3 mgpo-as4)
 (--> mgpo-as4 mgpo-as5)
+
+; Maze Game Minecraft
+(--> maze-game mgmc-hw)
+(--> mgmc-hw mgmc-p1)
+(--> mgmc-p1 mgmc-p2)
+(--> mgmc-p2 mgmc-p3)
+(--> mgmc-p3 mgmc-p4)
+
+(--> mgmc-p4 mgmc-b1)
+(--> mgmc-b1 mgmc-b2)
+(--> mgmc-b2 mgmc-b3)
+(--> mgmc-b3 mgmc-b4)
+(--> mgmc-b4 mgmc-b5)
+
 
 ;;2D GAME DESIGN MAZE GAME BADGES END
 ;;2D GAME DESIGN BADGES END
